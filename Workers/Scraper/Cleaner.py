@@ -31,8 +31,8 @@ def clean_html(f):
         if 'class' in tag.attrs:
             del tag.attrs['class']
 
-    for tag in soup.find_all(string=True):
-        tag.replace_with(re.sub(r"\s+", " ", tag))
+    # for tag in soup.find_all(string=True):
+    #     tag.replace_with(re.sub(r"\s+", " ", tag))
     return str(soup)
 
 def get_token_count(file):
