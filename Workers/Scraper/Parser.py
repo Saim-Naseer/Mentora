@@ -10,7 +10,7 @@ model = AutoModelForCausalLM.from_pretrained(checkpoint).to(device)
 model.eval()
 
 # read html
-html_content = open("harvard_homepage.html", "r", encoding="utf-8").read()
+html_content = open("test.html", "r", encoding="utf-8").read()
 messages = [{"role": "user", "content": html_content}]
 input_text = tokenizer.apply_chat_template(messages, tokenize=False)
 
@@ -24,7 +24,7 @@ OVERLAP = 128
 MAX_NEW_TOKENS = 512   # tweak down if you hit OOM
 step = CHUNK - OVERLAP
 
-OUT_FILE = "harvard_cleaned.txt"
+OUT_FILE = "test.txt"
 if os.path.exists(OUT_FILE):
     os.remove(OUT_FILE)
 
@@ -51,6 +51,7 @@ while i < len(token_ids):
         with open(OUT_FILE, "a", encoding="utf-8") as f:
             f.write(f"\n\n<!-- chunk {chunk_idx} -->\n")
             f.write(decoded)
+        print(decoded)
         chunk_idx += 1
         i += step
     except RuntimeError as e:
