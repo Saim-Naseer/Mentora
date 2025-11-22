@@ -96,12 +96,12 @@ def chunker(in_file):
 
     return chunks
 
-if __name__ == "__main__":
-    chunks = chunker("harvard_homepage.html")
+# if __name__ == "__main__":
+#     chunks = chunker("harvard_homepage.html")
 
-    f = open("test9.html","w")
-    n=0
-    for c in chunks:
-        n+=1
-        f.write("\n--------------------------------- Chunk # "+str(n)+"--------------------------------- \n")
-        f.write(c)
+#     f = open("test9.html","w")
+#     n=0
+#     for c in chunks:
+#         n+=1
+#         f.write("\n--------------------------------- Chunk # "+str(n)+"--------------------------------- \n")
+#         f.write(c)

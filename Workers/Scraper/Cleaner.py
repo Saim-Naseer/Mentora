@@ -43,14 +43,14 @@ def get_token_count(file):
     return tokenizer.encode(data)
 
 # out_file.write(clean_html(in_file))
-if __name__ == "__main__":
-    in_f = "harvard_homepage.html"
-    out_f = "test6.html"
-    in_file = open(in_f, "r")
-    if os.path.exists(out_f):
-        os.remove(out_f)
-    out_file = open(out_f, "w")
+# if __name__ == "__main__":
+#     in_f = "harvard_homepage.html"
+#     out_f = "test6.html"
+#     in_file = open(in_f, "r")
+#     if os.path.exists(out_f):
+#         os.remove(out_f)
+#     out_file = open(out_f, "w")
 
-    out_file.write(clean_html(in_file))
+#     out_file.write(clean_html(in_file))
 
-    print("Before : ",len(get_token_count(in_f)),"    After  : ",len(get_token_count(out_f)))
+#     print("Before : ",len(get_token_count(in_f)),"    After  : ",len(get_token_count(out_f)))
