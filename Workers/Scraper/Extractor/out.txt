@@ -1,0 +1,226 @@
+```json
+{
+  "university": {
+    "name": "FAST National University",
+    "aliases": [],
+    "website": "",
+    "short_description": "",
+    "established_year": null,
+    "type": "",
+    "logo": "",
+    "brochures": [],
+    "ranking": [],
+    "accreditation": []
+  },
+  "campuses": [
+    {
+      "campus_id": "",
+      "name": "Lahore Campus",
+      "is_main": false,
+      "location": {
+        "address": "",
+        "city": "",
+        "region": "",
+        "postal_code": "",
+        "country": "",
+        "coordinates": {
+          "lat": null,
+          "lon": null
+        }
+      },
+      "contacts": {
+        "admissions": {
+          "name": "",
+          "email": "",
+          "phone": "111-128-128",
+          "office_hours": ""
+        },
+        "international_office": {
+          "email": "",
+          "phone": ""
+        },
+        "general": {
+          "phone": "",
+          "fax": "",
+          "mailing_address": ""
+        },
+        "social": {
+          "facebook": "",
+          "twitter": "",
+          "instagram": "",
+          "linkedin": "",
+          "youtube": ""
+        }
+      },
+      "programs": [
+        {
+          "program_id": "",
+          "name": "Bachelor of Business Administration",
+          "degree": "BBA",
+          "level": "Undergraduate",
+          "department": "FSM",
+          "duration": {
+            "value": null,
+            "units": "years"
+          },
+          "study_mode": [
+            "full-time"
+          ],
+          "start_terms": [],
+          "credits": null,
+          "tuition": [
+            {
+              "amount": null,
+              "currency": "",
+              "period": "year",
+              "applicability": "all",
+              "notes": "",
+              "source": "",
+              "confidence": 0.8
+            }
+          ],
+          "fees_breakdown": [],
+          "entry_requirements": {
+            "min_qualification": "",
+            "min_gpa": null,
+            "grades_required": "",
+            "standardized_tests": [],
+            "work_experience_required": false,
+            "documents_required": [],
+            "english_requirements": {}
+          },
+          "application_deadlines": [],
+          "application_url": "",
+          "curriculum": {},
+          "careers_info": {},
+          "notes_raw": []
+        }
+      ],
+      "facilities": {
+        "housing": {},
+        "libraries": [],
+        "labs": [],
+        "sports": []
+      }
+    },
+    {
+      "campus_id": "",
+      "name": "Main Campus",
+      "is_main": true,
+      "location": {
+        "address": "",
+        "city": "",
+        "region": "",
+        "postal_code": "",
+        "country": "",
+        "coordinates": {
+          "lat": null,
+          "lon": null
+        }
+      },
+      "contacts": {
+        "admissions": {
+          "name": "",
+          "email": "",
+          "phone": "111-128-128",
+          "office_hours": ""
+        },
+        "international_office": {
+          "email": "",
+          "phone": ""
+        },
+        "general": {
+          "phone": "",
+          "fax": "",
+          "mailing_address": ""
+        },
+        "social": {
+          "facebook": "",
+          "twitter": "",
+          "instagram": "",
+          "linkedin": "",
+          "youtube": ""
+        }
+      },
+      "programs": [],
+      "facilities": {
+        "housing": {},
+        "libraries": [],
+        "labs": [],
+        "sports": []
+      }
+    }
+  ],
+  "admissions": {
+    "application_portal": "",
+    "general_deadlines": [],
+    "application_steps": [],
+    "deposit_amount": {
+      "amount": null,
+      "currency": "",
+      "deadline": ""
+    },
+    "refund_policy": ""
+  },
+  "fees_and_funding": {
+    "typical_tuition_domestic": {
+      "amount": null,
+      "currency": ""
+    },
+    "typical_tuition_international": {
+      "amount": null,
+      "currency": ""
+    },
+    "mandatory_fees": [],
+    "scholarships": [],
+    "assistantships": [],
+    "living_costs_monthly": {
+      "amount": null,
+      "currency": "",
+      "notes": ""
+    }
+  },
+  "research_and_faculty": {
+    "centers": [],
+    "notable_faculty": [],
+    "research_partnerships": []
+  },
+  "student_life": {
+    "clubs": [],
+    "sports": [],
+    "health_services": {},
+    "disability_support": ""
+  },
+  "statistics": {
+    "acceptance_rate": null,
+    "enrollment_total": null,
+    "international_percentage": null,
+    "faculty_to_student_ratio": ""
+  },
+  "policies": {
+    "deferral_policy": "",
+    "transfer_credits_policy": "",
+    "grading_scale": ""
+  },
+  "sources": [
+    {
+      "snippet": "Contact: 111-128-128",
+      "extraction_timestamp": "2025-12-11"
+    }
+  ],
+  "extraction": {
+    "last_updated": "2025-12-11",
+    "updated_fields": [
+      "campuses",
+      "admissions"
+    ],
+    "per_field_confidence": {
+      "campuses[0].tuition[0].amount": 0.8,
+      "campuses[0].tuition[0].period": 0.8,
+      "campuses[0].tuition[0].applicability": 0.8
+    },
+    "overall_confidence": 0.8
+  },
+  "overall_confidence": 0.8
+}
+```
