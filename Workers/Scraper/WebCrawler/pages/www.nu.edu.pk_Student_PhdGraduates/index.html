@@ -1,0 +1,2574 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PhD Graduates</title>
+    
+    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="/Content/libs/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,300">
+    <link type="text/css" rel="stylesheet" href="/content/font/font-icon/font-awesome-4.4.0/css/font-awesome.css">
+    <link type="text/css" rel="stylesheet" href="/content/font/font-icon/font-svg/css/Glyphter.css">
+    <!-- LIBRARY CSS-->
+    <link type="text/css" rel="stylesheet" href="/content/libs/animate/animate.css">
+    <link type="text/css" rel="stylesheet" href="/content/libs/bootstrap-3.3.5/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="/content/libs/owl-carousel-2.0/assets/owl.carousel.css">
+    <link type="text/css" rel="stylesheet" href="/content/libs/selectbox/css/jquery.selectbox.css">
+    <link type="text/css" rel="stylesheet" href="/content/libs/media-element/build/mediaelementplayer.min.css">
+    <link type="text/css" rel="stylesheet" href="/content/css/color-4.css">
+    <link href="/Content/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.css" />
+    <link href="https://nightly.datatables.net/css/jquery.dataTables.css" rel="stylesheet" type="text/css" />
+    <script src="https://nightly.datatables.net/js/jquery.dataTables.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.15/sorting/datetime-moment.js"></script>
+    <link href="/Content/css/style2.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="/content/css/slider.css">
+    <!-- STYLE CSS    -->
+    <link rel="shortcut icon" href="/Content/images/favicon.ico">
+    <script src="/content/libs/js-cookie/js.cookie.js"></script>
+    <link href="/Content/libs/lightbox/css/lightbox.css" rel="stylesheet" />
+
+    
+</head>
+
+<body class="sticky-enable">
+    <header>
+        
+<style>
+    .blink {
+        animation: blinker 5s cubic-bezier(0.55, 0.06, 0.68, 0.19) infinite;
+        background-color: #ff980029 !important;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .ribbon {
+        width: 40px;
+        font-size: 12px;
+        /* padding: 4px; */
+        position: absolute;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(20deg);
+        background-color: #ed1313;
+        color: #fff;
+    }
+
+    .menu-item .main-menu {
+        font-size: 1em !important;
+    }
+</style>
+<div class="header-main homepage-01">
+    <div class="" style="padding-left: 50px; padding-right: 50px;">
+        <div class="header-main-wrapper" style="text-align: center;">
+            <div class="navbar-header">
+                <div class="logo pull-left">
+                    <a href="/" class="header-logo">
+                        <img src="/Content/images/NU-logo.jpg" />
+                    </a>
+                </div>
+                <div class="pull-right">
+                    <button type="button" data-toggle="collapse" data-target=".navigation" class="navbar-toggle edugate-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="logo pull-right">
+                    <a href="/" class="header-logo">
+                        <img src="/Content/images/FAST.png" />
+                    </a>
+                </div>
+            </div>
+
+            <nav class="navigation collapse navbar-collapse ">
+                <ul class="nav-links nav navbar-nav swedugate-menu">
+                                    <li class="menu-item ">
+                                        <a href="/Home" class="main-menu" style="white-space: nowrap; padding: 0px !important">Home</a>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">Admissions<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/Degree-Programs" class="link-page" style="white-space: nowrap;">Offered Programs</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/Schedule" class="link-page" style="white-space: nowrap;">Admission Schedule</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/HowToApply" class="link-page" style="white-space: nowrap;">How To Apply</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/EligibilityCriteria" class="link-page" style="white-space: nowrap;">Eligibility Criteria</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/Scholarship" class="link-page" style="white-space: nowrap;">Loans/Scholarships</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/TestPattern" class="link-page" style="white-space: nowrap;">Test Pattern</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/FeeStructure" class="link-page" style="white-space: nowrap;">Fee Structure</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/Prospectus" class="link-page" style="white-space: nowrap;">Prospectus 2025</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Admissions/FAQ" class="link-page" style="white-space: nowrap;">Frequently Asked Questions</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">Campuses<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Chiniot-Faisalabad Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://cfd.nu.edu.pk" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://cfd.nu.edu.pk/all-departments" class="link-page" style="white-space: nowrap;">Faculty &amp; Staff</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/PhdSupervisors" class="link-page" style="white-space: nowrap;">PhD Supervisors</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/Events" class="link-page" style="white-space: nowrap;">Events</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/MedalHolders" class="link-page" style="white-space: nowrap;">Medal Holders</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/RectorLists" class="link-page" style="white-space: nowrap;">Rector&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/DeanLists" class="link-page" style="white-space: nowrap;">Dean&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Chiniot-Faisalabad/ScholarshipAwardees" class="link-page" style="white-space: nowrap;">Scholarship Awardees</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Electrical Engineering" class="link-page" style="white-space: nowrap;">EE Department (Mission Vision)</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="http://isb.nu.edu.pk" class="link-page" style="white-space: nowrap;">Islamabad Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://isb.nu.edu.pk" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://isb.nu.edu.pk/Faculty/allfaculty" class="link-page" style="white-space: nowrap;">Faculty &amp; Staff</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/PhdSupervisors" class="link-page" style="white-space: nowrap;">PhD Supervisors</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://isb.nu.edu.pk/Media/NewsList" class="link-page" style="white-space: nowrap;">Events</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/Research" class="link-page" style="white-space: nowrap;">Research</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/MedalHolders" class="link-page" style="white-space: nowrap;">Medal Holders</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/RectorLists" class="link-page" style="white-space: nowrap;">Rector&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/DeanLists" class="link-page" style="white-space: nowrap;">Dean&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Islamabad/ScholarshipAwardees" class="link-page" style="white-space: nowrap;">Scholarship Awardees</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Electrical Engineering" class="link-page" style="white-space: nowrap;">EE Department (Mission Vision)</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Karachi Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://khi.nu.edu.pk" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="https://khi.nu.edu.pk/Faculty.php" class="link-page" style="white-space: nowrap;">Faculty &amp; Staff</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/PhdSupervisors" class="link-page" style="white-space: nowrap;">PhD Supervisors</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://khi.nu.edu.pk/events.php" class="link-page" style="white-space: nowrap;">Events</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/Research" class="link-page" style="white-space: nowrap;">Research</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/MedalHolders" class="link-page" style="white-space: nowrap;">Medal Holders</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/RectorLists" class="link-page" style="white-space: nowrap;">Rector&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/DeanLists" class="link-page" style="white-space: nowrap;">Dean&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Karachi/ScholarshipAwardees" class="link-page" style="white-space: nowrap;">Scholarship Awardees</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Electrical Engineering" class="link-page" style="white-space: nowrap;">EE Department (Mission Vision)</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Lahore Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://lhr.nu.edu.pk" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://lhr.nu.edu.pk/faculty/" class="link-page" style="white-space: nowrap;">Faculty &amp; Staff</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/PhdSupervisors" class="link-page" style="white-space: nowrap;">PhD Supervisors</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://lhr.nu.edu.pk/news" class="link-page" style="white-space: nowrap;">Events</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/Research" class="link-page" style="white-space: nowrap;">Research</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/MedalHolders" class="link-page" style="white-space: nowrap;">Medal Holders</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/RectorLists" class="link-page" style="white-space: nowrap;">Rector&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/DeanLists" class="link-page" style="white-space: nowrap;">Dean&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Lahore/ScholarshipAwardees" class="link-page" style="white-space: nowrap;">Scholarship Awardees</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Civil Engineering" class="link-page" style="white-space: nowrap;">Civil Engg. Department (Mission Vision)</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Electrical Engineering" class="link-page" style="white-space: nowrap;">EE Department (Mission Vision)</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Peshawar Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://pwr.nu.edu.pk" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://pwr.nu.edu.pk/cs-faculty/" class="link-page" style="white-space: nowrap;">Faculty &amp; Staff</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/PhdSupervisors" class="link-page" style="white-space: nowrap;">PhD Supervisors</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://pwr.nu.edu.pk/latest-news" class="link-page" style="white-space: nowrap;">Events</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/Research" class="link-page" style="white-space: nowrap;">Research</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/MedalHolders" class="link-page" style="white-space: nowrap;">Medal Holders</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/RectorLists" class="link-page" style="white-space: nowrap;">Rector&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/DeanLists" class="link-page" style="white-space: nowrap;">Dean&#39;s List</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Campus/Peshawar/ScholarshipAwardees" class="link-page" style="white-space: nowrap;">Scholarship Awardees</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/campus/missionvision/Electrical Engineering" class="link-page" style="white-space: nowrap;">EE Department (Mission Vision)</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Multan Campus<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="https://mtn.nu.edu.pk/" class="link-page" style="white-space: nowrap;">Home</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item ">
+                                        <a href="#" class="main-menu" style="white-space: nowrap;padding:0px !important">Students<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/Student/dvp" class="link-page" style="white-space: nowrap;">Degree Verification Program</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Student/Calender" class="link-page" style="white-space: nowrap;">Academic Calendar
+</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Student/Conduct" class="link-page" style="white-space: nowrap;">Code of Conduct</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Student/Grading" class="link-page" style="white-space: nowrap;">Grading</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Student Chapters<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="http://www.sites.ieee.org/sb-nuces-karachi/" class="link-page" style="white-space: nowrap;">IEEE-NUCES</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="http://www.nuces-acm.org/" class="link-page" style="white-space: nowrap;">NUCES-ACM</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Rules &amp; Regulations<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/Student/RulesUndergrad" class="link-page" style="white-space: nowrap;">Bachelor Programs</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Student/Rulesphd" class="link-page" style="white-space: nowrap;">PhD Programs</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                        <li class="menu-item">
+                                                            <a href="http://flexstudent.nu.edu.pk/Login" class="link-page" style="white-space: nowrap;">Flex Student Module</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Student/PhdGraduates" class="link-page" style="white-space: nowrap;">Phd Graduates</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Student/FinancialRules" class="link-page" style="white-space: nowrap;">Financial Assistant/Scholarships</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">University<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/University/History" class="link-page" style="white-space: nowrap;">History</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Foundation" class="link-page" style="white-space: nowrap;">Foundation</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Chancellor" class="link-page" style="white-space: nowrap;">Chancellor</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/vision-and-mission" class="link-page" style="white-space: nowrap;">Vision &amp; Mission Statement</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Trustees" class="link-page" style="white-space: nowrap;">Board of Trustees</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Governers" class="link-page" style="white-space: nowrap;">Board of Governors</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Officers" class="link-page" style="white-space: nowrap;">Officers of the University</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Headquarters" class="link-page" style="white-space: nowrap;">Headquarters</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/PhDFaculty" class="link-page" style="white-space: nowrap;">PhD Faculty</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/HECSupervisors" class="link-page" style="white-space: nowrap;">HEC Approved PhD Supervisor</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/ExternalThesisReviewer" class="link-page" style="white-space: nowrap;">PhD Thesis Reviewers</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Policies" class="link-page" style="white-space: nowrap;">Policies</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">Services<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="/Services/Library" class="link-page" style="white-space: nowrap;">FAST-NU Library</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Alumni<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="Http://www.osaf.org.pk" class="link-page" style="white-space: nowrap;">OSAF</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="http://nu.edu.pk/NUJobs" class="link-page" style="white-space: nowrap;">Job Portal</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="http://mail.nu.edu.pk" class="link-page" style="white-space: nowrap;">NU Mail</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="http://slate.nu.edu.pk" class="link-page" style="white-space: nowrap;">SLATE-LMS</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="/Services/PlacementOffice" class="link-page" style="white-space: nowrap;">Career Services Office</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="/Services/PIO" class="link-page" style="white-space: nowrap;">Public Information Officer</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a target="_blank" href="/Downloads" class="link-page" style="white-space: nowrap;">Downloads</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">ORIC<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/Oric" class="link-page" style="white-space: nowrap;">Home</a>
+                                                        </li>
+                                                        <li class="menu-item">
+
+                                                            <a href="/Oric/UniversityResearchProfile" class="link-page blink" style="white-space: nowrap;">university research profile  <span class="ribbon ">New</span> </a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Research funded projects<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/FundingOppertunities" class="link-page" style="white-space: nowrap;">Funding Opportunities</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/FundedProjects" class="link-page" style="white-space: nowrap;">Funded Projects</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Innovation &amp; Commercialization<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="#" class="link-page" style="white-space: nowrap;">Consultancy projects</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/IncubationFacilities" class="link-page" style="white-space: nowrap;">Incubation Facilities</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/Entreprenures" class="link-page" style="white-space: nowrap;">Entrepreneurs</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/Patent" class="link-page" style="white-space: nowrap;">Patent</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/OricResearchLabs" class="link-page" style="white-space: nowrap;">Research Labs</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Capacity Building<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/CapacityBuilding" class="link-page" style="white-space: nowrap;">Conference/Seminar</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/TravelGrants" class="link-page" style="white-space: nowrap;">Travel Grants</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Oric/Policies" class="link-page" style="white-space: nowrap;">Policies</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Oric/Photogallery" class="link-page" style="white-space: nowrap;">Photo Gallery</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Oric/Annoucements" class="link-page" style="white-space: nowrap;">Announcements</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Oric/Scholarship" class="link-page" style="white-space: nowrap;">Scholarships</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Downloads<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/Oric/GrantAppForm/Research" class="link-page" style="white-space: nowrap;">Forms</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                        <li class="menu-item">
+                                                            <a href="/Oric/Team" class="link-page" style="white-space: nowrap;">Team</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">Executive Education<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/CoEE/index" class="link-page" style="white-space: nowrap;">CoEE Home</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/CoEE/TDevProg" class="link-page" style="white-space: nowrap;">Training &amp; development programs</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">FAST Practitioner Certification Programs<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/CoEE/fintech" class="link-page" style="white-space: nowrap;">Fintech Certified Practitioner Program-FAST&#174;FCP</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="#" class="link-page" style="white-space: nowrap;">People Analytics Certified Practitioner-FAST&#174;PACP</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="#" class="link-page" style="white-space: nowrap;">Certified Entrepreneur in Practice-FAST&#174;CEiP </a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">International<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/international/Overview" class="link-page" style="white-space: nowrap;">Overview</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/WhyFast" class="link-page" style="white-space: nowrap;">Why Apply to Fast</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/IOEApplyInstructions" class="link-page" style="white-space: nowrap;">How to Apply</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="https://www.nu.edu.pk/Admissions/Prospectus" class="link-page" style="white-space: nowrap;">Downloadable Prospectus</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/Scholarship" class="link-page" style="white-space: nowrap;">Scholarships</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/Activities" class="link-page" style="white-space: nowrap;">Events and Activities</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/Opportunities" class="link-page" style="white-space: nowrap;">Opportunities Abroad</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/Achievements" class="link-page" style="white-space: nowrap;">Achievements and Collaboration</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/international/InternationalReach" class="link-page" style="white-space: nowrap;">Expanding International Reach</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">International Education Office<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOECoreFunctions" class="link-page" style="white-space: nowrap;">Core Functions</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOECoreFunctionsOverview" class="link-page" style="white-space: nowrap;">Core Functions Overview</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOETeamMembers" class="link-page" style="white-space: nowrap;">Team</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOEMission" class="link-page" style="white-space: nowrap;">Mission</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOEVision" class="link-page" style="white-space: nowrap;">Vision</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/international/IOEContactUs" class="link-page" style="white-space: nowrap;">Contact Us</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown menu-item">
+                                        <a href="#" class="main-menu" style="white-space: nowrap; padding: 0px !important">QEC<i class="fa fa-angle-down arrow-open-dropdown"></i></a>
+                                        <ul class="dropdown-menu edugate-dropdown-menu-1">
+                                                        <li class="menu-item">
+                                                            <a href="/QEC" class="link-page" style="white-space: nowrap;">Home</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/Team" class="link-page" style="white-space: nowrap;">Team</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/Accreditation" class="link-page" style="white-space: nowrap;">Accreditation</a>
+                                                        </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Self Assessment<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/Evaluators" class="link-page" style="white-space: nowrap;">Team</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/SelfAssesment" class="link-page" style="white-space: nowrap;">Status</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown menu-item dropdown-submenu">
+                                                        <a href="#" class="link-page" style="white-space: nowrap;">Capacity Building<i class="fa fa-angle-right arrow-open-dropdown"></i></a>
+                                                        <ul class="dropdown-menu edugate-dropdown-menu-2">
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/Contribution" class="link-page" style="white-space: nowrap;">Contribution</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/Participation" class="link-page" style="white-space: nowrap;">Participation</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/FacultyTraining" class="link-page" style="white-space: nowrap;">Faculty Training</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/Meetings" class="link-page" style="white-space: nowrap;">QEC Meetings</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/AnnualCalendar" class="link-page" style="white-space: nowrap;">Annual Activity Calendar</a>
+                                                                    </li>
+                                                                    <li class="menu-item">
+                                                                        <a href="/QEC/BuildingCalendar" class="link-page" style="white-space: nowrap;">Capacity Building Calendar</a>
+                                                                    </li>
+                                                        </ul>
+                                                    </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/Publications" class="link-page" style="white-space: nowrap;">Publications</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/PhotoGallery" class="link-page" style="white-space: nowrap;">Photo Gallery</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/SSAPI" class="link-page" style="white-space: nowrap;">SSAPI</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/QEC/Downloads" class="link-page" style="white-space: nowrap;">Downloads</a>
+                                                        </li>
+                                                        <li class="menu-item">
+                                                            <a href="/University/Membership" class="link-page" style="white-space: nowrap;">NU Membership</a>
+                                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="/Career" class="main-menu" style="white-space: nowrap; padding: 0px !important">Career</a>
+                                    </li>
+                                    <li class="menu-item ">
+                                        <a href="/home/ContactUs" class="main-menu" style="white-space: nowrap; padding: 0px !important">Contact Us</a>
+                                    </li>
+
+                    <li class="menu-item">
+                        <div class="button-search"><p class="main-menu"><i class="fa fa-search"></i></p></div>
+                        <div class="nav-search hide">
+                            <gcse:search></gcse:search>
+                        </div>
+                    </li>
+
+
+                </ul>
+                
+            </nav>
+        </div>
+    </div>
+</div>
+
+    </header>
+
+    <div id="wrapper-content" style=" margin-top: 6px;">
+        <!-- PAGE WRAPPER-->
+        <div id="page-wrapper" style="overflow: auto;">
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <!-- CONTENT-->
+                <div class="content">
+                    
+<div class="section background-opacity page-title set-height-top" style="background-image: url('/Content/images/PageBanners/Scholarships.jpg')">
+    <div class="container">
+        <div class="page-title-wrapper">
+            <!--.page-title-content-->
+            <h5 class="captions">Phd Graduates by NUCES</h5>
+            <ol class="breadcrumb">
+                <li class="text-justify"><a href="/">Home</a></li>
+                    <li class="text-justify"><a href="/Student">Student</a></li>
+                                    <li class="text-justify"><a href="/Student/PhdGraduates">PhdGraduates</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<br />
+<div class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-info">
+                    <p><strong>NUCES</strong> produced its first PhD scholar on <strong>July 16th , 2009</strong>. Since then the following have earned their PhD degree.</p>
+                </div>
+                            <div class="group-title-index">
+                                <h3>Summary</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th>Campus</th>
+                                            <th >Total Graduates</th>
+                                            <th >Computer Science</th>
+                                            <th >Electrical Engineering</th>
+                                            <th >Management Science</th>
+                                            <th >Mathematics</th>
+                                            <th >Software Engineering</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                                <td class="text-center">ISB</td>
+
+                                            <td class="text-center"> 61</td>
+                                                <td class="text-center"> 49</td>
+                                                <td class="text-center"> 7</td>
+                                                <td class="text-center"> 2</td>
+                                                <td class="text-center"> -</td>
+                                                <td class="text-center"> 3</td>
+
+                                        </tr>
+                                        <tr>
+                                                <td class="text-center">KHI</td>
+
+                                            <td class="text-center"> 22</td>
+                                                <td class="text-center"> 21</td>
+                                                <td class="text-center"> 1</td>
+                                                <td class="text-center"> -</td>
+                                                <td class="text-center"> -</td>
+                                                <td class="text-center"> -</td>
+
+                                        </tr>
+                                        <tr>
+                                                <td class="text-center">LHR</td>
+
+                                            <td class="text-center"> 59</td>
+                                                <td class="text-center"> 16</td>
+                                                <td class="text-center"> 1</td>
+                                                <td class="text-center"> 11</td>
+                                                <td class="text-center"> 31</td>
+                                                <td class="text-center"> -</td>
+
+                                        </tr>
+                                        <tr>
+                                                <td class="text-center">PWR</td>
+
+                                            <td class="text-center"> 23</td>
+                                                <td class="text-center"> 8</td>
+                                                <td class="text-center"> 7</td>
+                                                <td class="text-center"> -</td>
+                                                <td class="text-center"> 8</td>
+                                                <td class="text-center"> -</td>
+
+                                        </tr>
+                                    <tr>
+                                        <td class="text-center"><strong>Total</strong></td><td class="text-center"><strong>165</strong></td> <td class="text-center"><strong>94 </strong></td>
+<td class="text-center"><strong>16 </strong></td>
+<td class="text-center"><strong>13 </strong></td>
+<td class="text-center"><strong>39 </strong></td>
+<td class="text-center"><strong>3 </strong></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="group-title-index">
+                                <h3>2023</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Falak Khan</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Ayub Siddiqui</td>
+                                                <td class="text-center">04-Jan-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Behroz Mirza</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Tahir Qasim</td>
+                                                <td class="text-center">18-Jan-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Muhammad Waqas</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Atif Tahir</td>
+                                                <td class="text-center">14-Mar-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Bushra Tahir</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">22-Mar-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Afzaal Hussain</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Kashif Zafar</td>
+                                                <td class="text-center">14-Apr-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Bushra Almas</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hasan Mujtaba</td>
+                                                <td class="text-center">17-May-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Salman Sherin</a></td>
+                                                <td>Software Engineering</td>
+                                                <td>Dr.Uzair Khan</td>
+                                                <td class="text-center">08-Aug-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Anam Qureshi</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr.Jawwad Shamsi</td>
+                                                <td class="text-center">09-Aug-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Hina Firdous</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr.Syed Husnine</td>
+                                                <td class="text-center">25-Aug-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Omer Iqbal</a></td>
+                                                <td>Management Science</td>
+                                                <td>Zeeshan Ali</td>
+                                                <td class="text-center">16-Oct-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Muhammad Shahzad</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Atif Tahir</td>
+                                                <td class="text-center">01-Nov-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Nadia Saeed</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Hammad Naveed</td>
+                                                <td class="text-center">06-Nov-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Umer Farooq</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Muhammad Asim</td>
+                                                <td class="text-center">11-Dec-2023</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Nouman Shamim</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Muhammad Asim</td>
+                                                <td class="text-center">11-Dec-2023</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2022</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Bahar Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Nouman Azam</td>
+                                                <td class="text-center">07-Jan-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Anwar Shah</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Nouman Azam</td>
+                                                <td class="text-center">21-Jan-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Ammara Usman</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">03-Feb-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Ammar Javed</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Zia Khan</td>
+                                                <td class="text-center">11-Feb-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Shazia Usmani</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Jawwad Shamsi</td>
+                                                <td class="text-center">11-Feb-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Touseef Irshad </a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hafeez ur Rehman</td>
+                                                <td class="text-center">01-Apr-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Shahid Bashir</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">01-Apr-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Touseef Irshad</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hafeez ur Rehman</td>
+                                                <td class="text-center">01-Apr-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Ibrar Khan</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Ataul Aziz Ikram</td>
+                                                <td class="text-center">20-Apr-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Farooq Ahmed</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Haroon Mahmood</td>
+                                                <td class="text-center">26-May-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Hamid Hussain</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Waseem Shahzad</td>
+                                                <td class="text-center">03-Jun-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Qasim Noor</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">06-Jun-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Maqsood Khan</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Inam Bari</td>
+                                                <td class="text-center">11-Aug-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Musadaq Mansoor</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. M. Nauman</td>
+                                                <td class="text-center">26-Aug-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Hanif Soomro</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Atif Tahir</td>
+                                                <td class="text-center">08-Sep-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Marriam Daud</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Ali Afzal</td>
+                                                <td class="text-center">15-Sep-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Salman Khalid</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Waqas Bin Abbas</td>
+                                                <td class="text-center">28-Sep-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Raees Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Adnan Noor</td>
+                                                <td class="text-center">04-Oct-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Komal Kamran</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Mian Muhammad Atif</td>
+                                                <td class="text-center">02-Dec-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Waqas Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. M. Nauman</td>
+                                                <td class="text-center">08-Dec-2022</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Umair Ayub</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hammad Naveed</td>
+                                                <td class="text-center">22-Dec-2022</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2021</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Adnan Malik</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">28-Jan-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Fatima Omer</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Hamid Hassan</td>
+                                                <td class="text-center">22-Feb-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Qamar Askari</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Mehreen Saeed</td>
+                                                <td class="text-center">05-Mar-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Nazish Iftikhar</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">19-Mar-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Mobina Farasat</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Akbar Azam</td>
+                                                <td class="text-center">26-Mar-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Mehreen Alam</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Sibt ul Hussain</td>
+                                                <td class="text-center">02-Apr-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Awais</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Farhan Khalid</td>
+                                                <td class="text-center">19-Apr-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Nauman Ahmad</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Akbar Azam</td>
+                                                <td class="text-center">19-May-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Javed Zahoor</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Kashif Zafar</td>
+                                                <td class="text-center">28-May-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Farrukh Hasan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Atif Tahir</td>
+                                                <td class="text-center">31-May-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Asad Abbasi</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zulfiqar Memon</td>
+                                                <td class="text-center">10-Jun-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Fizza Rizvi</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Akbar Azam</td>
+                                                <td class="text-center">11-Jun-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Tauseef Saeed</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">25-Jun-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Shamaila Yousaf</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Akhlaq Bhatti</td>
+                                                <td class="text-center">27-Jul-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Sadia Noureen</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Akhlaq Bhatti</td>
+                                                <td class="text-center">27-Jul-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Nausheen Shoaib</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Jawwad Shamsi</td>
+                                                <td class="text-center">13-Aug-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Saira Osama</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Kashif Zafar</td>
+                                                <td class="text-center">17-Aug-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Faisal Naeem</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">17-Aug-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Fahmeed Idrees</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Hamid Hassan</td>
+                                                <td class="text-center">30-Aug-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Usman Abbasi</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">17-Sep-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Maria Tamoor</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Irfan Younas</td>
+                                                <td class="text-center">17-Sep-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Jalal</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Sufian Hameed</td>
+                                                <td class="text-center">02-Nov-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Abdul Shakeel</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Hamid Khan</td>
+                                                <td class="text-center">12-Nov-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Sana Mumtaz</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Sadia Nadeem</td>
+                                                <td class="text-center">22-Nov-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Javaria Imtiaz</a></td>
+                                                <td>Software Engineering</td>
+                                                <td>Dr. Zohaib Iqbal</td>
+                                                <td class="text-center">24-Nov-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Hassan Sartaj</a></td>
+                                                <td>Software Engineering</td>
+                                                <td>Dr. Zohaib Iqbal</td>
+                                                <td class="text-center">30-Nov-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Asad Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hafeez ur Rehman</td>
+                                                <td class="text-center">03-Dec-2021</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Suleman Mir</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Inam Bari</td>
+                                                <td class="text-center">10-Dec-2021</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2020</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Saeeda Zia</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">31-Jan-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Muhammad Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Nouman Azam</td>
+                                                <td class="text-center">07-Feb-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Adeel Zafar</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hasan Mujtaba</td>
+                                                <td class="text-center">19-Feb-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Mohsin Kamal</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">06-Mar-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Nasir Ali</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">09-Mar-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Muhammad Adnan</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">01-May-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Kashif Laeeq</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zulfiqar Memon</td>
+                                                <td class="text-center">05-May-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Nadeem Kafi</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Shahid Sheikh</td>
+                                                <td class="text-center">19-Jun-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Aasim Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Usman Shahid</td>
+                                                <td class="text-center">22-Jun-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Atta ur Rahman</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Irtaza Syed</td>
+                                                <td class="text-center">15-Jul-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Tayyaba Naz</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">25-Sep-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Mansoor Ali</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">20-Oct-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Shujaat Ali</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Zia Khan</td>
+                                                <td class="text-center">26-Oct-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Nosheen Qamar</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Ali Afzal</td>
+                                                <td class="text-center">03-Nov-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Noshina Tariq</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. M. Asim</td>
+                                                <td class="text-center">20-Nov-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Hira Iqbal</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">04-Dec-2020</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Iffat Fayyaz</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">11-Dec-2020</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2019</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Asif Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Waseem Shahzad</td>
+                                                <td class="text-center">03-Jan-2019</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Asma Naseer</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Kashif Zafar</td>
+                                                <td class="text-center">05-Mar-2019</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Mushtaq Ahmad</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Farasat Shamir</td>
+                                                <td class="text-center">27-Mar-2019</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Aamir Wali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Mehreen Saeed</td>
+                                                <td class="text-center">14-Nov-2019</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Samina Naz</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hammad Majeed</td>
+                                                <td class="text-center">22-Nov-2019</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2018</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Rabia Qureshi</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Toru Nakahara</td>
+                                                <td class="text-center">09-Feb-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Nadia Khan</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Toru Nakahara</td>
+                                                <td class="text-center">11-May-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Amna Niazi</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Hamid Hassan</td>
+                                                <td class="text-center">20-Jun-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Inayat Ullah</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Tariq Rahim</td>
+                                                <td class="text-center">22-Jun-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Mujahid Hussain</a></td>
+                                                <td>Management Science</td>
+                                                <td>Dr. Hamid Hassan</td>
+                                                <td class="text-center">19-Jul-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Hamid Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Farrukh Aslam</td>
+                                                <td class="text-center">05-Aug-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Shibli Nisar</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. M. Tariq</td>
+                                                <td class="text-center">08-Aug-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Ashfaq Hussain</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Farrukh Aslam</td>
+                                                <td class="text-center">16-Aug-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Narmeen Zakaria</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Jawwad Shamsi</td>
+                                                <td class="text-center">16-Aug-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Aslam Javed</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">31-Aug-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Abdul Hameed</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Adnan Noor</td>
+                                                <td class="text-center">17-Sep-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Zulfiqar Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Waseem Shahzad</td>
+                                                <td class="text-center">08-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Javid Ullah</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">12-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Ayesha Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">15-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Imran Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Habibur Rehman</td>
+                                                <td class="text-center">16-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Sharif</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">18-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Atif Jilani</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Uzair Khan</td>
+                                                <td class="text-center">23-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Muhammad Usman</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zohaib Iqbal</td>
+                                                <td class="text-center">29-Oct-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Kiran Fatima</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Hammad Majeed</td>
+                                                <td class="text-center">05-Nov-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Yasir Mahmood</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Waseem Shahzad</td>
+                                                <td class="text-center">12-Nov-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Naveed Kazim</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">21-Dec-2018</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Ishtiaq</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">27-Dec-2018</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2017</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Muhammad Rafi</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Shahid Sheikh</td>
+                                                <td class="text-center">29-Aug-2017</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Nouman Durrani</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Jawwad Shamsi</td>
+                                                <td class="text-center">18-Oct-2017</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Naeem Saleem</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Zahid Raza</td>
+                                                <td class="text-center">26-Oct-2017</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Mubashir Qayyum</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Hamid Khan</td>
+                                                <td class="text-center">17-Nov-2017</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Muhammad Farooq</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Tariq Rahim</td>
+                                                <td class="text-center">08-Dec-2017</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Uzma Rani</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">13-Dec-2017</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2016</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Akbar Ali</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Akhlaq Bhatti</td>
+                                                <td class="text-center">16-Feb-2016</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Wafa Basit</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Asif Gilani</td>
+                                                <td class="text-center">27-Feb-2016</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Zafar Nasir</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Shahid Sheikh</td>
+                                                <td class="text-center">19-Apr-2016</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Mohsin Bilal</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">21-Jul-2016</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Sultan Zia</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">26-Aug-2016</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Mamoona Sultan</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Toru Nakahara</td>
+                                                <td class="text-center">23-Sep-2016</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2015</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Murtaza Ali</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Tariq Rahim</td>
+                                                <td class="text-center">28-Feb-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Shahzad Ahmad</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">14-Mar-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Tabasam Rashid</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">14-Mar-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Farheen Ibraheem</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Akhlaq Bhatti</td>
+                                                <td class="text-center">24-Apr-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Salabat Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">27-Apr-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Shaukat Wasi</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">26-May-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Farasat Shamir</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Zahid Raza</td>
+                                                <td class="text-center">06-Jun-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Agha Kashif</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Zahid Raza</td>
+                                                <td class="text-center">28-Jul-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">PWR</td>
+
+                                                <td><a>Kamran Alam</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Tariq Rahim</td>
+                                                <td class="text-center">29-Jul-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Zulfiqar Ali</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">19-Sep-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Aun Irtaza</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">07-Oct-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Aftab Ali</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Farrukh Aslam</td>
+                                                <td class="text-center">19-Oct-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Ahmad Khan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">10-Nov-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Allah Ditta Raza</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. S.M. Sajid</td>
+                                                <td class="text-center">14-Nov-2015</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Abdul Hameed</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Toru Nakahara</td>
+                                                <td class="text-center">21-Nov-2015</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2014</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Sohail Masood</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">26-Mar-2014</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Farrukh Shahzad</a></td>
+                                                <td>Electrical Engineering</td>
+                                                <td>Dr. Muddassar</td>
+                                                <td class="text-center">28-Mar-2014</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Zareen Alamgir</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">29-Mar-2014</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Muhammad Javaid</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Akhlaq Bhatti</td>
+                                                <td class="text-center">12-Apr-2014</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Arif Jamal</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Farrukh Aslam</td>
+                                                <td class="text-center">05-May-2014</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Sumaira Sharif</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Zahid Raza</td>
+                                                <td class="text-center">01-Oct-2014</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2013</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Noman Islam</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">02-Feb-2013</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Uzma Ahmad</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">26-Mar-2013</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Abu Zafar Abbasi</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">13-Apr-2013</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Saira Karim</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">28-Dec-2013</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2012</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Aqeel-Ur-Rehman</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">19-Apr-2012</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Qammar Rubbab</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">26-May-2012</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Nawazish Naveed</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arfan Jaffar</td>
+                                                <td class="text-center">17-Oct-2012</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Kamran</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Muddassar</td>
+                                                <td class="text-center">29-Dec-2012</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2011</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Abdul Rauf</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arshad Ali</td>
+                                                <td class="text-center">08-Jan-2011</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Ramzan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arshad Ali</td>
+                                                <td class="text-center">14-Feb-2011</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Zahoor Jan</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Anwar Mirza</td>
+                                                <td class="text-center">04-Mar-2011</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Sajid Anwar</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Arshad Ali</td>
+                                                <td class="text-center">27-Jun-2011</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">KHI</td>
+
+                                                <td><a>Imran Jami</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Zubair Shaikh</td>
+                                                <td class="text-center">19-Sep-2011</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">LHR</td>
+
+                                                <td><a>Imrana Kousar</a></td>
+                                                <td>Mathematics</td>
+                                                <td>Dr. Syed Husnine</td>
+                                                <td class="text-center">28-Nov-2011</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2010</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>M. Rashid</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">11-Feb-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Amjad Iqbal</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">21-Aug-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Hajira Jabeen</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">28-Aug-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Abdul Basit</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Anwar Mirza</td>
+                                                <td class="text-center">08-Sep-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Zunera Jalil</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Anwar Mirza</td>
+                                                <td class="text-center">09-Sep-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Hasan Mujtaba</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">20-Sep-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Waseem Shahzad</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">25-Sep-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Kashif Zafar</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">09-Oct-2010</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Zahid Halim</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Rauf Baig</td>
+                                                <td class="text-center">23-Nov-2010</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="group-title-index">
+                                <h3>2009</h3>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="edu-table-responsive table-condensed table-bordered table-hovered table-striped">
+                                    <thead>
+                                        <tr class="heading-table">
+                                            <th width="10%">Campus</th>
+                                            <th width="25%">Name</th>
+                                            <th width="25%">Subject</th>
+                                            <th width="25%">Supervisor</th>
+                                            <th width="15%">Thesis Defence</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Arfan Jaffar</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Anwar Mirza</td>
+                                                <td class="text-center">16-Jul-2009</td>
+                                            </tr>
+                                            <tr>
+                                                    <td class="text-center">ISB</td>
+
+                                                <td><a>Ayyaz Hussain</a></td>
+                                                <td>Computer Science</td>
+                                                <td>Dr. Anwar Mirza</td>
+                                                <td class="text-center">18-Jul-2009</td>
+                                            </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <!-- BUTTON BACK TO TOP-->
+        <div id="back-top"><a href="#top"><i class="fa fa-angle-double-up"></i></a></div>
+    </div>
+    <footer id="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-main-wrapper">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12 sd380">
+                            <div class="edugate-widget widget">
+                                <div class="title-widget"><i class="fa fa-phone"></i>Contact</div>
+                                <div class="content-widget">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img style="max-width: 88%" class="img-responsive" src="/Content/images/Footer-Logo.png" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="info-list">
+                                            <ul class="col-md-6 col-sm-6 list-unstyled">
+                                                
+                                                
+                                                <li><i class="fa fa-phone"></i><a href="#">Contact:</a></li>
+                                                <li><a class="padding-left-15" href="tel:111128128">111-128-128</a></li>
+                                                <li class="socials">
+                                                    <a class="facebook" href="https://www.facebook.com/FastUniversityOfficial/"><i class="fa fa-facebook"></i></a>
+                                                    <a class="twitter" href="https://www.twitter.com/FastNuOfficial"><i class="fa fa-twitter"></i></a>
+                                                    <a class="insta" href="#"><i class="fa fa-instagram"></i></a>
+                                                    <a class="youtube" href="https://www.youtube.com/channel/UC0s-RmNrTAizAAJoX7z5e2w"><i class="fa fa-youtube"></i></a>
+                                                </li>
+                                            </ul>
+                                            <ul class="col-md-6 col-sm-6 list-unstyled">
+                                                <li><i class="fa fa-map-marker"></i><a href="#">Location:</a></li>
+                                                <li>
+                                                    <p class="padding-left-15">FAST-House</p>
+                                                    <p class="padding-left-15">Rohtas Road, G-9/4</p>
+                                                    <p class="padding-left-15">Islamabad - 44000</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <div class="useful-link-widget widget">
+                                <div class="title-widget"><i class="fa fa-link"></i>USEFUL LINKS</div>
+                                <div class="content-widget">
+                                    <div class="useful-link-list">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <ul class="list-unstyled">
+                                                    <li><i class="fa fa-angle-right"></i><a href="/Degree-Programs">Programs</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a target="_blank" href="http://www.peef.org.pk">PEEF</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a target="_blank" href="http://mail.nu.edu.pk">NU Mail</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a href="/jobs">Careers</a></li>
+                                                    
+                                                    <li><i class="fa fa-angle-right"></i><a target="_blank" href="http://www.osaf.org.pk/">OSAF</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                                <ul class="list-unstyled">
+                                                    <li><i class="fa fa-angle-right"></i><a href="/verification">Degree Verification</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a target="_blank" href="http://www.slate.nu.edu.pk/portal">SLATE-LMS</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a href="/ORIC">ORIC</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a href="/QEC">QEC</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a href="/Home/ContactUs">Contact Us</a></li>
+                                                    <li><i class="fa fa-angle-right"></i><a target="_blank" href="https://nu.insigniails.com/Library/Home">FAST-NU Library</a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div class="useful-link-widget widget">
+                                <div class="content-widget">
+                                    <div class="useful-link-list">
+                                        <div class="title-widget"><i class="fa fa-university"></i>Campuses</div>
+                                        <ul class="list-unstyled">
+                                            
+
+                                            <li><i class="fa fa-angle-right"></i><a href="http://cfd.nu.edu.pk" target="_blank">Chiniot-Faisalabad Campus</a></li>
+                                            <li><i class="fa fa-angle-right"></i><a href="http://isb.nu.edu.pk" target="_blank">Islamabad Campus</a></li>
+                                            <li><i class="fa fa-angle-right"></i><a href="http://khi.nu.edu.pk" target="_blank">Karachi Campus</a></li>
+                                            <li><i class="fa fa-angle-right"></i><a href="http://lhr.nu.edu.pk" target="_blank">Lahore Campus</a></li>
+                                            <li><i class="fa fa-angle-right"></i><a href="https://nu.edu.pk/MultanCampus/Index" target="_blank">Multan Campus</a></li>
+                                            <li><i class="fa fa-angle-right"></i><a href="http://pwr.nu.edu.pk" target="_blank">Peshawar Campus</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                    <div class="hyperlink">
+                        <div class="text-center">Copyright © 2025 , NUCES. All Rights Reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="/content/libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="/content/libs/smooth-scroll/jquery-smoothscroll.js"></script>
+    <script src="/content/libs/owl-carousel-2.0/owl.carousel.min.js"></script>
+    <script src="/content/libs/appear/jquery.appear.js"></script>
+    <script src="/content/libs/count-to/jquery.countTo.js"></script>
+    <script src="/content/libs/wow-js/wow.min.js"></script>
+    <script src="/content/libs/selectbox/js/jquery.selectbox-0.2.min.js"></script>
+
+    <!-- MAIN JS-->
+    <script src="/content/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.2/jquery.fancybox.min.js"></script>
+    <!-- LOADING SCRIPTS FOR PAGE-->
+    <script src="/content/libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="/content/libs/isotope/fit-columns.js"></script>
+    <script src="/content/js/pages/homepage.js"></script>
+    <script src="/Content/js/Slider.js"></script>
+    <script src="/Content/js/pages/gallery.js"></script>
+
+    
+    <script>
+        (function () {
+            var cx = '015328709569384755765:7shekvyfku4';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 50) {
+                $(".header").addClass("active");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+                $(".header").removeClass("active");
+            }
+        });
+
+
+
+        var input = document.getElementById("txtEmail");
+        input.focus();
+        input.addEventListener("keyup", function (event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("btnSubscribe").click();
+            }
+        });
+
+        $("#btnSubscribe").click(function () {
+            var email = $("#txtEmail").val();
+            debugger;
+
+            var vald = validateEmail(email);
+            if (!vald) {
+                alert('Please enter a valid e-mail address');
+                return;
+            }
+
+            $.post("Newsletters/Subscribe?email=" + email + "&name=" + email, function (data, status) {
+                $("#ctrlSubscribe").hide();
+
+                if (data == "Reg") {
+                    $("#msgSubscribe").text("Thank you for subscribing our newsletter.");
+                }
+                else if (data == "Exists") {
+                    $("#msgSubscribe").text("Email already exists in subscription list.");
+                }
+                $("#msgSubscribe").show();
+            });
+        });
+
+        function validateEmail(email) {
+
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+
+    </script>
+</body>
+</html>
