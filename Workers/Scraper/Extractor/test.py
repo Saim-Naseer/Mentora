@@ -167,7 +167,7 @@ outputs = model.generate(
     max_new_tokens=8000,
     temperature=0.2,
     top_p=0.9,
-    do_sample=False
+    do_sample=True
 )
 
 generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
@@ -264,5 +264,3 @@ outfile.write(model_output)
 #     print("Answer = ",a["ans"])
 #     print("Reasoning = ",a["reason"])
 #     print("\n\n")
-
-

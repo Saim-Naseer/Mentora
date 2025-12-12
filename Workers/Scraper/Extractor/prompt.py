@@ -7,7 +7,7 @@ You are a structured extractor whose job is to update an existing JSON record ab
 information from a single MARKDOWN_CHUNK. The LLM MUST return a single valid JSON object (the updated
 record) and nothing else (no markdown, no commentary, no apologies).
 
-But make sure to complete the response within 6500 tokens since any amount of tokens above that are curtailed and chopped off. This is extremely important. 
+But make sure to complete the response within  1500 words since any amount of tokens above that are curtailed and chopped off. This is extremely important. 
 
 This prompt has been extended to correctly model multi-campus universities. Each campus may have its own
 programs, admissions rules, fees, contacts, and facilities. The canonical output will include a `campuses`
@@ -70,12 +70,7 @@ Remove any string , int , list,dict or any other field that is completely empty 
         "region": "", //remove from output json if empty or null or None
         "country": "" //remove from output json if empty or null or None
       },
-      "contacts": {
-        "admissions": {"name": "", "email": "", "phone": "", "office_hours": ""}, //remove from output json if empty or null or None
-        "international_office": {"email": "", "phone": ""}, //remove from output json if empty or null or None
-        "general": {"phone": "", "fax": "", "mailing_address": ""}, //remove from output json if empty or null or None
-        "social": {"facebook": "", "twitter": "", "instagram": "", "linkedin": "", "youtube": ""} //remove from output json if empty or null or None
-      },
+      "contacts_notes": [], //this is a list of various contact details for the campus such as admissions office contact details and international office contact details and general contact details and social media links //remove from output json if empty or null or None,
 
       "programs": [
         {
@@ -84,8 +79,8 @@ Remove any string , int , list,dict or any other field that is completely empty 
           "duration": {"value": None, "units": "months|years|semesters"}, //remove from output json if empty or null or None
           "credits": None, //remove from output json if empty or null or None
           "tuition_notes": [],   //this tells about the tution fees that a national and international student has to pay to attend the program but make absolutely sure that there is an excerpt in the markdown for the aforementioned program that clearly states this fee amount for this program and also mention the text of that excerpt for every note mentioned here . do not approximate this and do not include any info unless backed by some excerpt//remove from output json if empty or null or None
-          "minimum_requirements_to_get_admitted_to_program_notes": []  //this tells the criterion for a new applicant to join the course such as for a bachelors applicant the admission criterion might be some kind of scores in College/High school or/and some entry tests or some other tests //remove from output json if empty or null or None
-          "minimum_requirements_to_pass_this_program_notes":[], //this is different from the admission criterion as it tells information about the requirements to pass the program for a student who is already enrolled such as credits to complete and min cgpa required and stuff like that, the other was for an applicant not an enrolled student //remove from output json if empty or null or None
+          "admission_requirement_for_new_student": []  //this tells the criterion for a new applicant to join the course such as for a bachelors applicant the admission criterion might be some kind of scores in College/High school or/and some entry tests or some other tests //remove from output json if empty or null or None
+          "passing_requirement_for_enrolled_student":[], //this is different from the admission criterion as it tells information about the requirements to pass the program for a student who is already enrolled such as credits to complete and min cgpa required and stuff like that, the other was for an applicant not an enrolled student //remove from output json if empty or null or None
           "curriculum_notes": [], //this only lists the courses taught in this program and nothing else //remove from output json if empty or null or None
           "careers_info_notes": [] //this tells about the future career opportunities that open after attending this program //remove from output json if empty or null or None
         }
@@ -125,9 +120,6 @@ EXPLANATION OF SELECTED FIELDS (how to fill them) — campus-aware:
 - campuses[].is_main: set true for the primary/main campus. If the chunk is the university homepage or clearly primary, mark is_main true.
 - campuses[].location: fill address/city/country when available. coordinates only if explicit.
 
-- campuses[].contacts: put campus-specific admissions/international/office contacts here. If the chunk lists a general university admissions email without campus specificity,
-  put it at the top-level `admissions.application_portal` and in the `campuses` entries that appear most relevant (prefer main campus).
-
 - admissions (top-level): use for application portal URLs and cross-campus deadlines or global rules that apply to all campuses.
 
 - sources: append a minimal provenance object for anything you fill. Include a short quoted snippet (<= 200 chars) extracted from MARKDOWN_CHUNK and an extraction_timestamp (YYYY-MM-DD).
@@ -140,7 +132,7 @@ U keep making the following mistakes, so i am listing them here so u don't repea
 1) u keep on adding the fields even though they have no value and are empty strings or empty lists or in general None
 2) u keep confusing admission criterion with passing criterion, how can the admission criterion of a bachelors program be min 2.0 cgpa that is a passing criterion not an admission criterion. admission criterion of a bachelors program would be something like : scoring more than 60 percent in FSc (in pakistan's example. this fact is just an example so don't use this fact)
 3) only provide the source excerpt for the tuition fees and no other field.
-4) provide the response within 6500 tokens or around 1500 words so that it can fit inside the output size and won't curtail
+4) provide the response within around 1500 words so that it can fit inside the output size and won't curtail
 
 If a value is ambiguous or inferred, prefer leaving it None and explain inference in `notes`.
 """)

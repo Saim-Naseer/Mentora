@@ -1,12 +1,27 @@
 ```json
 {
-  "university": {
-    "name": "FAST National University",
-    "short_description": "Premier University of Pakistan, renowned for quality and impact of its students in the development of local software and other industries",
-    "established_year": 2000,
-    "type": "Public",
-    "ranking": []
+  "university": {},
+  "campuses": [],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "",
+    "updated_fields": [],
+    "per_field_confidence": {}
   },
+  "overall_confidence": 0.0,
+  "notes": []
+}
+```
+
+```json
+{
+  "university": {},
   "campuses": [
     {
       "name": "Lahore Campus",
@@ -17,791 +32,803 @@
         "region": "",
         "country": "Pakistan"
       },
-      "contacts": {
-        "admissions": {
-          "name": "Admissions Office",
-          "email": "admissions@nu.edu.pk",
-          "phone": "111-128-128",
-          "office_hours": "Monday-Friday: 8:00 AM - 5:00 PM"
-        },
-        "international_office": {
-          "email": "international@nu.edu.pk",
-          "phone": "+92-51-111-128-128"
-        },
-        "general": {
-          "phone": "+92-51-111-128-128",
-          "fax": "",
-          "mailing_address": "FAST-House, Rohtas Road, G-9/4, Islamabad - 44000, Pakistan"
-        },
-        "social": {
-          "facebook": "",
-          "twitter": "",
-          "instagram": "",
-          "linkedin": "",
-          "youtube": ""
-        }
-      },
+      "contacts_notes": [],
       "programs": [
         {
           "name": "Bachelor of Business Administration",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 135,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: General management, human resource management, finance, marketing, project management, supply chain management, business analytics, operations management"
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
           ]
         },
         {
           "name": "Bachelor of Science (Accounting and Finance)",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 138,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Accounting, finance, financial management, financial analysis"
+            "Graduates can choose from careers in accounting, finance, and related fields."
           ]
         },
         {
           "name": "Bachelor of Science (Artificial Intelligence)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer"
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
           ]
         },
         {
           "name": "Bachelor of Science (Business Analytics)",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 135,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Business analytics consultant, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst"
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
           ]
         },
         {
           "name": "Bachelor of Science (Computer Engineering)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 140,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
-          "carers_info_notes": [
-            "Career Opportunities: Telecom industry, electronics, power sector, embedded system design, software programming"
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
           ]
         },
         {
           "name": "Bachelor of Science (Computer Science)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Computer programmer, software engineer, software developer, web game and mobile app developer, software quality engineer, graphics designer"
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
           ]
         },
         {
           "name": "Bachelor of Science (Civil Engineering)",
-          "department": "School of Civil Engineering",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 140,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Construction industry, relevant business, management, finance sectors"
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
           ]
         },
         {
           "name": "Bachelor of Science (Cyber Security)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester"
+            "Graduates can become cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
           ]
         },
         {
           "name": "Bachelor of Science (Data Science)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer"
+            "Graduates can become data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business analyst, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer."
           ]
         },
         {
           "name": "Bachelor of Science (Electrical Engineering)",
-          "department": "School of Electrical Engineering",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 140,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Telecom industry, electronics, power sector, embedded system design, software programming"
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
           ]
         },
         {
           "name": "Bachelor of Science (Financial Technology)",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 138,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Blockchain specialist, financial data analyst, digital payments expert, robo-advisory associate, cryptocurrency manager, RegTech analyst, AI-driven financial strategist"
+            "Graduates can become blockchain specialist, financial data analyst, digital payments expert, robo-advisory associate, fintech consultant, cryptocurrency manager, RegTech analyst, AI-driven financial strategist."
           ]
         },
         {
           "name": "Bachelor of Science (Software Engineering)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer"
-          ]
-        },
-        {
-          "name": "Master of Business Administration",
-          "department": "School of Management",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 60,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: General management, marketing, human resource, finance, data analytics, supply chain management"
-          ]
-        },
-        {
-          "name": "Master of Science (Artificial Intelligence)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: AI expert, researcher"
-          ]
-        },
-        {
-          "name": "Master of Science (Business Analytics)",
-          "department": "School of Management",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 43,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Business analytics consultant, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst"
-          ]
-        },
-        {
-          "name": "Master of Science (Computer Science)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Computer scientist, software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer"
-          ]
-        },
-        {
-          "name": "Master of Science (Civil Engineering)",
-          "department": "School of Civil Engineering",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Structural engineer, hydraulics engineer, geotechnical engineer, transportation engineer, construction manager"
-          ]
-        },
-        {
-          "name": "Master of Science (Cyber Security)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester"
-          ]
-        },
-        {
-          "name": "Master of Science (Data Science)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer"
-          ]
-        },
-        {
-          "name": "Master of Science (Electrical Engineering)",
-          "department": "School of Electrical Engineering",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Telecom industry, electronics, power sector, embedded system design, software programming"
-          ]
-        },
-        {
-          "name": "Master of Science (Applied Linguistics)",
-          "department": "School of Linguistics",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: English teacher, language instructor, language researcher"
-          ]
-        },
-        {
-          "name": "Master of Science (Mathematics)",
-          "department": "School of Mathematics",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 31,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Mathematician, researcher, educator"
-          ]
-        },
-        {
-          "name": "Master of Science (Software Engineering)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Software designer, innovator, software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer"
-          ]
-        },
-        {
-          "name": "Master of Science (Software Project Management)",
-          "department": "School of Computer Science",
-          "duration": {"value": 2, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.50",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Project manager, software project manager, software quality engineer"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Computer Science)",
-          "department": "School of Computer Science",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 18,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Researcher, professor, software developer"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Civil Engineering)",
-          "department": "School of Civil Engineering",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 18,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Researcher, professor, civil engineer"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Electrical Engineering)",
-          "department": "School of Electrical Engineering",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 18,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Researcher, professor, electrical engineer"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (English Linguistics)",
-          "department": "School of Linguistics",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Linguist, researcher, professor"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Mathematics)",
-          "department": "School of Mathematics",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 31,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Mathematician, researcher, professor"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Management Sciences)",
-          "department": "School of Management",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 30,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Researcher, professor, management consultant"
-          ]
-        },
-        {
-          "name": "Doctor of Philosophy (Software Engineering)",
-          "department": "School of Computer Science",
-          "duration": {"value": 4, "units": "years"},
-          "credits": 18,
-          "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
-          ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 3.00",
-            "Entrance Test: GMAT or GRE"
-          ],
-          "minimum_requirements_to_pass_this_program_notes": [],
-          "curriculum_notes": [],
-          "careers_info_notes": [
-            "Career Opportunities: Researcher, professor, software developer"
+            "Graduates can become software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer."
           ]
         }
-      ],
-      "facilities_notes": []
-    },
+      ]
+    }
+  ],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "2025-12-12",
+    "updated_fields": ["campuses"],
+    "per_field_confidence": {
+      "campuses": 0.9
+    }
+  },
+  "overall_confidence": 0.9
+}
+``` ```json
+{
+  "university": {},
+  "campuses": [
     {
-      "name": "Karachi Campus",
+      "name": "Lahore Campus",
       "is_main": false,
       "location": {
         "address": "Rohtas Road, G-9/4",
-        "city": "Karachi",
+        "city": "Islamabad",
         "region": "",
         "country": "Pakistan"
       },
-      "contacts": {
-        "admissions": {
-          "name": "Admissions Office",
-          "email": "admissions@nu.edu.pk",
-          "phone": "111-128-128",
-          "office_hours": "Monday-Friday: 8:00 AM - 5:00 PM"
-        },
-        "international_office": {
-          "email": "international@nu.edu.pk",
-          "phone": "+92-51-111-128-128"
-        },
-        "general": {
-          "phone": "+92-51-111-128-128",
-          "fax": "",
-          "mailing_address": "FAST-House, Rohtas Road, G-9/4, Karachi - 44000, Pakistan"
-        },
-        "social": {
-          "facebook": "",
-          "twitter": "",
-          "instagram": "",
-          "linkedin": "",
-          "youtube": ""
-        }
-      },
+      "contacts_notes": [],
       "programs": [
         {
           "name": "Bachelor of Business Administration",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 135,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: General management, human resource management, finance, marketing, project management, supply chain management, business analytics, operations management"
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
           ]
         },
         {
           "name": "Bachelor of Science (Accounting and Finance)",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 138,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Accounting, finance, financial management, financial analysis"
+            "Graduates can choose from careers in accounting, finance, and related fields."
           ]
         },
         {
           "name": "Bachelor of Science (Artificial Intelligence)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer"
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
           ]
         },
         {
           "name": "Bachelor of Science (Business Analytics)",
-          "department": "School of Management",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 135,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Business analytics consultant, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst"
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
           ]
         },
         {
           "name": "Bachelor of Science (Computer Engineering)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 140,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Telecom industry, electronics, power sector, embedded system design, software programming"
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
           ]
         },
         {
           "name": "Bachelor of Science (Computer Science)",
-          "department": "School of Computer Science",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 137,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Computer programmer, software engineer, software developer, web game and mobile app developer, software quality engineer, graphics designer"
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
           ]
         },
         {
           "name": "Bachelor of Science (Civil Engineering)",
-          "department": "School of Civil Engineering",
+          "department": "FSM",
           "duration": {"value": 4, "units": "years"},
-          "credits": 140,
+          "credits": null,
           "tuition_notes": [
-            "Tuition: PKR 450,000 per year for Pakistani students",
-            "Tuition: PKR 600,000 per year for international students"
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
           ],
-          "minimum_requirements_to_get_admitted_to_program_notes": [
-            "Minimum CGPA: 2.00",
-            "Entrance Test: GMAT or GRE"
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
           ],
-          "minimum_requirements_to_pass_this_program_notes": [],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
           "curriculum_notes": [],
           "careers_info_notes": [
-            "Career Opportunities: Construction industry, relevant business, management, finance sectors"
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
           ]
         },
         {
           "name": "Bachelor of Science (Cyber Security)",
-          "department": "School of Computer Science",
-          "duration": {"value":
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business analyst, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Electrical Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Financial Technology)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become blockchain specialist, financial data analyst, digital payments expert, robo-advisory associate, fintech consultant, cryptocurrency manager, RegTech analyst, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Software Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer."
+          ]
+        }
+      ]
+    }
+  ],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "2025-12-12",
+    "updated_fields": ["campuses"],
+    "per_field_confidence": {
+      "campuses": 0.9
+    }
+  },
+  "overall_confidence": 0.9
+}
+``` ```json
+{
+  "university": {},
+  "campuses": [
+    {
+      "name": "Lahore Campus",
+      "is_main": false,
+      "location": {
+        "address": "Rohtas Road, G-9/4",
+        "city": "Islamabad",
+        "region": "",
+        "country": "Pakistan"
+      },
+      "contacts_notes": [],
+      "programs": [
+        {
+          "name": "Bachelor of Business Administration",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Accounting and Finance)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from careers in accounting, finance, and related fields."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Artificial Intelligence)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Business Analytics)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Civil Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Cyber Security)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.
