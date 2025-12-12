@@ -1,0 +1,12 @@
+{
+  "name": "FAST National University",
+  "aliases": [],
+  "website": "",
+  "short_description": "Renowned for quality and impact of its students in the development of local software and other industries",
+  "established_year": null,
+  "type": "",
+  "logo": "",
+  "brochures": [],
+  "ranking": [],
+  "accreditation": []
+}

@@ -7,6 +7,8 @@ You are a structured extractor whose job is to update an existing JSON record ab
 information from a single MARKDOWN_CHUNK. The LLM MUST return a single valid JSON object (the updated
 record) and nothing else (no markdown, no commentary, no apologies).
 
+But make sure to complete the response within 6500 tokens since any amount of tokens above that are curtailed and chopped off. This is extremely important. 
+
 This prompt has been extended to correctly model multi-campus universities. Each campus may have its own
 programs, admissions rules, fees, contacts, and facilities. The canonical output will include a `campuses`
 array where each campus contains its own `programs` array.
@@ -23,11 +25,10 @@ Merging & campus assignment rules (apply strictly):
    extracted program/fee/contact details to that campus object inside `campuses`. If such a campus does not yet exist in
    PREVIOUS_JSON, create it with `name` equal to the extracted campus name and set `location`/`contacts` if available.
 2. If the chunk clearly refers to "main" or the university homepage without specifying a campus, attach new data to the
-   `campuses` entry whose `is_main` flag is true (create `is_main: true` for the primary campus). If no campus is marked
-   `is_main` yet, create a campus named "Main Campus" and mark it `is_main: true`.
+   `campuses` entry whose `is_main` flag is true (create `is_main: true` for the primary campus). 
 3. If the chunk mentions multiple campus names and lists campus-specific items, create or update the relevant campus entries
    and attach only the corresponding programs/fees/contacts to each.
-4. If no campus can be determined from the chunk, prefer updating the primary campus (Main Campus) and note uncertainty in `notes`.
+4. If no campus can be determined from the chunk note uncertainty in `notes`.
 5. Follow the previous merging / conflict rules: never delete existing data; append or preserve previous values when conflicts occur.
 
 Normalization rules (apply when possible):
@@ -49,100 +50,71 @@ IMPORTANT: the model must produce VALID JSON only. No additional text is allowed
 # Canonical JSON template the LLM should output. Keep field names stable.
 # Note: top-level `campuses` array is the primary place to store campus-specific programs/fees/contacts.
 JSON_TEMPLATE = textwrap.dedent("""
+Remove any string , int , list,dict or any other field that is completely empty from the output json and do not include it there. (please don't do that)
 {
   "university": {
-    "name": "",
-    "aliases": [],
-    "website": "",
-    "short_description": "",
-    "established_year": None,
-    "type": "",
-    "logo": "",
-    "brochures": [],
-    "ranking": [],
-    "accreditation": []
+    "name": "", //remove from output json if empty or null or None
+    "short_description": "", //remove from output json if empty or null or None
+    "established_year": None, //remove from output json if empty or null or None
+    "type": "", //remove from output json if empty or null or None
+    "ranking": []   //remove from output json if empty or null or None
   },
 
   "campuses": [
     {
-      "campus_id": "",                /* optional unique id you may create */
-      "name": "",
-      "is_main": False,
-      "location": {
-        "address": "",
-        "city": "",
-        "region": "",
-        "postal_code": "",
-        "country": "",
-        "coordinates": {"lat": None, "lon": None}
+      "name": "", //remove from output json if empty or null or None
+      "is_main": False, //remove from output json if empty or null or None
+      "location": { 
+        "address": "", //remove from output json if empty or null or None
+        "city": "",  //remove from output json if empty or null or None
+        "region": "", //remove from output json if empty or null or None
+        "country": "" //remove from output json if empty or null or None
       },
       "contacts": {
-        "admissions": {"name": "", "email": "", "phone": "", "office_hours": ""},
-        "international_office": {"email": "", "phone": ""},
-        "general": {"phone": "", "fax": "", "mailing_address": ""},
-        "social": {"facebook": "", "twitter": "", "instagram": "", "linkedin": "", "youtube": ""}
+        "admissions": {"name": "", "email": "", "phone": "", "office_hours": ""}, //remove from output json if empty or null or None
+        "international_office": {"email": "", "phone": ""}, //remove from output json if empty or null or None
+        "general": {"phone": "", "fax": "", "mailing_address": ""}, //remove from output json if empty or null or None
+        "social": {"facebook": "", "twitter": "", "instagram": "", "linkedin": "", "youtube": ""} //remove from output json if empty or null or None
       },
 
       "programs": [
         {
-          "program_id": "",
-          "name": "",
-          "degree": "",
-          "level": "",
-          "department": "",
-          "duration": {"value": None, "units": "months|years|semesters"},
-          "study_mode": ["full-time"],
-          "start_terms": [],
-          "credits": None,
-          "tuition": [
-            {"amount": None, "currency": "", "period": "year|semester|credit", "applicability": "domestic|intl|all", "notes": "", "source": "", "confidence": None}
-          ],
-          "fees_breakdown": [],
-          "entry_requirements": {
-            "min_qualification": "",
-            "min_gpa": None,
-            "grades_required": "",
-            "standardized_tests": [],
-            "work_experience_required": False,
-            "documents_required": [],
-            "english_requirements": {}
-          },
-          "application_deadlines": [],
-          "application_url": "",
-          "curriculum": {},
-          "careers_info": {},
-          "notes_raw": []
+          "name": "", //remove from output json if empty or null or None 
+          "department": "", //write full name if available //remove from output json if empty or null or None
+          "duration": {"value": None, "units": "months|years|semesters"}, //remove from output json if empty or null or None
+          "credits": None, //remove from output json if empty or null or None
+          "tuition_notes": [],   //this tells about the tution fees that a national and international student has to pay to attend the program but make absolutely sure that there is an excerpt in the markdown for the aforementioned program that clearly states this fee amount for this program and also mention the text of that excerpt for every note mentioned here . do not approximate this and do not include any info unless backed by some excerpt//remove from output json if empty or null or None
+          "minimum_requirements_to_get_admitted_to_program_notes": []  //this tells the criterion for a new applicant to join the course such as for a bachelors applicant the admission criterion might be some kind of scores in College/High school or/and some entry tests or some other tests //remove from output json if empty or null or None
+          "minimum_requirements_to_pass_this_program_notes":[], //this is different from the admission criterion as it tells information about the requirements to pass the program for a student who is already enrolled such as credits to complete and min cgpa required and stuff like that, the other was for an applicant not an enrolled student //remove from output json if empty or null or None
+          "curriculum_notes": [], //this only lists the courses taught in this program and nothing else //remove from output json if empty or null or None
+          "careers_info_notes": [] //this tells about the future career opportunities that open after attending this program //remove from output json if empty or null or None
         }
       ],
 
-      "facilities": {
-        "housing": {},
-        "libraries": [],
-        "labs": [],
-        "sports": []
-      }
+      "facilities_notes": [] //this tells about the various facilities that the university offers like libraries and stuff //remove from output json if empty or null or None
     }
   ],
 
-  "admissions": {"application_portal": "", "general_deadlines": [], "application_steps": [], "deposit_amount": {"amount": None, "currency": "", "deadline": ""}, "refund_policy": ""},
+  "General Admission Steps": [], //this explains the general admission steps to guide a new applicant //remove from output json if empty or null or None
 
-  "fees_and_funding": {"typical_tuition_domestic": {"amount": None, "currency": ""}, "typical_tuition_international": {"amount": None, "currency": ""}, "mandatory_fees": [], "scholarships": [], "assistantships": [], "living_costs_monthly": {"amount": None, "currency": "", "notes": ""}},
+  "General Admission Notes": [], //this mentions any information that might have been left off //remove from output json if empty or null or None
 
-  "research_and_faculty": {"centers": [], "notable_faculty": [], "research_partnerships": []},
+  "Scholarship_notes": [], //remove from output json if empty or null or None
 
-  "student_life": {"clubs": [], "sports": [], "health_services": {}, "disability_support": ""},
+  "research_and_faculty_notes": [], //this tells about the various researches done by the university //remove from output json if empty or null or None
 
-  "statistics": {"acceptance_rate": None, "enrollment_total": None, "international_percentage": None, "faculty_to_student_ratio": ""},
+  "student_life": {"clubs": [], "sports": [], "health_services": {}, "disability_support": ""}, //remove from output json if empty or null or None
 
-  "policies": {"deferral_policy": "", "transfer_credits_policy": "", "grading_scale": ""},
+  "statistics": {"acceptance_rate": None, "enrollment_total": None, "international_percentage": None, "faculty_to_student_ratio": None}, //remove from output json if empty or null or None
 
-  "sources": [],
+  "policies": {"deferral_policy": "", "transfer_credits_policy": "", "grading_scale": ""}, //remove from output json if empty or null or None
 
   "extraction": {"last_updated": "", "updated_fields": [], "per_field_confidence": {}},
 
   "overall_confidence": 0.0,
-  "notes": []
+  "notes": [] //remove from output json if empty or null or None
 }
+
 """)
 
 # Human-readable explanation of how to fill key attributes (kept short and actionable for the model)
@@ -156,10 +128,6 @@ EXPLANATION OF SELECTED FIELDS (how to fill them) — campus-aware:
 - campuses[].contacts: put campus-specific admissions/international/office contacts here. If the chunk lists a general university admissions email without campus specificity,
   put it at the top-level `admissions.application_portal` and in the `campuses` entries that appear most relevant (prefer main campus).
 
-- campuses[].programs: each program object should include program-level tuition, deadlines, and entry_requirements. This allows different campuses to have different fees/requirements.
-  - tuition entries: {"amount": number, "currency": "XXX", "period": "year|semester|credit", "applicability": "domestic|intl|all", "notes":"", "source":"", "confidence": number}
-  - entry_requirements.standardized_tests: normalized names with min_score where present.
-
 - admissions (top-level): use for application portal URLs and cross-campus deadlines or global rules that apply to all campuses.
 
 - sources: append a minimal provenance object for anything you fill. Include a short quoted snippet (<= 200 chars) extracted from MARKDOWN_CHUNK and an extraction_timestamp (YYYY-MM-DD).
@@ -167,6 +135,12 @@ EXPLANATION OF SELECTED FIELDS (how to fill them) — campus-aware:
 - extraction.per_field_confidence: map JSON pointer strings (e.g., "campuses[0].programs[0].tuition[0]") to the confidence you assign.
 
 - overall_confidence: average of values in extraction.per_field_confidence (set to 0.0 if none).
+
+U keep making the following mistakes, so i am listing them here so u don't repeat them:
+1) u keep on adding the fields even though they have no value and are empty strings or empty lists or in general None
+2) u keep confusing admission criterion with passing criterion, how can the admission criterion of a bachelors program be min 2.0 cgpa that is a passing criterion not an admission criterion. admission criterion of a bachelors program would be something like : scoring more than 60 percent in FSc (in pakistan's example. this fact is just an example so don't use this fact)
+3) only provide the source excerpt for the tuition fees and no other field.
+4) provide the response within 6500 tokens or around 1500 words so that it can fit inside the output size and won't curtail
 
 If a value is ambiguous or inferred, prefer leaving it None and explain inference in `notes`.
 """)
@@ -198,24 +172,45 @@ def build_prompt(previous_json, markdown_chunk):
 
     prompt_parts = [
         PROMPT_HEADER,
+        "**Extremely Extremely Important **: make sure to answer within 7000 tokens because majority of your responses are being curtailed"
+        "**IMPORTANT**: correct information extraction is 100 times more important that filling fields with hallucinated data",
+        "**IMPORTANT**: You must respond with ONLY the final answer (json object).  No chain of thought. No explanations. No examples. No reasoning. No nothing except the json object",
+        """
+        **Extremely Important**:
+        When solving tasks, provide only the final answer. 
+            Do not explain your reasoning. 
+            Do not provide examples or context. 
+            Do not analyze the question.
+            Return only the output requested, nothing more.""",
         "JSON_SCHEMA (the exact JSON object you MUST return, use the same keys):",
+        "**EXTREMELY IMPORTANT NOTICE**: the prev json might not have all the fields since it only has the fields it has the info of. so tahts why u are provided with the template, so u can fill in and add any new fields if you find info about them, or update any old field in the previous provided json",
         JSON_TEMPLATE,
+        "**IMPORTANT**: the most important information is program information and the course information. especially the admission criterion and fee structure. Make extremely sure to fill as many as possible and give the most attention to filling these. if you are not certain and don't have a markdown chunk excerpt to backup your fact, don't include it. these are the most crucial information of this whole extraction process",
         "EXPLANATION (how to fill attributes):",
         ATTR_EXPLANATION,
         "PREVIOUS_JSON (this is the current extracted record — update/merge it):",
         prev_json_str,
         "MARKDOWN_CHUNK (extract from this text and update the JSON above):",
+        "**IMPORTANT**: i want u to read the markdown chunk that i would provide to u piece by piece and keep filling all the fields. u should not fill in any field until unless you have identified a piece of the meta data chunk that explicitly mentions the fact that you are including into the json object otherwise keep it empty or the previous value that it had",
         markdown_chunk,
         "INSTRUCTIONS (required):",
         textwrap.dedent(f"""
+- **DO NOT i repeat DO NOT** provide notes such as u can find amdission details on this site or those details on that site. 
+- It is **EXTREMELY IMPORTANT** for you to only include the fields in the output json, for which u have a value for. if you do not have the value of any one of the fields, u should not include that field in the output json. due to lack of output tokens, we have to only include the fields which provide valuable info and not the ones that are empty.
 - Identify whether the MARKDOWN_CHUNK refers to a specific campus. If a campus name is present, add or update that campus entry inside `campuses` and attach campus-level programs/fees/contacts there.
 - If the chunk is global (no campus reference), update the primary campus (`is_main: true`) or top-level `admissions` if the info is clearly global.
 - For each field you change or fill, include a `confidence` (0.0-1.0) near the field where schema supports it and add an entry to `extraction.per_field_confidence`.
-- Append minimal provenance items to `sources`. Each provenance object should be: {{"snippet":"...", "extraction_timestamp":"{today}"}}. Keep the snippet <= 200 chars.
 - Set `extraction.last_updated` to "{today}".
 - Update `extraction.updated_fields` to list the top-level keys you changed in this call (e.g., ["campuses","admissions"]).
 - Compute `overall_confidence` as the average of the per-field confidences you set (or 0.0 if none).
 - IMPORTANT: RETURN ONLY THE FULL UPDATED JSON OBJECT. No comments, no code fences, no extra text.
+- **Extremely Important**: at the end you have to reread the entire  chunk provided to you and make sure that no information is missed. u should follow the following checklist:
+    -have u extracted all the university regarding information?
+    -have u extracted information regarding each campus of the university, and the programs they offer?
+    -does each program entry has the requirements mentioned for the new admission and the general credtits and fees of that program?
+    -is everything related the admission process mentioned?
+    -also review the markdown chunk 3 times to make sure that u extracted everything from every angle that u could.
+- It is also **extremely important** for u to make sure that majority or all of the previous json is information is passed through to the next json and doesn't just vanish
 """)
     ]
 
