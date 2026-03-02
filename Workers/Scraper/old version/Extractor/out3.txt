@@ -1,0 +1,834 @@
+```json
+{
+  "university": {},
+  "campuses": [],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "",
+    "updated_fields": [],
+    "per_field_confidence": {}
+  },
+  "overall_confidence": 0.0,
+  "notes": []
+}
+```
+
+```json
+{
+  "university": {},
+  "campuses": [
+    {
+      "name": "Lahore Campus",
+      "is_main": false,
+      "location": {
+        "address": "Rohtas Road, G-9/4",
+        "city": "Islamabad",
+        "region": "",
+        "country": "Pakistan"
+      },
+      "contacts_notes": [],
+      "programs": [
+        {
+          "name": "Bachelor of Business Administration",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Accounting and Finance)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from careers in accounting, finance, and related fields."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Artificial Intelligence)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Business Analytics)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Civil Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Cyber Security)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business analyst, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Electrical Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Financial Technology)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become blockchain specialist, financial data analyst, digital payments expert, robo-advisory associate, fintech consultant, cryptocurrency manager, RegTech analyst, AI-driven financial strategist."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Software Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer."
+          ]
+        }
+      ]
+    }
+  ],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "2025-12-12",
+    "updated_fields": ["campuses"],
+    "per_field_confidence": {
+      "campuses": 0.9
+    }
+  },
+  "overall_confidence": 0.9
+}
+``` ```json
+{
+  "university": {},
+  "campuses": [
+    {
+      "name": "Lahore Campus",
+      "is_main": false,
+      "location": {
+        "address": "Rohtas Road, G-9/4",
+        "city": "Islamabad",
+        "region": "",
+        "country": "Pakistan"
+      },
+      "contacts_notes": [],
+      "programs": [
+        {
+          "name": "Bachelor of Business Administration",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Accounting and Finance)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from careers in accounting, finance, and related fields."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Artificial Intelligence)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Business Analytics)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Civil Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Cyber Security)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become cyber security specialist, analyst, consultant, IT auditor, information security manager/administrator, information assurance engineer, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Data Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become data scientist, business analyst, big data analyst, social networks analyst, data engineering, decision scientist, data quality assurance expert, business analyst, business intelligence analyst, data consultant, database developer, software engineer, machine learning engineer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Electrical Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Financial Technology)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become blockchain specialist, financial data analyst, digital payments expert, robo-advisory associate, fintech consultant, cryptocurrency manager, RegTech analyst, IT security consultant, digital forensics analyst, penetration and vulnerability tester."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Software Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become software quality assurance engineer, systems programmer, embedded software engineer, software architect, chief technology officer, chief information officer, user interface designer, information system manager, computer graphic designer."
+          ]
+        }
+      ]
+    }
+  ],
+  "General Admission Steps": [],
+  "General Admission Notes": [],
+  "Scholarship_notes": [],
+  "research_and_faculty_notes": [],
+  "student_life": {},
+  "statistics": {},
+  "policies": {},
+  "extraction": {
+    "last_updated": "2025-12-12",
+    "updated_fields": ["campuses"],
+    "per_field_confidence": {
+      "campuses": 0.9
+    }
+  },
+  "overall_confidence": 0.9
+}
+``` ```json
+{
+  "university": {},
+  "campuses": [
+    {
+      "name": "Lahore Campus",
+      "is_main": false,
+      "location": {
+        "address": "Rohtas Road, G-9/4",
+        "city": "Islamabad",
+        "region": "",
+        "country": "Pakistan"
+      },
+      "contacts_notes": [],
+      "programs": [
+        {
+          "name": "Bachelor of Business Administration",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from general management, human resource management, finance, marketing, project management, supply chain management, business analytics, and operations management."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Accounting and Finance)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 138 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can choose from careers in accounting, finance, and related fields."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Artificial Intelligence)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become risk manager, reporting analyst, project manager, enterprise analyst, data engineer, machine learning engineer, AI developer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Business Analytics)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totalling at least 135 credit hours",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can become business analyst, operations analyst, people analyst, financial analyst, market/consumer analyst, business intelligence analyst, analytics consultant, product/strategy analyst."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 140 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can pursue careers in telecom industry, electronics, power sector, embedded system design, and software programming."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Computer Science)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can adopt careers as computer programmer, software engineer, software developer, web/game/mobile app developer, software quality engineer, graphics designer."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Civil Engineering)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Earn at least 140 credits",
+            "Obtain a CGPA of at least 2.00"
+          ],
+          "curriculum_notes": [],
+          "careers_info_notes": [
+            "Graduates can work in construction industry, relevant business, management, and finance sectors."
+          ]
+        },
+        {
+          "name": "Bachelor of Science (Cyber Security)",
+          "department": "FSM",
+          "duration": {"value": 4, "units": "years"},
+          "credits": null,
+          "tuition_notes": [
+            "Tuition: PKR 450,000 per year",
+            "Tuition: PKR 450,000 per year"
+          ],
+          "admission_requirement_for_new_student": [
+            "Minimum 60% aggregate in FSc",
+            "Minimum IELTS score of 6.5",
+            "Minimum CGPA of 2.00"
+          ],
+          "passing_requirement_for_enrolled_student": [
+            "Pass courses totaling at least 137 credit hours",
+            "Earn CGPA of at least 2.
