@@ -1,1 +1,3 @@
-Workers/Scraper/venv/
+venv/
+.env
+cleaned_pages/
