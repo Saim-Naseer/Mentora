@@ -1,0 +1,14 @@
+Content-Length: 244968
+Date: Fri, 27 Mar 2026 07:41:22 GMT
+Content-Type: application/pdf
+Server: cloudflare
+Last-Modified: Fri, 11 Aug 2023 06:08:33 GMT
+Etag: "3bce8-6029f8adc1a40"
+Accept-Ranges: bytes
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=o2NVpDIelQGG8VgnFx%2BXMLV3xpRMyxl3dmAIVII8BzcPaNXXxODDt%2FB1j%2FjMoNAFYixr4laGN8Z3L5c8lCm9Fe5dh2VrChMQXVxvSjuFHQyMr0DXs61mSsJsM0AiFOfERWbTuQzZjg%3D%3D"}]}
+Cache-Control: max-age=1800
+Cf-Cache-Status: MISS
+Server-Timing: cfCacheStatus;desc="MISS"
+Server-Timing: cfEdge;dur=13,cfOrigin;dur=201
+Cf-Ray: 9e2cc0933963ff8f-SIN

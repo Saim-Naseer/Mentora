@@ -1,0 +1,8 @@
+Server: nginx/1.24.0 (Ubuntu)
+Date: Sun, 19 Apr 2026 12:36:28 GMT
+Content-Type: text/html; charset=utf-8
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding
+Link: </_next/static/media/636a5ac981f94f8b-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+X-Powered-By: Next.js
+Content-Encoding: gzip

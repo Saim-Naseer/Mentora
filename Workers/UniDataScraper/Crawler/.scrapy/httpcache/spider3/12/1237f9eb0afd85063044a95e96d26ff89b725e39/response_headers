@@ -1,0 +1,18 @@
+Content-Length: 38551
+Date: Fri, 27 Mar 2026 07:41:22 GMT
+Content-Type: application/pdf
+Last-Modified: Thu, 19 Feb 2026 05:57:13 GMT
+Accept-Ranges: bytes
+Etag: "25ed39764a1dc1:0"
+Server: cloudflare
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Age: 5844
+Cache-Control: max-age=14400
+Cf-Cache-Status: HIT
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="HIT"
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZNyZad7wwbktYQRADN4hGxy1AGqSO6VGHxsdMUW5QfKaKAsmEXCoLg3Dg9udju7iVr070rjgaHsfp1aHYVK99A7fVyRmb0iJA0zEkWWU5URMzQ2Ek8uK1tlC8MeRPGXj74PbGQ%3D%3D"}]}
+Cf-Ray: 9e2cc095e90dfe14-SIN
+Alt-Svc: h3=":443"; ma=86400

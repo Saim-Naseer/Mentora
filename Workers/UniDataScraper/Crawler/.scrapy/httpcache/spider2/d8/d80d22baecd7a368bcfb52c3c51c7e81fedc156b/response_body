@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Financial Assistance | IBA Karachi</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="https://ibaapps.iba.edu.pk/financialassistance/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="https://ibaapps.iba.edu.pk/financialassistance/assets/fonts/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://ibaapps.iba.edu.pk/financialassistance/assets/lte3/plugins/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://ibaapps.iba.edu.pk/financialassistance/assets/frontend/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://ibaapps.iba.edu.pk/financialassistance/assets/frontend/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://ibaapps.iba.edu.pk/financialassistance/assets/frontend/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="https://ibaapps.iba.edu.pk/financialassistance/assets/frontend/css/main.css">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://ibaapps.iba.edu.pk/financialassistance/validation/css/validationEngine.jquery.css" type="text/css"/>
+	<link rel="stylesheet" href="https://ibaapps.iba.edu.pk/financialassistance/validation/css/template.css" type="text/css"/>
+	<script src="https://ibaapps.iba.edu.pk/financialassistance/validation/js/jquery-1.8.2.min.js" type="text/javascript">
+	</script>
+	<script src="https://ibaapps.iba.edu.pk/financialassistance/validation/js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8">
+	</script>
+	<script src="https://ibaapps.iba.edu.pk/financialassistance/validation/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8">
+	</script>
+    
+	<script>
+		jQuery(document).ready(function(){
+			// binds form submission and fields to the validation engine
+			jQuery("#login_form").validationEngine();
+		});
+	</script>
+     
+     
+     
+	<style type="text/css">
+		.nav-item {
+			/*background-color: inherit;*/
+	    float: left;
+	    border: none;
+	    outline: none;
+	    cursor: pointer;
+	    padding: 10px 10px;
+	    margin-right: 11px;
+	    transition: 0.3s;
+	    font-size: 17px;
+	    background-color: #ffffff;
+	    width: 200px;
+	    color: inherit;
+	    text-decoration: none;
+		}
+		.nav-item:hover{
+			background-color: #2196f3;
+	    color: #fff;
+		}
+		.nav-item.active{
+			background-color: #2196f3 !important;
+	    	color: #fff !important;
+	    	border: none  !important;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="header">
+	    <div class="logo">
+	      <a href="https://ibaapps.iba.edu.pk/financialassistance/"><img src="https://ibaapps.iba.edu.pk/financialassistance/assets/frontend/images/logo.png" alt=""></a>
+	    </div>
+	    <div class="top-text">
+	      <h2><span data-toggle="tooltip" data-placement="top" title="">Financial Assistance</span> 
+		  </h2>
+	    </div>
+	</div>
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="heading" style="padding:5px;">
+			<h2 data-toggle="tooltip" data-placement="top" title="Login" id="loginTitle">Login with Online Admission Credentials</h2>
+			<!-- <h2 data-toggle="tooltip" data-placement="top" title="Login" id="loginTitle">Login With Wifi Credentials</h2> -->
+			</div>
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
+		        			  	<form class="login100-form validate-form" id="login_form" method="post" action="https://ibaapps.iba.edu.pk/financialassistance/home/checklogin">
+					<label for="country" class="test">Login as</label>
+					<div class="wrap-input100 validate-input" data-validate="Valid email is required">
+						<select name="login_type"  class="input100 form-control validate[required]" id="login_as">
+			            <option value="">Select Login Type</option>
+			            			        	 <option  value="0">Fresh Student</option>
+			        	 <!-- <option value="2">NTHP Orientation students of Batch 2026</option> -->
+			      		<option value="1">Existing Student</option>
+		              </select>
+					</div>
+                    <label for="country" class="test" id="labelTitle">ERP ID </label>
+					<div class="wrap-input100 validate-input" data-validate="Valid email is required">
+						<input class="input100 form-control " type="text" name="user_name" placeholder="User Name" id="user_name">
+						<span id="description"></span>
+					</div>
+					<label for="country" class="test">Password </label>
+					<div class="wrap-input100 rs1 validate-input" data-validate="Password is required">
+						<input class="input100 form-control validate[required]" type="password" name="password" placeholder="Password">
+					</div>
+   					<div class="container-login100-form-btn m-t-20">
+                        <input class="submit login100-form-btn" type="submit" value="Login"/>
+					</div>
+
+					<p style="padding-top:50px;color:black">
+						<hr>Note: 
+						<br>
+						<b>1. Fresh Students</b>: 
+							<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&diams;
+							Please Enter CNIC No. with dashes (-)
+							<br> 
+							&nbsp;&nbsp;&nbsp;&nbsp;&diams;
+							Login with your <a href="https://onlineadmission.iba.edu.pk/" target="_blank">online admission</a> credentials. 
+							<br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&diams;
+							If you forgot your password kindly reset your password <a href="https://onlineadmission.iba.edu.pk/admissions/otp" target="_blank">here</a>. 
+						<br><hr>
+						<!-- <b>2. Existing Students</b>: If you forgot your password please email <b>ERP_Helpdesk@iba.edu.pk</b> to reset your credentials.  -->
+						<b>2. Existing Students</b>: 
+							<br> &nbsp;&nbsp;&nbsp;&nbsp;&diams; <span class="text-danger">Please use Wi-fi credentials</span>
+							<br> &nbsp;&nbsp;&nbsp;&nbsp;&diams; If you forgot your password please email <b>mkahmed@iba.edu.pk | anaqvi@iba.edu.pk</b> to reset your credentials. 
+						<br><hr>
+						<b>3.</b> If you are facing any difficulty regarding form submission, drop an email at <b>aasoomro@iba.edu.pk </b>for technical assistance.
+						<!-- <b>2. Existing Students</b>: If you forgot your password please email <b>ERP_Helpdesk@iba.edu.pk</b> to reset your credentials.  -->
+												<b>3.</b> If you are facing any difficulty regarding form submission, drop an email at <b><br>financial-aid@iba.edu.pk </b>for assistance.
+					</p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+  <div class="logo"> </div>
+  <div class="foot-text">
+      <p>Designed by: <a href="http://www.iba.edu.pk/ict.php" target="_blank">ICT-IS Department</a></p>
+  </div>
+</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#loginTitle').html('Login With Online Admission Credentials');
+					$('#labelTitle').html('CNIC/Passport');
+					$('#description').html('<small style="color:red">Please Enter CNIC#. with dashes (-)</small>');
+					$('#user_name').removeClass('validate[required,custom[integer],maxSize[5]]');
+					$('#user_name').addClass('validate[required]');
+					$("#user_name").attr("placeholder", "XXXXX-XXXXXXX-X")
+			$(document).on('change','#login_as',function(){
+				var login_as = $(this).val();
+				if(login_as == "1"){
+					$('#loginTitle').html('Login With Wifi Credentials');
+					$('#labelTitle').html('ERP ID');
+					$('#description').html('');
+					$('#user_name').removeClass('validate[required]');
+					$('#user_name').addClass('validate[required,custom[integer],maxSize[5]]');
+					$("#user_name").attr("placeholder", "xxxxx")
+				} else if(login_as == "0"){
+					$('#loginTitle').html('Login With Online Admission Credentials');
+					$('#labelTitle').html('CNIC/Passport');
+					$('#description').html('<small style="color:red">Please Enter CNIC#. with dashes (-)</small>');
+					$('#user_name').removeClass('validate[required,custom[integer],maxSize[5]]');
+					$('#user_name').addClass('validate[required]');
+					$("#user_name").attr("placeholder", "XXXXX-XXXXXXX-X")
+				}  else if(login_as == "2"){
+					$('#loginTitle').html('Login With CNIC and Password sent on your Email');
+					$('#labelTitle').html('CNIC');
+					$('#description').html('<small style="color:red">Please Enter CNIC# without dashes (-)</small>');
+					$('#user_name').removeClass('validate[required,custom[integer],maxSize[5]]');
+					$('#user_name').addClass('validate[required,custom[integer],maxSize[13]]');
+					$("#user_name").attr("placeholder", "XXXXXXXXXXXXX")
+				}
+			});
+		});
+	</script>

@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--begin::Head-->
+
+<head>
+    <title>Online Admission System - IBA</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Registration" />
+    <link rel="shortcut icon" href="assets/media/logos/Institute_of_Business_Administration,_Karachi_(logo).png" />
+    <!--begin::Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
+    <!--end::Fonts-->
+    <!--begin::Global Stylesheets Bundle(used by all pages)-->
+    <link href="/assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+    <!--end::Global Stylesheets Bundle-->
+</head>
+<style>
+    /* Full screen background with gradient overlay */
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.3)),
+            url('/media/bg/bg.jpg') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* 🚀 upar se niche layout */
+    }
+
+
+
+    .logo {
+        font-size: 3.5rem;
+        font-weight: bold;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .online-admission {
+        /* -webkit-text-stroke: 2px #fff; */
+        color: white !important;
+        white-space: nowrap;
+        /* 🚀 line break disable */
+        margin-top: 20px;
+        margin-left: 20px;
+        /* thoda gap */
+
+    }
+
+    .footer {
+        margin: 0 !important;
+        padding: 20px 0;
+        width: 100% !important;
+    }
+
+    .glass-container {
+        width: 40%;
+    }
+
+
+
+   
+
+    @media (min-width: 340px) and (max-width: 540px) {
+
+        .glass-container{
+            width: 100% !important;
+            margin-bottom: 20px;
+        }
+        .p-10{
+            padding: 0 !important;
+        }
+
+        .ibalogo {
+            width: 200px !important;
+            height: 100px !important;
+            margin-top: 20px;
+
+        }
+
+        .online-admission {
+            font-size: 2.9rem !important;
+        }
+
+        .footer h3 {
+            font-size: 1.3rem !important;
+            /* chhota heading */
+        }
+
+        .footer p {
+            font-size: 0.9rem !important;
+            /* chhota text */
+            text-align: center !important;
+            /* mobile par center align */
+            word-break: break-word;
+            /* agar text lamba ho to wrap */
+        }
+         .form-label{
+            font-size: 0.9rem !important;
+        }
+        .glass-input{
+            font-size: 0.9rem !important;
+        }
+        .form-select{
+            font-size: 0.9rem !important;
+        }
+        .btn{
+            font-size: 0.9rem !important;
+        }
+        .glass-link{
+            font-size: 0.9rem !important;
+        }
+        .glass-divider-text{
+            font-size: 0.9rem !important;
+        }
+
+    }
+
+    @media (max-width: 576px) {
+
+        .ibalogo {
+            width: 200px !important;
+            height: 100px !important;
+        }
+
+        .online-admission {
+            font-size: 3.5rem;
+        }
+
+        .footer h3 {
+            font-size: 1.3rem !important;
+            /* chhota heading */
+        }
+
+        .footer p {
+            font-size: 0.9rem !important;
+            /* chhota text */
+            text-align: center !important;
+            /* mobile par center align */
+            word-break: break-word;
+            /* agar text lamba ho to wrap */
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .ibalogo {
+            width: 150px !important;
+            height: 80px !important;
+        }
+
+        .glass-container {
+            width: 50% !important;
+        }
+
+        .online-admission {
+            margin-top: 15px !important;
+            margin-left: 20px;
+            /* thoda gap */
+            font-size: 2.3rem;
+            /* responsive size */
+        }
+
+        .footer h3 {
+            font-size: 1.1rem !important;
+            /* chhota heading */
+        }
+
+        .footer p {
+            font-size: 0.8rem !important;
+            /* chhota text */
+            text-align: center !important;
+            /* mobile par center align */
+            word-break: break-word;
+            /* agar text lamba ho to wrap */
+        }
+
+    }
+
+    @media (min-width: 1025px) and (max-width: 1366px) {
+
+        .ibalogo {
+            margin-top: 40px;
+            width: 150px !important;
+            height: 70px !important;
+        }
+
+        .glass-container {
+            width: 45% !important;
+        }
+
+        .online-admission {
+            font-size: 2.7rem !important;
+            margin-top: 60px !important;
+        }
+
+
+        .footer h3 {
+            font-size: 1.1rem !important;
+            /* chhota heading */
+        }
+
+        .glass-select {
+            font-size: 0.8rem;
+        }
+         .form-label{
+            font-size: 0.8rem !important;
+        }
+
+        .glass-input {
+            font-size: 0.8rem;
+        }
+
+        .glass-link {
+            font-size: 0.8rem !important;
+        }
+        .glass-divider-text{
+            font-size: 0.8 !important;
+        }
+
+        .btn {
+            font-size: 1rem !important;
+        }
+
+        .login-secondary-heading {
+            font-size: 1.2rem !important;
+        }
+
+        .login-heading {
+            font-size: 1.8rem !important;
+        }
+
+        .footer p {
+            font-size: 0.8rem !important;
+            /* chhota text */
+        }
+
+         .btn i{
+            font-size: 1rem !important;
+        }
+       
+       
+      
+
+
+    }
+
+    @media (min-width: 1367px) and (max-width: 1900px) {
+        .ibalogo {
+            width: 150px !important;
+            height: 80px !important;
+        }
+
+        .online-admission {
+            margin-top: 50px !important;
+            margin-left: 20px;
+            /* thoda gap */
+            font-size: 3.2rem;
+            /* responsive size */
+        }
+
+        .glass-container {
+            width: 40% !important;
+        }
+
+        .footer h3 {
+            font-size: 1.3rem !important;
+            /* chhota heading */
+        }
+
+        .footer p {
+            font-size: 1rem !important;
+            /* chhota text */
+
+        }
+
+         .btn i{
+            font-size: 1.3rem !important;
+        }
+        
+
+
+    }
+
+    @media (min-width: 1901px) and (max-width: 2500px) {
+        .glass-container {
+            width: 40% !important;
+        }
+
+        .ibalogo {
+            width: 250px !important;
+            height: 120px !important;
+        }
+
+        .online-admission {
+            margin-top: 30px !important;
+            margin-left: 20px !important;
+            /* thoda gap */
+            font-size: 4.5rem !important;
+            /* responsive size */
+        }
+
+        .login-heading {
+            font-size: 3.5rem !important;
+        }
+
+        .login-secondary-heading {
+            font-size: 2rem !important;
+        }
+
+        .glass-select {
+            font-size: 1.5rem !important;
+        }
+
+        .glass-input {
+            font-size: 1.5rem !important;
+        }
+
+        .btn {
+            font-size: 1.5rem !important;
+        }
+
+        .form-label {
+            font-size: 1.5rem !important;
+        }
+
+        .glass-link {
+            font-size: 1.5rem !important;
+
+        }
+
+        .glass-divider-text {
+            font-size: 1.5rem !important;
+        }
+
+        .footer h3 {
+            font-size: 2rem !important;
+        }
+
+        .footer p {
+            font-size: 1.3rem !important;
+            /* chhota text */
+
+        }
+         .btn i{
+            font-size: 1.5rem !important;
+        }
+
+    }
+
+    @media (min-width: 2501px) and (max-width: 3000px) {
+        .glass-container {
+            width: 35% !important;
+        }
+
+        .ibalogo {
+            width: 350px !important;
+            height: 150px !important;
+        }
+
+        .online-admission {
+            margin-top: 30px !important;
+            margin-left: 20px !important;
+            /* thoda gap */
+            font-size: 5rem !important;
+            /* responsive size */
+        }
+
+        .login-heading {
+            font-size: 4rem !important;
+        }
+
+        .login-secondary-heading {
+            font-size: 3rem !important;
+        }
+
+        .glass-select {
+            font-size: 1.7rem !important;
+        }
+
+        .glass-input {
+            font-size: 1.7rem !important;
+        }
+
+        .btn {
+            font-size: 1.8rem !important;
+        }
+
+        .form-label {
+            font-size: 1.7rem !important;
+        }
+
+        .glass-link {
+            font-size: 1.7rem !important;
+
+        }
+
+        .glass-divider-text {
+            font-size: 1.7rem !important;
+        }
+
+        .footer h3 {
+            font-size: 3rem !important;
+        }
+
+        .footer p {
+            font-size: 1.6rem !important;
+            /* chhota text */
+
+        }
+         .btn i{
+            font-size: 1.7rem !important;
+        }
+        .error-message {
+        font-size: 1.7rem !important;
+        }
+
+
+    }
+
+    @media (min-width: 3001px) and (max-width: 3500px){
+        .ibalogo{
+            width: 300px !important;
+            height: 150px !important;
+        }
+        .online-admission{
+            font-size: 5rem !important;
+        }
+        .glass-container{
+            width: 33% !important;
+        }
+        .login-heading{
+            font-size: 4rem !important;
+        }
+        .login-secondary-heading{
+            font-size: 3rem !important;
+        }
+        .form-label{
+            font-size: 2rem !important;
+        }
+        .glass-input{
+            font-size: 2rem !important;
+        }
+        .form-select{
+            font-size: 2rem !important;
+        }
+        .btn{
+            font-size: 2rem !important;
+        }
+        .glass-link{
+            font-size: 2rem !important;
+        }
+        .glass-divider-text{
+            font-size: 2rem !important;
+        }
+        .footer h3 {
+            font-size: 3rem !important;
+        }
+
+        .footer p {
+            font-size: 2rem !important;
+        }
+
+         .btn i{
+            font-size: 2rem !important;
+        }
+
+         .error-message {
+        font-size: 2rem !important;
+        }
+
+    }
+
+    @media (min-width: 3501px) and (max-width: 4000px){
+        .ibalogo{
+            width: 400px !important;
+            height: 180px !important;
+        }
+        .online-admission{
+            font-size:6rem !important;
+        }
+        .glass-container{
+            width: 30% !important;
+        }
+        .login-heading{
+            font-size: 4.5rem !important;
+        }
+        .login-secondary-heading{
+            font-size: 3.5rem !important;
+        }
+        .form-label{
+            font-size: 2.5rem !important;
+        }
+        .glass-input{
+            font-size: 2.5rem !important;
+        }
+        .form-select{
+            font-size: 2.5rem !important;
+          
+        }
+        .btn{
+            font-size: 2.5rem !important;
+        }
+        .glass-link{
+            font-size: 2.5rem !important;
+        }
+        .glass-divider-text{
+            font-size: 2.5rem !important;
+        }
+        .footer h3 {
+            font-size: 3.5rem !important;
+        }
+
+        .footer p {
+            font-size: 2.8rem !important;
+        }
+
+         .btn i{
+            font-size: 2.5rem !important;
+        }
+         .error-message {
+        font-size: 2.5rem !important;
+        }
+
+    }
+
+     @media (min-width: 4000px){
+        .ibalogo{
+            width: 550px !important;
+            height: 250px !important;
+        }
+        .online-admission{
+            font-size:8rem !important;
+        }
+        .glass-container{
+            margin-top: 50px !important;
+            width: 30% !important;
+            border-radius: 40px !important;
+            padding: 50px !important;
+        }
+        .login-heading{
+            font-size: 5.5rem !important;
+        }
+        .login-secondary-heading{
+            font-size: 4.5rem !important;
+        }
+        .form-label{
+            font-size: 3rem !important;
+        }
+        .glass-input{
+            font-size: 3rem !important;
+            border-radius: 20px !important;
+
+        }
+        .form-select{
+            font-size: 3rem !important;
+            border-radius: 20px !important;
+
+        }
+        .btn{
+            font-size: 3rem !important;
+            border-radius: 20px !important;
+
+        }
+        .glass-link{
+            font-size: 3rem !important;
+        }
+        .glass-divider-text{
+            font-size: 3rem !important;
+            margin-bottom: 30px;
+        }
+        .footer h3 {
+            font-size: 4.5rem !important;
+        }
+
+        .footer p {
+            font-size: 3.5rem !important;
+        }
+        .btn i{
+            font-size: 3.5rem !important;
+        }
+
+         .error-message {
+        font-size: 3rem !important;
+        }
+
+    }
+</style>
+
+<!--end::Head-->
+<!--begin::Body-->
+
+<body id="kt_body">
+    <!--begin::Main-->
+    <!--begin::Root-->
+    <div class="d-flex flex-column flex-root">
+        <!--begin::Authentication - Sign-up -->
+        <div
+            class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed">
+            <!--begin::Content-->
+            <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
+                <!--begin::Logo-->
+                <div class="row pb-5 text-center text-lg-start align-items-center">
+                    <div class="col-lg-4 col-12 mb-3 mb-lg-0">
+                        <a href="/login">
+                            <img alt="Logo" src="/assets/media/logos/iba_new_logo.png" class="ibalogo img-fluid" width="210" height="90" />
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <a href="/login" class="mb-12 logo online-admission d-inline-block text-nowrap ">
+                            Online Admission
+                        </a>
+                    </div>
+                </div>
+
+                <!--end::Logo-->
+                <!--begin::Wrapper-->
+
+                
+<style>
+
+    /* Glassmorphism container */
+    .glass-container {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 2.5rem;
+        width: 100%;
+        color: white;
+    }
+
+    /* Glassmorphism form elements */
+    .glass-input {
+        background: white;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        color: gray;
+        padding: 12px 15px;
+        transition: all 0.3s ease;
+    }
+
+    .glass-input:focus {
+        background:white;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+        color: gray;
+    }
+
+    .glass-input::placeholder {
+        color: gray;
+    }
+
+    .glass-select {
+        background:white;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        color: gray;
+        padding: 12px 15px;
+    }
+
+    .glass-select option {
+        background:white;
+        color: gray;
+    }
+
+    .glass-button {
+    background-color: #660034;
+    border: 1px solid #660034;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+    animation: pulse 4s infinite alternate ease-in-out; /* hamesha slow pulse */
+}
+
+    .glass-button:hover {
+        color: white;
+        background-color:  rgba(121, 22, 73, 0.8);
+        transform: translateY(-3px) scale(1.02); /* halki si upar aur zoom */
+        box-shadow: 0 0 20px rgba(78, 0, 40, 0.8);
+    }
+
+    @keyframes  pulse {
+        0% {
+            box-shadow: 0 0 5px rgba(78, 0, 40, 0.3);
+        }
+        100% {
+            box-shadow: 0 0 15px rgba(78, 0, 40, 0.7);
+        }
+    }
+
+
+    .glass-link {
+        color: #660034;
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+
+    .glass-link:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    /* Header styling */
+    .glass-header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Divider styling */
+    .glass-divider {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        position: relative;
+        margin: 1.5rem 0;
+    }
+
+    .glass-divider-text {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 0 10px;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.9rem;
+    }
+
+    /* Error message styling */
+    .error-message {
+        background: rgba(220, 53, 69, 0.3);
+        border: 1px solid rgba(220, 53, 69, 0.5);
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 0.9rem;
+    }
+
+     @media (min-width: 370px) and (max-width: 540px) {
+
+        .glass-container {
+            width: 90% !important;
+        }
+
+       }
+
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+        .glass-container {
+            width: 90% !important;
+        }
+
+    }
+
+
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+
+ /* Glassmorphism container */
+    .glass-container {
+        width: 80%;
+    }
+
+
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js"></script>
+<script>
+    $(":input").inputmask();
+    $(document).ready(function() {
+        var options = $('#cnic_pass').val();
+        if (options == "CNIC") {
+            $('#cnic').removeClass("d-none");
+            $('#passport').addClass("d-none");
+        } else {
+            $('#cnic').addClass("d-none");
+            $('#passport').removeClass("d-none");
+        }
+        $('#cnic_pass').change(function(event) {
+            options = $('#cnic_pass').val();
+            if (options == "CNIC") {
+                $('#cnic').removeClass("d-none");
+                $('#passport').addClass("d-none");
+            } else {
+                $('#cnic').addClass("d-none");
+                $('#passport').removeClass("d-none");
+            }
+        });
+    });
+</script>
+
+<div class="glass-container">
+    <form action="https://onlineadmission.iba.edu.pk/post-login" method="POST">
+        <input type="hidden" name="_token" value="dkXOv7JcfRkd75ketnzz3Nh2R2oICgkDtLCCSu9i">        <div class="glass-header text-center mb-4">
+            <h1 class="mb-0 text-white login-heading " style="font-size: 2rem  ;">Login</h1>
+            <p class="mb-0 mt-2 login-secondary-heading" style="font-size: 1.5rem ;">Access your account</p>
+        </div>
+
+        <div class="fv-row mb-4">
+            <select class="form-select glass-select w-100" id="cnic_pass" name="select_cnic_pass">
+                <option value="CNIC">CNIC</option>
+                <option value="Passport">Passport</option>
+            </select>
+            <input type="text" class="form-control glass-input mt-3" id="passport" name="passport" maxlength="11">
+            <input type="text" class="form-control glass-input mt-3" data-inputmask="'mask': '99999-9999999-9'" placeholder="XXXXX-XXXXXXX-X" id="cnic" name="cnic">
+            <!--end::Input-->
+        </div>
+
+        <div class="mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-2">
+                <label class="form-label mb-0 text-white">Password</label>
+                <a href="/admissions/otp" class="glass-link text-white">Forgot Password?</a>
+            </div>
+            <input class="form-control glass-input" type="password" name="password" autocomplete="off" placeholder="Enter your password">
+
+                    </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn glass-button w-100 mb-4">
+                <i class="fas fa-sign-in-alt me-2"></i>Login
+            </button>
+
+            
+
+            <a href="/admissions/register" class="btn glass-button w-100 ">
+                <i class="fas fa-user-plus me-2"></i>New Candidate Registration
+            </a>
+        </div>
+    </form>
+</div>
+            </div>
+            <!--end::Content-->
+            <!--begin::Footer-->
+            <!--end::Footer-->
+        </div>
+        <!--end::Authentication - Sign-up-->
+    </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    <!-- Footer -->
+    <div class="w-100 bg-primary text-white py-4 footer"
+        style="backdrop-filter: blur(8px); background-color: rgba(0,0,0,0.6);">
+        <div class="container-fluid">
+            <h3 class="text-center fs-1 mb-0 text-white">Admissions Department</h3>
+            <p class="text-center fs-3 mb-0 text-white">IBA, Karachi</p>
+            <p class="text-center fs-5 mb-0 text-white">
+                For admissions queries please contact us at 92-21-38104701 Ext: 2324/2376,
+                Email: admission@iba.edu.pk
+            </p>
+            <p class="fs-5 mb-0 text-purple text-end">
+                Version 1.10.007
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--end::Links-->
+    </div>
+
+    <!--end::Root-->
+    <!--end::Main-->
+    <!--begin::Javascript-->
+    <script>
+        var hostUrl = "assets/";
+    </script>
+    <!--begin::Global Javascript Bundle(used by all pages)-->
+    <script src="/assets/plugins/global/plugins.bundle.js"></script>
+    <script src="/assets/js/scripts.bundle.js"></script>
+    <!--end::Global Javascript Bundle-->
+    <!--begin::Page Custom Javascript(used by this page)-->
+    <script src="/assets/js/custom/authentication/sign-up/general.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <!--end::Page Custom Javascript-->
+    <!--end::Javascript-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139852632-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-139852632-1');
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GQQVV45BKX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-GQQVV45BKX');
+    </script>
+
+</body>
+<!--end::Body-->
+
+</html>

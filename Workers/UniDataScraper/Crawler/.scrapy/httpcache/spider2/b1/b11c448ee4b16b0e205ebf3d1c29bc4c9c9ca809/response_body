@@ -1,0 +1,3442 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Virtual University of Pakistan - Study Scheme
+</title><meta name="description" content=" The Virtual University, Pakistan’s first University based completely on modern Information and Communication Technologies was established by the Government as a public sector. The Virtual University of Pakistan holds a Federal Charter, making its degrees recognized and accepted all over the country as well as overseas. There are highly qualified Faculties in the University having Different Departments which are Science, Accounting &amp; Finance, B.Ed., Banking &amp; Finance Business Administration, Commerce, Computer Science, Information Technology, Management Marketing, Mass Communication, Psychology, Public Administration, Software Engineering." /><meta name="keywords" content="VU, Virtual University of Pakistan, Virtual University, Education, Campus, Private Campus, Virtual Campus, Admissions, Admissions Spring 2014, Admission Foreign National, Admission Schedule, Apply Online, Science, Accounting &amp; Finance, B.Ed., Banking &amp; Finance Business Administration, Commerce, Computer Science, Information Technology, Management Marketing, Mass Communication, Psychology, Public Administration, Software Engineering, Lahore Campus, Islamabad Campus" /><meta name="robots" content="index, follow" /><meta name="revisit-after" content="7 Days" /><link rel="shortcut icon" type="image/x-icon" href="../img/logo.png" /><meta name="copyright" content="Virtual university of Pakistan" />
+
+    <script language="javascript" type="text/javascript">
+
+        function ShowHidePreReqLis(object) {
+            //alert(object.src);
+            //alert(object.title);
+
+
+
+            // alert(object.src)
+
+            //alert(object.src.length)
+            //alert(object.src.substring(object.src.lastIndexOf('/')+1, object.src.length))
+
+            //alert(object.src.lastIndexOf('/')) 
+
+            var status = object.src.substring(object.src.lastIndexOf('/') + 1, object.src.length);
+            var panelObj = document.getElementById("PreReqPanel");
+            var panelContainerObj = document.getElementById("PreReqPanelContainer");
+
+
+
+            //alert(panelObj.id)
+
+            //panelObj.style.visibility = "visible";
+
+
+            if (status == 'show.jpg') {
+                object.src = '../images/hide.jpg';
+                object.title = 'Click here to hide Pre-Requisite Courses List';
+                panelContainerObj.style.visibility = "visible";
+                panelContainerObj.style.display = "table-row";
+
+
+            }
+            else if (status == 'hide.jpg') {
+                object.src = '../images/show.jpg';
+                object.title = 'Click here to show Pre-Requisite Courses List';
+                panelContainerObj.style.visibility = "hidden";
+                panelContainerObj.style.display = "none";
+
+            }
+
+        }
+
+    </script>
+
+<link href="../App_Themes/Default/bootstrap.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Final.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/font-awesome.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/fonts.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Main.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/material-design-iconic-font.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Menu.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/plugins.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/responsive.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Style.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/style-mainmenu.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./StudyScheme?sp=Economics" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIwNTI5MTQ1MDkPZBYCAgMPZBYEZg9kFgQCAQ9kFgICAg9kFgYCAg8WAh4LXyFJdGVtQ291bnQCAxYGZg9kFgYCAQ8PFgIeBFRleHQFDVVuZGVyZ3JhZHVhdGVkZAICDxUBDVVuZGVyZ3JhZHVhdGVkAgMPFgIfAAIEFghmD2QWAmYPFQIKQlMtTGF0ZXJhbApCUy1MYXRlcmFsZAIBD2QWAmYPFQICQlMCQlNkAgIPZBYCZg8VAgRCLkVkBEIuRWRkAgMPZBYCZg8VAhlBc3NvY2lhdGUgRGVncmVlIFByb2dyYW1zGUFzc29jaWF0ZSBEZWdyZWUgUHJvZ3JhbXNkAgEPZBYGAgEPDxYCHwEFCEdyYWR1YXRlZGQCAg8VAQhHcmFkdWF0ZWQCAw8WAh8AAgEWAmYPZBYCZg8VAgJNUwJNU2QCAg9kFgYCAQ8PFgIfAQUGT3RoZXJzZGQCAg8VARdEaXBsb21hcyAvIFNob3J0IENvdXJzZWQCAw8WAh8AAgQWCGYPZBYCZg8VAgdEaXBsb21hB0RpcGxvbWFkAgEPZBYCZg8VAg1TaG9ydCBDb3Vyc2VzDVNob3J0IENvdXJzZXNkAgIPZBYCZg8VAhpTcGVjaWFsaXphdGlvbiBDZXJ0aWZpY2F0ZRpTcGVjaWFsaXphdGlvbiBDZXJ0aWZpY2F0ZWQCAw9kFgJmDxUCDVplcm8gU2VtZXN0ZXINWmVybyBTZW1lc3RlcmQCAw8WAh8AAgwWGGYPZBYGAgEPDxYCHwEFAzEwMWRkAgIPFQQAPiBocmVmPSdodHRwczovL3d3dy52dS5lZHUucGsvcGFnZXMvaGFyYXNzbWVudFByb3RlY3Rpb24uYXNweCcgBF9uZXceUHJvdGVjdGlvbiBhZ2FpbnN0IEhhcnJhc3NtZW50ZAIDDxYCHgdWaXNpYmxlaBYCAgEPFgIfAGZkAgEPZBYGAgEPDxYCHwEFAjk4ZGQCAg8VBABBIGhyZWY9J2h0dHBzOi8vd3d3LnZ1LmVkdS5way9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD0zMTQzJyAEX25ldyRDaXRpemVuIFBvcnRhbC9WVSBDb21wbGFpbnQgSGFuZGxpbmdkAgMPFgIfAmgWAgIBDxYCHwBmZAICD2QWBgIBDw8WAh8BBQMxMDJkZAICDxUEAC8gaHJlZj0naHR0cHM6Ly93d3cudnUuZWR1LnBrL0Fib3V0VXMvUlRJLmFzcHgnIARfbmV3HlJpZ2h0IG9mIEFjY2VzcyB0byBJbmZvcm1hdGlvbmQCAw8WAh8CaBYCAgEPFgIfAGZkAgMPZBYGAgEPDxYCHwEFAjcyZGQCAg8VBAAjIGhyZWY9J2h0dHA6Ly9zb2NpZXRpZXMudnUuZWR1LnBrJyAEX25ldxJWVSBTb2NpZXRpZXMvQ2x1YnNkAgMPFgIfAmgWAgIBDxYCHwBmZAIED2QWBgIBDw8WAh8BBQMxMDBkZAICDxUEACAgaHJlZj0naHR0cHM6Ly9vcmljLnZ1LmVkdS5way8nIARfbmV3BE9SSUNkAgMPFgIfAmgWAgIBDxYCHwBmZAIFD2QWBgIBDw8WAh8BBQI4MGRkAgIPFQQAJCBocmVmPSdodHRwOi8vd3d3LnZ1LmVkdS5way92ZXJpZnknIARfTmV3HkRlZ3JlZS9UcmFuc2NyaXB0IFZlcmlmaWNhdGlvbmQCAw8WAh8CaBYCAgEPFgIfAGZkAgYPZBYGAgEPDxYCHwEFAjg1ZGQCAg8VBAAkIGhyZWY9JwlodHRwczovL3d3dy5kaWdpc2tpbGxzLnBrLycgBF9uZXcKRGlnaVNraWxsc2QCAw8WAh8CaBYCAgEPFgIfAGZkAgcPZBYGAgEPDxYCHwEFAjg2ZGQCAg8VBAAhIGhyZWY9J2h0dHA6Ly92c3BhY2UudnUuZWR1LnBrLycgBF9uZXcJVlNwYWNlQFZVZAIDDxYCHwJoFgICAQ8WAh8AZmQCCA9kFgYCAQ8PFgIfAQUCNjdkZAICDxUEAB4gaHJlZj0naHR0cDovL3FlYy52dS5lZHUucGsvJyAEX3FlYwNRRUNkAgMPFgIfAmgWAgIBDxYCHwBmZAIJD2QWBgIBDw8WAh8BBQI5MWRkAgIPFQQANyBocmVmPSdodHRwOi8vd3d3LnZ1LmVkdS5way9QaG90b0dhbGxlcnkvRGVmYXVsdC5hc3B4JyAFX3NlbGYNUGhvdG8gR2FsbGVyeWQCAw8WAh8CaBYCAgEPFgIfAGZkAgoPZBYGAgEPDxYCHwEFAjk3ZGQCAg8VBAAfIGhyZWY9J2h0dHA6Ly9zc2JjLnZ1LmVkdS5way8nIARfbmV3IFN0dWRlbnQgU3RhcnQtVXAgQnVzaW5lc3MgQ2VudGVyZAIDDxYCHwJoFgICAQ8WAh8AZmQCCw9kFgYCAQ8PFgIfAQUCMjNkZAICDxUEACEgaHJlZj0naHR0cDovL2FsdW1uaS52dS5lZHUucGsvJyAJX3Z1QWx1bW5pBkFsdW1uaWQCAw8WAh8CaBYCAgEPFgIfAGZkAgQPFgIfAGZkAgMPZBYCAgEPDxYCHwEFDFN0dWR5IFNjaGVtZWRkAgMPZBYCAgEPDxYCHwEFDFN0dWR5IFNjaGVtZWRkZHBwMOpsb3Q28t4PP6fXFJBMCXCmVj9CFDwkSzsihdso" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="70B7FE49" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAK0dYLxsxMr3ybDFevfYriL2U73miCL6qX0s5jtjlKXIOaxc+K1mZF9DvJg/2pFtXjrzu0agVzhql4YlSzRyFYJ" />
+         
+<link rel="shortcut icon" type="image/x-icon" href="/img/logo.png" />
+
+ 
+    
+     
+<link id="HeaderMenuMSG_HeaderMenuMSG_cssStyle" rel="stylesheet" type="text/css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+    .search.open {
+        padding-right:0%;
+        max-width:30%;
+    }
+</style> 
+<script>
+    (function () {
+        var cx = '002967652935449813969:c0oouwidqv8';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+
+    var selectedColor;
+
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link href="/switcher/color-switcher.css" rel="stylesheet" />
+
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Green/color.css" title="Green" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/SeaGreen/color.css" title="SeaGreen" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Brown/color.css" title="Brown" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Pink/color.css" title="Pink" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/BrightYellow/color.css" title="BrightYellow" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Purple/color.css" title="Purple" media="screen" />
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Red/color.css" title="Red" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/orange/color.css" title="orange" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Blue/color.css" title="Blue" media="screen" />
+
+
+
+<!-- Color Switcher -->
+
+
+
+
+<!-- Color Switcher end -->
+
+<div class="progress-container fixed-top">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+</div>
+
+
+<div class="as-mainwrapper">
+    <!--Body Area Starts-->
+    <div class="bg-white">
+
+        <header id="headermain">
+            <div id="HeaderMenuMSG_HeaderMenuMSG_DivTop" class="header-top header-logo-menu sticker">
+
+                <div class="row">
+                    <div class="col-4 mr-lg-0 mr-md-0 mr-sm-6 mr-xs-6">
+                        <a href="/">
+                            <img class="mt-3 logo-ad  img-fluid" src="/img/logo.png" alt="VU" id="VULogoSmall"></a>
+
+
+                        <div id="smallVUText" class="fg-title-vu d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+                            Virtual University of Pakistan
+                        </div>
+
+                    </div>
+                    <div class="col-3 d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+
+                        <span class="fg-title">Federal Government University</span>
+                    </div>
+                    <div class="col-5 " style="    display: flex;    flex-direction: row;    align- items: center;">
+                        <div class="header-top-right" style="margin-top:27px;">
+
+                            <div class="content d-inline-block">
+                                <a href="https://vulms.vu.edu.pk/" target="_blank">LMS
+                                </a>
+                            </div>
+                            <div class="content d-inline-block">
+                                <a href="https://ocw.vu.edu.pk/" target="_blank">OCW
+                                </a>
+                            </div>
+                           
+                            <div class="content d-inline-block"><a href="/services.aspx">Contact Us</a></div>
+
+                            <meta name="google-translate-customization" content="bc046075478efb7e-a15ff2a2d6a3d585-g1afdba391878be79-f"></meta>
+
+                            <div class="google-translate ml-5 d-lg-block d-sm-none d-xs-none" id="google_translate_element">
+                            </div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({ pageLanguage: '', includedLanguages: 'en,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-451XXXXX-1' }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+                        </div>
+                    </div>
+                </div>
+              
+                        <!--menu-->
+                  <div class="Menucon">
+                    <nav id='cssmenu'>
+                        <div id="head-mobile">
+                            <div class="mainContainer">
+                                    
+                            
+                                <div class="mr-5">
+
+                                <div id="HeaderMenuMSG_HeaderMenuMSG_divSearchIconMobileView" class="divSearchIconMobileView">
+                                    <img src="../images/SearchIconMobileView.png" style="float:right;">
+                                </div>
+
+                                    <div id="HeaderMenuMSG_HeaderMenuMSG_divSearchBarMobileView" class="divSearchBarMobileView">
+                                    <div class="search_box">
+                                        <gcse:searchbox-only resultsurl="/search.aspx" "></gcse:searchbox-only>
+                                    </div>
+                                </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div class="menubutton"></div>
+                          <ul id="menuUl" class="internalMenuDisplay justify-content-center">
+                            <li class="menuli" id="About">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/aboutus.png">
+                                </div>
+                                <a id="divAbout" href='javascript:void(0);' class="menuMainHeading">About Us
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">About VU<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/AboutVU.aspx">Introduction</a></li>
+                                            <li><a href="/AboutUs/visionAndmission.aspx">Vision and Mission</a></li>
+                                            <li><a href="/AboutUs/Education.aspx">Mode of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">VU at a Glance<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Milestones.aspx">Milestones</a></li>
+                                            <li><a href="/AboutUs/MOUsCollaboration.aspx">MOU's and Collaboration</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">University Administration<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/organization.aspx">Organizational Structure</a></li>
+                                            <li><a href="/AboutUs/BOG.aspx">Board of Governors</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Offices & Staff<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Directorates.aspx">Staff Directory</a></li>
+                                            <li><a href="/AboutUs/Faculty.aspx">Faculty Members</a></li>
+                                            <li><a href="/AboutUs/AdjunctFaculty.aspx">Adjunct Faculty Memebers</a></li>
+                                            <li><a href="/AboutUs/RTI.aspx">Right of Access to Information</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Admissions">
+                                <div class="menuIcons ">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/admission.png">
+                                </div>
+                                <a id="divAdmission" href='javascript:void(0);' class="menuMainHeading ">Admissions</a>
+                               <ul class="settopmargin">
+                                    
+                                    
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Undergraduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS-Lateral">BS-Lateral</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS">BS</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=B.Ed">B.Ed</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Associate Degree Programs">Associate Degree Programs</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Graduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=MS">MS</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Diplomas / Short Course<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Diploma">Diploma</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Short Courses">Short Courses</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Specialization Certificate">Specialization Certificate</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Zero Semester">Zero Semester</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                    
+
+                                   <li><a href="/prospectus/default.aspx">Prospectus</a></li>
+                                   <li><a href="/Admissions/AdmissionProcedure.aspx">Admission Schedule</a></li>
+                                   <li><a href="/FeeStructure.aspx">Fee Structure</a></li>
+
+                                   <li><a href='javascript:void(0);' class="subMenuHeading">Procedure & Guidelines<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                       <ul>
+                                           <li><a href="/RecentAdvertisement/Default.aspx">Admission Advertisements</a></li>
+                                           <li><a href="/Apply/Admissions.aspx">How to Apply?</a></li>
+                                           <li><a href="/Apply/eLearningQuestionnaire.aspx">Is VU e-Learning suitable for me?</a></li>
+                                           <li class="ManuallysetMenuItemheight"><a href="/Admissions/TransferStudents.aspx">Admission Through Course Exemption</a></li>
+                                           <li><a href="/Admissions/AdmissionThroughBSEntryRoute.aspx">Admission Through Entry Option</a></li>
+                                           <li><a href="/pages/AdmissionForeign.aspx">Admission Foreign National</a></li>
+                                       </ul>
+                                   </li>
+
+                                   
+                                   
+                                   <li><a href="/StudyScheme/StudyScheme.aspx">Scheme of Study</a></li>
+                                   <li style="padding-top: 5px;"><a class="highlightmenuitem" style="display: inline-block; color: white; padding-left: 5px; padding-bottom: 5px;" href="/Apply/Login.aspx">Apply Now</a></li>
+                                   <li><a href="/Apply/admitlist.aspx">Admitted Candidates List</a></li>
+                               </ul>
+                            </li>
+                            <li class="menuli" id="Academics">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/facutlyprogram.png">
+                                </div>
+                                <a id="divFaculties" href='javascript:void(0);' class="menuMainHeading">Academics
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Arts<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Economics">Department of Economics</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of English">Department of English</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mass Communication">Department of Mass Communication</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Psychology">Department of Psychology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Sociology">Department of Sociology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Islamic Studies">Department of Islamic Studies</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of CS & IT<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Computer Science">Department of Computer Science</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Education<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Education">Department of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Management<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Management Sciences">Department of Management Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Public Admin">Department of Public Admin</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Science and Technology<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Biological Sciences">Department of Biological Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mathematics">Department of Mathematics</a></li>
+                                            
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Statistics">Department of Statistics</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="Students">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/students.png">
+                                </div>
+                                <a id="divstudents" href='javascript:void(0);' class="menuMainHeading">Students
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Services<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://vulms.vu.edu.pk" target="_LMS">Learning Management System</a> </li>
+                                            <li><a href="https://datesheet.vu.edu.pk" target="_Datesheet">Examination (make your date sheet)</a> </li>
+                                            <li><a href="https://handbook.vu.edu.pk/" target="_blank">Student Handbook</a></li>
+                                            <li><a href="https://bookshop.vu.edu.pk/" target="_blank">Bookshop</a></li>
+                                            <li><a href="http://societies.vu.edu.pk/pages/Home.aspx" target="_blank">Clubs and Societies</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Information<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/StudentServices/LectureSchedule.aspx">Lecture Schedule</a></li>
+                                            <li><a href="/Orientation/VUOrientation.aspx">Orientation Videos</a> </li>
+                                            <li><a href="/pages/VUGradingScheme.aspx">VU Grading Scheme</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Scholarships<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/pages/VUScholarships.aspx">VU Scholarships</a></li>
+                                            <li><a href="https://www.educator.com/scholarship/" target="_blank">Educator Scholarships</a></li>
+                                            <li><a href="/pages/Bait-ul-Mal-stipend.aspx">Pakistan Bait-Ul-Mall Stipends</a></li>
+                                            <li><a href="/Scholarships/Scholarships.aspx">NBP Student Loan Scheme</a></li>
+                                            <li><a href="/pages/SyedaMubarikBegumScholarships.aspx">Syeda Mubarik Begum</a></li>
+                                            <li><a href="/pages/PunjabWorkders.aspx">Punjab Workers Welfare Board</a></li>
+                                            <li><a href="/pages/PEEF.aspx">Punjab Educational Endowment Fund</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/StudentServices/AcademicCalendar.aspx">Academic Calender</a></li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="virtualcampus">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/virtualcampus.png">
+                                </div>
+                                <a id="divvirtualcampus" href='javascript:void(0);' class="menuMainHeading">Campuses
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Virtual Campuses<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/PVCs/Default.aspx?Type=All">All</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Own">VU Own Campuses</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Private">Private Campuses</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Become A VU Campus<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/Pages/CampusOpportunityMain.aspx">How to Apply</a></li>
+                                            <li><a href="/pages/PVCRules.aspx">PVC Rules</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Campus Portal<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://campus.vu.edu.pk/">Examination Portal</a></li>
+                                            <li><a href="https://campusexams.vu.edu.pk/">Student Portal</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="ResearchDevelopment">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/projects.png">
+                                </div>
+                                <a id="divResearchDevelopment " href='javascript:void(0);' class="menuMainHeading">Research & Development 
+                                </a>
+
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.digiskills.pk" target="_new">DigiSkills.pk</a></li>
+                                    <li><a href="/PDC" target="_new">Professional Development Center</a></li>
+                                    <li class="ManuallysetMenuItemheight"><a href="https://oric.vu.edu.pk/" target="_new">Office of Research, Innovation and Commercialization</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Services">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/services.png">
+                                </div>
+                                <a id="divServices" href='javascript:void(0);' class="menuMainHeading">Services
+                                </a>
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.vu.edu.pk/vss/" target="_new">Software Solutions</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="JobsTenders">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/opportunity.png">
+                                </div>
+                                <a id="divJobsTenders" href='javascript:void(0);' class="menuMainHeading">Jobs & Tenders
+                                </a>
+                                <ul class="settopmargin">
+                                    <li><a href="/Opportunities/Jobs.aspx">Job Advertisements</a></li>
+                                    
+                                    <li><a href="http://qb.vu.edu.pk/public/ExaminerRegistration.aspx" target="_examSuperintendent">Exam Superintendent Registration</a></li>
+                                    <li><a href="/Opportunities/CourseDevelopment.aspx">Course Development</a></li>
+                                    
+                                    <li><a href="/Opportunities/Tenders.aspx">Tenders</a></li>
+                                    
+                                           
+                                       
+                                    
+                                           
+                                       
+
+                                </ul>
+                            </li>
+
+                            <li class="menuli" id="VUTV">
+
+                                <div class="menuIcons">
+                                    <a href="/vutv">
+                                        <img src="/app_themes/Default/img/menuicons/menubaricon/vutv.png">
+                                    </a>
+                                </div>
+                                <a id="divVUTV" href="/vutv" class="menuMainHeading">VUTV
+                                </a>
+
+
+                            </li>
+
+
+
+                            <li class="menuli" id="ImportantLinks">
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/importantlink.png">
+                                </div>
+                                <a id="divImportantLinks" href='javascript:void(0);' class="menuMainHeading ">Important Links</a>
+
+                                <ul class="lastmenuitem settopmargin">
+
+                                    
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/pages/harassmentProtection.aspx'  target='_new'>Protection against Harrassment </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/NewsDetails.aspx?type=&NewsId=3143'  target='_new'>Citizen Portal/VU Complaint Handling </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/AboutUs/RTI.aspx'  target='_new'>Right of Access to Information </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://societies.vu.edu.pk'  target='_new'>VU Societies/Clubs </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://oric.vu.edu.pk/'  target='_new'>ORIC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/verify'  target='_New'>Degree/Transcript Verification </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='	https://www.digiskills.pk/'  target='_new'>DigiSkills </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://vspace.vu.edu.pk/'  target='_new'>VSpace@VU </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://qec.vu.edu.pk/'  target='_qec'>QEC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/PhotoGallery/Default.aspx'  target='_self'>Photo Gallery </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://ssbc.vu.edu.pk/'  target='_new'>Student Start-Up Business Center </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://alumni.vu.edu.pk/'  target='_vuAlumni'>Alumni </a>
+
+                                                
+                                            </li>
+                                        
+
+                                    
+
+                                    <li><a class="highlightmenuitem" href="../PhotoGallery/ImportantLinks.aspx">More Links</a></li>
+
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+
+                            </li>
+
+                            <li class="setSearchliwidth">
+                                <!--Search Form-->
+                                <div class="header-search">
+                                    <div class="search-menu mb-3">
+                                        <i id="toggle-search" class="zmdi zmdi-search-for"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </nav>  
+                </div>
+                <div class="search">
+
+                    <div id="search_box">
+
+                        <gcse:searchbox-only resultsurl="/search.aspx"></gcse:searchbox-only>
+
+
+                    </div>
+
+                </div>
+ 
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<span id="HeaderMenuMSG_HeaderMenuMSG_lblMsg"></span>
+
+<script type='text/javascript' src="/scripts/Menu.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function () {
+        $(".divSearchIconMobileView").click(function () {
+
+            $('.divSearchIconMobileView').hide();
+            $('.divSearchBarMobileView').show();
+
+        });
+        // Function to handle adding/removing the class based on window width
+        function updateMenuDisplay() {
+            var winWidth = $(window).width(); // Get the window width
+            if (winWidth > 650) {
+                $('#menuUl').addClass('internalMenuDisplay');
+            } else {
+                $('#menuUl').removeClass('internalMenuDisplay');
+            }
+        }
+        // Run the function on page load
+        updateMenuDisplay();
+        // Attach the function to the window resize event
+        $(window).on('resize', updateMenuDisplay);
+    });
+</script>
+
+
+
+<script src="/js/DetailsViewDefault.js"></script>
+
+
+    
+
+
+
+<!--End of Header Area-->
+<!--Slider Area Start-->
+<!-- 16:9 aspect ratio -->
+    <div class="banner-content">
+        <div class="container1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content-wrapper text-center full-width">
+                        <div id="HeaderMenuMSG_divPageHeading" class="text-content" style="margin-top:10px;">
+                            <h1 class="title1">
+                                
+                                <span id="HeaderMenuMSG_lblPageTitle" class="tlt block" data-in-effect="" data-out-effect="">Study Scheme</span> 
+
+                            </h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="about-page-area section-padding sidecolor">
+    <div class="container containermargincenter bodyContentContainer">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+
+
+              
+                                     <!-- 16:9 aspect ratio -->
+
+         <script type="text/javascript" language="javascript">
+             var divPageContent = document.getElementById('divPageContent');
+             divPageContent.style.width = "100%";
+             //divPageContent.style.marginLeft = "-30px";
+             //divPageContent.style.marginRight = "-30px";
+             divPageContent.style.overflowX = "visible";
+             divPageContent.style.overflowY = "visible";
+             //divPageContent.style.border = "1px";
+         </script>
+
+        
+        <div align="left" class="label" style="width:100%" >
+            <a href="../Default.aspx" class="label" style="color: #0D3777; font-size: 7pt;">Home
+            </a>
+            <span class="label" style="color: #071268; font-size: Small;">
+                <img id="ucDetailsHeader_SiteMapPath1_ctl03_Image1" src="../img/sitemap_arrow.png" style="border-width: 0px;"></span>
+            <span class="label" style="color: #0D3777; font-size: 7pt;">Academic Programs 
+            </span>
+           
+
+                <a id="hyl_facultysitemap" class="label" style="color: #0D3777; font-size: 7pt;"></a>
+
+           
+
+            <a id="hyl_PreviousPage" class="label" style="color: #0D3777; font-size: 7pt;"></a>
+
+            <span class="label" style="color: #071268; font-size: Small;">
+                <img id="Img2" src="../img/sitemap_arrow.png" style="border-width: 0px;"></span>
+            <span
+                class="label" style="color: Black; font-size: 7pt; font-weight: bold;">Study Scheme 
+            </span>
+            
+        </div>
+
+        <div id="divPageHeading" class="pageHeadingContainer">
+            <span id="lblPageTitle" class="detailsPageheading">Study Scheme</span>
+        </div>
+        
+        <div style="width:100%;">
+            
+            
+
+            <br />
+
+            <span id="lblStatus" class="error"></span>
+            
+            <input type="hidden" name="hfCourseList" id="hfCourseList" />
+            <div>
+                <table border="1" style="border-collapse: collapse; width: 100%;" cellpadding="5" cellspacing="0" class="tblborder table-bordered table-striped">
+                    
+                    <tr style="height: 30px" valign="top" >
+                        <td colspan="8" >
+                            <table width="100%"  cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td align="left" class="head3small" >
+                                        BS
+                                            (Economics)
+                                            
+                                    </td>
+                                    <td align="right" >
+
+                                        
+                                        <a class="hyperlink" href='https://handbook.vu.edu.pk/HandBook_Pages/BS%20Economics%20(w.e.f%20Fall%202021).htm' target="_blank" style="font-size: 0.9rem !important;" >Course Selection Rules</a>
+                                        
+
+                                    </td>
+                                </tr>
+                            </table>
+
+                            
+
+
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            1
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            CS101
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Introduction to Computing
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO302
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Principles of Microeconomics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ENG101
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">English Comprehension
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MTH100
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">General Mathematics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            SOC101
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Introduction to Sociology
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ETH202
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Ethics (for Non-Muslims)
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Elective
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            2&nbsp;(Theory:2, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ISL202
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Islamic Studies
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Elective
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            2&nbsp;(Theory:2, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            2
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO303
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Principles of Macroeconomics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO402
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Microeconomics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ENG201
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business and Technical English Writing
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ETH100
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Effective Citizenship
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            STA301
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Statistics and Probability
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            PAK301
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Pakistan Studies
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            2&nbsp;(Theory:2, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            3
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO403
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Macroeconomics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO501
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Development Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO606
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Mathematical Economics I
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            EDU403
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Art, Crafts and Calligraphy
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MGT602
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Entrepreneurship
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            PAK522
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Ideology and Constitution of Pakistan
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            2&nbsp;(Theory:2, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            4
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO601
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business Econometrics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO603
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">International Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MGT411
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Money & Banking
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            STA630
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Research Methods
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            GSC101
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">General Science
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Elective
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            PHY101
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Physics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Elective
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            5
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO607
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Mathematical Economics II
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO610
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Issues in the Economy of Pakistan
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO614
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Microeconomic Analysis
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ENG301
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business Communication
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            HRM627
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Human Resource Development
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MGT211
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Introduction To Business
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            6
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO609
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Advanced Econometrics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO613
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Globalization and Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO616
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Macroeconomic Analysis
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MTH302
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business Mathematics & Statistics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            STAT404
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Regression and Correlation
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            7
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO404
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Managerial Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO605
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Financial Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO608
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Agricultural Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO615
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Poverty and Income Distribution
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECOI619
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Internship Report - Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            8
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            BNK611
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Economic Ideology in Islam
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO499
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Capstone Project
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO604
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Monetary Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO612
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Population Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO622
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Energy Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            1
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO607
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Mathematical Economics II
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO610
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Issues in the Economy of Pakistan
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO614
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Microeconomic Analysis
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ENG301
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business Communication
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            HRM627
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Human Resource Development
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MGT211
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Introduction To Business
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            2
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO609
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Advanced Econometrics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO613
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Globalization and Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO616
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Macroeconomic Analysis
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            MTH302
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Business Mathematics & Statistics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            STAT404
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Regression and Correlation
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            3
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO404
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Managerial Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO605
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Financial Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO608
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Agricultural Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO615
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Poverty and Income Distribution
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECOI619
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Internship Report - Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="8" class="head4small">Semester No.
+                            4
+                        </td>
+                    </tr>
+                    <tr style="text-align: left" class="tblrow labelsmall">
+                        <td style="width: 15%">Course Code</td>
+                        <td style="width: 30%">Title</td>
+                        <td style="width: 10%">Type</td>
+
+                        <td style="width: 10%" >Pre Requisite</td>
+                        <td style="width: 15%;" >Credit Hours</td>                       
+
+
+                    
+                        <td style="width:20%;">Specialization</td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            BNK611
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Economic Ideology in Islam
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO499
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Capstone Project
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO604
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Monetary Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO612
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Population Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="text-align: left">
+                        <td  class="txtsmall" valign="top" align="left">
+                            ECO622
+                            
+                        </td>
+                        <td style="width: 350px; text-align:left" class="txtsmall" valign="top">Energy Economics
+                        </td>
+                        <td style="width: 50px; text-align:left" class="txtsmall" valign="top" align="left">Required
+                        </td>
+
+                        <td style="width: 70px; text-align:left" class="txtsmall" valign="top" align="left">
+                            
+                            
+                        </td>
+
+
+
+                        <td style="white-space:nowrap; width: 70px; text-align:left;" class="txtsmall" valign="top" align="left">
+                            3&nbsp;(Theory:3, Practical:0)
+                            
+                        </td>
+                     
+
+                        
+                        <td style="text-align:left;" class="txtsmall" valign="top" align="left">
+                        </td>
+                        
+                    </tr>
+                    
+                    <tr style="height: 20px">
+                        <td colspan="8">&nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+            </div>
+
+
+
+
+
+            
+            <div>
+                <table border="1" style="border-collapse: collapse; width: 100%" class="tblborder table-bordered table-striped" cellpadding="5" cellspacing="0">
+                    
+                    <tr style="height: 30px;" valign="top" >
+                        <td colspan="4" style="height: 30px;" class="head4small">Pre-Requisite Courses List
+                        </td>
+
+
+                        <td colspan="1"  valign="middle" style="width: 2%">
+                            <img id="btn_show_hide" style="cursor: pointer" alt="Show/Hide Pre-Requisite Courses List" title="Click here to show Pre-Requisite Courses List" onclick="javascript:ShowHidePreReqLis(this)" src="../images/show.jpg" />
+                        </td>
+
+
+                    </tr>
+                    <tr id="PreReqPanelContainer" style="visibility: hidden; display: none;">
+                        <td colspan="5" style="width:100%;">
+                            <table id="PreReqPanel" border="1" style="width: 100%; border-collapse:collapse" class="tblborder table-bordered" cellpadding="5" cellspacing="0">
+
+
+                                <tr style="text-align: left" class="tblrow labelblack">
+                                    <td style="width: 12%" >Offered Course</td>
+                                    <td style="width: 33%">Title</td>
+                                    <td style="width: 12%">Pre Requisite</td>
+                                    <td style="width: 33%">Title</td>
+                                    <td style="width: 10%" >Credit Hours</td>
+                                </tr>
+                                
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="text-align: left" valign="top">
+                                    
+                                <tr style="height: 20px;">
+                                    <td colspan="5" class="txtsmall">
+                                        
+                            Not Found
+                            
+                                    </td>
+                                </tr>
+
+
+
+                            </table>
+                        </td>
+                        
+
+                    </tr>
+                </table>
+                <br />
+                <br />
+            </div>
+            
+        </div>
+        
+
+                                                 </div>
+
+                                             </div>
+
+
+                                         </div>
+                                     </div>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4NVQCFRG5"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-Q4NVQCFRG5');</script>
+<div class="footer-widget-area">
+    <div class="container-left">
+
+         <div class="single-logo mb-5">
+                <h2> GET IN TOUCH</h2>
+            </div>
+
+
+
+        <div class="footer-bg-blur p-xl-6 p-lg-6 p-md-6 p-sm-0 p-xs-0 m-xl-5 m-lg-5 m-md-5 m-sm-0 m-xs-0">
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+
+                    <div  class="single-footer-widget pl-xl-3 pl-lg-3 pl-md-3 pl-sm-4 pl-xs-4 pr-sm-4 pr-xs-4">
+                        <h3 class="footer-heading-text mt-xl-0 mt-lg-0 mt-md-5 mt-sm-0 mt-xs-0">Head Office (Islamabad)</h3>
+                        
+                            <a href="tel:009251111880880">
+                                <span>
+                                    <img class="img-responsive  icon-phone" src="/img/footer/phone.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-phone" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">+92 (51) 111 880 880</h2>
+                            </a>
+
+
+
+                        
+                            <a href="tel:00923041110880">
+                                <span>
+                                    <img class="img-responsive icon-mobile" src="/img/footer/mobile.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-mobile" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">  1288 (For Admissions Related Queries)</h2>
+                                
+                            </a>
+
+                        
+
+
+                        
+                            <a>
+                                <span>
+                                    <img class="img-responsive icon-map" src="/img/footer/map.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-map" src="/img/footer/line.png" alt="Phone">
+                                </span>
+
+                                <a href="https://maps.app.goo.gl/cvkJdpp2EXnXHWuQ7" target="_blank">
+                                    <h2  class="text-space-map text-space">Sir Syed Memorial Society Building, 19-Ataturk Avenue, G-5/1, Islamabad</h2>
+                                </a>
+                            </a>
+
+                        <a href="mailto:info@vu.edu.pk">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/envelope.png" alt="Phone"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">info@vu.edu.pk</h2>
+                        </a>
+
+                        <a href="https://www.vu.edu.pk/contact" target="_contactus">
+                            <span>
+                                <img class="img-responsive icon-contactus" src="/img/footer/contactus.png" alt="contactus"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="contactus">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Contact Us</h2>
+                        </a>
+
+                          <a href="https://www.vu.edu.pk/SupportSystem/" target="_help">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/help.png" alt="help"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Help</h2>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12 pr-4">
+                    
+                    <div class=" img-responive footer-logo visible-logo">
+                        
+                            <img class="mr-3" src="/img/footer/logo_govt_of_pakistan.png">
+                        
+                        
+                            <img class="imagedisplay" src="/img/footer/star-VU--white.png" alt="">
+                        
+                    </div>
+                    <div class="follow-us visible-logo">
+                        <h3>Follow Us</h3>
+                    </div>
+
+
+
+                    <div class="img-responive footer-line visible-logo">                        
+                            <img src="/img/footer/footer-line.png" alt="">
+                    </div>
+                
+
+
+
+                    <div class="social-icon-new p-lg-0 pl-sm-5 pl-xs-5 pb-sm-3 pb-xs-3">
+
+                        <a href="https://www.facebook.com/VirtualUniversityOfPakistan" target="_blank">
+                            <img class="img-responsive" src="/img/footer/facebook-square.png" alt="Facebook" />
+                        </a>
+
+                        <a href="https://twitter.com/VUPakistan" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/twitter.png" alt="Phone" />
+                        </a>
+                        <a href="https://www.instagram.com/virtualuniversityofpakistan/?hl=en" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/instagram.png" alt="Phone" />
+                        </a>
+
+                        <a href="https://www.youtube.com/vu" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/youtube.png" alt="Phone" height="33" />
+                        </a>
+
+                        <a href="https://pk.linkedin.com/school/virtual-university-of-pakistan/?trk=public_profile_topcard-school" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/linkedin.png" alt="Phone" />
+                        </a>
+                    </div>
+
+                    
+
+                </div>
+                
+                
+
+            </div>
+            
+            
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Footer Widget Area-->
+<!--Footer Area Start-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-12">
+                <div class="content">
+                    © Virtual University of Pakistan <a href="/sitemap.aspx" class="font-13">(Site Map)</a>                   
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12">
+                <div class="column-right content">                    
+                    <span class="font-13">Designed and Developed by IT Department</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  </div>
+                             <!--End of Bg White-->
+                          </div> 
+
+
+                                 <!--End of Footer Area-->
+                             
+                             <!--End of Bg White-->
+                         
+                             <!--End of Main Wrapper Area-->
+                             
+                             <!-- jquery
+    ============================================ -->
+                             <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+                            <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+                             <!-- popper JS
+    ============================================ -->
+                             <script src="/js/popper.min.js"></script>
+
+                             <!-- bootstrap JS
+    ============================================ -->
+                             <script src="/js/bootstrap.min.js"></script>
+
+                             <!-- AJax Mail JS
+    ============================================ -->
+                             <script src="/js/ajax-mail.js"></script>
+
+                            
+                             <!-- plugins JS
+    ============================================ -->
+                             <script src="/js/plugins.js"></script>
+                             <script src="/js/main.js"></script>
+                                               </script>                                     </script>
+                           
+<script src="/js/switcher/styleswitch.js"></script>
+
+
+
+
+    </form>
+</body>
+</html>

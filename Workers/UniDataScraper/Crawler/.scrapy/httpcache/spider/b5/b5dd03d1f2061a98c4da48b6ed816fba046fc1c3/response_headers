@@ -1,0 +1,19 @@
+Date: Sun, 19 Apr 2026 00:02:28 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+Link: <https://usa.edu.pk/wp-json/>; rel="https://api.w.org/"
+Link: <https://usa.edu.pk/wp-json/wp/v2/pages/15985>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://usa.edu.pk/?p=15985>; rel=shortlink
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KnUu5%2FhpSFbv8ESyudZ2eAFTVmd0%2FKuOFsXd8ZKcWjifzntO5u%2BaY29e2%2FGmC2DXhsBSGSFVKzCtyrJjhSUPzZJ8M9DQhSDpyZVeB667F6hf%2BMsS6cgpEVnk1r1Y"}]}
+Cf-Cache-Status: DYNAMIC
+Vary: accept-encoding
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=3,cfOrigin;dur=778
+Content-Encoding: gzip
+Cf-Ray: 9ee7a3fcfc9509e6-LHE
+Alt-Svc: h3=":443"; ma=86400

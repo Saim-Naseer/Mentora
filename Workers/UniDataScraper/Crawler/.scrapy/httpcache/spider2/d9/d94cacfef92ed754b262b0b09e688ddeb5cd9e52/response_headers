@@ -1,0 +1,14 @@
+Server: nginx/1.14.1
+Date: Fri, 27 Mar 2026 06:05:31 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Server-Timing: 0Load;dur=26.526928;desc="Load", 1Initialise;dur=74.969053;desc="Initialise", 2Route;dur=10.480881;desc="Route", 10RenderComponentcomcontent;dur=24.862051;desc="RenderComponent com_content", 11Dispatch;dur=0.519991;desc="Dispatch", 64Render;dur=8.826017;desc="Render", Modules;dur=44.351816177368;desc="Modules", Access;dur=2.1059513092041;desc="Access"
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: 75feed74f5967143e6df33146943a04e=4e89c4c6cf7c6df811e28ad234152f6e; path=/; HttpOnly
+Last-Modified: Fri, 27 Mar 2026 06:05:31 GMT
+X-Cache: HIT from Backend
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

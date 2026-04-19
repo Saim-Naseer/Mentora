@@ -1,0 +1,13 @@
+Date: Fri, 27 Mar 2026 07:42:50 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=2592000
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Cache-Control: max-age=14400
+Cf-Cache-Status: EXPIRED
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="EXPIRED"
+Server-Timing: cfEdge;dur=14,cfOrigin;dur=495
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ukBfbQarrTpZGca8xLIHDAq7wo5fy7tGMZ2d3q5q0fa68%2F08LXpykSM1L2s4vM1caH0%2FN3a8fI%2BEtwlT0PcHmi5f5j0CwLQL87pFeHAZaXjwtgc3rIFc%2FhVtLiPuq2KA"}]}
+Cf-Ray: 9e2cc2bc3c3efe23-SIN
+Alt-Svc: h3=":443"; ma=86400

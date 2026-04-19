@@ -1,0 +1,17 @@
+Date: Fri, 27 Mar 2026 07:38:26 GMT
+Content-Type: text/html
+Cache-Control: public, max-age=14400
+Server: cloudflare
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'self' https://*.umt.edu.pk;        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.umt.edu.pk https://www.google.com https://www.gstatic.com https:;        style-src 'self' 'unsafe-inline' https://*.umt.edu.pk https:;        img-src 'self' data: https://*.umt.edu.pk https:;        font-src 'self' https://*.umt.edu.pk https: data:;        connect-src 'self' https://*.umt.edu.pk https:;        frame-src 'self' https://*.umt.edu.pk https://www.google.com https://www.recaptcha.net;        object-src 'self';        base-uri 'self';
+Cf-Cache-Status: EXPIRED
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="EXPIRED"
+Server-Timing: cfEdge;dur=23,cfOrigin;dur=408
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BE5Y%2BghLySg1y1BTBAdEl%2BjU65TgiY%2FI%2FewstzQ%2B%2BGZSd6Xuo4bz0c28ysVnCHIyP%2B8k6ul2Vf56g72AB9KEeLyFgTlnAmBV%2Bv8ChkzuwOAtf6ZjmFQSs1QX9XmePjTEMrU%3D"}]}
+Content-Encoding: gzip
+Cf-Ray: 9e2cbc47fee6fde4-SIN
+Alt-Svc: h3=":443"; ma=86400

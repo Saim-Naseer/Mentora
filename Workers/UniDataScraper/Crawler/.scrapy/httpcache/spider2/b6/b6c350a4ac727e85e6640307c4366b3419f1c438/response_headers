@@ -1,0 +1,19 @@
+Content-Length: 18851
+Date: Thu, 26 Mar 2026 16:53:11 GMT
+Server: Apache/2.4.66 (codeit) OpenSSL/3.5.4
+X-Powered-By: PHP/8.1.34
+Cache-Control: max-age=86400, public
+X-Drupal-Dynamic-Cache: MISS
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding,User-Agent
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Last-Modified: Thu, 26 Mar 2026 16:53:08 GMT
+Etag: "1774543988-gzip"
+Content-Encoding: gzip
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: LUMS-WEB-Cookies=ffffffff096b1fdf45525d5f4f58455e445a4a42378b;expires=Thu, 26-Mar-2026 23:17:53 GMT;path=/;secure;httponly

@@ -1,0 +1,1145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Master of Business Administration - MBA </title> 
+	 <meta name="description" content="The vision of the program is to make it a leading MBA program of choice in the region which shapes businesses and societies. The mission of the MBA program at IBA is to contribute to businesses and socioeconomic development nationally, regionally and globally. The program will help students to develop a range of analytical, conceptual and operational skills that address the many challenges in industries. The program attracts talented students through a competitive process and facilitate their transformation into responsible business leaders. Our MBA graduates are trained to think critically and to work with ethical integrity. The MBA faculty using state of the art technology and pedagogies fosters this learning environment through the creation, acquisition, dissemination and application of new knowledge related to business administration.">
+    <meta name="keywords" content="IBA, MBA. Admissions, best mba karachi, best mba pakistan, bba, graduate program, MBA program, Masters of Business Administration, admissions, masters, best mba, business administration, best mba school, school, business school">
+	<link rel="icon" type="image/x-icon" href="images/favico.png">
+	<link rel="icon" href="images/favicon.jpg" type="image/jpg" sizes="16x16"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&family=Pacifico&display=swap" rel="stylesheet">
+    <style>			
+    .program-details a {font-size: 14px;}
+	.program-details a:hover {color: #0000;text-decoration: underline!important;}
+	  #main h2.title-content-global {margin-top: 50px!important;}
+	#main p a {color:#700f1a;text-decoration: none!important;}
+	.center-sec {margin: 0px auto 0;text-align: center;}
+	.more-news {text-align: left;margin-left: -8px!important;}	
+		
+	.more-news a {background: #7f2832;
+    color: #fff;padding: 10px 10px;font-weight: 500;font-size: 17px;line-height: 35px;display: inline-block;text-decoration: none;
+    width: 380px!important;box-shadow: 0 0 5px #666;text-transform: uppercase;text-align: center;margin: 15px 10px;
+	background: #002147;
+    color: #c6a059;	}
+	.more-news a:hover {background: #c6a059;color:#000;}
+	.center-sec {margin: 20px auto 0;text-align: center;}		
+	@media screen and (max-width: 700px){.more-news a {padding: 10px 10px; width: 85%!important;margin: 7px 5px;}	
+	}	
+	/******hero*********/
+	#main-slider, 
+.carousel, 
+.carousel-inner, 
+.carousel-item {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.hero-full-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    overflow: hidden;
+    padding: 40px 0; 
+}
+
+.hero-image-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-overlay-dark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.hero-flex-container {
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-title-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'baskervillebold', serif;
+    margin-bottom: 10px;
+}
+
+.blue-block {
+    background-color: #002147;
+    padding: 10px 100px;
+    font-size: clamp(35px, 8vw, 100px);
+    line-height: 1;
+    display: inline-block;
+    white-space: nowrap;color: #c6a059;
+}
+
+.mba-plain-text {
+    font-size: clamp(35px, 8vw, 100px);
+    line-height: 1;
+    display: inline-block;font-weight: 100!important;
+}
+
+.sustain-tagline {
+    font-style:normal;
+    font-size: clamp(15px, 1.5vw, 23px)!important;
+    margin: 20px 0 25px 0;
+	font-family: 'futura_ptlight';
+}
+.sustain-tagline span{ color: #ccc; }
+
+.admission-glass-box {
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  /* background: rgb(46 95 186 / 30%);
+    backdrop-filter: blur(10px);*/
+	background: rgba(34, 61, 124, 0.5);
+	background: rgb(0 27 57 / 63%);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px 80px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.ad-title {
+    font-size: clamp(16px, 2vw, 26px);
+    font-weight: 300;
+}
+
+.ad-years {
+    font-size: clamp(24px, 3vw, 26px);font-weight: 300;
+    
+}
+
+.gold-manifesto-btn {
+    background-color: #c6a059;
+    color: #000 !important;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 900!important;
+    display: inline-block;
+    transition: transform 0.2s;
+	font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-full-wrapper {
+        padding: 60px 0; /* Ensures space for mobile headers/footers */
+    }
+    
+    .main-title-flex {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .blue-block {
+        padding: 10px 20px;
+        margin-bottom: 5px;
+    }
+}	
+	h3.title {
+    font-size: 23px !important;
+    /*font-family: 'baskervillebold'!important;*/
+    line-height: 30px !important;
+    margin-bottom: 30px !important;
+    font-weight: normal !important;
+    margin-left: -34.5% !important;
+	font-size: 21px !important;
+    /* font-family: 'baskervillebold' !important; */
+    line-height: 30px !important;
+    margin-bottom: 8px !important;
+    font-weight: normal !important;
+    margin-left: -18.8% !important;
+    background: #c79e5c;
+    padding: 10px 18px;
+    color: #000;border-radius: 8px;
+}	
+		
+.ultra-bold-highlight {
+    font-weight: 900 !important;
+    font-size: 1.25em;              
+    display: inline-block;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3); 
+    vertical-align: middle;        
+    line-height: 1;
+}
+		#iba-by-numbers h3 {    
+    font-weight: bold;color: #fff!important;
+}
+		
+	</style>
+</head>	
+<body class="home-page header-no-margin">
+	<script>
+	$(document).ready(function () {    
+    $("#popup").hide().fadeIn(1000);   
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+</script><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<link href="css/iba-karachi-all.css?v=10.024??" rel="stylesheet">
+	<link href="css/iba-karachi.css?v=12.04??" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.marquee.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>	
+	<link rel="icon" type="image/x-icon" href="images/favico.png">
+	<link rel="icon" href="images/favicon.jpg" type="image/jpg" sizes="16x16"> 
+	<style>
+	ul.dot {display: none;}	
+	li.sub:hover ul.dot {display: block;}
+	ul.dot a {  
+	display: block; 
+	background: linear-gradient(to right, #fff 50%, #700f1a 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;color: #fff;
+	transition: all .5s ease-out;padding-left: 15px;}		
+	ul.dot a:hover {background-position: left bottom;color: #fff!important;}
+	a.subb:hover {background: #fff;}
+	</style>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28961426-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-28961426-1');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PPXBZQ7VYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PPXBZQ7VYP');
+</script>
+	
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1432371431016180');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1432371431016180&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->	
+	<style>
+	#main-menu > li > a {font-size: 14px;}
+	#main-menu > li > a:hover {color: #fff!important;}	
+	</style>
+</head>	 
+
+
+
+
+
+		<header id="header">
+<div class="container-fluid top-menu-holder">
+		<ul class="top-menu">
+			<!--<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply<span></span></a></li>
+            <li><a href="https://admissions.iba.edu.pk/" target="_blank">Admissions <span></span></a></li>
+			<li><a href="https://www.iba.edu.pk/iba-donation.php" target="_blank">Donate<span></span></a></li>	-->
+			<li>
+				<!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="fa fa-search"></i> <em>Search</em> </button>	-->		
+				&nbsp;
+			</li>          
+		</ul>
+	</div>	
+	    
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a href="index.php"><img class="logo" src="images/logo-sbs-aacsb.jpg" alt="EMBA @ IBA"></a>
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<em>Menu</em> <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul id="main-menu">				
+				
+					<li><a href="index.php">Home  <span></span></a></li>
+                    <li class="mega-menu-holder life-at-iba-menu"><a href="#" id="show4">About       <i class="fa fa-angle-down" aria-hidden="true"></i> <span></span></a>
+						<div class="dropdown-mega-menu life-at-iba-tab" id="megaMENULIFEATIBA">
+						<a href="#" class="btn-close-menu" id="hide4"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-12 col-md-6 col-lg-3">                                  
+										<ul>											
+											<li><a href="index.php#mba-program">  About IBA <span></span></a></li> 
+											<!--<li><a href="index.php#about-iba-mba">About IBA  <span></span></a></li> -->
+											<li><a href="index.php#mba-iba">MBA@IBA  <span></span> </a></li>
+											<li><a href="index.php#msg-pd-mba-emba">Message from Program Director  <span></span> </a></li>
+											<!--<li><a href="apply.php"> Apply Now  <span></span></a></li> -->
+											<!--<li><a href="index.php#faqs"> FAQs   <span></span></a></li>  -->  
+										</ul>                                           
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="index.php#program-structure"> Program Structure   <span></span></a></li> 
+                    <li><a href="index.php#mentorship">Mentorship  <span></span></a></li>
+					<li><a href="index.php#InternationalImmersion">International Immersion  <span></span></a></li> 
+					<li><a href="index.php#accommodation"> Accommodation  <span></span></a></li>  
+					<li><a href="index.php#fee-and-financing"> Fees<span></span></a></li> 
+					<li><a href="index.php#admission">Admission  <span></span></a></li>	
+					<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank"> Apply    <span></span></a></li> 
+                    <li><a href="index.php#contactus">Contact Us  <span></span></a></li>
+                    <li><a href="index.php#faqs">FAQs   <span></span></a></li>                        
+                    
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<div class="modal fade search-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header modal-header-search">
+					
+				<h5 class="modal-title" id="staticBackdropLabel">Search</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+			</div>
+			<div class="modal-body">
+				<form method="GET" action="search-result.php" id="cse-search-box-form-id">
+					<div class="mb-3">
+						<input type="text" class="form-control" id="cse-search-input-box-id"  onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Search...':this.value;" value="" name="q">
+					</div>
+					<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#hide1").click(function(){
+    $("#megaMENUADMISSION").hide();
+  });
+  $("#show").click(function(){
+    $("#megaMENUADMISSION").show();
+  });
+  $("#hide2").click(function(){
+    $("#megaMENUACADEMICS").hide();
+  });
+  $("#show2").click(function(){
+    $("#megaMENUACADEMICS").show();
+  });
+  $("#hide3").click(function(){
+    $("#megaMENUABOUTIBA").hide();
+  });
+  $("#show3").click(function(){
+    $("#megaMENUABOUTIBA").show();
+  });
+  $("#hide4").click(function(){
+    $("#megaMENULIFEATIBA").hide();
+  });
+  $("#show4").click(function(){
+    $("#megaMENULIFEATIBA").show();
+  });
+});
+</script>	<div id="wrapper">
+	<section id="main-slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="hero-full-wrapper">
+                    <img src="images/slides/slide-static01.jpg" class="hero-image-bg" alt="Executive MBA">
+                    <div class="hero-overlay-dark"></div>
+                    
+                    <div class="hero-flex-container">
+                        <div class="hero-content-inner">
+                            
+							
+							<div class="main-title-flex">
+                                <h3 class="title"> Graduate Program </h3>
+                            </div>
+                            <div class="main-title-flex">
+                                <span class="blue-block">MBA</span>
+                               <!-- <span class="mba-plain-text">@IBA</span>-->
+                            </div>
+
+                            <!--<p class="sustain-tagline"> 
+								Nurturing <span><strong style="font-weight: 900;"> DRIVEN Professionals </strong></span> for Career Excellence
+								
+								 <sup>SM</sup></p>-->
+					
+					<p class="sustain-tagline">    Nurturing 
+						
+							<span style="color: #c6a059!important;font-weight: 600;font-style: italic;">DRIVEN</span> Professionals
+						
+						for Career Excellence <sup></sup>
+						</p>
+
+                            <div class="admission-glass-box">
+                                <span class="ad-title">Admissions Open</span>
+                                <span class="ad-years">2026-28</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        <div class="row students-block alumni-block mesg">
+            	<div class="container">
+                        <div class="col-sm-12 col-lg-12 double-block">
+                            <div class="col-12 box-academic-program">							
+                                <h2 class="global-heading1" id="mba-program">About IBA</h2>
+								
+								
+								<div class="align-right about-mob">
+									<img class="" src="images/aboutmba.jpg" alt="Mentorship">
+								</div>
+                                <p>Wharton School of the University of Pennsylvania and the University of Karachi set up the Institute of Public and Business Administration in 1955 with the mission to create managerial capital and leadership for the industry of Pakistan. The institute introduced two graduate degree programs in Pakistan, namely, Master of Public Administration in 1955 and Master of Business Administration (MBA) in 1956. Since then, more than 8000 people have graduated MBA from IBA, many becoming prominent leaders, including the President of Pakistan (Mr. Mamnoon Hussain), Prime Minister of Pakistan (Mr. Shaukat Aziz), and members of top management teams in national and international business enterprises.</p>
+								<p> IBA became a degree-awarding institution in 1994 by the charter of the Sind Assembly. To manage its organic growth as a university having approximately 5000 students, IBA divisionalized in 2021 by establishing three autonomous and independent schools, namely, the School of Business Studies (SBS), the School of Economics and Social Sciences (SESS), and the School of Mathematics and Computer Science (SMCS). </p>
+								<p> The MBA program is now part of the portfolio of the SBS and managed through the Directorate of MBA and EMBA. </p>
+								
+								<div class="align-right mobile">
+									<img class="" src="images/aboutmba.jpg" alt="Mentorship">
+								</div>
+								
+								<div class="center-sec">							
+								<p style="font-size: 19px;text-align: left;"><strong class="bold-global">Learn More</strong></p>
+									<div class="more-news">
+									<a href="https://www.iba.edu.pk/history.php" target="_blank"> About IBA </a>
+									<a href="https://sbs.iba.edu.pk/overview.php" target="_blank">About SBS  </a>
+									</div>							
+								</div>
+								
+								
+								 <div class="spacer"> </div>
+								 <h2 class="global-heading1" id="mba-iba">The IBA MBA </h2>
+								<div class="align-right mba-iba">
+									<img class="" src="images/about1.jpg" alt="Mentorship">
+								</div>
+									
+							<p>Since 1956, the MBA has been the legacy and flagship program of IBA. The current MBA is a two-year, full-time, rigorous master's program in business administration designed  for rising professionals with 3-8 years of experience who are positioned to advance into strategic management roles. 
+							 It serves as an accelerator for ambitious individuals transitioning from technical expertise to management leadership, from individual contribution to team leadership, from functional specialization to general management. </p>
+
+							<p> The program equips you with the knowledge, analytical frameworks, and leadership capabilities essential for advancing your career in Pakistan's most dynamic organizations.
+							  You'll develop proficiency in key business disciplines, analytical decision-making, ethical leadership and teamwork, effective communication, and strategic use of technology in management. 
+							  This comprehensive skill set positions you among the next generation of leaders shaping Pakistan's corporate future.
+							</p>
+
+							<p>
+							  The MBA is not just a degree—it is professional transformation that accelerates your journey from functional expertise to strategic leadership 
+							  Joining the MBA means becoming part of an ever-growing community of professionals committed to driving innovation, enhancing organizational competitiveness, and increasing the productivity of Pakistan's economy.
+							</p>
+
+							<p>
+							  The MBA has been designed using the benchmarks of leading business schools worldwide. 
+							  IBA introduced the MBA to Pakistan in 1956, establishing the standard by which all MBA programs in the country are measured.
+							  The AACSB accreditation is international acknowledgment that the program has been rigorously evaluated and meets world-class standards. 
+							  It is a testament that the MBA not only has the legacy of pioneers but also holds the currency of leaders.
+							</p>
+
+							<p>
+							  The MBA at IBA develops the whole professional through an eclectic mix of pedagogical methods including the case method, problem-based learning, and experiential engagement.
+							  The program is built around the DRIVEN framework—Discipline, Reason, Integrity, Value-Added impact, Excellence, and Nobility—while developing your Technical, Intellectual, Emotional, and Social capabilities (TIES). 
+							  This dual framework ensures you develop both the analytical rigor and the leadership maturity required for strategic management positions.
+							</p>
+
+							<p>
+							  IBA provides financial assistance to eligible students through various sources including need-based aid, merit-based scholarships, and corporate sponsorships. 
+							  For financing options available at IBA, please see 
+							  <a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance at IBA</a>.
+							</p>
+								<!--------------The DRIVEN MBA---->
+							<div class="spacer3"> </div>
+								<h2 class="global-heading1" id="program-structure">The DRIVEN MBA</h2>
+								<div class="align-right mba-iba">
+									<img class="" src="images/thumb-driven-section.jpg" alt="The DRIVEN MBA">
+								</div>
+								<p>What separates professionals who advance rapidly into strategic management from those who remain in functional roles? Over seven decades of developing Pakistan's business talent, we've identified six dimensions of professional excellence that consistently predict career success. These aren't personality traits you're born with—they're capabilities you can develop. This is DRIVEN.</p>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>D: DISCIPLINE - <em style="font-style: italic;">Building Systems That Scale</em></strong></p>
+									<p>Rising professionals often succeed through personal effort and individual brilliance. Strategic managers succeed by creating systems that work beyond their direct involvement. <strong>Discipline</strong> is the capacity to architect processes, frameworks, and structures that scale—transforming personal excellence into organizational capability. It's the difference between being indispensable because you do everything yourself, and being invaluable because you build things that work without you.</p>
+								</div>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>R: REASON - <em style="font-style: italic;">Strategic Thinking Under Complexity</em></strong></p>
+									<p>As you advance from functional roles to strategic positions, problems become more ambiguous and decisions carry greater consequences with incomplete information. <strong>Reason</strong> is the analytical rigor and strategic judgment to cut through complexity, identify what truly matters, and make decisions that create compounding value over time. It's moving from "what should I do today?" to "what needs to be true three years from now?"</p>
+								</div>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>I: INTEGRITY - <em style="font-style: italic;">Building Trust-Based Influence</em></strong></p>
+									<p>Individual contributors deliver results through technical skill. Strategic managers deliver results through influence across teams and functions they don't directly control. <strong>Integrity</strong> is the foundation of professional credibility—the ethical consistency that allows you to build the trust necessary to lead teams, influence peers, and earn the confidence of senior leadership. In competitive markets, your reputation becomes your most valuable asset.</p>
+								</div>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>V: VALUE ADDED - <em style="font-style: italic;"> Creating Measurable Professional Value</em></strong></p>
+									<p>Every career transition requires demonstrating that you can create value at the next level. <strong>Value-Added</strong> impact is the capability to identify opportunities, apply strategic frameworks, and deliver measurable results that justify your advancement—proving you're ready for greater responsibility through tangible contributions. It's understanding that "doing your job well" maintains your position, but "creating new value" earns you the next one.</p>
+								</div>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>E: EXCELLENCE - <em style="font-style: italic;"> Execution Standards That Open Doors</em></strong></p>
+									<p>In competitive professional markets, "good enough" isn't enough. <strong>Excellence</strong> is the commitment to execution quality that rivals the world's best organizations—the standard of work that gets you noticed, recommended, and considered for strategic opportunities. It's the difference between being competent and being invaluable. Excellence isn't perfection—it's the consistent delivery of work that exceeds expectations.</p>
+								</div>
+								<div style="max-width: 90%; margin: 0 auto;">
+									<p><strong>N: NOBILITY - <em style="font-style: italic;"> Leading with Purpose Beyond Personal Gain</em></strong></p>
+									<p>The most successful professionals understand that career advancement isn't about climbing over others—it's about lifting others while rising yourself. <strong>Nobility</strong> is leadership with a service mindset, recognizing that the professionals who create value for their organizations, develop their teams, and contribute to their industries build the most sustainable and meaningful careers. It's understanding that the best way to advance is to make everyone around you better.</p>
+								</div>
+								<p><strong style="font-style: italic;">TIES of Operational Capabilities</strong></p>
+								<p>While DRIVEN provides the values foundation for professional excellence, TIES represents the operational skill set you develop through the MBA:</p>
+								<ul class="list-global">
+									<li><strong>Technical expertise:</strong> Functional and analytical capabilities across business disciplines</li>
+									<li><strong>Intellectual agility:</strong> Critical thinking, strategic reasoning, and adaptive learning</li>
+									<li><strong>Emotional intelligence:</strong> Self-awareness, resilience, and relationship management</li>
+									<li><strong>Social effectiveness:</strong> Communication, collaboration, and stakeholder influence</li>
+								</ul>
+								<p>DRIVEN guides how you develop and apply your TIES:</p>
+								<ul class="list-global">
+									<li><strong>Discipline</strong> shapes how you use <strong>Technical</strong> skills (building scalable processes, not one-off solutions)</li>
+									<li><strong>Reason</strong> enhances your <strong>Intellectual</strong> agility (strategic thinking, not just problem-solving)</li>
+									<li><strong>Integrity</strong> strengthens your <strong>Emotional</strong> intelligence (authentic leadership, not manipulation)</li>
+									<li><strong>Value-Added</strong> focus directs your <strong>Social</strong> effectiveness (measurable impact, not just networking)</li>
+									<li><strong>Excellence</strong> elevates all capabilities to world-class standards</li>
+									<li><strong>Nobility</strong> ensures your capabilities serve purposes beyond personal advancement</li>
+								</ul>
+								<p><strong style="font-style: italic;">Why DRIVEN Matters in MBA?</strong></p>
+								<p>The MBA at IBA isn't just about acquiring business knowledge—thousands of programs offer that. We develop DRIVEN professionals who apply knowledge with discipline, think strategically under complexity, build influence through integrity, create measurable value, maintain world-class execution standards, and lead with purpose.</p>
+								<p>This framework isn't abstract philosophy. It's the practical distinction between professionals who advance rapidly into strategic leadership and those who remain technically competent but career-constrained.</p>
+								<p><strong>If you recognize that your career acceleration depends not just on what you know, but on how you think, work, and lead—you're ready for the IBA MBA.</strong></p>
+								<div class="btn-container mt-4 text-center">
+									<a href="files/the-driven-manifesto.pdf" target="_blank" class="gold-manifesto-btn">
+										The DRIVEN Manifesto
+									</a>
+								</div>
+
+
+
+
+
+
+
+
+
+								<div class="align-right mobile">
+									<img class="" src="images/about1.jpg" alt="Mentorship">
+								</div>
+								
+								<!--------------message---->
+								<div class="spacer3"> </div>
+								 <h2 class="global-heading1" id="msg-pd-mba-emba">Message from Program Director </h2>
+								<div class="align-right1 mba-iba">
+									<img class="" src="images/dr-muhammad-shafique.jpg" alt="Message from Program Director">
+								</div>
+									
+								<p> As business enterprises navigate digital transformation, sustainability imperatives, and geopolitical shifts, the demand for versatile, strategic leaders continues to intensify. The MBA remains uniquely positioned to develop such leaders—not despite its century-long history, but because of its multidisciplinary foundation and inherent capacity to evolve with emerging knowledge and practice.</p>
+								<p>IBA introduced the MBA to Pakistan in 1956 with assistance from Wharton, establishing the standard by which management education in the country is measured. Today, IBA-SBS is an AACSB-accredited business school continuing that legacy of innovation. We have fundamentally redesigned our MBA and Executive MBA programs—from philosophy to pedagogy—to address the grand challenges facing Pakistan and the global economy: sustainable industrial growth, digital transformation, and organizational resilience in an era of unprecedented uncertainty.
+								
+								
+								<a href="msg-pd-mba-emba.php">  Read More</a>
+								<div class="align-right1 mobile">
+									<img class="" src="images/dr-muhammad-shafique.jpg" alt="Mentorship">
+								</div>	
+								</p>							
+
+								<!-------------message--------->				
+								
+								
+								
+								
+								
+								<div class="spacer3"> </div>
+								<h2 class="global-heading1" id="program-structure">Program Structure </h2>	
+													
+								<p>The MBA has been carefully designed to accelerate the transition of rising professionals from functional expertise to strategic management positions in Pakistan's most dynamic organizations. The program develops a comprehensive set of Technical, Intellectual, Emotional, and Social capabilities (TIES) guided by the DRIVEN framework of Discipline, Reason, Integrity, Value-Added impact, Excellence, and Nobility—the essential competencies that distinguish professionals who advance into strategic leadership from those who remain in functional roles.</p>
+
+								<p>Additionally, the program provides the foundation and qualification to study beyond the MBA, if you choose to do so. The MBA is an accredited qualification of Level-7 in accordance with the National Qualification Framework of Pakistan (NQFP), enabling graduates to proceed directly to doctoral programs.</p>
+
+								<p>The program requires the completion of 60 Credit Hours in accordance with NQFP, spread over two years of full-time study. The core of the program comprises more than half of the total Credit Hours and covers rigorous scientific knowledge pertaining to business disciplines, economics, organizational behavior, and quantitative analysis. The first year is dedicated to building this comprehensive foundation through academic and experiential training.</p>
+
+								<p>By the completion of the first year, you will be well-versed in how organizations function strategically and ready to develop a personalized portfolio of expertise. During the second year, you will build your specialized knowledge by choosing from a carefully curated menu of elective courses aligned with your career trajectory. Additionally, you will engage in experiential interactions with our partner enterprises and undertake the MBA Capstone Project, applying your strategic frameworks to solve a significant real-world business challenge.</p>
+
+								<p>Overall, the MBA will equip you with the following strategic management competencies:</p>
+
+								
+								<ul class="list-global">
+								<li style="list-style: none;padding-right: 180px">
+									<strong><em style="font-style: italic;font-size: 17px;">
+										Knowledge of Business and Management: </em></strong>
+									
+									You will develop the ability to analyze how organizations create value, compete in markets, and navigate complex local and global environments—essential for strategic management roles. </li>
+									
+								<li style="list-style: none;padding-right: 180px">
+								<strong><em style="font-style: italic;font-size: 17px;">
+									Analytical Decision Making:  </em> </strong>	
+									
+									You will learn the science and art of making rational decisions under conditions of complexity and uncertainty, and implementing them effectively across organizational levels. </li>
+								<li style="list-style: none;padding-right: 180px">
+								<strong><em style="font-style: italic;font-size: 17px;">
+									Ethical Leadership and Teamwork:   </em></strong>
+								You will develop the ability to lead teams, build cross-functional collaboration, and influence stakeholders—critical capabilities for advancing beyond individual contribution. </li>					
+									
+								<li style="list-style: none;padding-right: 180px">
+								<strong><em style="font-style: italic;font-size: 17px;">
+									Effective Communication: </em> </strong>
+								You will develop the ability to communicate strategic ideas persuasively to diverse audiences, from technical teams to senior leadership. </li>		
+									
+									
+									
+								<li style="list-style: none;padding-right: 180px">
+								<strong><em style="font-style: italic;font-size: 17px;">
+									Technology-Enabled Management: </em>	</strong>
+								You will learn how modern technologies and tools can be harnessed to drive organizational efficiency, innovation, and competitive advantage. </li>								
+								</ul>
+								
+								<p> In summary, the MBA provides a unique blend of rigorous academic training and practical application that accelerates your advancement into strategic management positions in medium and large business enterprises. </p>
+								
+								
+								<h2 class="global-heading1" id="mentorship">Mentorship</h2>
+								<div class="row">					
+									<div class="col-md-9 right-dean">	
+										<p>The MBA offers a comprehensive faculty mentorship program where every student is paired with an experienced faculty advisor who provides personalized guidance throughout the program. Your mentor helps you navigate academic challenges, develop your professional capabilities, and make strategic career decisions—creating a relationship that often extends into a lifelong professional connection.</p>
+									</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="mentorship" src="images/mentorship.jpg" alt="Mentorship">							
+									</div>
+								</div>
+								
+								<h2 class="global-heading1" id="InternationalImmersion">International Immersion </h2>
+								<div class="row">					
+									<div class="col-md-9 right-dean">	
+										<p>International immersion is a core component of the Executive MBA program. MBA students may join the EMBA international immersion on a space-available basis, subject to availability and payment of full cost participation. This optional experience provides exposure to global business practices, leading organizations, and international management contexts—valuable for professionals building global career perspectives.</p>
+									</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="mentorship" src="images/international-immersion-thumb.jpg" alt="International Immersion (Optional)">							
+									</div>
+								</div>
+
+								
+								
+								
+								
+								
+
+
+
+								<h2 class="global-heading1" id="accommodation"> Accommodation </h2>
+								
+								<div class="row">
+									
+									<div class="col-md-9 right-dean">	
+										<p>IBA owns separate hostels for ladies and gents for single, double, and triple occupancy. The hostels are directly managed and guarded by the administration and security departments of IBA. All students of full-time programs, who come from outside Karachi, are eligible for hostel accommodation, subject to the availability of space and hostel policy of the university.  </p>
+									</div>
+									<div class="col-md-3 col-sm-12">
+										<img class="mentorship" src="images/accom1.jpg" alt="Mentorship">							
+									</div>
+									
+								</div>
+							
+								<h2 class="global-heading1" id="fee-and-financing">Fee and Financing</h2>
+								<p>The program fee is fixed for the whole program and divided into installment payments. The total fee for the 2026-28 cohort is as follows:</p>
+									<table class="global-table">
+									<tbody>
+									<tr>
+									<td style="background-color: #002147; color: #fff;">&nbsp;</td>
+									<td style="background-color: #c79e5c; color: #fff;">
+									<p style="text-align: right;">Pak Rupees</p>
+									</td>
+									</tr>
+									<tr>
+									<td style="background-color: #002147; color: #fff;">
+									<p>Admission Fee</p>
+									</td>
+									<td style="background-color: #c79e5c; color: #fff; text-align: right;">115,000</td>
+									</tr>
+									<tr>
+									<td style="background-color: #002147; color: #fff;">
+									<p>Business Orientation Program (BOP)</p>
+									</td>
+									<td style="background-color: #c79e5c; color: #fff; text-align: right;">50,000</td>
+									</tr>
+									<tr>
+									<td style="background-color: #002147; color: #fff;">
+									<p>Program Fee (all-inclusive)</p>
+									</td>
+									<td style="background-color: #c79e5c; color: #fff; text-align: right;">2,850,000</td>
+									</tr>
+									<tr>
+									<td style="background-color: #002147; color: #fff;">
+									<p><strong>Total</strong></p>
+									</td>
+									<td style="background-color: #c79e5c; color: #fff; text-align: right;">3,015,000</td>
+									</tr>
+									</tbody>
+									</table>
+									<p>Program fee is received in four equal portions, each payable before the start of each semester, regardless of the number of courses and projects in the semester. The fee for repeating a course or project is charged separately and determined based on the prevailing total program fee, total credit hours, and the credit hours of the course/project being repeated.</p>
+									<p>IBA provides financial assistance to eligible students through need-based aid, merit-based scholarships, and corporate sponsorships. The program itself does not directly offer financing facilities, but qualified students may access support through IBA's central financial assistance programs. For details on available options, eligibility criteria, and application procedures, please see <a href="https://www.iba.edu.pk/financialassistance/">Financial Assistance at IBA</a>.</p>
+							
+							
+							
+							
+							
+							
+							
+
+									<h2 class="global-heading1" id="admission">Admission</h2>	
+								<p>Candidates for MBA are considered eligible for admission if they have earned an undergraduate degree (equivalent to 16 years of education) from an HEC-recognized university with a CGPA of 2.5 or higher, and possess a minimum of 3 years of post-qualification professional experience.</p>
+								<p>The MBA is designed for rising professionals with 3-8 years of experience who are positioned to advance into strategic management roles. We take great pride in providing personalized attention to the development of each student. Accordingly, we select a small, highly competitive cohort every year. We seek ambitious individuals who demonstrate the attitude, aptitude, and professional trajectory to advance into strategic leadership positions. </p>
+								<p>We encourage you to carefully assess your career stage and aspirations before applying for admission. Our screening and selection process is highly competitive, rigorous, and selective. We believe in diversity and inclusivity and use academic and professional merit as the only criteria for selection based on evidence related to the following:</p>
+
+								<ul class="list-global">
+								<li>Academic qualifications (Minimum 16 years of education)</li>
+								<li>Professional experience (3–8 years post-undergraduate degree)</li>
+								<li>Personal statements of purpose and value-added</li>
+								<li>Two letters of recommendation</li>
+								<li>Score in GMAT/GRE or IBA Aptitude Test</li>
+								<li>Interview</li>
+
+								</ul>
+								
+								<div class="spacer3"></div>
+								<p> The schedule of key milestones in program commencement includes the following: </p>
+								
+								<table class="global-table">
+								<tbody>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Online Forms Availability</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>Jan 01, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Application Deadline</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>Apr 15, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Aptitude Test</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>Apr 26, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Aptitude Test Result</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>May 05, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Interview</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>May 07-09, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Business Orientation Program (BOP)</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>Jun 29 – Aug 15, 2026</p>
+								</td>
+								</tr>
+								<tr>
+								<td style="background-color: #002147; color: #fff;">
+								<p>Commencement of Classes</p>
+								</td>
+								<td style="background-color: #c79e5c; color: #fff;">
+								<p>Aug 24, 2026</p>
+								</td>
+								</tr>
+								</tbody>
+								</table>
+
+
+								<h2 class="global-heading1" id="apply-now">Apply</h2>	
+								<p>Applications are accepted only electronically. Please arrange digital copies of following documents to attach with the application form:</p>
+								<ul class="list-global">
+								<li>Personal photograph (Compliant with ICAO standards)</li>
+								<li>Academic degrees and certificates (Digital copies of the original)</li>
+								<li>Experience certificates (Digital copies of the original)</li>
+								<li>Contact details of referees</li>
+								</ul>
+								<p>Please submit you application through the following link:</p>
+								<div class="more-news">
+									<a href="https://onlineadmission.iba.edu.pk" target="_blank"> Apply for Admission </a>		
+								</div>
+									
+																
+								
+								<div class="spacer"> </div>
+								<h2 class="global-heading1" id="contactus">Contact Us </h2>
+								Directorate of MBA and EMBA<br>
+								Room 211<br>
+								AMAN CED Building<br>
+								IBA Main Campus<br>
+								University Road, Karachi<br>								
+								<strong class="bold-global"> Phone: </strong> 021-38104700 (Ext: 2884)<br>
+								<strong class="bold-global"> E-mail: </strong>mba.info[at]iba.edu.pk</p>
+								
+                            </div>												
+                        </div>
+				</div>
+          </div>
+		
+		
+		
+		
+	<section id="iba-by-numbers" style="background: #002147;padding: 63px 0;">
+			<div class="container text-center">
+				<div class="row">
+					<h3 id="faqs">FAQs </h3><div class="spacer"></div>
+						
+					<strong class="faq-category">Program Overview & General Information</strong>
+					
+					
+					
+					<button class="accordion1">What is the difference between MBA and Executive MBA? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p> The MBA is designed for rising professionals with 3-8 years of experience who are transitioning into strategic management roles. The Executive MBA (EMBA) serves established executives with 10-20 years of experience, including minimum 5 years in management and leadership positions, who are focused on institutional transformation and senior leadership development. </p>
+								<p> Key Differences:</p>
+								<ul class="list-global">
+								<li>Experience Requirement: MBA requires 3–8 years; EMBA requires 10–20 years</li>
+								<li>Career Stage: MBA serves rising professionals; EMBA serves established executives</li>
+								<li>Program Focus: MBA emphasizes career acceleration and professional transformation; EMBA emphasizes leadership transformation and institutional impact</li>
+								<li>Schedule: MBA is full-time (weekday); EMBA is weekend-based (alternate Saturdays–Sundays)</li>
+								<li>Duration: Both programs are 2 years</li>
+
+								</ul>		
+						</div>
+					</div>
+					
+					<button class="accordion1">I have 10+ years of experience. Should I apply for MBA or EMBA? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>With 10+ years of experience, the Executive MBA is likely the better fit, especially if you hold management or leadership positions. The EMBA is specifically designed for established executives focused on strategic leadership transformation and institutional impact. Contact our admissions team at <a href="mailto:emba.info@iba.edu.pk">emba.info@iba.edu.pk</a> to discuss your specific situation.</p>
+						</div>
+					</div>
+					
+					
+					<button class="accordion1"> I have only 2 years of experience. Can I still apply? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p> No. The minimum requirement is 3 years of post-qualification professional experience. This requirement ensures that all participants have sufficient professional context to engage meaningfully with business and management cases and contribute to peer learning. </p>
+						</div>
+					</div>
+					
+					
+					<button class="accordion1"> What is the typical profile of MBA students? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p> MBA students are rising professionals, typically aged 25-35, with 3-8 years of professional experience across diverse industries including finance, technology, manufacturing, consulting, healthcare, and entrepreneurship. They are positioned at career inflection points, ready to transition from functional expertise to strategic management roles. </p>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<button class="accordion1">What is the role of NQFP and HEC in MBA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>The academic status/level of all academic degrees is assessed in relation to the National Qualification Framework of Pakistan (NQFP). The Higher Education Commission (HEC) is a constitutional institution that has the exclusive authority to assess and certify whether an academic program of a university and its degree is legitimate and has a certain level of qualification according to the national and international standards. The MBA conforms to the NQFP qualification of Level 7 and is accredited by the HEC as a qualification equivalent to 18 years of formal education in Pakistan.</p>
+						</div>
+					</div>
+					<button class="accordion1">Is MBA a full-time program?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p> Yes. In line with the HEC guidelines, we require our students to take a minimum of 9 credit hours in a semester and complete the program within a maximum period of 4 years. Total program credits are equally divided over four semesters. Students successfully completing the prescribed courses in every semester comfortably complete the program in 2 years. To accommodate diverse needs of our students, classes will be typically scheduled during the first four days of the week in the first half of the day, except for Wednesday, which is a full-day schedule for classes between 9 a.m. to 5 p.m.</p>
+						</div>
+					</div>
+					<button class="accordion1">How many rounds of MBA admission are there in a year?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p> MBA admissions are offered only once a year for the fall intake as part of a single round of admissions for the Fall semester intake. Application cycle typically begins in January and ends in April every year.</p>
+						</div>
+					</div>
+					<strong class="faq-category">Eligibility & Academic Background</strong>
+					<button class="accordion1">What are the eligibility criteria for applicants holding foreign degrees?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>All foreign degree holders need to obtain equivalence certificate from Higher Education Commission of Pakistan. Foreign qualification must be equivalent to a degree involving 16-years of education in Pakistan.</p>
+						</div>
+					</div>
+					<button class="accordion1">What are the eligibility requirements for applicants holding professional qualifications such as CA/ACCA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>According to HEC, professional certificates of qualification issued by ICMAP, ICAP, and membership of ACCA are equivalent to 16 years of education in Pakistan. Therefore, holders of are these qualifications are eligible for admission in MBA provided that they have 3 years of experience after the date of completion of any of these qualifications.</p>
+						</div>
+					</div>
+					<button class="accordion1">I already have an MBA. Can I apply for the MBA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Yes.</p>
+						</div>
+					</div>
+					<button class="accordion1">I have already completed some courses of MBA elsewhere. Can I transfer my admission or credits to the MBA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>No. You must be admitted to the program through the required admission process and start the program afresh.</p>
+						</div>
+					</div>
+					<strong class="faq-category">Professional Experience</strong>
+					<button class="accordion1">How important is professional experience in the admission process? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Starting 2025, IBA requires 3 years of post-qualification experience. </p>
+						</div>
+					</div>
+					<button class="accordion1">What does post-qualification experience mean and how important is it in admission?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>The candidate for MBA must have earned at least 3 years of professional work experience after the completion of their undergraduate degree. Part-time experience during education does not count. This requirement is one of the key eligibility conditions for the program and must be met.</p>
+						</div>
+					</div>
+					<strong class="faq-category">Testing & Application Process</strong>
+					<button class="accordion1">What is the process of admission into MBA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Please consult the admission schedule as a first step. You'll need to create an online account to access the application form. You can fill in the application form, attach documents required for each component, save the application, and submit the completed application by the deadline. Please note that incomplete and duplicate applications are rejected without any notice to the applicant.</p>
+						</div>
+					</div>
+					<button class="accordion1">Is entrance test necessary for admission to the MBA?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Yes. We take IBA Aptitude Test for admission. Alternatively, we can accept Graduate Management Admission Test (GMAT) or Graduate Record Examination (GRE) test scores which are not older than two years.</p>
+						</div>
+					</div>
+					<button class="accordion1">What is the current pattern of the MBA aptitude test?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Admission test is designed along the lines of GMAT to assess reading comprehension, critical thinking, quantitative reasoning, verbal reasoning, and essay writing.</p>
+						</div>
+					</div>
+					<button class="accordion1">What is the minimum GMAT/GRE score requirement for admission?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>For GMAT, the minimum score is 600 and for GRE, a minimum of 160 in quantitative and 150 in verbal part is required. Please note that these scores represent only a minimum eligibility condition and do not reflect the qualification merit for admission.</p>
+						</div>
+					</div>
+					<button class="accordion1">Who is a referee and how many referees do I need?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>A referee is a person who can give a valid opinion about your academic and leadership potential. We need two referees whom we can contact on your behalf and who are willing to provide us with the required information about you.</p>
+						</div>
+					</div>
+					<button class="accordion1">What is the Business Orientation Program (BOP) and who needs it?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>The BOP is an intensive and graded program of four weeks in which all the participants are primed to the philosophy and strategy of the MBA program, provided with relevant knowledge and skills to be able to relate to its content, and coached in the appropriate attitudes and behaviors needed to successfully complete it. The BOP puts all the participants, regardless of their academic and professional background, on an equal footing so that no one has any disadvantage in terms of academic know-how and intellectual skills relative to their peers in the cohort. Accordingly, all participants regardless of their undergraduate degree are required to attend and pass the BOP to pursue the program. Participants failing the BOP are dropped from the program.
+							</p>
+						</div>
+					</div>
+					<strong class="faq-category">Selection & Interview</strong>	
+					<button class="accordion1">Do you invite all candidates for the Aptitude Test?</button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>No. We invite only those candidates for the Aptitude Test who meet the eligibility criteria. </p>
+						</div>
+					</div>
+				
+					<button class="accordion1">Do you invite all candidates appearing in the Aptitude Test for an interview? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>No. We invite only those candidates who demonstrate a reasonable potential to be successful in the program by achieving a reasonable score in the Aptitude Test. </p>
+						</div>
+					</div>	
+					<strong class="faq-category">Post-Decision & Reapplication</strong>		
+					<button class="accordion1">If my application is not successful, can I apply again? </button>
+					<div class="panel" style=""><br>
+							<div style="overflow-x:auto;">
+						<p>Yes. You can apply in the future rounds of admission, but you will have to apply afresh. We do not consider previous applications as the input for admission.</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="events p-5">
+			<div class="container">
+				<div class="row">
+					<h2 class="global-heading1">Events</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="mba-directorate-organized-leadership-development-session.php"><img src="images/mba-directorate-organized-leadership-development-session.jpg" class="w-100 d-block img-thumbnail mb-2" alt="MBA Directorate Organized Leadership Development Session"></a>
+						<p><strong>MBA Directorate Organized Leadership Development Session</strong></p>
+						<p>The MBA Directorate at IBA Karachi is honored to host Mr. Salman Ahmed, currently appointed by Prime Minister Shehbaz Sharif as a member of the Prime Minister’s Economic Advisory Council (EAC), the Prime Minister’s Delivery Unit (PMDU), and Ambassador-at-Large for Investment. </p>
+					</div>
+					<div class="col-md-6">
+						<a href="mba-directorate-hosts-meeting-between-mba-students-executive-director.php"><img src="images/mba-directorate-hosts-meeting-between-mba-students-executive-director.jpg" class="w-100 d-block img-thumbnail mb-2" alt="MBA Directorate Hosts Meeting Between MBA Students and Executive Director"></a>
+						<p><strong>MBA Directorate Hosts Meeting Between MBA Students and Executive Director</strong></p>
+						<p>February 17, 2026: MBA Directorate hosted a meeting between MBA students and the Executive Director, Dr. S. Akbar Zaidi.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-lg-8">
+				<div class="row">
+					<div class="colo-sm-12 col-lg-6">
+						<h3>About</h3>
+						<ul>
+							<li><a href="https://www.iba.edu.pk/undergraduate.php" target="_blank">Undergraduate Programs</a></li>
+							<li><a href="https://www.iba.edu.pk/graduate.php" target="_blank">Graduate Programs</a></li>
+							<li><a href="https://www.iba.edu.pk/postgraduate-programs.php" target="_blank">Postgraduate Programs</a></li>
+							<li><a href="https://www.iba.edu.pk/pgd-programs.php" target="_blank">Postgraduate Diploma Programs</a></li>
+						</ul>
+					</div>
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Life at IBA</h3>
+						<ul>
+							<li><a href="https://www.iba.edu.pk/student_facilities.php" target="_blank">Facilities</a></li>
+							<li><a href="https://www.iba.edu.pk/lifeoncampus.php" target="_blank">Life on Campus</a></li>
+							<li><a href="https://osa.iba.edu.pk/oss/" target="_blank">Students' Societies</a></li>
+							<li><a href="https://www.iba.edu.pk/index.php#latest-news" target="_blank">IBA Events</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Academics</h3>
+						<ul>
+							<li><a href="https://sbs.iba.edu.pk/" target="_blank">School of Business Studies</a></li>
+							<li><a href="https://www.iba.edu.pk/sess/" target="_blank">School of Economics and Social Sciences</a></li>
+							<li><a href="https://smcs.iba.edu.pk/" target="_blank">School of Mathematics and Computer Science</a></li>
+						</ul>
+					</div>
+					<div class="colo-sm-12 col-lg-6">
+						<h3>About IBA</h3>
+						<ul>
+							<li><a href="https://www.iba.edu.pk/history.php" target="_blank">History &amp; Timeline</a></li>
+							<li><a href="https://www.iba.edu.pk/vision-mission-core-values.php" target="_blank">Vision, Mission &amp; Core Values</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-4">
+				<h3 id="contact">Stay Connected</h3>
+				<p> University Road, University of Karachi</p>
+				<!--<p><strong><i class="fa fa-map-marker" aria-hidden="true"></i> Locations</strong>
+						Program Manager MBA<br>Directorate of MBA and EMBA<br>
+						Room# 229, AMAN CED Building<br>
+						IBA Main Campus, University Road, Karachi<br></p>-->
+				<!--<p><strong><i class="fa fa-phone" aria-hidden="true"></i> 
+                             
+                Call Us</strong>           
+                
+                
+				Phone : &nbsp;021-38104700 (Ext: 2882)<br>
+				E-mail: &nbsp;mzahid[at]iba.edu.pk <br>
+					
+                </p>-->	
+				<p><strong><i class="fa fa-phone" aria-hidden="true"></i> Call Us</strong>+92-(213) 810-4700</p>
+				
+				
+				<p><strong>Follow Us<br><a href="https://www.facebook.com/ibakhiofficial/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> <a href="https://www.instagram.com/ibakhiofficial/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="https://x.com/ibakhiofficial" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> <a href="https://www.youtube.com/channel/UCP2jFh53I30goOY4YSjzE3w" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></strong></p>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="border-top: 2px solid #700f1a;padding-top: 15px;margin-top: 15px;">
+	<p> &copy; IBA Karachi. All Rights Reserved. <em style="font-size: 12px; float: right;">Last updated: 15-Jan-2026</em></p>
+	</div>
+</footer>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>	
+		<script>
+var acc = document.getElementsByClassName("accordion1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+	<script>
+var acc = document.getElementsByClassName("accordion2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

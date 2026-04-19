@@ -1,0 +1,10 @@
+Date: Fri, 27 Mar 2026 06:24:11 GMT
+Content-Type: text/html;charset=UTF-8
+Server: cloudflare
+Location: https://facs.uet.edu.pk/
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u9OFy2QI%2BkiVOal7OFXok2vzFqNUqCSFcmcjHtQGzZdIGChvmZxBeHPjo3Cpn2PAjXBVZAe1cEOz2ypB31o3BjcBEGFm6UD49r884IUQQJ5paSP8hSjwbGzvaaQUlHn1HQ%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=8,cfOrigin;dur=280
+Cf-Ray: 9e2c4f869b47ff87-SIN

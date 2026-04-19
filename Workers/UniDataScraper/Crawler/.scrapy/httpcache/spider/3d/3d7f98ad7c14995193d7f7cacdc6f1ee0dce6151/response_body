@@ -1,0 +1,1678 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+    <meta name="language" content="English" />
+	<meta name="copyright" content="CITS UoP" />
+				<meta name="author" content="CITS UoP" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     	<title>University of Peshawar</title>
+
+	<meta name="description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+	<meta name="keywords" content="uop, upesh, Peshawar University, university of peshawar, upesh peshawar, univ peshawar, kpk University, khyber pukhtunkhwa university, kpk govt universtiy, government university, public sector university, peshawar, peshawar pakistan, university in pakistan, FATA, FATA Univeristy, KPK" />
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.uop.edu.pk/images/favicon.png">
+      <meta property="og:image" content="
+      http://www.uop.edu.pk/images/img-3.jpg      "/>
+	<meta property="og:title" content="University of Peshawar" />
+	<meta property="og:site_name" content="University of Peshawar" />
+	<meta property="og:description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+    <!--
+    
+  /$$$$$$        /$$$$$$       /$$$$$$$$        /$$$$$$                      /$$   /$$                       /$$$$$$$ 
+ /$$__  $$      |_  $$_/      |__  $$__/       /$$__  $$                    | $$  | $$                      | $$__  $$
+| $$  \__/        | $$           | $$         | $$  \__/                    | $$  | $$        /$$$$$$       | $$  \ $$
+| $$              | $$           | $$         |  $$$$$$        /$$$$$$      | $$  | $$       /$$__  $$      | $$$$$$$/
+| $$              | $$           | $$          \____  $$      |______/      | $$  | $$      | $$  \ $$      | $$____/ 
+| $$    $$        | $$           | $$          /$$  \ $$                    | $$  | $$      | $$  | $$      | $$      
+|  $$$$$$/       /$$$$$$         | $$         |  $$$$$$/                    |  $$$$$$/      |  $$$$$$/      | $$      
+ \______/       |______/         |__/          \______/                      \______/        \______/       |__/      
+                                                                                                                      
+                                                                                                                      
+ Centre for I.T Services, 
+ University of Peshawar, Pakistan                                                                                                                
+    
+    -->
+    
+    
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/prettyPhoto.css" />
+    	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/stylemobile.css" />
+
+	<!-- <link href='../../../../fonts.googleapis.com/css_d229e2d1.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_ea4516fe.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_6d8124a6.css' rel='stylesheet' type='text/css' /> -->
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/mobilenavigation.css" />
+	<script src="http://www.uop.edu.pk/script/modernizr.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.js" type="text/javascript"></script>
+    <script src="http://www.uop.edu.pk/script/jquery-ui.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.retina.js" type="text/javascript"></script>
+        	<script src="http://www.uop.edu.pk/script/scripts.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function (){
+        $(window).scroll(function () {
+            if ($(document).scrollTop() <= 40) {
+                $('#header-full').removeClass('small');
+                $('.tabs-blur').removeClass('no-blur');
+                $('#main-header').removeClass('small');
+            } else {
+                $('#header-full').addClass('small');
+                $('.tabs-blur').addClass('no-blur');
+                $('#main-header').addClass('small');
+            }
+        });
+        
+        $("a[data-rel^='prettyPhoto']").prettyPhoto({
+			default_width: 600,
+			default_height: 420,
+			social_tools: false
+		});
+      /*  $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } }); */
+        $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
+		$('.slider-tabs.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('.slider-partners.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true,
+            itemWidth: 163,
+            itemMargin: 0
+        });
+		$('#slider-news.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('#slider-event.flexslider').flexslider({
+            animation: "fade",
+            pauseOnAction: true
+        });
+		$( ".accordion" ).accordion({
+	        heightStyle: "content"
+        });
+		$('a[data-rel]').each(function() {
+			$(this).attr('rel', $(this).data('rel'));
+		});
+		$('img[data-retina]').retina({checkIfImageExists: true});
+		$(".open-menu").click(function(){
+		    $("body").addClass("no-move");
+		});
+		$(".close-menu, .close-menu-big").click(function(){
+		    $("body").removeClass("no-move");
+		});
+	});
+	</script>
+      <script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#slideshow-tabs").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 8000, true);
+		
+	});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63785890-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+  (function() {
+    var cx = '009134963228199774510:9nseutcvucc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!-- Popup......... start.... -->
+<style type="text/css">
+	/* popup .................*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+
+
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+	</style>
+<script type="text/javascript">
+$(document).ready(function() {    
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.9);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+</script>
+<!-- popup data end... -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<header id="main-header" class="clearfix">
+        <div id="header-full" class="clearfix">
+            <div id="header" class="clearfix">
+                <a href="#nav" class="open-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</a>
+                <a href="http://www.uop.edu.pk/" id="logo"><img src="http://www.uop.edu.pk/images/uop-logo-75-f.png" data-retina="http://www.uop.edu.pk/images/logo.png" alt="University of Peshawar Logo" /></a>
+                <aside id="header-content">
+                   <form method="get" action="http://www.uop.edu.pk/search" id="searchform" />
+                    
+                        <div>
+                            <input type="text" name="q" class="input" id="s" />
+                            <input type="submit"  class="button"  />
+
+                        </div>
+                    </form>
+                   <ul id="nav-header">
+          <!--        <li><a href="http://www.uop.edu.pk/contacts/feedback.php">Grievance Redressal Cell</a></li>    -->   
+
+ <li><a href="https://www.google.com/a/uop.edu.pk/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">Email</a></li>
+                        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li>
+  <li><a href="http://lms.uop.edu.pk/portal/" >UoP-LMS</a></li>
+  <li><a href="http://www.uop.edu.pk/tender/" >Tenders</a></li>
+                        <li><a href="http://www.uop.edu.pk/jobs/" >Jobs</a></li>
+                        
+                <!--        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li> -->
+                        <li><a href="http://www.uop.edu.pk/contacts/" >Contact Us</a></li>
+                      
+                       
+
+                    </ul>
+                     
+                    
+                    <h3 id="slogan">&nbsp;</h3>
+                </aside>
+            </div>
+        </div> 
+
+ <nav id="nav" class="clearfix">
+                    <a href="#" class="close-menu-big">Close</a>
+                    <div id="nav-container">
+                        <a href="#" class="close-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <ul id="nav-main">
+                            <li
+                                                        
+                             ><a href="http://www.uop.edu.pk/">Home</a></li>
+                            <li
+                                                         
+                            ><a href="#">About UOP</a>
+                            <ul>
+                        <li><a href="http://www.uop.edu.pk/about/">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/about/?q=genesis">Genesis</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=vision-mission">Vision & Mission</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=maps-directions">Maps & Directions</a></li>
+                               </ul>
+                            
+                            </li>
+                             <li  ><a href="#">Administration</a>
+                                <ul>
+                                <li><a href="http://www.uop.edu.pk/administration/">Overview</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=statutory-body">Authorities of the University of Peshawar</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=administrative-offices">Administrative Offices</a></li>
+
+
+                                </ul>
+                          </li>
+                            <li   ><a href="#">Admissions</a>
+                                <ul>
+                             <li><a href="http://www.uop.edu.pk/admissions/?q=Overview">Overview</a></li>
+
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Undergraduate">Undergraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Postgraduate">Postgraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Higher-Studies">Higher Studies</a></li>
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid & Scholarships</a></li>
+                                   <!--  <li><a href="http://www.uop.edu.pk/admissions/?q=meritlist">Postgraduate Merit List</a></li> -->
+<!--                                     <li><a href="admissions/?q=FAQs">Frequently Asked Questions</a></li>
+-->                                   <!--  <li><a href="admissions/?q=downloads">Downloads</a></li> -->
+
+                                </ul>
+                      </li>
+                             <li  ><a href="#">Academics</a>
+                                <ul>
+<li> <a href="http://www.uop.edu.pk/departments">Academic Departments</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/">Faculties</a>
+                                    
+                  <!--                   <ul>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Arts-and-Humanities">Arts & Humanities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Islamic-and-Oriental-Studies">Islamic & Oriental Studies</a></li>
+                                     <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Life-and-Environmental-Sciences">Life & Environmental Sciences</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Management-and-Information-Sciences">Management & Information Sciences</a></li>
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Numerical-and-Physical-Sciences">Numerical & Physical Sciences</a></li>
+                                  
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Social-Sciences">Social Sciences</a></li>
+                                     </ul>
+-->
+                                    
+                                    </li>
+                                     <li><a href="#">Research Centres</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/departments/?q=Area-Study-Centre">Area Study Centre</a></li>
+                                    <li><a href="http://nceg.uop.edu.pk/">NCE in Geology</a></li>  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=NCE-in-Physical-Chemistry">NCE in Physical Chemistry</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Pakistan-Study-Centre">Pakistan Study Centre</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Shaykh-Zayed-Islamic-Centre">Shaykh Zayed Islamic Centre</a></li>
+                                     </ul>
+                                    
+                                    </li>
+                                  <li><a href="http://journals.uop.edu.pk/">Research Journals</a></li>
+
+                                     <li><a href="#">Research Labs</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/labs/crl/">Centralized Resource Laboratory</a></li>
+                                      <li><a href="http://www.uop.edu.pk/labs/mrl/">Materials Research Laboratory</a></li></ul></li>
+                                    <li><a href="#">Colleges</a>
+                                    
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=College-of-Home-Economics">College of Home Economics</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Jinnah-College-for-Women">Jinnah College for Women</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Law-College">Law College</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Quaid-e-Azam-College-of-Commerce">Quaid-e-Azam College of Commerce</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-College-for-Boys">University College for Boys</a></li>
+                               </ul>
+                                    
+                                    
+                                    </li>
+                                   <li><a href="#">Schools</a>
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Model-School">University Model School</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Public-School">University Public School</a></li>
+                                  
+                               </ul>
+                                   
+                                   
+                                   </li>
+
+<!-- <li><a href="http://www.uop.edu.pk/affilated-institutes/">Affiliated Institutes</a>
+                              </li> -->
+<li><a href="http://www.uop.edu.pk/dde/">Distance Education</a>
+                              </li> 
+
+ </ul>
+                            
+                             <li  ><a href="#">Examinations</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Overview">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Results">Results</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Private-Examinations">Private Examinations</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Overview&r=Online-Verification-of-Documents">Online Verification</a></li>
+
+  
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Downloads">Downloads</a></li>
+<!--                                     <li><a href="examinations/?q=FAQs">Frequently Asked Questions</a></li>
+-->
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="#">ORIC</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Overview">Overview</a></li>
+                                     <li><a href="http://www.uop.edu.pk/oric/?q=Research-Activities">Research Activities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Industrial-Linkages">Industrial Linkages</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=MOU">MoU</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Funding">Funding</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=downloads">Downloads</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="http://www.uop.edu.pk/qec/">QEC</a>
+                               
+                            </li>
+                   <li  ><a href="http://www.uop.edu.pk/das/">Advanced Studies</a></li>   
+
+<!--<li><a href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></li>  
+
+-->
+      
+                      </ul>
+                      
+                     
+              <!-- <a href="http://www.uop.edu.pk/fro/" id="button-registration">Get Involved</a>  
+<a href="http://www.uop.edu.pk/online/" id="button-registration">Online Learning</a>  -->
+</div> 
+                </nav>
+    </header>
+
+    
+    <div id="content-container" style="padding-top:0px;">
+        <div id="content" class="clearfix">
+
+           <!-- Main Content area(at left) for home page with fixed width and height.-->
+            <div id="main-content">
+
+                  <div id="slider-news" class="flexslider" style="box-shadow: 4px 4px 6px #242323;">
+                    <ul class="slides">
+                    
+                                               <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/UNICEF.jpeg" alt="A delegation from UNICEF Peshawar, led by Chief Field Officer Mr. Radoslaw Rzehak and Child Protection Specialist Mr. Sohail Ahmad, met with Vice Chancellor Prof. Dr. Johar Ali to enhance collaboration on child protection initiatives." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">A delegation from UNICEF Peshawar, led by Chief Field Officer Mr. Radoslaw Rzehak and Child Protection Specialist Mr. Sohail Ahmad, met with Vice Chancellor Prof. Dr. Johar Ali to enhance collaboration on child protection initiatives.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/UoP Ties.jpeg" alt="University of Peshawar Strengthens Ties with National Social Work Association of Pakistan. This collaboration marks a crucial step toward building strong bridges across universities to uplift the profession of social work across Pakistan." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">University of Peshawar Strengthens Ties with National Social Work Association of Pakistan. This collaboration marks a crucial step toward building strong bridges across universities to uplift the profession of social work across Pakistan.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/VC UoP at Social Work Convention.jpeg" alt="The concluding address by Prof. Dr. Johar Ali, Vice Chancellor, University of Peshawar on the occasion of first-ever National Social Work Convention at Baragali Summer Campus" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The concluding address by Prof. Dr. Johar Ali, Vice Chancellor, University of Peshawar on the occasion of first-ever National Social Work Convention at Baragali Summer Campus</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Group photo baragali.jpeg" alt="Dignitaries, participants & students at the National Social Work Convention of Pakistan hosted by the Department of Social Work at Baragali Summer Campus. Vice Chancellor Prof. Dr. Johar Ali (center) with the dignitaries and students" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Dignitaries, participants & students at the National Social Work Convention of Pakistan hosted by the Department of Social Work at Baragali Summer Campus. Vice Chancellor Prof. Dr. Johar Ali (center) with the dignitaries and students</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Arabic Deptt .. National Conf..jpeg" alt="The Department of Arabic, UoP, organized a National Conference titled "Arabic Language: My Islamic Identity" at the Baragali Summer Campus on July 8, 2025. VC Prof. Dr. Johar Ali graced the event with his presence & delivered a speech to highlight the significance of Arabic language." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The Department of Arabic, UoP, organized a National Conference titled "Arabic Language: My Islamic Identity" at the Baragali Summer Campus on July 8, 2025. VC Prof. Dr. Johar Ali graced the event with his presence & delivered a speech to highlight the significance of Arabic language.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/VC -- Plantation pic.jpeg" alt="Vice Chancellor Prof. Dr. Johar Ali launched a plantation drive at the University of Peshawar, accompanied by the Pro Vice Chancellor and Deans. This initiative aims to promote environmental sustainability and beautify the campus" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Vice Chancellor Prof. Dr. Johar Ali launched a plantation drive at the University of Peshawar, accompanied by the Pro Vice Chancellor and Deans. This initiative aims to promote environmental sustainability and beautify the campus</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Group photo ... 9th National Workshop.jpeg" alt="Dignitaries & participants at the National Workshop on "Modern Trends in Research & Information Management" at Baragali Summer Campus, UoP VC Prof. Dr. Johar Ali (center) with faculty members from Pak-Austria Fachhochschule and University of Peshawar" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Dignitaries & participants at the National Workshop on "Modern Trends in Research & Information Management" at Baragali Summer Campus, UoP VC Prof. Dr. Johar Ali (center) with faculty members from Pak-Austria Fachhochschule and University of Peshawar</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Dr. Johar VC ... Concluding address.jpeg" alt="The concluding address by Prof. Dr. Johar Ali, Vice Chancellor, UoP on the occasion of the 9th National Training Workshop titled "Modern Trends in Research & Information Management" at Baragali Summer Campus" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The concluding address by Prof. Dr. Johar Ali, Vice Chancellor, UoP on the occasion of the 9th National Training Workshop titled "Modern Trends in Research & Information Management" at Baragali Summer Campus</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/F&PC Meeting 15-7-2025.jpeg" alt="Vice Chancellor Prof. Dr. Johar Ali presided over the meeting of the Finance & Planning Committee (F&PC)" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                         <ul class="category-slider clearfix">
+                                        <li><a href="#">Finance & Planning Committee Meeting</a></li>
+                                    </ul>
+                                                                        <span style="color:white;">Vice Chancellor Prof. Dr. Johar Ali presided over the meeting of the Finance & Planning Committee (F&PC)</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Syndicate ... 15-7-2025.jpeg" alt="The 454th meeting of the Syndicate was held in the Committee Room, UoP, under the Chairmanship of Vice Chancellor Prof. Dr. Johar Ali" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                         <ul class="category-slider clearfix">
+                                        <li><a href="#">Syndicate Meeting</a></li>
+                                    </ul>
+                                                                        <span style="color:white;">The 454th meeting of the Syndicate was held in the Committee Room, UoP, under the Chairmanship of Vice Chancellor Prof. Dr. Johar Ali</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/Academic Council Meeting.jpeg" alt="The 102nd meeting of the Academic Council Meeting was held at UoP under the Chairmanship of Vice Chancellor Prof. Dr. Johar Ali" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                         <ul class="category-slider clearfix">
+                                        <li><a href="#">Academic Council Meeting</a></li>
+                                    </ul>
+                                                                        <span style="color:white;">The 102nd meeting of the Academic Council Meeting was held at UoP under the Chairmanship of Vice Chancellor Prof. Dr. Johar Ali</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/asrb-21062025.jpg" alt="Advancing academic excellence! Vice Chancellor Prof Dr Johar Ali leads a productive meeting of the Advance Studies Committee, paving the way for groundbreaking research and discoveries." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Advancing academic excellence! Vice Chancellor Prof Dr Johar Ali leads a productive meeting of the Advance Studies Committee, paving the way for groundbreaking research and discoveries.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/ssaq21062025.jpg" alt="Strengthening ties between academia and civil service! VC Prof Dr Johar Ali welcomes DG CSA Farhan Aziz Khawaja to University of Peshawar, presenting him with a souvenir after a productive career counseling session" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Strengthening ties between academia and civil service! VC Prof Dr Johar Ali welcomes DG CSA Farhan Aziz Khawaja to University of Peshawar, presenting him with a souvenir after a productive career counseling session</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/ihs21062025.jpeg" alt="Prof. Dr. Shumaila Rauf presents a bouquet to VC Prof. Dr. Johar Ali upon his visit to the Institute of Health Sciences, showcasing the faculty's warmth and respect" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">Prof. Dr. Shumaila Rauf presents a bouquet to VC Prof. Dr. Johar Ali upon his visit to the Institute of Health Sciences, showcasing the faculty's warmth and respect</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/sportsdayums FJminister.jpg" alt="The worthy Vice Chancellor is presenting a shield to provincial minister for sports and youth affairs Syed Fakhar Jehan at the eve of Annual Sports Day at UMS." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The worthy Vice Chancellor is presenting a shield to provincial minister for sports and youth affairs Syed Fakhar Jehan at the eve of Annual Sports Day at UMS.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/grp-ph-ahs2025inau.jpg" alt="The worthy Vice Chancellor is having a group photo with team members and faculty at the successful inauguration of the Allied Health Sciences program." />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The worthy Vice Chancellor is having a group photo with team members and faculty at the successful inauguration of the Allied Health Sciences program.</span>
+                                </div>
+                            </div>
+                        </li>
+                                                                            <li>
+                            <div class="slider-news-content">
+				                <img src="maingallery/cmarriving.jpg" alt="The honourable Chief Minister &  Chancellor KyberPakhtunkhwa Universities Sardar Ali Amin Khan Gandapur is arriving at the inaugural ceremony of Allied Health Sciences" />
+                                <div class="panel-slider-news" style="padding:5px;">
+                                                                        <span style="color:white;">The honourable Chief Minister &  Chancellor KyberPakhtunkhwa Universities Sardar Ali Amin Khan Gandapur is arriving at the inaugural ceremony of Allied Health Sciences</span>
+                                </div>
+                            </div>
+                        </li>
+                                                    
+                        
+					</ul>
+                </div>
+                      
+                                                     
+             </div>
+<div id="sidebar-homepage-right" class="sidebar-homepage">
+ <aside class="widget-container" style=" margin-bottom:0px;" >
+                    <div class="widget-wrapper clearfix" >
+<!-- 
+			        Popup data.... ....
+			        -->         
+<!--
+<div id="boxes">
+  <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window">
+    <div id="lorem">
+<center><img src="http://www.uop.edu.pk/resources/University_of_Peshawar_logo.jpg"></center><hr/>
+
+
+
+ <span style="color:red; font-size:20px;"><b>Undergraduate/ MBA Admissions are OPEN </b></span> <br/> <br/>
+
+
+<center><a class="button-more" style="width: 150px;" href="http://www.uop.edu.pk/news/?q=4061">View Details</a></center> 
+</p>
+<hr/>
+
+
+
+
+   
+    </div>
+    <div id="popupfoot">
+
+ <a class="agree"style="color:red;" href="http://www.uop.edu.pk/news/?q=4061">Click here for Details </a> | 
+<a href="#" class="close agree">Cancel</a>   </div>
+  </div>
+  <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.5;" id="mask"></div>
+</div>
+-->
+
+<!-- End.. popup -->			        			        
+				        <h3 class="widget-title" style="line-height:1.2;">Vice Chancellor's Message</h3>
+                       <article id="intro" style="margin-bottom:0px; ">
+                <img src="http://www.uop.edu.pk/resume/doc/dr-johar-ali-vc.jpg" alt="Vice Chancellor " align="left" width="180" height="180" style ="margin-right: 7px;"/> 
+                 <p  style="text-align:justify; background: #FFFCCF none repeat scroll 0 0; box-shadow: 5px 5px 8px #242323; padding:15px;  ">The University of Peshawar stands as the cornerstone of education in this region, playing a vital role in its development and intellectual growth a mission that continues to thrive. I feel privileged to have had the opportunity to study, teach, and now lead this esteemed institution. As higher education evolves, so too must our strategies to equip the next generation for the challenges of the future ...
+                    <a href="http://www.uop.edu.pk/administration/?q=vice-chancellor-office" class="more-intro"> Read More</a></p>
+                </article>
+                    </div>
+                </aside>  
+
+  
+
+</div>
+                  
+<div id="tabs-content-bottom">
+                <ul id="nav-content-bottom" class="clearfix">
+                    <li><a href="#panel-1">Student Corner</a></li>
+                    <li><a href="#panel-2">Administrative Offices</a></li>
+                    <li><a href="#panel-3">Landmark News</a></li>
+                    <li><a href="#panel-4">Quick Links</a></li>
+                </ul>
+                  <ul id="nav-content-bottom" class="clearfix" style="float:right;">
+                    <li><a href="https://bic.uop.edu.pk">BIC</a></li>
+                    <li><a href="http://www.uop.edu.pk/maingallery/">Photo Gallery</a></li>
+                    <li><a href="http://www.uop.edu.pk/das/?q=Graduates">Our Scholars</a></li>
+
+                    <li><a href="http://www.uop.edu.pk/downloads/">Downloads</a></li>
+                </ul>
+                <div class="ui-tabs-panel clearfix" id="panel-1">
+                    <ul class="nav-tabs-bottom">
+                        <li><strong><a href="https://bic.uop.edu.pk/">Business Incubation Centre</a></strong></li>
+<li><strong><a href="http://www.uop.edu.pk/celebrations">75 Years Celebrations</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid and Scholarships</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/examinations/?q=Private-Examinations">Private Examinations</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/sports/">Sports</a></strong></li>
+                        
+                        <li><strong><a href="http://www.uop.edu.pk/dde/">Distance Education</a></strong></li>
+              <li><strong><a href="http://www.uop.edu.pk/baragali/">Bara Gali Campus</a></strong></li>          <li><strong><a href="http://www.uop.edu.pk/csc/">China Study Centre</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/cfs/">Cell for FATA Studies</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/csp/">Community Service Program</a></strong></li>
+                       
+
+                        <li><strong><a href="http://www.digitallibrary.edu.pk/peshuni.html">Digital Library</a></strong></li>
+                        <li><a href="http://cdc.uop.edu.pk/"><strong>Career Development Centre </strong></a></li>
+ <li><strong><a href="http://www.uop.edu.pk/envsoc/">Environment Society</a></strong></li>
+                        <li style="width:240px;"><a href="http://uop.edu.pk/contacts/harassment-act.php"><strong>Anti-Sexual Harassment Committee </strong></a></li>
+                    </ul>
+                </div>
+                
+<div class="ui-tabs-panel clearfix" id="panel-2">
+                    <ul class="nav-tabs-bottom">
+                        <li><strong><a href="http://www.uop.edu.pk/vcoffice/">Vice Chancellor Office</a></strong></li>
+                       
+
+                        <li><strong><a href="http://uop.edu.pk/examinations/">Controller of Examinations</a></strong></li>
+                        <li><strong><a href="http://uop.edu.pk/cits/">Centre for IT Services</a></strong></li>
+                                                <li><strong><a href="http://uop.edu.pk/Treasurer/">Treasurer Office</a></strong></li>
+
+                                                <li><strong><a href="http://uop.edu.pk/qec/">Directorate of QE</a></strong></li>
+
+                        <li><strong><a href="http://uop.edu.pk/admissions/">Directorate of Admissions</a></strong></li>
+ <li><strong><a href="http://www.uop.edu.pk/das/">Directorate of Adv. Studies</a></strong></li>                        <li><strong><a href="http://uop.edu.pk/pnd/">Directorate of P & D</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/provost/?q=Overview&amp;r=Introduction">Provost Office</a></strong></li>
+                        <li><strong><a href="http://uop.edu.pk/sports/">Directorate of Sports</a></strong></li>
+                        <li><strong><a href="http://uop.edu.pk/chrcd/">CHRCD</a></strong></li>
+
+                        <li><strong><a href="http://uop.edu.pk/establishment/">Establishment Section</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/meetings/">Meetings Section</a></strong></li>
+                        <li><strong><a href="http://www.uop.edu.pk/academic/">Academic Section</a></strong></li>
+<li><a href="http://www.uop.edu.pk/fro/"><strong>Fundraising Office </strong></a></li>
+                    </ul>
+</div>
+                <div class="ui-tabs-panel clearfix" id="panel-3">
+
+ <article style="padding:15px;">
+                      <ul>
+                      <li><a href="http://www.uop.edu.pk/news/?q=2634">JCW faculty implore to formant the brand of the University with renewed endeavors
+
+</a></li>
+<li><a href="http://www.uop.edu.pk/news/?q=2623">Prof. Dr. Bashir Ahmad nominated for the presidential award of pride of performance
+
+</a></li>
+<li><a href="http://www.uop.edu.pk/news/?q=2617">Dr. Bushra Khan clinches yet another award on the eve of International Women's Day
+
+</a></li>
+                        <li><a href="http://www.uop.edu.pk/news/?q=2588">Chinese Ambassador H.E. Yao Jing visit to University of Peshawar
+</a></li>
+                       
+                      </ul>
+                    </article>
+
+
+
+
+                  </div>
+                <div class="ui-tabs-panel clearfix" id="panel-4">
+                    <ul id="nav-sidebar-bottom" class="clearfix">
+                    <li><a href="http://www.uop.edu.pk/faculties/" class="clearfix"><br />
+
+            <!--                            <figure><img src="images/icon-sidebar-5.png" alt="Library and Research" /></figure>
+--><strong class="title-nav-sidebar">Faculties</strong>
+                            We have Six faculties having 48 departments. Click here to explore more
+                            </a></li>
+                        <li><a href="http://www.uop.edu.pk/contacts/" class="clearfix"><br />
+
+                    <!--                            <figure><img src="images/icon-sidebar-1.png" alt="Contact Us" /></figure>
+--><strong class="title-nav-sidebar">Contact Us Now</strong>
+                            Connect to Administrative and Academic Departments via Phone and Fax. Click here for more
+                            </a></li>
+                        <li><a href="http://www.uop.edu.pk/about/?q=maps-directions" class="clearfix"><br />
+
+                    <!--                            <figure><img src="images/icon-sidebar-2.png" alt="Location" /></figure>
+--><strong class="title-nav-sidebar">Location</strong>
+                            Click here to get direction to our campus location by bus
+                            </a></li>
+                        
+                         <li><a href="http://www.uop.edu.pk/Library/?q=Overview" class="clearfix"><br />
+
+                    <!--                            <figure><img src="images/icon-sidebar-4.png" alt="Library and Research" /></figure>
+--><strong class="title-nav-sidebar">Library </strong>
+                            We have Collection of 1,58,000 volumes in addition of 696 precious manuscripts
+                            </a></li>
+
+                         
+                    </ul>
+                </div>
+            </div>
+﻿  
+ <div id="slider-event" class="flexslider">
+                    <ul class="slides">
+     
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms. Aiman Waheed has defended her Ph.D.</h2>        <p> Ms. Aiman Waheed completed her PhD in Biotechnology at the Center of Biotechnology and Microbiology (COBAM), University of Peshawar. She completed her research under the supervision of Dr. Samera Afzal Khan, University of Peshawar and Prof. Dr. Taj Ali Khan, Institute of Pathology and Diagnostic Medicine, Khyber Medical University, Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Aiman Waheed Defense(2).jpg" alt="Ms. Aiman Waheed has defended her Ph.D." />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms. Bushra Haider, successfully defended her Ph.D</h2>        <p> Ms. Bushra Haider successfully completed her PhD in Statistics under the supervision of Dr. Syed Mohammad Asim  (Associate Professor  Dept. Of Statistics, University of Peshawar) and co- supervision of Dr. Danish Wasim (Assistant Professor , Superior Science College Peshawar). Her PhD thesis was on "Optimized Two-Parameter Robust Ridge M-Estimators for Linear Regression Model Under the Influence of Multicollinearity and Outliers". The examiners for the PhD defence were Dr. Asma Gul (Associate Pr
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/WhatsApp Image 2026-02-07 at 9.37.21 AM.jpeg" alt="Ms. Bushra Haider, successfully defended her Ph.D" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms.  Saima Wahid, defended her M.Phil Viva Voce.D</h2>        <p> Ms. Saima Wahid defended her Thesis/M Phil Viva Voce Examination. Her Supervisor was Prof. Dr. Anwar Alam, Dean FOSS UOP, and External Examiner was Dr. Nizar Chairman Department of Sociology Bacha Khan University Charsadda.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20260214-WA0000 - Edit.jpg" alt="Ms.  Saima Wahid, defended her M.Phil Viva Voce.D" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Prof. Dr. Shahid Ali Visiting Scientist Fellowship</h2>        <p> Dr. Shahid Ali, Department of Physics, University of Peshawar, has been selected as a Visiting Scientist under the prestigious President's International Fellowship Initiative (PIFI) of the Chinese Academy of Sciences (CAS). The CAS-PIFI fellowship is awarded to outstanding international researchers to promote scientific collaboration and academic exchange with leading Chinese research institutions.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/photo - Edited.JPG" alt="Prof. Dr. Shahid Ali Visiting Scientist Fellowship" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms. Mehreen Faiza, successfully defended her Ph.D</h2>        <p> Ms. Mehreen Faiza defended her PhD Thesis entitled "Sociological Study of Crime among women in various Jailes of Punjab". Her supervisor was Prof. Dr. Anwar Alam, Dean Faculty of Social Sciences. Her External Examiner was Prof. Dr. Kamran Ishfaq, Chairman Department of Sociology Bahauddin Zakaria University (BZU), Multan. Internal Examiner was Dr. M. Ibrar, Department of Criminology, University of Peshawar. Prof. Dr. Johar Ali,  Vice Chancellor University of Peshawar also attended the defence.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/02 Mehrin Defended PhD Sociology formated.jpg" alt="Ms. Mehreen Faiza, successfully defended her Ph.D" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms Kiran Shahan defended her M.Phil defence</h2>        <p> Ms Kiran Shahan M.Phil scholar defends her dissertation successfully at the Institute of Education and Research (IER) University of Peshawar. Her research is supervised by Dr Amjad Reba and external examiner was Dr. Afzal Shah Department of Education University of  Hari Pur . Title of the research was "TEACHERS' TEACHING STRATEGIES REGARDING HIGH ORDER THINKING IN STUDENTS AT SECONDARY LEVEL: A CASE STUDY OF UNIVERSITY MODEL SCHOOL, UNIVERSITY OF PESHAWAR"
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/WhatsApp Image 2026-01-16 at 2.42.46 AM.jpeg" alt="Ms Kiran Shahan defended her M.Phil defence" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Ms. Safia Zainab defended her PhD Defence</h2>        <p> Ms. Safia Zainab Ph.D. Scholar in Sociology successfully defended her dissertation  entitled "Challenges to Women Pursuing Higher Education for Career Development: A Case Study of Government Colleges, District Bahawalpure, South Punjab", supervised by Prof. Dr. Anwar Alam, Dean Faculty of Social Sciences. Her External Examiner was Prof. Dr. Hazir Ullah, Vice Chancellor, University of Chatral and Internal Examiner was Dr. Muhammad Ibrar, Assistant Professor, Department of Criminology.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Saifa Phd Defended P-2.jpg" alt="Ms. Safia Zainab defended her PhD Defence" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Muhammad Imtiaz defended his PhD Defence</h2>        <p> Muhammad Imtiaz has earned his PhD Degree in Sociology (Sociology of Health) from the Department of Sociology,
+University of Peshawar. His doctoral study is "Community Response Towards the Expanded Program on
+Immunization (EPI) in Peshawar, Pakistan". The research was supervised by Prof. Dr. Anwar Alam, Dean, Faculty of Social Sciences, University of Peshawar, and externally examined by Prof. Dr. Farhan Naveed, University of the Punjab.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/image-4.jpg" alt="Muhammad Imtiaz defended his PhD Defence" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Muhammad Salim defended PhD on 26-11-2025</h2>        <p> Mr. Muhammad Salim has successfully defended his PhD thesis entitled "Unveiling the Bioactive Potential of Secondary Metabolites Purified from Endophytic Fungi of Solanum Surattense Through Integrated Insilico and Invitro Approaches"  under the supervision of Dr. Saeed Ullah Khattak.
+His external examiner was Prof. Dr. Syed Muhammad Jamal , Chairman, Department of Biotechnology, University of Malakand.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/1000396912.jpg" alt="Muhammad Salim defended PhD on 26-11-2025" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Mr. Saddam, Completed M.Phil on 13-11-2025</h2>        <p> Mr. Saddam, Area Study Centre successfully defended his MPhil thesis titled "Perception of Afghan Refugee Return to Afghanistan under the Taliban: With Special Reference to District Peshawar (2021-2024)".
+Supervisor: Prof. Dr. Muhammad Shafi Afridi, 
+
+External Examiner: Prof. Dr. Muhammad Zubair from Abdul Wali Khan University, Mardan
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/saddam pic.jpeg" alt="Mr. Saddam, Completed M.Phil on 13-11-2025" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Mr. Waheedullah Weyarh, Defended M.Phil Thesis</h2>        <p> Mr. Waheedullah Weyarh, Area Study Centre (Russia, China & Central Asia) successfully defended his MPhil thesis titled "Women Education in Paktia, Afghanistan Under Taliban's During 2021-2024)".
+The Supervisor of the Scholar was Prof. Dr. Muhammad Shafi Afridi, while Prof. Dr. Muhammad Zubair from Abdul Wali Khan University, Mardan was the external examiner
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/waheed pic.jpeg" alt="Mr. Waheedullah Weyarh, Defended M.Phil Thesis" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Mr. Fawad Hayat, Defended his Ph.D. Dissertation</h2>        <p> On 18-09-2025,  Mr. Fawad Hayat, Ph. D. Scholar, Centre of Biotechnology & Microbiology, University of Peshawar defended his dissertation successfully. His research topic was "Synthesis and Biomedical Activities of Silver Nanoparticles from Secondary Metabolites of Endophytic Bacteria, Inhabiting Olea europaea". His dissertation was supervised by Dr. Sumera Afzal.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20250918-WA0023.jpg" alt="Mr. Fawad Hayat, Defended his Ph.D. Dissertation" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Two weeks training at IPCS</h2>        <p> Two weeks training titled "Insider Mediation for Conflict Resolution and Peacebuilding" concludes today September 12,
+ 2025 at the Institute of Peace & Conflict Studies(IPCS), University of Peshawar.
+ Barrister Muhammad Ali Saif, advisor to the chief Minister for Information and Public Relations, Khyber Pakhtunkhwa was
+ the chief Guest, who distributed certificates among the trainees of the two weeks certification training program.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG_3782.jpeg" alt="Two weeks training at IPCS" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Public Defence of Ms Anum Irshad (IER))</h2>        <p> On 19-09-2025,  Ms. Anum Irshad PhD scholar, defended her dissertation successfully at the Institute of Education and Research (IER) University of Peshawar. Her research is supervised by Dr. Amjad Reba and the panel of Examiners consisted of Dr. Muhammad Zubair Department of Political Science and Dr. Wilayat Bibi from Education Department of Shaheed
+ Benazir Bhutto Women University Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20250918-WA0133.jpg" alt="Public Defence of Ms Anum Irshad (IER))" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Public Defence of MS Saman Yasin (IER)</h2>        <p> On 19-09-2025, Ms Saman Yasin PhD scholar defends her dissertation successfully at the Institute of Education and Research (IER)
+ University of Peshawar. Her research is supervised by Dr Amjad Reba and the panel of Examiners consisted of Prof. Dr
+ Anwar Alam Dean Faculty of Social Sciences and Dr Hafiz Muhammad Irshad from Education Department of Abdul Wali Khan University Mardan.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/PhD Defence Smana Yasin on 18-09-2025.jpg" alt="Public Defence of MS Saman Yasin (IER)" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <h2>Public Defence of Dr. Syed Shujaat Ali Shah</h2>        <p> On 15-08-2025, Dr Syed Shujaat Ali Shah successfully defended his PHD thesis under the supervision of Dr Syed Akhtar Ali Shah (former Chairman Department of Urban and Regional Planning). External Examiner for the evaluation was Dr Rashid Rehan (NIUIP) and Internal Examiner was Dr Fazlur Rahman
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20250813-WA0127.jpg" alt="Public Defence of Dr. Syed Shujaat Ali Shah" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Rabia Fayyaz has successfully defended her PhD dissertation titled "The Survivors of Political Violence in Khyber Pakhtunkhwa: Trauma, Stress, Growth and Treatment Interventions" at the Institute of Peace and Conflict Studies (IPCS), UoP supervised by Prof. Dr. Jamil Ahmad (Chitrali), Director of the Institute. Prof. Maria Saifuddin Effendi Chairperson Department of Peace and Conflict Studies (PCS), National Defence University Islamabad was the external examiner.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IP&CS -- PhD.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Nasira Nasreen has successfully defended her PhD dissertation titled "Effectiveness of Social Inclusion of Street Children in the Wake of Khyber Pakhtunkhwa Child Protection and Welfare Act 2010".  She completed her research work under the supervision of Prof. Dr. Johar Ali, Vice Chancellor of the University of Peshawar, and co-supervised by Dr. Imran Ahmad Sajid.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Social Work defense.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> University of Peshawar hosts one-day National Seminar on Inclusive Society and Youth Engagement titled "Advancing an Inclusive Pakistan Society for a Peaceful and Prosperous Pakistan" on July 21, 2025.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/UoP hosts National Seminar.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Mehreen has successfully defended her PhD dissertation  titled "Assessing the Impact of Life Skill Training on Alleviating the Emotional Dysregulation among Adolescents". She completed her research work under the supervision of  Prof. Emeritus Dr. Farhana Jahangir, with Dr. Erum Irshad as co-supervisor. External examiner was Dr. Syeda Nadia Shah from Islamia College University.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Psychology PhD Defense.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Tabassum Younas, MPhil scholar, Department of Journalism & Mass Communication has successfully defended her thesis titled "Evolution of Pashto Language Press" under the supervision of Dr. Faizullah Jan. Dr. Shabir Hussain from the Department of Media Studies, Bahria University, Islamabad, served as the external examiner.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/J&MC Mphil pic.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Nadeem-ur-Rehman, M.Phil scholar  Department of Urdu, University of Peshawar has successfully defended his M.Phil research thesis titled "A Comparative Study of the Role of Women in the Fiction of Rashidul Khairi and Sajjad Haider Yildirim". He completed his thesis under the supervision of Prof. Dr. Salman Ali, Chairman, Department of Urdu, UoP. The external examiner was Dr. Antal Zia, Department of Urdu, Benazir Women's University, Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Urdu Deptt... MPhil.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Muhammad Ilyas has successfully defended his MPhil thesis titled "Osama Siddique's Snuffing out the Candle: A Gramscian Analysis of Power Structures" on July 21, 2025, at the Department of English and Applied Linguistics, University of Peshawar. The thesis was supervised by Dr. Humaira Aslam, and the external examiner was Syed Hanif Rasool.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/English(1).jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Spogmay Sardar has successfully defended her M.Phil thesis titled "Unveiling Women's Commodification and Objectification in Bapsi Sidhwa's novel The Crow Eaters: A Beauvoirian Analysis" under the supervision of Dr. Humaira Aslam from the Department of English and Applied Linguistics, UoP. The examiner for the thesis defense was Atiq Rehman from the Department of English, Islamia University.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/MPhil Pic English deptt.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Kanwal Saif has successfully defended her M.Phil thesis titled "Megha Majumdar's A Burning: An Althusserian Analysis" under the supervision of Dr. Humaira Aslam from the Department of English and Applied Linguistics, UoP. The examiner for the thesis defense was Syed Hanif Rasool, Assistant Professor from Khushal Khan Khattak University, Karak.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/MPhil English pic.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> The Department of Criminology, University of Peshawar, in collaboration with the Islamic Research Institute (IRI), Students societies University of Peshawar and other partners, successfully concluded a two-day workshop on "Building Resilient Youth Communities at Educational Campuses" on July 19-20.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Criminology Workshop.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> M.Phil scholar Ms.Faryal Mazhar has successfully defended her thesis at the Institute of Chemical Sciences, University of Peshawar. She completed her research work under the supervision of Dr. Saima Sohni.
+
+External examiner was Dr. Murtaza from NCE in Physical Chemistry, University of Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/ICS.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Mr. Asadullah Sohail has successfully defended his Ph.D dissertation titled "New Bounds for the Jensen and Slater Gaps with Applications" under the supervision of Prof. Dr. Muhammad Adil Khan, Chairman Department of Mathematics, UoP. External examiners were Prof. Dr. Muhammad Sarwar, Department of Mathematics, University of Malakand and Dr. Mutabar Shah, Department of Physics, University of Peshawar
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/Maths Ph.D.jpeg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Mr. Muhammad Irfan PhD scholar defends his dissertation successfully today at the Institute of Peace and Conflict Studies (IPCS) University of Peshawar. His research is supervised by Dr Hussain Shaheed Soherwordi and the panel of Examiners consisted Prof Jamil Ahmad Chitrali and Dr Abdul Shakoor from Abdul Wali Khan University Mardan. The research explores the shades of Religion in the post 9/11 violence in Merged Districts and its connectivity with global political dynamics.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/ipcs-def2225.jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms.Noor ul Uza defended her PhD dissertation at the Department of Botany under the supervision of Prof. Dr. Ghulam Dastagir. She worked in the field of Pharmacognosy.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/FB_IMG_1736824820749.jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Sameen Shah a PhD Scholar has  successfully defended her dissertation titled "THE ROLE AND EFFECTIVENESS OF WOMEN ENTREPRENEURS IN PEACEBUILDING PROCESS POST 9/11: A CASE STUDY OF KHYBER PAKHTUNKHWA,PAKISTAN" under the supervision of Prof Jamil Ahmad (Chitrali) at the Institute of Peace and Conflict Studies (IPCS), University of Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/FB_IMG_1736824442057.jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Mr. Salahud Din Sailan Afridi has successfully defended his Ph.D dissertation titled as  " Symbolism in Modern Pashto Ghazal", under the supervision of Dr. Noor Muhammad Danish Bettani of Pashto Academy, University of Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20241211-WA0249(1).jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Mr. Muhammad Behroz Khan, a  PhD Scholar has defended his dissertation titled as "Impact of Cognitive Distortion on Suicidal Ideation: Mediating role of Illicit Drugs Use and Childhood Maltreatment among Students" under the supervision of  Prof. Dr Erum Irshad, Chairperson Department of Psychology at the Department of Psychology.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20241211-WA0034(1).jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Ms. Shahla Saeed ,a PhD Scholar has defended her dissertation titled as "Psycho-social Antecedents of Attitude toward War and Peace: Role of Social Dominance Orientation Perspective" under the supervision of Dr. Summiya Ahmad,  an Associate Professor at the Department of Psychology, University of Peshawar.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20241210-WA0059(1).jpg" alt="" />
+                </li>
+                
+                  
+       <li>
+                            <div class="panel-slider-event clearfix">
+ <br/>        <p> Mr. Zahoor Khan Khalil, a scholar from the Department of Environmental Sciences at the University of Peshawar, successfully defended his  dissertation titled as "In vitro Conservation of Podophyllum hexandrum, an Endangered Medicinal Plant." Under the supervision of Prof. Dr. Bushra Khan.
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/IMG-20250113-WA0260(1).jpg" alt="" />
+                </li>
+                
+                                          
+                             <!--         
+            
+                           
+                               <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Career Development Center (CDC) organised a one day study tour to one of the  historical place of Pakistan i.e. Takht-i-Bahi. The tour was conducted specifically for the top three students of Department of Geography, Department of History, Department of Botany, Center for Disaster Preparedness and Management, College of Home Economics on 20th March, 2018.
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/IMG-20180320-WA0019[1].jpg" alt="Environmental Event." />
+                </li>
+                          
+                           <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Group Photo of speakers and participants after the seminar on World Water Day on 22nd March at the department of Environmental sciences, University of Peshawar 
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/IMG_1459.JPG" alt="Environmental Event." />
+                </li>
+                           
+                            
+                              <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Young women writers forum assemble at Pakistan Study Centre, university of Peshawar to celebrate International Women Day and to take oath as member of YWWF. The students writers from all over the Campus and the city has assembled to celebrate the day on tuesday. 
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/IMG_1361.JPG" alt="Environmental Event." />
+                </li> 
+                            
+                            
+                            
+                             <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Dr. Shakeel Ahmed, Assistant Professor, Department of Social Work, representing University of Peshawar at the United States Institute for Peace, Washington DC from 15-17 March, 2018. Dr. Shakeel Ahmed  has presented the paper in an  "International Conference on Muslim Mental Health" organized by the Department of Psychiatry, Michigan State University USA. 
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/IMG20180317092823.jpg" alt="Environmental Event." />
+                </li> 
+                             
+                              <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Group Photo of participants of a two day workshop conducted in Swat from 13-14 March under the auspices of Higher education Commission, Canadian high Commission, World Community services through University of Peshawars’ Department of Environmental Sciences initiative titled as "Status of River Swat  water Quality and threats to native fish population" 
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/swat1314march.JPG" alt="Environmental Event." />
+                </li> 
+     <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p> Students at the Department of Pharmacy listen to a talk on effects of diabetes on glucose metabolism along with its  diagnosing and screening and its related complications on Wednesday 
+
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/14.03.2018.JPG" alt="Environmental Event." />
+                </li>
+   
+         <li>
+                            <div class="panel-slider-event clearfix">
+			<br/>
+
+        <p>Children presenting at the stage at the annual day function of Play group and Nursery being held on Wednesday at the College of Home Economics 
+
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/14.03.2018%20CHE.JPG" alt="Environmental Event." />
+                </li>             
+                                                                                                                        
+                     
+                      <li>
+                            <div class="panel-slider-event clearfix">
+			<h2>MOCK INTERVIEWS AT CHE</h2>
+
+        <p> Career Development Center (CDC) conducted first ever mock interviews for the students of College of Home Economics on 13th March, 2018 from 12:00 pm to 02:00 pm in College of Home Economics, University of Peshawar. Convener of the interview panel was Dr. Imrana Seemi who is currently the Coordinator of BS program in College of Home Economics. Other panelists include Ms. Sara Ali (Assistant Director CDC), Ms. Zainab (Lecturer), Ms. Madiha (Lecturer), and Ms. Nazish Bangash (Lecturer). 
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/13.03.2018.jpg" alt="Environmental Event." />
+                </li> 
+                                      
+                   
+                                              
+                           
+       <li>
+                            <div class="panel-slider-event clearfix">
+			<h2>BOOK FAIR AT PUTA HALL</h2>
+
+        <p> Senior minister, minister for local government, elections, and rural development  Inayat Ullah Khan gracing the inaugural ceremony of a three day Book Fair at  Peshawar University Teachers Association Hall
+
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/Bookfair13.03.2018aaaa.jpg" alt="Environmental Event." />
+                </li> 
+                                        
+                                   
+                                   
+                                    <li>
+                            <div class="panel-slider-event clearfix">
+    <br />
+
+        <p> The Department of Social Work University of Peshawar has organised a three day training (7-9 March,2018) titled as "Volunteering in emergency" in collaboration with Pakistan Red Crescent Society and International Federation for raising Volunteers lot for social work and emergency situations.
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/IMG_0795.JPG" alt="Environmental Event." />
+                </li> 
+                
+            
+                
+                         
+                <li>
+                            <div class="panel-slider-event clearfix">
+    <br /><br />
+
+        <p> Vice Chancellor University of Peshawar, Prof. Dr. Muhammad Asif Khan is looking at the students hand-made embroidery during a detailed visit at College of Home Economics on monday, 5th of March. 
+
+</p>
+                            </div>
+                            <img src="http://www.uop.edu.pk/resources/stud_cent18che.JPG" alt="CHE EVENT 2018 BY CDC" />
+                </li>  
+                
+                  <li>
+                            <div class="panel-slider-event clearfix">
+			<h2>SEMINAR ON COMMUNICATION SKILLS</h2>
+            <p> Career Development Center organized a Seminar on Communication Skills and CV Writing for the students of College of Home Economics, UoP. The seminar covered process and parameters of communication, 7 C's of communication, effective CV writing, difference between CV and Resume, skill based CV, and chronological CV. 
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/CHE%20Event2122018.jpg" alt="CHE EVENT 2018 BY CDC" />
+                </li>
+                
+                
+           <li>
+                            <div class="panel-slider-event clearfix">
+			<h2>SEMINAR ON WORKPLACE PSYCHOLOGY</h2>
+            <p> Career Development Center organized a Seminar for the students of College of Home Economics, UoP. This informational seminar covered general explanation of psychology, factors causing psychological problems, difference between depression and anxiety, personality disorders, types of personalities in workplace, how to deal with co-workers, and psychological stigma. Participants were taught different exercises to combat stress in their daily life.
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/CDC-EVENT-2018-CHE.jpg" alt="CHE EVENT 2018 BY CDC" />
+                </li>
+                
+             <li>
+                            <div class="panel-slider-event clearfix">
+    <br />
+
+        <p> Career Development Center (CDC) conducted a  seminar on Contemporary Architecture and Current Research Trend for the students of College of Home Economics on 20th February, 2018. The seminar covered seven most important interior design principles i.e. balance, rhythm, detail, scale and proportion, colors scheming, unity and harmony, and focal Point. 
+
+
+</p>
+                            </div>
+                            <img src="http://uop.edu.pk/resources/CDC20.03.2018.jpg" alt="CHE Event CDC" />
+                </li> 
+                
+                -->
+    
+                    </ul>
+                </div>
+                             <div id="main-content">
+          
+                          <div id="sidebar-homepage-left" class="sidebar-homepage">
+ <div id="sidebar">
+
+                           
+
+<aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+                        
+				            <h3 class="widget-title">News</h3>
+				                <ul class="menu news-sidebar">			
+								   						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4115">Evaluation proforma for Selection of University Teachers</a></h4>
+								       <span class="date-news">08 Apr 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4114">Admissions are Open: Graduate Degree Program (Islamic Studies) (Spring-2026), Shaikh Zayed Islamic Centre</a></h4>
+								       <span class="date-news">18 Mar 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4112">Admissions are Open: Graduate Degree Program (Spring-2026)</a></h4>
+								       <span class="date-news">06 Mar 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4111">Evaluation proforma for Selection of University Teachers</a></h4>
+								       <span class="date-news">02 Mar 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4110">Situations Vacant: Lecturer in Computer Science, Pharmacy and Allied Health Sciences</a></h4>
+								       <span class="date-news">02 Mar 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4109">Margalla School: Fellow Ship Program on Energy and Climate</a></h4>
+								       <span class="date-news">20 Feb 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4108">Situation Vacant Under HEC NRPU Project, Centralized Resource Laboratory (CRL), Department of Physics</a></h4>
+								       <span class="date-news">19 Feb 2026</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=4107">Advertisement for the positions of Visiting Teachers, Faculty of Management and Information Sciences</a></h4>
+								       <span class="date-news">16 Feb 2026</span>
+						             </li>
+								     
+								</ul>
+								<a href="http://www.uop.edu.pk/news/" class="button-more" style="width:150px;">News Archive </a>
+				        </div>
+				    </aside>
+
+                           </div>
+                           </div>
+                           <div id="sidebar-homepage-middle" class="sidebar-homepage">
+<div id="sidebar">
+
+						   
+                    <aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+				            <h3 class="widget-title">Upcoming Events</h3>
+				                <ul class="menu event-sidebar">			
+								    							        <li class="clearfix">
+								        <div class="event-date-widget">
+								          <strong>21</strong>
+								          <span>Apr</span>
+								          </div>
+								        <div class="event-content-widget">
+								          <article>
+								            <h4><a href="http://www.uop.edu.pk/events/?q=932">Ph.D. Defence of Ms. Wajiha Naeem</a></h4>
+								          <!--  <p> 
+                                           
+                                           								              								              </p> -->
+								            <em>  Centre of Biotechnology and Microbiology</em>
+								            </article>
+								          <!-- <article>
+                                                <h4><a href="#">HTML5 &amp; CSS3 Workshop</a></h4>
+                                                <p>November 28, 2013<br />
+                                                    11:00 AM - 1:00 PM
+                                                </p>
+                                                <em>IT Center Building E</em>
+                                            </article>-->
+								          
+								          </div>
+							          </li>
+								      							        <li class="clearfix">
+								        <div class="event-date-widget">
+								          <strong>21</strong>
+								          <span>Apr</span>
+								          </div>
+								        <div class="event-content-widget">
+								          <article>
+								            <h4><a href="http://www.uop.edu.pk/events/?q=931">Ph.D. Defence of M. Atif Khan</a></h4>
+								          <!--  <p> 
+                                           
+                                           								              								              </p> -->
+								            <em>  Centre of Biotechnology and Microbiology</em>
+								            </article>
+								          <!-- <article>
+                                                <h4><a href="#">HTML5 &amp; CSS3 Workshop</a></h4>
+                                                <p>November 28, 2013<br />
+                                                    11:00 AM - 1:00 PM
+                                                </p>
+                                                <em>IT Center Building E</em>
+                                            </article>-->
+								          
+								          </div>
+							          </li>
+								      							        <li class="clearfix">
+								        <div class="event-date-widget">
+								          <strong>08</strong>
+								          <span>Jul</span>
+								          </div>
+								        <div class="event-content-widget">
+								          <article>
+								            <h4><a href="http://www.uop.edu.pk/events/?q=917">International Studies Conference</a></h4>
+								          <!--  <p> 
+                                           
+                                           								              								              </p> -->
+								            <em>  Baragali Summer Camp</em>
+								            </article>
+								          <!-- <article>
+                                                <h4><a href="#">HTML5 &amp; CSS3 Workshop</a></h4>
+                                                <p>November 28, 2013<br />
+                                                    11:00 AM - 1:00 PM
+                                                </p>
+                                                <em>IT Center Building E</em>
+                                            </article>-->
+								          
+								          </div>
+							          </li>
+								                                      </ul><a href="http://www.uop.edu.pk/events/?r=" class="button-more" style="width:150px;" >Events Archive </a>
+				        </div>
+				    </aside>
+
+                           </div>
+
+                </div>
+                
+
+            </div>
+<div id="sidebar-homepage-right" class="sidebar-homepage">
+ <div id="sidebar">
+ <aside class="widget-container">
+				    <div class="widget-wrapper clearfix">
+				        <h3 class="widget-title">Latest Research</h3>
+ <article class="static-page">
+ 
+ 
+<div class="accordion">
+
+
+<h6 class="title-faq" style="font-size:14px;">
+Evaluation of Antimicrobial, Cytotoxic and Phytotoxic Activities of Ribes himalense Decne. Collected from Thandiani, Abbottabad, Pakistan 
+</h6>
+<div class="content-faq">
+<p>
+<strong>Author(s):</strong>Nimra Zeb, Asad Ullah, Safeer Ullah, G. M. Shah, Z. Ahmad, M. Shakir, K. U. Rehman and  N. Zeb<br />
+<strong>Year:</strong> 2026<br />
+<strong>Journal: </strong>Journal Plantarum<br />
+
+<strong>Date: </strong>2026<br/>
+<strong>Volume: </strong> 
+8<br/> 
+<strong>Issue: </strong>
+SI<br/><strong>Page(s): </strong>
+1-11<br/><strong>Link: </strong>
+<a href="https://plantarum.lcwu.edu.pk/ojs/index.php/1/article/view/151" target="_blank">Download</a>
+
+</p>
+</div> 
+
+<h6 class="title-faq" style="font-size:14px;">
+An investigation of discontinuities in time-dependent 2D and 3D parabolic partial differential equations utilizing collocation methods: a comparative analysis of complex interface problems 
+</h6>
+<div class="content-faq">
+<p>
+<strong>Author(s):</strong>Muhammad Faheem, Muhammad Asif, Rohul Amin, Nadeem Hiader, Fahd Jarad<br />
+<strong>Year:</strong> 2026<br />
+<strong>Journal: </strong>Computational and Applied Mathematics (Springer)<br />
+
+
+<strong>Volume: </strong> 
+121<br/> 
+<strong>Issue: </strong>
+45<br/><strong>Page(s): </strong>
+32<br/><strong>Link: </strong>
+<a href="https://doi.org/10.1007/s40314-025-03539-7" target="_blank">Download</a>
+
+</p>
+</div> 
+
+<h6 class="title-faq" style="font-size:14px;">
+RBF-Based Meshless Collocation Method for Time-Fractional Interface Problems with Highly Discontinuous Coefficients 
+</h6>
+<div class="content-faq">
+<p>
+<strong>Author(s):</strong>Faisal Bilal, Muhammad Asif, Mehnaz Shakeel, Ioan- Lucian Popa<br />
+<strong>Year:</strong> 2026<br />
+<strong>Journal: </strong>Mathematical and Computational Applications<br />
+
+
+<strong>Volume: </strong> 
+133<br/> 
+<strong>Issue: </strong>
+30<br/><strong>Page(s): </strong>
+20<br/><strong>Link: </strong>
+<a href="https://doi.org/10.3390/mca30060133" target="_blank">Download</a>
+
+</p>
+</div> 
+
+<h6 class="title-faq" style="font-size:14px;">
+A Hybrid Numerical Framework Based on Radial Basis Functions and Finite Difference Method for Solving Advection Diffusion Reaction Type Interface Models 
+</h6>
+<div class="content-faq">
+<p>
+<strong>Author(s):</strong>Muhammad Asif, Javairia Gul, Mehnaz Shakeel, Ioan- Lucian Popa<br />
+<strong>Year:</strong> 2026<br />
+<strong>Journal: </strong>Mathematical and Computational Applications<br />
+
+
+<strong>Volume: </strong> 
+1<br/> 
+<strong>Issue: </strong>
+31<br/><strong>Page(s): </strong>
+22<br/><strong>Link: </strong>
+<a href="https://doi.org/10.3390/mca31010001" target="_blank">Download</a>
+
+</p>
+</div> 
+
+<h6 class="title-faq" style="font-size:14px;">
+A hybrid meshless collocation approach for capturing solution and gradient jumps in 1D telegraph double-interface model with highly discontinuous coefficients 
+</h6>
+<div class="content-faq">
+<p>
+<strong>Author(s):</strong>Muhammad Asif, Fatima, Muhammad Biala Riaz, Faisal Bilal<br />
+<strong>Year:</strong> 2026<br />
+<strong>Journal: </strong>Results in Applied Mathematics(Elsevier)<br />
+
+
+<strong>Volume: </strong> 
+29<br/> 
+<strong>Issue: </strong>
+2026<br/><strong>Page(s): </strong>
+30<br/><strong>Link: </strong>
+<a href="https://doi.org/10.1016/j.rinam.2026.100685" target="_blank">Download</a>
+
+</p>
+</div> 
+
+
+
+ 
+ 
+ 
+ </div>
+                                
+                  </article>             
+
+				    </div>
+				</aside>
+</div></div>
+            <!-- End.. Main content Area for home page -->
+            <!-- right side bar.........................--->
+            <br />
+
+ 
+            
+            <!-- End............ right sidebar --------------------->
+
+        </div>
+    </div>
+         <footer id="main-footer" >
+        <div id="blur-top">
+            <a href="#" id="link-back-top">Back to Top</a>
+        </div>
+        <!--<div id="slogan-footer">
+        style="background:url(images/img-8.jpg) no-repeat 50% 0;"
+           <h4>To love and to serve the entire creation of the Creator</h4>
+        </div>-->
+        <div id="footer-content" class="clearfix">
+            <div id="footer-container">
+                <div id="sidebar-footer-left" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix" >
+                            <h3 class="widget-title" style="color:#fff;">Quick Links</h3>
+                            <ul >
+                            <li><strong><a style="color:#fff;" href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></strong></li>
+ <li><a style="color:#fff;" href="http://www.uop.edu.pk/jobs/"><strong>Jobs</strong></a></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/tender/">Tender</a></strong></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/maingallery/">Picture Gallery</a></strong></li>
+                                <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/LifeOnCampus/">Life on Campus</a></strong></li>
+                                                                <li><strong><a style="color:#fff;" href="https://cpec-centre.pk/">CoE-CPEC</a></strong></li>
+
+
+                               <!-- <li><strong><a href="http://www.uop.edu.pk/pio">Public Information Office</a></strong></li>-->
+
+
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div id="sidebar-footer-middle" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix">
+                            <h3 class="widget-title" style="color:#fff;">Campus Location</h3>		
+                            <article class="text-widget " >
+					           <iframe class="map-area" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d6615.401372220392!2d71.48921630340652!3d34.00022108817633!3m2!1i1024!2i768!4f13.1!2m1!1suniversity+of+peshawar!5e0!3m2!1sen!2s!4v1424811883868"></iframe><br />                                   </article>
+                        </div>
+                    </aside>
+                </div>
+                <article id="footer-address" class="clearfix">
+                    <h3 id="title-footer-address"><span>Contact Us</span></h3>
+                    <p style="color:#000;"><strong>
+                    You can contact us via </strong><br />
+
+                      <strong>Phone #:</strong> +92-91-9216701<br />
+                                            <strong>For admissions:</strong> admissions@uop.edu.pk <br />
+                      <strong>For examinations:</strong> controller@uop.edu.pk <br />
+
+                      <strong>For website:</strong> webmaster@uop.edu.pk <br />
+                  </p>
+                   
+                    <ul id="list-social" class="clearfix">
+                        <li id="icon-facebook"><a href="https://www.facebook.com/UniversityOfPeshawarOfficialPage">Facebook</a></li>
+                        <li id="icon-twitter"><a href="https://twitter.com/upeshpakistan">Twitter</a></li>
+                        <li id="icon-gplus"><a href="http://www.google.com/+UoPEduPkOfficial">Google Plus</a></li>
+                        <li id="icon-linkedin"><a href="#">Linkedin</a></li>
+                        <li id="icon-youtube"><a href="#">Youtube</a></li>
+                        <li id="icon-flickr" class="last"><a href="#">Flickr</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+                <div id="footer-copyright">
+            <div id="footer-copyright-content" class="clearfix">
+               
+                <p id="text-address">University of Peshawar</p>
+               
+                <p id="text-copyright">Copyright &copy; 2024. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

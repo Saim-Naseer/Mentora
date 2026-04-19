@@ -1,0 +1,16 @@
+Server: nginx/1.14.1
+Date: Fri, 27 Mar 2026 06:08:19 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Link: <https://qau.edu.pk/wp-json/>; rel="https://api.w.org/", <https://qau.edu.pk/wp-json/wp/v2/pages/17497>; rel="alternate"; title="JSON"; type="application/json", <https://qau.edu.pk/?p=17497>; rel=shortlink
+X-Varnish: 10651643
+Age: 0
+Via: 1.1 varnish (Varnish/6.4)
+X-Cache: HIT from Backend
+Strict-Transport-Security: max-age=31536000
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

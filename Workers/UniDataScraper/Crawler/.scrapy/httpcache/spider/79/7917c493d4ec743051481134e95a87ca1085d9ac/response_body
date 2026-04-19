@@ -1,0 +1,670 @@
+			<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<meta name="language" content="English" />
+<meta name="copyright" content="CITS UoP" />
+<meta name="author" content="CITS UoP" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Journal | University of Peshawar</title>
+<meta name="description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+<meta name="keywords" content="uop, upesh, Peshawar University, university of peshawar, upesh peshawar, univ peshawar, kpk University, khyber pukhtunkhwa university, kpk govt universtiy, government university, public sector university, peshawar, peshawar pakistan, university in pakistan, FATA, FATA Univeristy, KPK" />
+
+<meta property="og:title" content="University of Peshawar" />
+<meta property="og:site_name" content="University of Peshawar" />
+<meta property="og:description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+    <!--
+    
+  /$$$$$$        /$$$$$$       /$$$$$$$$        /$$$$$$                      /$$   /$$                       /$$$$$$$ 
+ /$$__  $$      |_  $$_/      |__  $$__/       /$$__  $$                    | $$  | $$                      | $$__  $$
+| $$  \__/        | $$           | $$         | $$  \__/                    | $$  | $$        /$$$$$$       | $$  \ $$
+| $$              | $$           | $$         |  $$$$$$        /$$$$$$      | $$  | $$       /$$__  $$      | $$$$$$$/
+| $$              | $$           | $$          \____  $$      |______/      | $$  | $$      | $$  \ $$      | $$____/ 
+| $$    $$        | $$           | $$          /$$  \ $$                    | $$  | $$      | $$  | $$      | $$      
+|  $$$$$$/       /$$$$$$         | $$         |  $$$$$$/                    |  $$$$$$/      |  $$$$$$/      | $$      
+ \______/       |______/         |__/          \______/                      \______/        \______/       |__/      
+                                                                                                                      
+                                                                                                                      
+ Centre for I.T Services, 
+ University of Peshawar, Pakistan                                                                                                                
+    
+    -->
+
+
+    
+
+    <!-- Styling -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+<!-- 	<link href="//fonts.googleapis.com/css?family=Roboto%3A400%2C700%7CSource+Sans+Pro%3A700%2C900&amp;subset=latin" rel="stylesheet"> -->
+	   	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+    
+    <script src="js/modernizr.custom.24530.js" type="text/javascript"></script>
+	
+	<link rel="shortcut icon" href="images/fav.png">
+	<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    
+	<script>
+	/* Google Map Market Settings */
+	
+	var mapMarkers = [
+		{
+			"id": "1",
+			"title": "CargoPress",
+			"address": "Changi Airport, Singapore",
+			"custompinimage": "images\/pin.png"
+		}
+	]
+	</script>
+	
+    <style>
+    .p-style-home
+    {
+        font-size: 17px;
+        color: #000;
+        font-weight: 300;
+        line-height: 1.6;
+        margin: 0 0 24px;
+        text-align: justify;
+    }
+    </style>
+    
+</head>
+<body>
+	
+	<!-- MAIN PAGE CONTAINER -->
+	<div class="boxed-container">
+		
+		<!-- TOP BAR -->
+		<div class="top">
+			
+			<!--<div class="container">
+ 
+				<div class="top__tagline">Welcome to University Of Peshawar Journal</div>
+				
+				<nav class="top__menu">
+					<ul class="top-navigation js-dropdown">
+						<li>
+							<a href="#">Creat an Account</a>
+						</li>
+						<li>
+							<a href="#">Login</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">Help</a>
+						</li>
+					</ul> 
+				</nav>
+			
+			</div>--><!-- /.container -->
+		
+		</div><!-- /.top -->
+		
+		<!-- HEADER -->
+		<div class="header__container">
+			
+
+<div class="container">
+				
+				<header class="header">
+					
+					<div class="header__logo">
+						
+                        <a href="index.php">
+							<img  srcset="images/logo.png" style="width: 287px; height: 96px; float: left; margin-left: -47px;" alt="CargoPress" src="images/logo.png">
+						</a>
+						<button data-target="#cargopress-navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+							<span class="navbar-toggle__text">MENU</span>
+							<span class="navbar-toggle__icon-bar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</span>
+						</button>
+					</div><!-- /.header__logo -->
+					
+					<div class="header__navigation">
+						<nav class="collapse navbar-collapse" id="cargopress-navbar-collapse">
+							<ul class="main-navigation js-main-nav js-dropdown">
+								<li style="padding-left: 27px;">
+									<a href="index.php">Home</a>
+								</li>
+								<li style="padding-left: 27px;" class="current-menu-item menu-item-has-children">
+									<a href="#">Journals</a>
+									<ul role="menu" class="sub-menu">
+										                                                        <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=11                                                            ">Journal of Science and Technology</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=12                                                            ">The Journal of Humanities & Social Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://nceg.uop.edu.pk/researchjournal.html                                                            ">Journal of Himalayan Earth Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=14                                                            ">Pakistan Journal of Peace and Conflict Studies</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=15                                                            ">International Journal of Library and Information Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://khayaban.uop.edu.pk                                                            ">Khayaban</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=18                                                            ">Ancient Pakistan</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=19                                                            ">Journal of Law and Society</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=20                                                            ">Peshawar Islamicus ISSN(Print): 2305-154X,  ISSN(Online):2521-8409</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=21                                                            ">Al-Idah (ISSN:2075-0307)</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=22                                                            ">Central Asia</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://www.pscpesh.org/index.php/research-journal                                                            ">Pakistan</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=24                                                            ">Peshawar Journal of Global Affairs</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=25                                                            ">PUTAJ Humanities and Social Science</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=26                                                            ">PUTAJ Oriental Studies</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=27                                                            ">PUTAJ Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=28                                                            ">Pashto</a>
+                    									</li>
+                                                        									</ul>
+								</li>
+								
+							</ul>
+						</nav>
+					</div><!-- /.header__navigation -->
+					
+					<div class="header__widgets">
+						
+					<!-- 	<div class="widget-icon-box">
+							
+							<div class="icon-box">	
+								<i class="fa fa-clock-o"></i>
+								<h4 class="icon-box__title">Opening Time</h4>
+								<span class="icon-box__subtitle">08:00 - 18:00</span>
+							</div>
+						
+						</div>
+					
+						<div class="widget-icon-box">
+							
+							<div class="icon-box">
+								<i class="fa fa-envelope-o"></i>
+								<h4 class="icon-box__title">Email Us</h4>
+								<span class="icon-box__subtitle">info@cargopress.io</span>
+							</div>
+							
+						</div> -->
+					
+						
+				
+					</div><!-- /.header__widgets -->
+				
+					<div class="header__navigation-widgets">
+						<a target="_blank" href="https://www.facebook.com" class="social-icons__link"><i class="fa fa-facebook"></i></a>
+						<a target="_blank" href="https://twitter.com/upeshpakistan" class="social-icons__link"><i class="fa fa-twitter"></i></a>
+						
+					</div>
+			
+				</header>
+			
+			</div>
+            
+            <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        	<script src="js/bootstrap/carousel.js"></script>
+        	<script src="js/bootstrap/transition.js"></script>
+        	<script src="js/bootstrap/button.js"></script>
+        	<script src="js/bootstrap/collapse.js"></script>
+        	<script src="js/bootstrap/validator.js"></script>
+        	<script src="js/underscore.js"></script>
+        	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+        	<script src="js/SimpleMap.js"></script>
+        	<script src="js/NumberCounter.js"></script>
+        	<script src="js/jquery.magnific-popup.min.js"></script>
+        	<script src="js/custom.js"></script>
+		</div>
+        <div class="col-md-12" style="background-color:#1f425d;">
+		<h2 class="title-h2" style="padding-top:20px; border-top:1px solid #cacaca; text-shadow: black;">
+			Search our Journals
+		</h2>
+	</div>			
+
+<ul class="tabs" style="background-color:#1f425d;">
+	
+    <li>
+    <form method="POST" action="search_result.php">
+    
+        <input type="radio" name="tabs" id="tab1" checked />
+        <div id="tab-content1" class="tab-content">
+       	<div class="col-md-10 col-sm-12">
+       		<input type="text" placeholder="Search by Title" aria-invalid="false" aria-required="true" value="" name="title" />
+       	</div>    
+       	<div class="col-md-2 col-sm-12">
+       		
+       	    <input type="submit" name="search_title" value="Search" style="background-color: #F6BB19; border-color: #d6d8d8;color: #000; padding: 6px 12px 6px; font-weight: bold;" />
+           </div>  
+         
+        </div>
+        </form>
+    </li>
+    <!--
+    <li>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2">Author Search</label>
+        <div id="tab-content2" class="tab-content">
+          <div class="col-md-10 col-sm-12">
+          	<div class="col-md-8 col-sm-12">
+          		<input type="text"  placeholder="First Name" aria-invalid="false" aria-required="true" value="" name="fname" required="">
+          	</div>
+          	
+          	<div class="col-md-4 col-sm-12">
+          		<input type="text"  placeholder="Last Name" aria-invalid="false" aria-required="true" value="" name="lname" required="">
+          	</div>
+          	
+          </div>
+          <div class="col-md-2 col-sm-12">
+          	<input type="button" name="auth_search" value="Search" style="background-color: #F6BB19; border-color: #d6d8d8;color: #000; padding: 6px 12px 6px; font-weight: bold;" />
+          </div>
+
+        </div>
+    </li>  
+        <li>
+        <input type="radio" name="tabs" id="tab3" />
+        <label for="tab3">Publication Search</label>
+        <div id="tab-content3" class="tab-content">
+                    <div class="col-md-10 col-sm-12">
+                    <div class="col-md-6 col-sm-12">
+                    	<input type="text" placeholder="Publication Title" aria-invalid="false" aria-required="true" value="" name="ptitle" required="">
+                    </div>
+		          	<div class="col-md-3 col-sm-12">
+		          		<input type="text" placeholder="Volume" aria-invalid="false" aria-required="true" value="" name="volume" required="">
+		          	</div>
+		          	<div class="col-md-3 col-sm-12">
+		          		<input type="text" placeholder="Issue" aria-invalid="false" aria-required="true" value="" name="issue" required="">
+		          	</div>
+		          	
+		          </div>
+		          <div class="col-md-2 col-sm-12">
+		          	<input type="button" name="pub_search" value="Search" style="background-color: #F6BB19; border-color: #d6d8d8;color: #000; padding: 6px 12px 6px; font-weight: bold;" />
+		          </div>
+
+         
+        </div>
+    </li>
+    --!>
+</ul>
+
+    <br>
+  
+		<div class="container" role="main">
+			
+			<div class="row jumbotron-overlap first">
+				
+				<div class="col-sm-8">
+					
+				  <div class="featured-widget">
+					
+					<h3 class="widget-title">University of Peshawar Journals</h3>
+						
+					  
+						<p class="p-style-home">
+                        <ol>
+                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=11                                                            ">Journal of Science and Technology</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=12                                                            ">The Journal of Humanities & Social Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://nceg.uop.edu.pk/researchjournal.html                                                            ">Journal of Himalayan Earth Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=14                                                            ">Pakistan Journal of Peace and Conflict Studies</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=15                                                            ">International Journal of Library and Information Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://khayaban.uop.edu.pk                                                            ">Khayaban</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=18                                                            ">Ancient Pakistan</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=19                                                            ">Journal of Law and Society</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=20                                                            ">Peshawar Islamicus ISSN(Print): 2305-154X,  ISSN(Online):2521-8409</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=21                                                            ">Al-Idah (ISSN:2075-0307)</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=22                                                            ">Central Asia</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://www.pscpesh.org/index.php/research-journal                                                            ">Pakistan</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=24                                                            ">Peshawar Journal of Global Affairs</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=25                                                            ">PUTAJ Humanities and Social Science</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=26                                                            ">PUTAJ Oriental Studies</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=27                                                            ">PUTAJ Sciences</a>
+                    									</li>
+                                                                                                                <li>
+                    										<a href="
+                                                            http://pashto.org.pk                                                            ">Pashto</a>
+                    									</li>
+                                                                                                </ol>
+                         </p>
+                        
+					</div>
+					
+				</div><!-- /.col -->
+				<!-- Latest News --!>
+				<div class="col-sm-4 margin-bottom-30">
+				    
+                
+                        <div class="widget_pw_latest_news">
+                       
+                                                
+                                <a class="latest-news  latest-news--inline" href="news_detail.php?news_id=3">
+								<div class="latest-news__content">
+									<h4 class="latest-news__title">Call for Papers (2022)</h4>
+									<div class="latest-news__author">The Journal of Humanities & Social Sciences</div>
+								</div>
+							     </a>
+                                
+                                                                
+                                <a class="latest-news  latest-news--inline" href="news_detail.php?news_id=2">
+								<div class="latest-news__content">
+									<h4 class="latest-news__title">Call for Papers</h4>
+									<div class="latest-news__author">Peshawar Journal of Global Affairs</div>
+								</div>
+							     </a>
+                                
+                                                                
+                                <a class="latest-news  latest-news--inline" href="news_detail.php?news_id=1">
+								<div class="latest-news__content">
+									<h4 class="latest-news__title">CALL FOR PAPERS</h4>
+									<div class="latest-news__author">Ancient Pakistan</div>
+								</div>
+							     </a>
+                                
+                                	
+							<a class="latest-news  latest-news--more-news" href="more_news.php">
+								More news
+							</a>
+						</div><!-- /.widget_pw_latest_news -->
+						
+					</div><!-- /.col -->
+				    <!-- / Latest News --!>
+				
+			</div><!-- /.row -->
+            		
+		</div><!-- /.conainer -->	
+		<!-- FOOTER -->
+        
+                <footer class="footer">
+			
+			<div class="footer-top">
+<div class="container">
+					
+					<div class="row">
+						
+						<div class="col-xs-12 col-md-4">
+							
+							<p>
+								<img alt="logo-footer" src="images/logo-footer.png" class="logo">
+							</p>
+							<h3 class="footer-top__headings">Social Links</h3>
+							<p style="text-align:left;">
+								<a target="_blank" href="https://www.facebook.com/UniversityOfPeshawarOfficialPage" class="icon-container icon-container--square">
+									<span class="fa fa-facebook"></span>
+								</a>
+								<a target="_blank" href="https://twitter.com/upeshpakistan" class="icon-container icon-container--square">
+									<span class="fa fa-twitter"></span>
+								</a>
+								
+							</p>
+							
+						</div><!-- /.row -->
+						
+						<div class="col-xs-12 col-md-4">
+							
+							<div class="widget_nav_menu">
+								<h6 class="footer-top__headings">Links</h6>
+								<ul>
+									<li>
+										<a href="http://www.uop.edu.pk" target="_blank">University of Peshawar</a>
+										
+									</li>
+									<li>
+										<a href="http://www.uop.edu.pk/qec" target="_blank">Quality Enhancement Cell</a>
+									</li>
+									<li>
+										<a href="http://www.uop.edu.pk/faculties/?q=Research-Centres" target="_blank">Research Centers</a>
+									</li>
+								</ul>
+							</div><!-- /.widget_nav_menu -->
+							
+						</div><!-- /.row -->
+						
+						<div class="col-xs-12 col-md-4">
+							
+							<div class="widget_nav_menu">
+								<h6 class="footer-top__headings">Journals</h6>
+								<ul>
+                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=11                                                            ">Journal of Science and Technology</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=12                                                            ">The Journal of Humanities & Social Sciences</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                            http://nceg.uop.edu.pk/researchjournal.html                                                            ">Journal of Himalayan Earth Sciences</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=14                                                            ">Pakistan Journal of Peace and Conflict Studies</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=15                                                            ">International Journal of Library and Information Sciences</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                            http://khayaban.uop.edu.pk                                                            ">Khayaban</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=18                                                            ">Ancient Pakistan</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=19                                                            ">Journal of Law and Society</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=20                                                            ">Peshawar Islamicus ISSN(Print): 2305-154X,  ISSN(Online):2521-8409</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=21                                                            ">Al-Idah (ISSN:2075-0307)</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=22                                                            ">Central Asia</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                            http://www.pscpesh.org/index.php/research-journal                                                            ">Pakistan</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=24                                                            ">Peshawar Journal of Global Affairs</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=25                                                            ">PUTAJ Humanities and Social Science</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=26                                                            ">PUTAJ Oriental Studies</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=27                                                            ">PUTAJ Sciences</a>
+                    									</li>
+                                                                                                <li>
+                    										<a href="
+                                                                                                                        
+                                                            journal_detail.php?journal_id=28                                                            ">Pashto</a>
+                    									</li>
+                                                								</ul>
+								
+							</div><!-- /.widget_nav_menu -->
+							
+						</div><!-- /.row -->
+						
+						<!-- /.row -->
+						
+					</div><!-- /.row -->
+					
+				</div>
+                
+                </div><!-- /.footer-top -->
+                
+                <div class="footer-bottom">
+				
+				<div class="container">
+					
+					<div class="footer-bottom__left">
+						University of Peshawar Journals
+					</div>
+					
+					<div class="footer-bottom__right">
+						Copyright &copy; &ndash;2016. All rights reserved. 
+					</div>
+					
+				</div><!-- /.container -->
+				
+			</div><!-- /.footer-bottom -->
+			
+		</footer>
+                
+    
+                
+                <!-- /.footer -->
+                	
+	</div><!-- /.boxed-container -->
+    	
+</body>
+</html>

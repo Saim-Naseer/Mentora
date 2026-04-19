@@ -1,0 +1,10 @@
+Date: Sun, 19 Apr 2026 12:17:45 GMT
+Server: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.4.33 mod_fcgid/2.3.10-dev
+X-Powered-By: PHP/7.4.33
+Cache-Control: no-cache, private
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Headers: *
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlFZR3hHckVyOXcyNnBvWUdUWXJUYXc9PSIsInZhbHVlIjoia2ptSlljbGdjcDBZNFpRS0x4eEVxTkNlK2JXeXdFZEtTQXJMR0YzR2JhMU96MTRaRVJNYUZveUJJRUdpN3lCYyIsIm1hYyI6ImRkZTUxY2QwYWE3NmY3NTI0Y2NiYjMzNDBhYmFhOTA5MDMzOTVlZmNmM2RjODI3ODk4ZDIwNzBmNTcwNjAxZDAifQ%3D%3D; expires=Sun, 19-Apr-2026 12:47:46 GMT; Max-Age=1800; path=/
+Set-Cookie: laravel_session=eyJpdiI6InRxQkZmVjdHYkRXMSt5ZDVDV3ZHM2c9PSIsInZhbHVlIjoiTGxrckVwWkhlUUNNTFg4ZEVCNXRkelp4Ym14USt4MldvK01zM1plcEE2bnBPU0ZBUTY2UnRNRUhwZXE3XC8yZDQiLCJtYWMiOiI3YmY4N2FlZDFmOGVhMzM4NzYxYmMxOTE4ODIyMzEyZGU1ZTk5MmI3NDdkNTM2MTA4OWUwNWYzNmExOTZlNzk4In0%3D; path=/; httponly
+Content-Type: text/html; charset=UTF-8

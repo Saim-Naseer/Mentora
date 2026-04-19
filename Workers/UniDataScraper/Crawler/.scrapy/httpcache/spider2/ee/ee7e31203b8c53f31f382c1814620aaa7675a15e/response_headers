@@ -1,0 +1,9 @@
+Server: nginx/1.14.1
+Date: Fri, 27 Mar 2026 06:05:14 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: http://cs.qau.edu.pk
+X-Cache: HIT from Backend
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

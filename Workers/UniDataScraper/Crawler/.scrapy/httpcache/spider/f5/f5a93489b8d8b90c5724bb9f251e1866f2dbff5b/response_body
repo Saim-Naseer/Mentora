@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	
+
+		<title>NUML UNIVERSITY |  Faculties | NUML  </title>
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/main.css">
+
+		<!-- <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/normalize.css"> -->
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/fonts/font-awesome.min.css">
+
+		<!-- <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/color-switcher.css" type="text/css"> -->
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/extras/animate.css" type="text/css">
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/extras/owl.carousel.css" type="text/css">
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/extras/owl.theme.css" type="text/css">
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/extras/settings.css" type="text/css">
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/extras/nivo-lightbox.css" type="text/css">
+
+		<!-- <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/slicknav.css" type="text/css"> -->
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/responsive.css">
+
+		<!-- <link rel="stylesheet" type="text/css" href="https://numl.edu.pk/templates/template10/faculties/assets/css/colors/sky.css" media="screen" /> -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://numl.edu.pk/templates/template10/faculties/assets/css/custom.css">
+<style type="text/css">
+	.con-title {text-align: center;margin-bottom: 40px;color: #092A4B;}	
+	.activity-item p{ height: 50px; overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical; }
+</style>
+	</head>
+	<body>
+
+		<header id="header-wrap">
+			<div id="roof" class="hidden-xs" style="background-color:#092A4B;">
+    <div class="container">
+        <div class="quick-contacts pull-right">
+
+            <span><a href="https://numl.edu.pk/virtualTour" target="_blank">Virtual Tour</a></span>
+
+            <span><i class="fa fa-bars"></i><a href="https://numl.edu.pk/journals/home" target="_blank">Journals</a></span>
+			            <span><i class="fa fa-envelope"></i><a href="https://mail.google.com/mail/u/0/" target="_blank">Web Mail</a></span>
+            <span><i class="fa fa-newspaper-o"></i><a href="https://news.numl.edu.pk/" target="_blank">NEWS</a></span>
+            <span><i class="fa fa-link"></i><a href="https://numl.edu.pk/main/cms" target="_blank">CMS</a></span>
+            <span><i class="fa fa-link"></i><a href="https://numl.edu.pk/admission" target="_blank">Admissions</a></span>
+        </div>
+    </div>
+</div>
+
+			<style type="text/css">
+    .main-navigation .dropdown-menu>li>a {color: #fff;font-weight: 700;background-color: #092A4B;}
+    .main-navigation .navbar-nav>li>a, .main-navigation .navbar-nav>li>a:focus {color: #092A4B !important;font-weight: 700;}
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color: #c19100 !important;color: #fff !important;}
+
+    .navbar-brand img{ width: 350px !important; max-width: unset; }
+    @media  screen and (max-width: 767px){
+        .navbar-brand {padding: 5px 15px !important;}
+        .navbar-brand img{width: 250px !important; max-width: unset; }
+    }
+    @media  screen and (min-width: 768px) and (max-width: 991px){
+        .navbar-brand img{width: 300px !important; max-width: unset; }
+    }
+</style>
+
+<nav class="navbar navbar-default main-navigation affix-top" role="navigation" data-spy="affix" data-offset-top="50">
+    <div class="container">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="https://numl.edu.pk">
+                <img class="logoImg" src="https://numl.edu.pk/templates/template10/faculties/assets/images/numl_logos.png" /> 
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right" style="margin-top:2%;">
+                <li><a href="https://numl.edu.pk/faculties/Faculty%20of%20Engineering%20and%20Computing">Home</a></li>
+                <li><a href="https://numl.edu.pk/faculty/128/about">About</a></li>
+
+                                    <li class="dropdown dropdown-toggle">
+                        <a href="#" data-toggle="dropdown">Departments&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu" style="width:max-content;">
+                                                                                            <li>
+                                    <a href="https://numl.edu.pk/departments/178"> Department of  Computer Science </a>
+                                </li>
+                                                                                                                            <li>
+                                    <a href="https://numl.edu.pk/departments/179"> Department of Electrical and Computer Engineering </a>
+                                </li>
+                                                                                                                            <li>
+                                    <a href="https://numl.edu.pk/departments/195"> Department of Mathematics </a>
+                                </li>
+                                                                                                                            <li>
+                                    <a href="https://numl.edu.pk/departments/273"> Department of Software Engineering </a>
+                                </li>
+                                                                                    </ul>
+                    </li>
+                
+                <li><a href="https://numl.edu.pk/faculty/128/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>		</header>
+		
+		
+			<div id="carousel-area">
+		<div id="carousel-slider" class="carousel slide" data-interval="1000">
+			<div class="carousel-inner">
+									
+					<div class="item active" style="height: 400px !important; background: url(https://numl.edu.pk/templates/template10/images/faculty-banner.jpg) no-repeat #eee; background-size: cover;">
+						<div class="carousel-caption">
+							<h1 style="background-color: #092A4B; color: #fff;">Faculty of Engineering and Computing</h1>
+													</div>
+					</div>
+							</div>
+		</div>
+	</div>
+	
+	<section class="features" style="margin-top: 110px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="features-wrapper" style="padding-bottom: 50px; width:100%;">
+						<div class="col-md-9 col-sm-12 col-xs-12">
+							<div class="card" style="background-color: #fff; color: #000;">
+								<h5 class="card-title" style="color:#092A4B !important; font-size:27px;">Welcome to Faculty of Engineering and Computing</h5><br>
+								<div class="card-header mt-2">
+									<ul class="nav nav-tabs card-header-tabs mt-3" id="bologna-list" role="tablist">
+										<li class="nav-item shadow active">
+											<a class="nav-link" style=" border:0px; " href="#description" role="tab" aria-controls="description" aria-selected="true">Dean Message</a>
+										</li>
+																			</ul>
+								</div>
+								<div class="card-body">
+									<div class="tab-content mt-5">
+										<div class="tab-pane active" id="description" role="tabpanel">
+											<div class="card-text" style="margin-top: 25px;">
+												<div class="row info">
+													<div class="col-sm-12">
+																												<strong>Dr. Noman Malik</strong><br>
+																												<div id = "less">
+																														Computer Science (CS) and Engineering classes commenced in NUML, Islamabad in Jan 2002 and Aug 2006, respectively.&nbsp; The Faculty of Engineering and CS (FE &amp; CS) was established in October 2008. It is the youngest but most dynamic faculty in the university. Offering state of the art education in the most advanced fields of the world it has grown exponentially since its establishment. We are providing high tech education to the students from a blend of socioeconomic backgrounds.
+
+The present era belongs to Telecommunications and CS. We are well aware of the rapid developments in this ever advancing field. We ensure and facilitate our students to get best education in these fields. Good and energetic faculty is the corner stone of our program. Our curriculum has been designed as per the national and international needs of the time. Class room teaching of theoretical concepts is fully backed by laboratory work and state of the art software learning tools. We prepare our stude ....<br>
+														</div>
+														<div id="more" style="display:none;">
+															<p><strong>Computer Science (CS) and Engineering</strong> classes commenced in NUML, <strong><span style="color:#0000cc">Islamabad in Jan 2002 and Aug 2006</span></strong>, respectively.&nbsp; The <strong>Faculty of Engineering and CS (FE &amp; CS)</strong> was established in <strong><span style="color:#0000cc">October 2008</span></strong>. It is the youngest but most dynamic faculty in the university. Offering state of the art education in the most advanced fields of the world it has grown exponentially since its establishment. We are providing <strong>high tech education</strong> to the students from a blend of <strong>socioeconomic backgrounds</strong>.<br />
+<br />
+The present era belongs to <strong>Telecommunications and CS</strong>. We are well aware of the rapid developments in this ever advancing field. We ensure and facilitate our students to get best education in these fields. Good and energetic faculty is the corner stone of our program. Our curriculum has been designed as per the national and international needs of the time. Class room teaching of theoretical concepts is fully backed by laboratory work and state of the art software learning tools. We prepare our students to face the <strong><span style="color:#0000cc">challenges of 21st century</span></strong> with full confidence. The students are not only academically competent but groomed to become useful citizens of the world and serve the nation.<br />
+<br />
+The faculty comprises of <strong>Electrical Engineering and Computer Science Departments</strong>. Our <strong>BE Electrical Engineering</strong> degree has been accredited by <strong>PEC </strong>from very first batch of students. Programs of <strong>BS Computer Science and BS Software Engineering</strong> are accredited by <strong>NCEAC</strong>.</p>
+
+<p>Dean Faculty of Engineering &amp; CS<br />
+Contact no.: +92-51-9265100 Ext: 2060<br />
+Email:&nbsp;<a href="mailto:dean-it@numl.edu.pk">dean-engg@numl.edu.pk</a>,&nbsp;<a href="mailto:dean-engr@numl.edu.pk">info@numl.edu.pk</a></p>
+
+<p>Faculty of Engineering &amp; CS consists of following departments:</p>
+
+<ul>
+	<li><strong>Department of Engineering</strong></li>
+	<li><strong>Department of Computer Science</strong></li>
+	<li><strong>Department of Software Engineering</strong></li>
+	<li><strong>Department of Mathematics</strong>&nbsp;</li>
+</ul>
+														</div>
+														<button onclick="myFunction()" id="myBtn" >Read more</button>
+																																									</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane" id="history" role="tabpanel" aria-labelledby="Dean-Profile"> 
+											<p class="card-text"><br>
+												<div class="scrollbar-info force-overflow mt-3" style="height: 100px; overflow: auto;">
+																										<div class="text-muted col-md-12 text-center">No Updates</div>
+																									</div>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-12 col-xs-12 text-center">
+														<div class="img-thumb" style="margin-top:130px;">
+								<img src="https://numl.edu.pk//faculties/deans/29c1513306134b6.jpg" alt="Dean Faculty of" style="width:250px; height: 300px;">
+							</div>
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="announcementsSection">
+		<div class="container overflow-hidden">
+			<div class="row clearfix m-b-50">
+				<div class="col-md-6 p-t-25" id="announcementSection">
+					<h4 class="section-title text-left">Announcements</h4>
+					<div class="row scrollbar-info force-overflow" style="">
+																			<div class="col-12 m-b-20">
+								<a href="https://numl.edu.pk/faculty/128/announcement/1192">
+									<div class="row clearfix">
+										<div class="col-md-2 col-sm-2 col-xs-3">
+											<div class="event-date">
+												<div class="event-month">Sep</div>
+												<div class="event-day">10</div>
+											</div>
+										</div>
+										<div class="col-md-9 col-md-9 col-xs-8 text-right sectionContent px-0">
+											<div class="sectionHeading text-left color_drakBlue">Dr Maryam imtiaz malik has been placed as coordinator of SE department</div>
+											<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+										</div>
+									</div>
+								</a>
+							</div>
+													<div class="col-12 m-b-20">
+								<a href="https://numl.edu.pk/faculty/128/announcement/1191">
+									<div class="row clearfix">
+										<div class="col-md-2 col-sm-2 col-xs-3">
+											<div class="event-date">
+												<div class="event-month">Jan</div>
+												<div class="event-day">17</div>
+											</div>
+										</div>
+										<div class="col-md-9 col-md-9 col-xs-8 text-right sectionContent px-0">
+											<div class="sectionHeading text-left color_drakBlue">Dr. Sumaira  Nazir has been appointed as the Head of the Software Engineeri...</div>
+											<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+										</div>
+									</div>
+								</a>
+							</div>
+																	</div>
+					<div class="row clearfix m-t-25">
+						<div class="col-md-12 text-right" >
+							<a href="https://numl.edu.pk/faculty/128/announcements">
+								<button class="custom-btn btn-16" style=" background-color:#092A4B;color:#FFF; font-weight:700;">View Archive</button>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 p-t-25" id="eventSection">
+					<h2 class="section-title text-left">Events</h2>
+					<div class="row scrollbar-info force-overflow" style=" height: 450px;overflow: auto; ">
+																		
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1263">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//images/no-image.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Seminar on Digital IC Design by Dr. Muhammad Imran, SEECS, NUST</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1262">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//images/no-image.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Departmental Board of Studies Spring 2026</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1261">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//images/no-image.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Graduate Advisory Committee Meeting</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1260">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//images/no-image.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Industrial Advisory Board Meeting</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1259">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/f28299c79a6c6c9.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Orientation Seminar</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1251">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/ae07d779db4caa6.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Recreational trip to Toli Peer.</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1242">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/f168fb074a942bf.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Industrial Visit</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1227">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/8559b629466598d.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">CSR activity : "the Future of Artificial Intelligence"</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1226">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/317bfedfea6d8bb.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Beyond CRUD: How Real World Apps Manage Data?"</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1229">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/dae6d3b98358672.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Industrial Advisory board meeting</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1228">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/f48594142e0a956.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Seminar on Cubesat and Satellite Technology</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1221">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/908fc7ddaf013ac.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Seminar FYP: From Ideas to Success</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1220">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/d663ee3660d0be7.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Orientation of intake fall 25</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Electrical and Computer Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1216">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/7175424aec54131.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Orientation Fall 2025</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1176">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/128e8e376568d09.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Open house and Job Fair 2025</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1145">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/d415aaa28027c19.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">International Conference on Recent Developments in Mathematics</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1212">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/167b385a8bfa028.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">NUMLogic'25</div>									
+										<div class="sectionDescription text-left color_yellow">Department of  Computer Science</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1175">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/2d496f9050d6344.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Faculty Lunch</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1174">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/727e1824ad5a8ad.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">CSR activity</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1170">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/abbde04a7229db4.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">seminar on "Ethical Implications of AI in Software Development"</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1171">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/92268bc24a14e89.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">seminar on "Ethical Implications of AI in Software Development"</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1091">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/dd97f98d724a9f6.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Orientation Spring 2025</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1073">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/7f221c82e540ef3.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Open house and Job Fair 2024</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1072">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/f86993259f07678.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">SoftFest'24</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1071">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/e1dd559d18bc4dc.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Recreational Trip to Peer Chinasi</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1070">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/8ac71a09449f508.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">seminar on “Data Engineering Essentials & Emerging Trends”.</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1027">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/f6f851df3e4d083.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Faculty Development Program</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1069">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/be0dda433fbc3e1.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Visit to  Synergy IT</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1026">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/5d3a5eeb867d187.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Trip to Harnoi lake and Shimla Hills</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1068">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/5c023bdc973950a.png" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">An industrial visit today to OBS Technologia (Pvt) Ltd</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1067">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/5923f5f9c11228c.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Clean green activity</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/974">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/c61ab25e6ab5840.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Mathematics Beyond Numbers</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/919">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/a34311b3e279b0d.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Short summer course on quantitative reasoning for aptitude test</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1066">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/c59831918eb360f.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">ICECT'24</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1064">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/3a4f863d8502f22.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">2 days designing bootcamp workshop</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/914">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/14ed01a6ac7803f.jpg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Research symposium to guide MS and PhD students</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Mathematics</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1065">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/c5b004322349838.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Sports Gala</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1063">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/dc59a1b02a1653c.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">"Growing Bright Future " Software Engineering society plants trees for a su...</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+												
+						<div class="col-md-12 m-b-20">
+							<a href="https://numl.edu.pk/faculty/128/event/1062">
+								<div class="row clearfix">
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<img src="https://numl.edu.pk//attachments/events/future_events/46e113843ce7137.jpeg" />
+									</div>
+									<div class="col-md-8 col-md-8 col-xs-8 text-left sectionContent px-0">
+										<div class="sectionHeading color_drakBlue">Faculty Development Workshop (OEL For better learning)</div>									
+										<div class="sectionDescription text-left color_yellow">Department of Software Engineering</div>
+									</div>
+								</div>
+							</a>
+						</div>
+																	</div>
+					<div class="row clearfix m-b-20">
+						<div class="col-md-12 text-right" style="margin-top:25px;" >
+							<a href="https://numl.edu.pk/faculty/128/events">
+								<button class="custom-btn btn-16 " style=" background-color:#092A4B;color:#fff; font-weight:700;">View Archive</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="activity-area section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="section-title"></h2>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12" >
+					<div class="activity-item m-b-20" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://numl.edu.pk/vision2.jpg'); background-size: 100% 100%; border:4px solid #092A4B;">
+						<div class="icon fast-color">
+							<i class="fa fa-low-vision" style="background-color:#092A4B; color: #fff;"></i>
+						</div>
+						<h3 class="color_yellow">Vision</h3>
+						<p class="color_white">
+															Computer Science (CS) and Engineering classes commenced in NUML, Islamabad...
+													</p>
+						<a class="btn btn-rm btn-common" href="https://numl.edu.pk/faculty/128/about" style="background-color:#092A4B; font-size:12px;">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="activity-item m-b-20" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://numl.edu.pk/mission.jpg'); background-size: 100% 100%;border:4px solid #092A4B;">
+						<div class="icon secend-color" >
+							<i class="fa fa-flash" style="background-color:#092A4B; color: #fff;"></i>
+						</div>
+						<h3 class="color_yellow">Mission</h3>
+						<p class="color_white">
+															Faculty of Engineering and Computer Science is committed to impart state of...
+													</p>
+						<a class="btn btn-rm btn-common" href="https://numl.edu.pk/faculty/128/about" style="background-color:#092A4B; font-size:12px;">Read More</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="activity-item m-b-20" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://numl.edu.pk/obj.jpg'); background-size: 100% 100%;border:4px solid #092A4B;">
+						<div class="icon thred-color">
+							<i class="fa fa-bullseye" style="background-color:#092A4B; color: #fff;"></i>
+						</div>
+						<h3 class="color_yellow">Objective</h3>
+						<p class="color_white">
+															
+	To produce Electrical Engineers, Computer Scientists, Software Engineers...
+													</p>
+						<a class="btn btn-rm btn-common" href="https://numl.edu.pk/faculty/128/about" style="background-color:#092A4B; font-size:12px;">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="courses section">
+		<div class="container">
+						<div class="row">
+				<div class="con-title">
+					<h2 style="color:unset;">Departments</h2>
+					<div class="separator" style=" "></div>
+				</div>
+																			<div class="col-md-3 col-sm-6 col-xs-12" style="text-align:center;">
+							<div class="courses-wrap">						
+																<img class="img-fluid img-thumbnail" src="https://numl.edu.pk/departments/1562672573CS DEPTT.png" alt="" style="width:100%; height:200px; border:unset; object-fit: contain;">
+																
+								<div class="course-detail-wrap">
+									<div class="course-content">
+										<h3 style="height: 70px;"><a style="color:#092A4B;" href="https://numl.edu.pk/departments/178">Department of  Computer Science</a></h3>
+										<p style="height: 95px; display:none;"></p>
+										<a href="https://numl.edu.pk/departments/178" class="btn btn-common btn-sm" style="background-color:#092A4B;font-weight: 600;"><i class="fa fa-th"></i>&nbsp;&nbsp;&nbsp;View Department</a>
+									</div>
+								</div>
+							</div>
+						</div>
+																									<div class="col-md-3 col-sm-6 col-xs-12" style="text-align:center;">
+							<div class="courses-wrap">						
+																<img class="img-fluid img-thumbnail" src="https://numl.edu.pk/departments/1775192412Gemini_Generated_Image_kprq2akprq2akprq.png" alt="" style="width:100%; height:200px; border:unset; object-fit: contain;">
+																
+								<div class="course-detail-wrap">
+									<div class="course-content">
+										<h3 style="height: 70px;"><a style="color:#092A4B;" href="https://numl.edu.pk/departments/179">Department of Electrical and Computer Engineering</a></h3>
+										<p style="height: 95px; display:none;"></p>
+										<a href="https://numl.edu.pk/departments/179" class="btn btn-common btn-sm" style="background-color:#092A4B;font-weight: 600;"><i class="fa fa-th"></i>&nbsp;&nbsp;&nbsp;View Department</a>
+									</div>
+								</div>
+							</div>
+						</div>
+																									<div class="col-md-3 col-sm-6 col-xs-12" style="text-align:center;">
+							<div class="courses-wrap">						
+																<img class="img-fluid img-thumbnail" src="https://numl.edu.pk/departments/1562672521DEPT OF MATHS.jpg" alt="" style="width:100%; height:200px; border:unset; object-fit: contain;">
+																
+								<div class="course-detail-wrap">
+									<div class="course-content">
+										<h3 style="height: 70px;"><a style="color:#092A4B;" href="https://numl.edu.pk/departments/195">Department of Mathematics</a></h3>
+										<p style="height: 95px; display:none;"></p>
+										<a href="https://numl.edu.pk/departments/195" class="btn btn-common btn-sm" style="background-color:#092A4B;font-weight: 600;"><i class="fa fa-th"></i>&nbsp;&nbsp;&nbsp;View Department</a>
+									</div>
+								</div>
+							</div>
+						</div>
+																									<div class="col-md-3 col-sm-6 col-xs-12" style="text-align:center;">
+							<div class="courses-wrap">						
+																<img class="img-fluid img-thumbnail" src="https://numl.edu.pk/departments/1667302725SE.jpg" alt="" style="width:100%; height:200px; border:unset; object-fit: contain;">
+																
+								<div class="course-detail-wrap">
+									<div class="course-content">
+										<h3 style="height: 70px;"><a style="color:#092A4B;" href="https://numl.edu.pk/departments/273">Department of Software Engineering</a></h3>
+										<p style="height: 95px; display:none;"></p>
+										<a href="https://numl.edu.pk/departments/273" class="btn btn-common btn-sm" style="background-color:#092A4B;font-weight: 600;"><i class="fa fa-th"></i>&nbsp;&nbsp;&nbsp;View Department</a>
+									</div>
+								</div>
+							</div>
+						</div>
+																	
+			</div>
+								</div>
+	</section>
+	
+	<section class=" section" style="padding: 40px 0 78px;background: #eee; background-size: cover;">
+		<div class="contact-cards container">
+			<div class="row text-center" >
+								<h5 style="color: #092A4B;">Contact Us</h5>
+				<p style="color: #092A4B; font-size: 17px;">
+					( Further Queries/Feedback are welcome )
+				</p>
+				
+				<div class="separator" style=" "></div>
+				<br>
+				<div class="col-md-4">
+					<div class="card">
+						<span class="icon">
+							<i class="fa fa-map-o" style="margin-top: 65px;margin-left: -14px;background: none;font-size: 40px;color: #092A4B;"></i>
+						</span>
+						<div class="content-wrap" style="background-color: #092A4B;">
+							<span class="item-title" style="color: #C19100;">Address</span>
+							<p class="text" style="color:#fff;">
+								Ghazali Block, NUML
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<span class="icon">
+							<i class="fa fa-envelope-o" style="margin-top: 65px;margin-left: -14px;background: none;font-size: 40px;color:#092A4B;"></i>
+						</span>
+						<div class="content-wrap" style="background-color: #092A4B;">
+							<span class="item-title" style="color: #C19100;">Email</span>
+							<p class="text color_white" >
+								dean-engg@numl.edu.pk, info@numl.edu.pk
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<span class="icon">
+							<i class="fa fa-phone" style="margin-top: 65px;margin-left: -14px; background: none;font-size: 40px;color: #092A4B;"></i>
+						</span>
+						<div class="content-wrap" style="background-color: #092A4B;">
+							<span class="item-title" style="color: #C19100;">Phone</span>
+							<p class="text" style="color: #fff;">
+								+92-51-9265100
+							</p>
+						</div>
+					</div>
+				</div>
+							</div>
+		</div>
+	</section>
+	
+
+		<a href="#" class="back-to-top">
+			<i class="fa fa-arrow-up"></i>
+		</a>
+		<style type="text/css">
+	ul li{list-style:none;}
+	footer{background: #092A4B !important;}
+	.small-title{color: #c19100;}
+	footer .address li{line-height: 28px;}
+	footer .recent-post .post{float: left; margin-bottom: 5px !important; width: 50%; float: left; padding: 3px 0px;}
+	footer .recent-post .post a{color: #fff !important;opacity: unset;font-weight: bold;}	
+	footer #copyright{background: #c19100 !important;}
+
+	.quicklinks{border-right: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; }
+	@media  screen and (max-width: 991px) {
+		.quicklinks{border-left:0px;}
+	}
+	@media  screen and (max-width: 767px) {
+		.quicklinks{border-left:0px; border-right: 0px;}
+	}
+
+</style>
+<footer>
+	<div class="container-fluid">
+		<div class="row clearfix p-t-50 p-b-30 mx-0">
+			<div class="col-md-4 col-sm-12 col-xs-12 text-center">
+				<h3 class="small-title">
+					Contact Info
+				</h3>
+				<p>
+					<a href="https://numl.edu.pk" class="m-brand__logo-wrapper">
+						<img src="https://numl.edu.pk/images/logo/logo.png" alt="NUML-logo" style="width:115px;">
+					</a>
+				</p>
+				<ul class="recent-post" style="color: #fff;">
+					<li><b><i class="fa fa-institute"></i> National University of Modern Languages</b></li>
+					<li><i class="fa fa-home"></i> H-9 Islamabad ,Pakistan</li>
+					<li><i class="fa fa-phone"></i> <a href="tel:92-51-9265100" target="_top" style="color: #fff;">+92-51-9265100</a></li>
+					<li><i class="fa fa-envelope"></i><a href="mailto:info@numl.edu.pk" target="_top" style="color: #fff;">info@numl.edu.pk</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12 quicklinks">
+				<h3 class="small-title">Quick Links</h3>
+				<ul class="recent-post">
+										<li class="post">
+						<a href="https://www.numl.edu.pk/main/opac" style="width:100%; ">
+							OPAC
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://transport.numl.edu.pk" style="width:100%; ">
+							Transportal
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/hostels" style="width:100%; ">
+							Hostels Form
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://www.numl.edu.pk/RSI%20Research%20%26%20Strategic%20Initiatives/initiative/19" style="width:100%; ">
+							Professional Courses
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/main/cms" style="width:100%; ">
+							CMS
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://ereg.numl.edu.pk/JobPlacement/LoginUser/ManagerLoginForm" style="width:100%; ">
+							Placement System
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/main/stories" style="width:100%; ">
+							Success Stories
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/downloads/all" style="width:100%; ">
+							Downloads
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://hr.numl.edu.pk/" style="width:100%; ">
+							HR System
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://www.numl.edu.pk/main/highachiever" style="width:100%; ">
+							High Achievers
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://honorariumapp.numl.edu.pk/" style="width:100%; ">
+							Publications System
+						</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/olc" style="width:100%; ">
+							Online Language Courses
+						</a>
+					</li>
+									</ul>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<h3 class="small-title">Campuses</h3>
+				<ul class="recent-post">
+										<li class="post">
+						<a href="https://numl.edu.pk/lahore" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Lahore Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/faisalabad" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Faisalabad Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/multan" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Multan Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/hyderabad" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Hyderabad Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/quetta" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Quetta Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/peshawar" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Peshawar Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/karachi" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Karachi Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/rawalpindi" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>Rawalpindi Campus</a>
+					</li>
+										<li class="post">
+						<a href="https://numl.edu.pk/mirpurAJK" style="width:100%; "><i class="fa fa-map-marker m-r-10"></i>MirpurAJK Campus</a>
+					</li>
+									</ul>
+			</div>		
+		</div>
+	</div>
+
+	<div class="container-fluid" id="copyright">
+		<div class="row clearfix">
+			<div class="col-md-9 col-sm-9 col-xs-12">
+				<p class="copyright-text color_white" style="font-size: 13px;">
+					2026 &copy; NUML All Rights Reserved <i>developed by </i> <a href="https://numl.edu.pk/offices/ICT%20Office" class="m-link" target="_blank" style="color:#092A4B; font-weight:bold;">ICT Department</a>
+				</p>
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-12">
+				<div class="bottom-social-icons text-center">
+					<a class="facebook" target="_blank" href="https://www.facebook.com/NUMLOFFICIALPAGE/" style="color:#c19100; background-color: #092A4B;"><i class="fa fa-facebook" style="margin-top: 10px;"></i></a>
+					<a class="twitter" target="_blank" href="https://x.com/numl_official" style="color:#c19100; background-color: #092A4B;"><i class="fa fa-twitter" style="margin-top: 10px;"></i></a>
+					<a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCY_fvvBIFB_2-0-o5a6lAfg/featured" style="color:#c19100; background-color: #092A4B;"><i class="fa fa-youtube" style="margin-top: 10px;"></i></a>
+					<a class="linkedin" target="_blank" href="https://www.linkedin.com/company/numl-official" style="color:#c19100; background-color: #092A4B;"><i class="fa fa-linkedin" style="margin-top: 10px;"></i></a>
+					<a class="instagram" target="_blank" href="https://www.instagram.com/numlofficial/" style="color:#c19100; background-color: #092A4B;"><i class="fa fa-instagram " style="margin-top: 10px;"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/bootstrap.min.js"></script>
+		<!-- <script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/color-switcher.js"></script> -->
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.mixitup.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/nivo-lightbox.min.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.countdown.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.counterup.min.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/form-validator.min.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/contact-form-script.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.themepunch.tools.min.js"></script>
+		<!-- <script type="text/javascript" src="https://numl.edu.pk/templates/template10/faculties/assets/js/jquery.slicknav.js"></script> -->
+		<script src="https://numl.edu.pk/templates/template10/faculties/assets/js/main.js"></script>
+			<script type="text/javascript">
+		$('#bologna-list a').on('click', function (e) {
+			e.preventDefault()
+			$(this).tab('show')
+		});
+		$('#carousel-slider').carousel({
+			interval: 3000,
+			cycle: true
+		});
+		function myFunction() {
+			var dots = document.getElementById("dots");
+			var lessText = document.getElementById("less");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("myBtn");
+			if (btnText.innerHTML == "Read less") {
+				btnText.innerHTML = "Read more";
+				moreText.style.display = "none";
+				lessText.style.display = ' inline';
+			} else {
+				btnText.innerHTML = "Read less";
+				moreText.style.display = "inline";
+				lessText.style.display = ' none';
+			}
+		}
+	</script>
+	</body>
+
+</html>

@@ -1,0 +1,1976 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Google Analytics Starts -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11117631-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-TW6K5Q0JV3');
+	</script>
+<!-- Google Analytics Ends -->
+
+	<meta charset="utf-8" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="theme-color" content="#700f1a">
+
+	<meta name="description" content="It was in 1955 the Institute of Public and Business Administration (IPBA) was established, making it the oldest business school outside North America. Initial technical support was provided by the world famous Wharton School of Finance, University of Pennsylvania. Soon after the University of Southern...">
+
+	<meta name="keywords" content="IBA, IBA KARACHI, IBAKARACHI, IBA Helpline Number, IBA Emergency Number, +92-(213) 810-3030, IBA-KARACHI, IBA-KHI, Institute of Business Administration Karachi, iba university, admission, iba admission, admissions, institute of business administration, karachi, karachi iba, www.iba.edu.pk, iba pakistan, karachi iba, iba edu pk, undergraduate programs, bba, bs accounting and finance, bsacf, bs cs, bs computer science, bs economics, bs economics and mathematics, bs mathematics, bs social sciences and liberal arts, bs ssla, graduate programs, mba, mba executive, ms computer science, ms cs, ms ds, ms data science, ms ds, ms development studies, ms economics, ms finance, ms ibf, ms islamic banking and finance, ms journalism, ms management, ms mathematics, ms marketing, postgraduate programs, phd computer science, phd economics, phd mathematics, iba official website, iba institute, iba karachi website, news, events, service units, contact us, ip phone list, best school, best institute, business school in pakistan, business school in karachi,">
+	<title>IBA Karachi</title>
+	<link rel="stylesheet" href="css/iba-karachi-all.css?v=4.75??">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/main-slider.css?v=40.30??" />
+	<link rel="stylesheet" type="text/css" href="css/carousel.css" />
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carouselcycle.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.simpleTicker.js"></script>
+	<script type="text/javascript" src="js/jquery.marquee.js"></script>
+	<link rel="stylesheet"  href="css/lightslider.css"/>
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+		});
+	</script>
+
+	<style>
+
+		.slideshow {
+
+			position: relative;
+
+			width: 100%;
+
+			height: 205px;
+
+			background-color: #0e4747;
+
+		}
+
+		.slideshow .slideset { overflow: hidden; }
+
+		.slideshow .slide {
+
+			position: absolute;
+
+			z-index: 1;
+
+			width: 100%;
+
+		}
+
+		.slideshow .slide.active { z-index: 2; }
+
+		
+
+		@media screen and (max-width: 1800px) {
+
+			.slideshow{ height: 194px; }
+
+		}
+
+		@media screen and (max-width: 1700px) {
+
+			.slideshow{ height: 183px !important; }
+
+		}
+
+		@media screen and (max-width: 1600px) {
+
+			.slideshow{ height: 173px !important; }
+
+		}
+
+		@media screen and (max-width: 1500px) {
+
+			.slideshow{ height: 163px !important; }
+
+		}
+
+		@media screen and (max-width: 1400px) {
+
+			.slideshow{ height: 150px !important; }
+
+		}
+
+		@media screen and (max-width: 1366px) {
+
+			.slideshow{ height: 144px !important; }
+
+		}
+
+		@media screen and (max-width: 600px) {
+
+		.slideshow { height: 250px !important; }
+
+		}
+
+		@media screen and (max-width: 500px) {
+
+		.slideshow { height: 210px !important; }
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+		.slideshow { height: 210px !important; }
+
+		}
+
+		@media screen and (max-width: 400px) {
+
+		.slideshow { height: 150px !important; }
+
+		}
+
+		
+
+		.prev, .next {
+
+    cursor: pointer;
+
+    position: absolute;
+
+    top: 50%;
+
+	top: 43%;
+
+    width: auto;
+
+    padding: 16px;
+
+    margin-top: -22px;
+
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    transition: 0.8s ease;
+
+    border-radius: 0 3px 3px 0;
+
+    user-select: none;
+
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+.prev:hover, .next:hover {
+
+    background-color: rgba(112,15,26,0.8);
+
+    color: #fff;
+
+}
+
+.prev {
+
+    left: 0;
+
+}
+
+.next {
+
+    right: 0;
+
+    border-radius: 3px 0 0 3px;
+
+}
+
+	</style>
+
+	<script src="js/lightslider.js"></script> 
+
+	<script>
+
+		$(document).ready(function() {
+
+		$("#content-slider").lightSlider({
+
+		loop:true,
+
+		keyPress:true
+
+		});
+
+		$('#image-gallery').lightSlider({
+
+		gallery:true,
+
+		item:1,
+
+		thumbItem:9,
+
+		slideMargin: 0,
+
+		speed:500,
+
+		auto:false,
+
+		loop:true,
+
+		onSliderLoad: function() {
+
+		$('#image-gallery').removeClass('cS-hidden');
+
+		}
+
+		});
+
+		});
+
+	</script>
+
+	<script>
+
+		$(function(){
+
+			var mediaMatch = window.matchMedia("(max-width: 600px)");
+
+			if(mediaMatch.matches){
+
+				$('#marquee-vertical').marquee({
+
+					direction: 'vertical',
+
+					itemSelecter : 'li',
+
+					delay: 5000,
+
+					speed: 1,
+
+					timing: 5,
+
+					mouse: true,
+
+					duplicated: true
+
+				});
+
+			}else{
+
+				if(eventLenth>7){
+
+					$('#marquee-vertical').marquee({
+
+						direction: 'vertical',
+
+						itemSelecter : 'li',
+
+						delay: 5000,
+
+						speed: 1,
+
+						timing: 5,
+
+						mouse: true,
+
+						duplicated: true
+
+					});
+
+				}else{
+
+					$('#marquee-vertical').css('top',0)
+
+				}
+
+			}
+
+			
+
+		
+
+			$('#marquee-horizontal').marquee({direction:'horizontal', delay:100, timing:1000});  
+
+			//console.log(eventLenth);
+
+		});
+
+	</script>
+
+	<script>
+
+		$(function(){
+
+		$.simpleTicker($("#ticker-fade"),{'effectType':'fade'});
+
+		$.simpleTicker($("#ticker-roll"),{'effectType':'roll'});
+
+		$.simpleTicker($("#ticker-slide"),{'effectType':'slide'});
+
+		$.simpleTicker($("#ticker-one-item"),{'effectType':'fade'});
+
+		});
+
+	</script>
+
+	
+
+	<!-- popup on slider-->
+
+	<script>
+
+	$(document).ready(function () {    
+
+    $("#popup").hide().fadeIn(1000);   
+
+    $("#close").on("click", function (e) {
+
+        e.preventDefault();
+
+        $("#popup").fadeOut(1000);
+
+    });
+
+});
+
+	</script>	
+
+	<style>
+
+	#popup {display:none;position:absolute;margin:0 auto;top: 55%;left: 50%;transform: translate(-50%, -50%);box-shadow: 0px 0px 90px 2px #000;z-index: 9999999;width: 700px;height: 700px;}
+
+	.btn {background-color: #0c4646!important;color: #fff!important; padding: 12px 12px!important; margin: 30px 0 0 0!important;cursor: pointer!important;}
+
+	button#close {margin-top: -6px!important;border: none!important;}
+
+	.panel-footer {position: absolute;top: -32px;right: 0;}
+
+	@media screen and (max-width: 1366px) {
+
+	#popup {top: 67%;width: 650px;height: 650px;}}
+
+		
+
+	@media screen and (max-width: 1000px) {
+
+	#popup {top: 70%;width: 550px;height: 550px;}}
+
+		
+
+	@media screen and (max-width: 500px) {
+
+	#popup {top: 55%;left: 50%;transform: translate(-50%, -50%);box-shadow: 0px 0px 90px 2px #000;z-index: 9999999;
+
+	width: 400px;height: 400px;}}
+
+	@media screen and (max-width: 400px) {
+
+	#popup {top: 55%;left: 50%;transform: translate(-50%, -50%);box-shadow: 0px 0px 90px 2px #000;
+
+	z-index: 9999999;width: 320px;height: 320px;}}
+
+	.marqee-holder{
+
+		position: relative;
+
+		z-index: 1;
+
+		background: #666;
+
+		color: #fff;
+
+		padding: 10px 0 5px;
+
+		top: 112px;
+
+	}
+
+	@media screen and (max-width: 480px){
+
+		.marqee-holder{ top: 90px; }
+
+		}
+
+	</style>
+
+	<!-- popup on slider-->
+
+</head>
+
+<body class="home-page">
+
+	<!-- popup on slider-->
+
+	<!--<div id="popup" class="popup panel panel-primary">       
+
+       	<a href="https://sbsconference.iba.edu.pk/" target="_blank">  <img src="images/sbs-conference2023-popup.jpg" alt="popup" width="100%" height="auto"></a>
+
+        <div class="panel-footer">
+
+            <button id="close" class="btn btn-lg btn-primary">Close</button>
+
+        </div>
+
+	</div>-->
+
+	<!-- popup on slider-->
+
+	
+
+	
+
+	﻿<head>
+    <link rel="stylesheet" href="nav-css/nav-layout.min.css">
+    <link rel="stylesheet" href="nav-css/nav-core.min.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="nav-css/ie8-core.min.css">
+    <link rel="stylesheet" href="nav-css/ie8-layout.min.css">
+    <script src="nav-js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="nav-js/rem.min.js"></script>
+<style>
+.btn {
+background-color: #ffd200;
+color: #00174f;
+display: inline-block;
+text-decoration: none;
+padding: 13px 30px;
+margin: 30px 0 0 0;
+border-radius: 3px;
+font-weight: bold;
+}
+.btn:hover {
+background-color: #fff;
+}
+.btn--transition {
+-webkit-transition: -webkit-transform 0.2s;
+-webkit-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+:focus {
+outline: none;
+}
+.icons {
+margin: 50px 0;
+}
+.icon {
+border: 0;
+height: 55px;
+width: 79px;
+border-radius: 50%;
+cursor: pointer;
+position: absolute;
+left: -7px;
+top: 80px;
+}
+.icon span {
+display: block;
+height: 3px;
+width: 33px;
+background-color: #ffffff;
+border-radius: 2px;
+position: absolute;
+left: 23px;
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+.icon span:first-child {
+top: 28px;
+}
+.icon span:nth-child(2) {
+top: 37px;
+}
+.icon span:last-child {
+top: 46px;
+}
+.icon--active span:first-child {
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:last-child {
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:nth-child(2) {
+opacity: 0;
+}
+.icon--button {
+border-radius: 10px;
+}
+.icon--square {
+border-radius: 0;
+}
+.icon--transparent {
+background-color: transparent;
+}
+.icon--transparent span {
+background-color: #fff;
+}
+.icon-transition {
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+</style>
+<!-- Meta Pixel Code -->
+
+<script>
+
+!function(f,b,e,v,n,t,s)
+
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];
+
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1432371431016180');
+
+fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+src="https://www.facebook.com/tr?id=1432371431016180&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+</head>
+<div id="header">
+	<div class="holder">
+		<strong class="logo" id="logo"><a href="/">IBA Karachi</a></strong>
+		<a href="/" class="logo-small"><img src="images/logo-iba-70years.png" width="180" height="94" /></a>
+		<div class="header-content">
+			<ul>
+				<!--<li><a href="index.php">Home</a></li>-->
+                <li><a href="faculty.php">Faculty</a></li>
+                <li><a href="students.php">Students</a></li>
+                <li><a href="https://alumni.iba.edu.pk/">Alumni</a></li>
+                <li><a href="staff.php">Staff</a></li>
+                <li><a href="media.php">Media</a></li>
+			 	<li class="search"><a href="#" class="openBtn" onClick="openSearch()"> <i class="fa fa-search"></i> Search</a></li>
+				<!--<li><a href="http://login.microsoftonline.com/" target="_blank">Email</a></li>
+				<li><a href="erpportal.php">ERP/LMS</a></li>
+				<li><a href="e-learning.php">E-Learning</a></li>
+				<li><a href="https://onlinepayment.iba.edu.pk/" target="_blank">Pay Online</a></li>
+				<li><a href="mediacoverage.php">Media Coverage</a></li>
+				<li><a href="contact_us.php">Contact Us</a></li>-->
+			</ul>
+			<!--<form method="GET" action="search-results.php" id="cse-search-box-form-id" class="search-form">
+				<input type="text" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search...':this.value;" value="" placeholder="Search..." name="q" id="cse-search-input-box-id" class="search-text">
+				<input type="submit" value="" class="btn-search">
+			</form>-->
+		</div>
+	</div>
+	<!--<a href="#" class="nav-button"><img src="images/ico-menu.png" width="34" height="24" alt="Menu"></a>-->
+	<button class="icon icon--transparent nav-button" id="icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<nav class="nav" id="main-menu">
+	    <ul>
+		   <li class="nav-submenu"><a href="#">Admissions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+                    <li><a href="undergraduate.php">Undergraduate Programs</a></li>
+                    <li><a href="graduate.php">Graduate Programs</a></li>
+                    <li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+                    <li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+                    <li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/admissions_schedule.php" target="_blank">Admissions Schedule</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/policies-and-details.php" target="_blank">Admissions Policy</a></li>
+                    <li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+			<!--<li><a href="onlineadmission.php">Apply Online</a></li>-->
+                    <li><a href="faqs.php">FAQs </a></li>
+				 <li class="nav-submenu"><a href="#">Others <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="fee-structure.php">Fee Structure</a></li>
+					    <li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+					    <li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+					    <!--<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>-->
+					
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">Academics <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="schools.php">Schools</a></li>
+				 <!--<li class="nav-submenu"><a href="#">Schools <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+							    <li><a href="patrons.php">Patron</a></li>
+							    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul>
+									    <li><a href="patrons.php">Patron</a></li>
+									    <li><a href="ed-profile.php">Executive Director</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									</ul>
+								 </li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							</ul>
+						 </li>
+					</ul>
+				 </li>-->
+				 <li><a href="academic-calendar.php">Academic Calendar 2025-26</a></li>
+				 <!--<li><a href="academic-calendar-2024-25.php">Academic Calendar 2024-25</a></li>-->
+     				<li><a href="registrar.php">Office of the Registrar</a></li>
+				 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+			  </ul>
+		   </li>
+		   <li><a href="research.php">Research</a></li>
+		   <li class="nav-submenu"><a href="#">Life at IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				<li><a href="https://osa.iba.edu.pk/" target="_blank">Office of Student Affairs</a></li>
+				 <!--<li><a href="https://www.iba.edu.pk/studentssocieties" target="_blank">Societies</a></li>-->
+				 <li><a href="student_facilities.php">Facilities</a></li>
+				 <li><a href="lifeoncampus.php">Life on Campus</a></li>
+				 <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+				 <li><a href="https://irc.iba.edu.pk/" target="_blank">International Resource Center</a></li>
+				 <li><a href="index.php#trending">IBA Events</a></li>
+                 <li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				 <li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">About IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="history.php">History &amp; Timeline</a></li>
+				 <li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<!-- <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>-->
+				 <li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+				 <li class="nav-submenu"><a href="#">Management <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="patrons.php">Patron</a></li>
+					    <li><a href="ed-profile.php">Executive Director</a></li>
+					    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+					    <li><a href="deans.php">Deans</a></li>
+					    <li><a href="registrar.php">Registrar</a></li>
+					    <!--<li><a href="program-directors-chairpersons.php">Chairpersons</a></li>-->
+					    <li><a href="faculty-profiles.php">Faculty</a></li>
+					    <li><a href="management-staff.php">Staff</a></li>
+						<!--<li><a href="http://iba/hrnewsite/whistle-blowing.php" target="_blank">Whistleblowing</a></li>-->
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+	    </ul>
+	</nav>
+<a href="#" class="nav-close">Close Menu</a>
+<script src="nav-js/nav.jquery.min.js"></script>
+<script>
+    $('.nav').nav();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11117631-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11117631-1');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TW6K5Q0JV3');
+</script>
+<script>
+var animation = 'rubberBand';
+$('.icon').on('click', function () {
+$(this).toggleClass('icon--active');
+});
+$('.icon').on('click', function () {
+$(this).addClass('animated ' + animation).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+$(this).removeClass('animated ' + animation);
+});
+});
+//# sourceURL=pen.js
+</script>
+	
+	
+			</div>
+		
+			
+		</div>
+	</div>
+</div>
+	<div class="alert" id="alert">
+
+		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+
+		<strong><i class="fa fa-info-circle" aria-hidden="true"></i> <a href="covid-19-academic-changes-and-fall-2020-plans.php">COVID-19 resources for the IBA Community</a></strong>
+
+	</div>
+
+<!--	<div class="marqee-holder">
+
+		<marquee> Due to a rain emergency, BS Accounting and Finance interviews are rescheduled for Monday, March 04, 2024.  </marquee>
+
+	</div>-->
+				
+
+	<div class="block-slider-banner">
+
+		<div class="slider-wrapper" id="slider">
+
+			<ul class="slider-img">
+				
+				<li class="slide-227">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://sbs.iba.edu.pk/" target="_blank" class="clickable-banner" bis_skin_checked="1">  </a>
+				</li>
+				
+				<li class="slide-219">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://onlineadmission.iba.edu.pk/" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-220">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://onlineadmission.iba.edu.pk/" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-226">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://onlineadmission.iba.edu.pk/" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-221">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://mba.iba.edu.pk/" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-222">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://emba.iba.edu.pk/" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-225">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://ibaapps.iba.edu.pk/financialassistance/home/index" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-224">
+					<img src="" alt="Admissions Round 2">
+					<a href="https://cee.iba.edu.pk/aboutdiploma.php" target="_blank" class="clickable-banner">  </a>
+				</li>
+				<li class="slide-223">
+					<img src="" alt="Admissions Round 2">
+				</li>
+				<li class="slide-210">
+					<img src="" alt="AACSB">
+				</li>
+			
+				<li class="slide-206">
+					<img src="" alt="IBAGoGreen">
+				</li>
+				
+				<li class="slide-200">
+					<img src="" alt="IBAGoGreen">
+					
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="slide-up">
+
+			<h3><a href="#news" class="scrolltop">Explore IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a></h3>
+
+		</div>
+
+	</div>
+
+	<script>
+
+		let sliderCount = $("#slider").find(".slider-img li img").length;
+
+		let sliderImg = $("#slider").find(".slider-img");
+
+		let sliderArrow = `<ul class="slider-arrow"><li class="arrow-left" role="button"><i class="fa fa-arrow-circle-left"></i></li><li class="arrow-right" role="button"><i class="fa fa-arrow-circle-right"></i></li></ul>`;
+
+		let sliderDotLi = "";
+
+		for (let i = 0; i < sliderCount; i++) {
+
+		sliderDotLi += `<li><i class="fa fa-circle"></i></li>`;
+
+		}
+
+		let sliderDot = `<ul class="slider-dot">${sliderDotLi}</ul>`;
+
+		$("#slider").append(sliderArrow + sliderDot);
+
+		let activeDefaultCount = $(".slider-dot li.active").length;
+
+		if (activeDefaultCount != 1) {
+
+		$(".slider-dot li")
+
+		.removeClass()
+
+		.eq(0)
+
+		.addClass("active");
+
+		}
+
+		let sliderIndex = $(".slider-dot li.active").index();
+
+		sliderImg.css("left", -sliderIndex * 100 + "%");
+
+		function sliderPos() {
+
+		sliderImg.css("left", -sliderIndex * 100 + "%");
+
+		$(".slider-dot li")
+
+		.removeClass()
+
+		.eq(sliderIndex)
+
+		.addClass("active");
+
+		}
+
+		$(".arrow-right").click(function() {
+
+		sliderIndex >= sliderCount - 1 ? (sliderIndex = 0) : sliderIndex++;
+
+		sliderPos();
+
+		});
+
+		$(".arrow-left").click(function() {
+
+		sliderIndex <= 0 ? (sliderIndex = sliderCount - 1) : sliderIndex--;
+
+		sliderPos();
+
+		});
+
+		$(".slider-dot li").click(function() {
+
+		sliderIndex = $(this).index();
+
+		sliderPos();
+
+		});
+
+		let goSlider = setInterval(() => {
+
+		$(".arrow-right").click();
+
+		}, 8000);
+
+		$("#slider").on({
+
+		mouseenter: () => {
+
+		clearInterval(goSlider);
+
+		},
+
+		mouseleave: () => {
+
+		goSlider = setInterval(() => {
+
+		$(".arrow-right").click();
+
+		}, 8000);
+
+		}
+
+		});
+
+	</script>
+
+	<script>
+
+		$(".scrolltop").click(function() {
+
+		$('html,body').animate({
+
+		scrollTop: $("#news").offset().top + -113},
+
+		'fast');
+
+		});
+
+	</script>
+
+
+
+	<div id="container">
+
+		<div class="row campus-headlines" id="news">
+
+			<h2><span>News</span></h2>
+
+			<div class="content">
+
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+
+						<ul class="iba-news">
+							<li>
+								<div class="news-thumb">
+									<a href="ihtesham-ud-din.php"><img src="News/images/ihtesham-ud-din.jpg" alt="Ihtesham Ud Din"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text"> Published Works</strong><br> Ihtesham Ud Din <br> Research Publication by IBA Faculty Featured in Service Business Journal. </h3>
+								</div>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="dr-shabana-nisar.php"><img src="News/images/dr-shabana-nisar-thumb.jpg" alt="Dr. Shabana Nisar"></a>
+								</div>
+								<div class="news-details">
+									<h3 style="line-height: 21px;"><strong class="bold-text">Recognition</strong><br>Dr. Shabana Nisar<br>
+									Professor at the SMCS, shares her insightful reflections on the significance of mathematics and its enduring impact on science, technology, and society...	   </h3>
+								</div>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="fa-dr-yasir-m-kundi.php"><img src="News/images/dr-yasir-m-kundi-thumb.jpg" alt="Dr. Yasir M. Kundi"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text"> Published Works</strong><br><span style="font-size: 14px !important;">Dr. Yasir M. Kundi<br>IBA faculty co-authored a paper on the role of Family‐Friendly HRM Practices on Early‐Career Doctors Well‐Being. </span></h3>
+								</div>
+							</li>
+							<li>
+								<a href="solat-jabeen-sheikh.php">
+								<div class="news-thumb">
+									<img src="News/images/solat-jabeen-sheikh.jpg" alt="Solat Jabeen Sheikh">
+								</div>
+								<div class="news-details">
+									<h3 style="font-size: 14px;"><strong class="bold-text">Academic Advancement  </strong><br>Solat Jabeen Sheikh<br>Successfully Defends PhD Thesis at IBA-SMCS </h3>
+								</div>
+								</a>
+							</li>
+							<li>
+								<a href="dr-usman-ali.php">
+								<div class="news-thumb">
+									<img src="News/images/dr-usman-ali.jpg" alt="Dr. Usman Ali">
+								</div>
+								<div class="news-details">
+									<h3 style="font-size: 14px;"><strong class="bold-text">Academic Advancement  </strong><br>Usman Ali<br>Successfully Defends PhD Thesis at IBA-SMCS</h3>
+								</div>
+								</a>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="dr-faisal-iradat.php"><img src="News/images/dr-faisal-iradat.jpg" alt="Dr. SM Faisal Iradat"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Recognition</strong><br>Dr. SM Faisal Iradat<br>IBA-SMCS Faculty Appointed to Academic Cybersecurity Advisory Committee</h3>
+								</div>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="syeda-wajiha-kazmi.php"><img src="News/images/syeda-wajiha-kazmi-thumb.jpg" alt="Syeda Wajiha Kazmi"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Recognition</strong><br>Syeda Wajiha Kazmi <br>
+									Managing Editor of Business Review <br> School of Business Studies (SBS), IBA Karachi </h3>
+								</div>
+							</li>
+							<li>
+								<a href="dr-muhammad-shahid.php">
+								<div class="news-thumb">
+									<img src="News/images/fa-dr-muhammad-shahid-thumb.jpg" alt="Faculty Achievements">
+								</div>
+								<div class="news-details">
+									<h3 style="font-size: 14px;"><strong class="bold-text">Academic Advancement  </strong><br>
+										Dr. Muhammad Shahid Ashraf<br>
+										Successfully Defends PhD Thesis at IBA-SMCS   </h3>
+								</div>
+								</a>
+							</li>
+							
+							
+							
+						</ul>
+
+						</div>
+
+						<div class="mySlides fade">
+
+							<ul class="iba-news">
+							<li>
+								<a href="fa-dr-tahir-syed.php">
+								<div class="news-thumb">
+									<img src="News/images/fa-dr-tahir-syed-thumb.jpg" alt="Faculty Achievements">
+								</div>
+								<div class="news-details">
+									<h3 style="font-size: 14px;"><strong class="bold-text">Published Works  </strong><br>
+										Dr. Tahir Syed<br>
+										IBA faculty co-authors a paper on Confidence-Calibrated Covariate Shift Correction for Few-Shot Classification in Vision-Language Models   </h3>
+								</div>
+								</a>
+							</li>
+							<li>
+								<a href="scholarships.php">
+								<div class="news-thumb">
+									<img src="News/images/thumb-scholarship.jpg" alt="Scholarships">
+								</div>
+								<div class="news-details">
+									<h3 style="font-size: 14px;"><strong class="bold-text"> List of Available Scholarships  </strong><br>Punjab Educational Endowment Fund (PEEF) <br>for the academic year 2025-26
+										<br>Sindh Educational Endowment Fund (SEEF) Trust Scholarship</h3>
+								</div>
+								</a>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="zeerak-ajmal.php"><img src="News/images/zeerak-ajmal.jpg" alt="Zeerak Ajmal"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Academic Advancement</strong><br><span>Zeerak Ajmal<br>IBA Student Selected for the UK-Pakistan Masters Placement Program at Coventry University, UK</span>  </h3>
+								</div>
+							</li>	
+							<li>
+								<div class="news-thumb">
+									<a href="tabina-navaid.php"><img src="News/images/tabina-navaid.jpg" alt="Tabina Navaid"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Academic Advancement</strong><br><span>Tabina Navaid<br>IBA Student Selected for the UK-Pakistan Masters Placement Program at Coventry University, UK</span>  </h3>
+								</div>
+							</li>
+							<li>
+								<div class="news-thumb">
+									<a href="dr-umair-uddin-shaikh.php"><img src="News/images/dr-umair-udin-shaikh.jpg" alt="Dr. Umair Uddin Shaikh"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Academic Advancement</strong><br><span>Dr. Umair Uddin Shaikh<br>Successfully Defends PhD Thesis at<br>IBA-SMCS</span>  </h3>
+								</div>
+							</li>
+							<li>
+								<a href="dr-nida-aslam.php">
+									<div class="news-thumb">
+										<img src="News/images/nida-aslam-khan.jpg" alt="Dr. Nida Aslam Khan">
+									</div>
+									<div class="news-details">
+										<h3><strong class="bold-text">Published Works </strong><br> Dr. Nida Aslam Khan<br>IBA Faculty Co-authors a Paper on Cricket, Culture, and Loyalty</h3> 
+									</div>
+								</a>
+							</li>	
+							<li>
+								<div class="news-thumb">
+									<a href="faculty-achievement-lalarukh-ejaz.php"><img src="News/images/lalarukh-ejaz.jpg" alt="Dr. Lalarukh Ejaz"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Published Works</strong><br>Dr. Lalarukh Ejaz<br>IBA Faculty Co-authors a Paper on the Role of Hybrid Entrepreneurship in Just Transitions</h3>
+								</div>
+						   </li>	
+							<li>
+								<div class="news-thumb">
+									<a href="dr-shakir-karim-buksh.php"><img src="News/images/dr-khakir-karim-buksh.jpg" alt="Dr. Shakir Karim Buksh"></a>
+								</div>
+								<div class="news-details">
+									<h3><strong class="bold-text">Academic Advancement</strong><br><span>Dr. Shakir Karim Buksh<br>Successfully Defends PhD Thesis at<br>IBA-SMCS</span>  </h3>
+								</div>
+							</li>	
+							
+							</ul>
+
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					</div>
+
+					<div class="more-news">
+
+						<a href="more-news.php">View More</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row events">
+
+				<div class="content">
+
+					<div class="event-calendar explore-iba">
+
+						<h2><span style="color: #fff !important;">Explore</span></h2>
+
+						<div class="block-videos">
+
+							<div class="video video-thumbnail">
+
+								<video controls="" poster="images/hessa.jpg" width="100%" height="243">
+
+									<source src="videos/hessa.mp4" type="video/mp4">
+
+									<source src="videos/mov_bbb.ogg" type="video/ogg">Your browser does not support HTML video.
+
+								</video>
+
+							</div>
+
+							<div class="video video-thumbnail">
+
+								<video controls="" poster="images/iba-aghakhan-thumb.jpg" width="100%" height="243">
+
+									<source src="videos/iba-aghakhan.mp4" type="video/mp4">
+
+									<source src="videos/mov_bbb.ogg" type="video/ogg">Your browser does not support HTML video.
+
+								</video>
+
+							</div>
+
+							<div class="video campus-tour">
+
+								<a href="https://www.iba.edu.pk/visitiba/" target="_blank"><div class="overlay"><strong> Campus<br>Tour</strong></div></a>
+
+							</div>
+
+							<div class="more-news" id="trending">
+
+								<a href="https://www.facebook.com/ibakhiofficial/" target="_blank">View More</a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row section-events">
+				<h2><span>Events</span></h2>
+				<div class="content">
+					<ul class="iba-news iba-events row-thumb-general block-trendings">
+						<h3><span>Trending</span></h3>
+						<li>
+							<a href="parvaaz-mentorship-program2026-building-global-connections-future-leaders.php">
+								<div class="news-thumb">
+									<div class="slideshow">
+										<div class="slideset">
+											<div class="slide">
+												<img src="News/images/parvaaz-mentorship-program2026-building-global-connections-future-leaders-thumb1.jpg" alt="Parvaaz Mentorship Program 2026 - Building Global Connections and Future Leaders">
+											</div>
+											<div class="slide">
+												<img src="News/images/parvaaz-mentorship-program2026-building-global-connections-future-leaders-thumb2.jpg" alt="Parvaaz Mentorship Program 2026 - Building Global Connections and Future Leaders">
+											</div>
+											<div class="slide">
+												<img src="News/images/parvaaz-mentorship-program2026-building-global-connections-future-leaders-thumb3.jpg" alt="Parvaaz Mentorship Program 2026 - Building Global Connections and Future Leaders">
+											</div>
+											<div class="slide">
+												<img src="News/images/parvaaz-mentorship-program2026-building-global-connections-future-leaders-thumb4.jpg" alt="Parvaaz Mentorship Program 2026 - Building Global Connections and Future Leaders">
+											</div>
+										</div>
+									</div>
+								</div> 
+								<div class="news-details">
+									<div class="news-date box2">
+										<span>16</span>
+										<em>Feb</em>
+										<em>2026</em>
+									</div>
+									<h3 style="margin-top: -18px;"><strong class="bold-text"><br>School of Mathematics and Computer Science (SMCS) </strong><br>Parvaaz Mentorship Program 2026 - Building Global Connections and Future Leaders</h3>
+								</div>
+							</a>
+						</li>
+							<li>
+							<a href="guest-speaker-session-ahmed-ayub-conrad-labs-delivers-insights-ai-future-careers.php">
+								<div class="news-thumb">
+									<div class="slideshow">
+										<div class="slideset">
+											<div class="slide">
+												<img src="News/images/guest-speaker-session-ahmed-ayub-conrad-labs-delivers-insights-ai-future-careers-thumb1.jpg" alt="Guest Speaker Session Ahmed Ayub from Conrad Labs Delivers Insights on AI and Future Careers">
+											</div>
+											<div class="slide">
+												<img src="News/images/guest-speaker-session-ahmed-ayub-conrad-labs-delivers-insights-ai-future-careers-thumb2.jpg" alt="Guest Speaker Session Ahmed Ayub from Conrad Labs Delivers Insights on AI and Future Careers">
+											</div>
+											<div class="slide">
+												<img src="News/images/guest-speaker-session-ahmed-ayub-conrad-labs-delivers-insights-ai-future-careers-thumb3.jpg" alt="Guest Speaker Session Ahmed Ayub from Conrad Labs Delivers Insights on AI and Future Careers">
+											</div>
+										</div>
+									</div>
+								</div> 
+								<div class="news-details">
+									<div class="news-date box2">
+										<span>16</span>
+										<em>Feb</em>
+										<em>2026</em>
+									</div>
+									<h3 style="margin-top: -18px;"><strong class="bold-text"><br>School of Mathematics and Computer Science (SMCS) </strong><br>Guest Speaker Session Ahmed Ayub from Conrad Labs Delivers Insights on AI and Future Careers</h3>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="iba-karachi-launches-executive-mba-islamabad-serve-pakistans-northern-leadership-pipeline.php">
+								<div class="news-thumb">
+									<div class="slideshow">
+										<div class="slideset">
+											<div class="slide">
+												<img src="News/images/iba-karachi-launches-executive-mba-islamabad-to-serve-pakistans-northern-leadership-pipeline-thumb.jpg" alt="IBA Karachi Launches Executive MBA in Islamabad to Serve Pakistan's Northern Leadership Pipeline">
+											</div>										
+											
+										</div>
+									</div>
+								</div> 
+								<div class="news-details">
+									<div class="news-date box2">
+										<span>13</span>
+										<em>Feb</em>
+										<em>2026</em>
+									</div>
+									<h3 style="margin-top: -18px;"><strong class="bold-text"><br>School of Business Studies (SBS)</strong><br>IBA Karachi Launches Executive MBA in Islamabad to Serve Pakistan's Northern Leadership Pipeline</h3>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="inauguration-high-performance-computing-hpc-cluster-smcs-iba-karachi.php">
+								<div class="news-thumb">
+									<div class="slideshow">
+										<div class="slideset">
+											<div class="slide">
+												<img src="News/images/inauguration-high-performance-computing-hpc-cluster-smcs-iba-karachi-thumb1.jpg" alt="Inauguration of High-Performance Computing (HPC) Cluster at SMCS, IBA Karachi">
+											</div>										
+											<div class="slide">
+												<img src="News/images/inauguration-high-performance-computing-hpc-cluster-smcs-iba-karachi-thumb2.jpg" alt="Inauguration of High-Performance Computing (HPC) Cluster at SMCS, IBA Karachi">
+											</div>
+											<div class="slide">
+												<img src="News/images/inauguration-high-performance-computing-hpc-cluster-smcs-iba-karachi-thumb3.jpg" alt="Inauguration of High-Performance Computing (HPC) Cluster at SMCS, IBA Karachi">
+											</div>
+											<div class="slide">
+												<img src="News/images/inauguration-high-performance-computing-hpc-cluster-smcs-iba-karachi-thumb4.jpg" alt="Inauguration of High-Performance Computing (HPC) Cluster at SMCS, IBA Karachi">
+											</div>
+										</div>
+									</div>
+								</div> 
+								<div class="news-details">
+									<div class="news-date box2">
+										<span>11</span>
+										<em>Feb</em>
+										<em>2026</em>
+									</div>
+									<h3 style="margin-top: -18px;"><strong class="bold-text"><br>School of Mathematics & Computer Science (SMCS)</strong><br>Inauguration of High-Performance Computing (HPC) Cluster at SMCS, IBA Karachi</h3>
+								</div>
+							</a>
+						</li>
+						
+						<div class="more-news">
+							<a href="more_trends.php">View More</a>
+						</div>
+					</ul>
+					<h3 class="upcoming-events-heading"><span>Upcoming</span></h3>
+
+					﻿<div class="event-calendar block-events">
+  <div class="upcoming-events">
+    <div class="list-wrpaaer" style="position: relative; overflow: hidden;">
+      <ul class="list-aggregate" id="marquee-vertical" style="position: absolute; top: -78px; left: 0px; height: 1000%;">
+												<li>No events found</li>
+					      </ul>
+      
+    </div></div>
+    <a href="https://www.iba.edu.pk/IBAEvents/home/view" target="_blank" class="btn-more-upcoming-events">View More</a> </div>
+    
+<script type="text/javascript">
+	function openInNewTab(url) {
+	  window.open(url, '_blank').focus();
+	}
+
+</script>
+		<script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="js/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+		});
+	</script>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+			x.className = "topnav";
+			}
+		}
+	</script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+var eventLenth = 0;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  //console.log(dots)
+  if (n > slides.length) { slideIndex = 1 }    
+  if (n < 1) { slideIndex = slides.length }
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
+				</div>
+
+			</div>
+
+			<div class="row events">
+
+				<div class="content">
+
+					<div class="block-publications">
+
+						<h2><span>Reports and Magazines </span></h2>
+
+						<ul class="iba-news iba-publications">
+
+							<li>
+								<em>Monthly <br>E-newsletter</em>
+								<div class="news-thumb">
+									<a href="e-newsletter/iba-newsletter-feb2026.pdf" target="_blank">
+										<img src="News/images/iba-newsletter-feb2026-thumb.jpg" width="208" height="160" alt="E-newsletter"></a>
+								</div>
+								<a class="btn-archive" href="enewsletter_archive.php">View Archives</a>
+							</li>
+							
+
+							<li>
+
+								<em>Highlights <br>of the year 2023</em>
+
+								<div class="news-thumb">
+
+									<a href="highlights/highlights-of-the-year-2023-rev1.pdf" target="_blank"><img src="News/images/thumb2-highlights-of-the-year-2023.jpg" width="208" height="160" alt="E-newsletter"></a>
+
+								</div>
+
+								<a class="btn-archive" href="highlights-of-the-year-archive.php">View Archives</a>
+
+							</li>
+
+							<li>
+
+								<em>Programs <br>Guide 2025-26</em>
+
+								<div class="news-thumb">
+
+									<a href="News/pa-2025-26.pdf" target="_blank"><img src="images/pa-2025-26-thumb1.png" alt="Program Announcement"></a>
+
+								</div>
+
+								<a class="btn-archive" href="program_ann_archives.php">View Archives</a>
+
+							</li>
+
+							<li>
+
+								<em>Student <br>Guide 2025-26</em>
+
+								<div class="news-thumb">
+
+									<a href="News/student-handbook2025-26.pdf" target="_blank">
+										<img src="News/images/student-handbook2025-26-thumb-home.jpg" alt="Students Handbook 2025-26"></a>
+
+								</div>
+
+								<a class="btn-archive" href="student_handbook_archives.php">View Archives</a>
+
+							</li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row iba-by-numbers">
+
+				<h3 class="caption">IBA by Numbers</h3>
+
+				<div class="figures">
+
+					<ul>
+
+						<li>
+
+							<h2>41%</h2>
+
+							<strong> Students</strong>
+
+							<p>Received Financial Assistance in the Academic Year 2023-2024</p>
+
+						</li>
+
+						<li>
+
+							<h2> 20K</h2>
+
+							<strong>IBA Alumni</strong>
+
+							<p> Are serving in many <br>top-tier National and Multinational organizations</p>
+
+						</li>
+
+						<li>
+
+							<h2> 70%</h2>
+
+							<strong>IBA Faculty Members</strong>
+
+							<p>Hold a PhD degree</p>
+
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+			<button class="open-button" onclick="openForm()"><h1>Emergency Helpline</h1></button>
+
+			<div class="chat-popup" id="myForm">
+
+				<form action="#" class="form-container">
+
+					<h2>Emergency Helpline</h2>
+
+					<p style="text-align:center">For on-campus emergencies only<br>	<strong class="bold-text">+92-(213) 810-3030</strong></p> <br>
+
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+				</form>
+
+			</div>
+
+			<script>
+
+				function openForm() {
+
+				document.getElementById("myForm").style.display = "block";
+
+				}
+
+				function closeForm() {
+
+				document.getElementById("myForm").style.display = "none";
+
+				}
+
+			</script>
+
+			
+
+			﻿<div id="container" class="footer">
+
+        <div class="row quick-links">
+
+				<div class="three-column">
+
+					<div class="column">
+
+						<h2>Admissions</h2>
+
+						<ul>
+
+				<li><a href="undergraduate.php">Undergraduate Programs</a></li>
+
+				<li><a href="graduate.php">Graduate Programs</a></li>
+
+				<li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+
+				<li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+
+				<li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+
+				<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+
+				<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>
+
+                 		<li><a href="fee-structure.php">Fee Structure</a></li>
+
+				<li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+
+				<li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+
+                         	<!--<li><a href="faqs.php">FAQs </a></li>-->
+
+						</ul><br>
+
+						<h2>Academics</h2>
+
+						<ul>
+
+				 <li><a href="schools.php">Schools</a></li>
+
+				 <li><a href="academic-calendar.php">Academic Calendar</a></li>
+
+				 <li><a href="registrar.php">Office of the Registrar</a></li>
+
+                 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+
+						</ul>
+
+					</div>
+
+					<div class="column">
+
+						<h2>Life at IBA</h2>
+
+						<ul>
+
+				<li><a href="https://osa.iba.edu.pk" target="_blank">Office of Student Affairs</a></li>
+
+				<li><a href="student_facilities.php">Facilities</a></li>
+
+				<li><a href="lifeoncampus.php">Life on Campus</a></li>
+
+				<li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+
+				<li><a href="https://osa.iba.edu.pk/oise/" target="_blank">Office of International Student Exchange</a></li>
+
+				<li><a href="index.php#trending">IBA Events</a></li>
+
+				<li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				<li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+
+				<li><a href="space.php">SP@CE</a></li>
+
+						</ul><br>
+
+						<h2>Research</h2>
+
+						<ul>
+
+							<li><a href="https://oric.iba.edu.pk/" target="_blank">ORIC</a></li>
+
+							<li><a href="https://ir.iba.edu.pk/businessreview/" target="_blank">IBA Business Review</a></li>
+                            <li><a href="https://library.iba.edu.pk/" target="_blank">Library</a></li>
+                            <li><a href="https://cber.iba.edu.pk/" target="_blank">Center for Business and Economic Research</a></li>
+						
+						</ul>
+
+					</div>
+
+					<div class="column footer-about-iba">
+
+						<h2>About IBA</h2>
+
+						<ul>
+
+							<li><a href="history.php">History &amp; Timeline</a></li>
+
+				<li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<li><a href="https://hr.iba.edu.pk/hr-policies.php" target="_blank">HR Policies</a></li>
+
+				<li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+
+				<li><a href="patrons.php">Patron</a></li>
+
+				<li><a href="ed-profile.php">Executive Director</a></li>
+
+				<li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+
+				<li><a href="deans.php">Deans</a></li>
+
+				<li><a href="registrar.php">Registrar</a></li>
+
+				<li><a href="faculty-profiles.php">Faculty</a></li>
+
+				<li><a href="management-staff.php">Staff</a></li>
+				
+
+                <li><a href="finance.php">Finance</a></li>
+
+				<li><a href="tenders_new.php">Tenders</a></li>
+
+						</ul><br>
+
+						
+
+					</div>
+
+				
+
+					<div class="column column-buttons">
+
+						<ul class="footer-buttons">
+								<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply for Admission</a></li>
+                            <li><a href="https://rm.iba.edu.pk/" target="_blank">Give</a></li>
+
+							<li><a href="https://careers.iba.edu.pk/" target="_blank">Careers</a></li>
+							<li><a href="https://hr.iba.edu.pk/whistleblowing.php" target="_blank">Whistleblowing</a></li>
+							<li><a href="iba-phone-directory.php">Contact Us</a></li>
+
+						</ul>
+
+					
+
+					</div>
+
+				</div>
+
+			</div></div><!--middle footer-->
+
+	<div id="footer">
+
+		<div class="footer-top">
+
+			<div class="iba-social-networks">
+
+				<h3>Social Networks</h3>
+
+				<ul>
+
+					<li><a href="https://www.facebook.com/ibakhiofficial/" target="_blank" class="fa fa-facebook"></a></li>
+
+					<li><a href="https://x.com/ibakhiofficial" target="_blank" class="ico-twiiter-x"><img src="images/ico-twitter-x.png" width="15" height="14"></a></li>
+
+
+					<li><a href="https://pk.linkedin.com/school/ibakhiofficial/" target="_blank" class="fa fa-linkedin"></a></li>
+
+					<li><a href="https://www.youtube.com/channel/UCP2jFh53I30goOY4YSjzE3w" target="_blank" class="fa fa-youtube-play"></a></li>
+
+                    <li><a href="https://www.instagram.com/ibakhiofficial/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+					
+					<li><a href="https://www.tiktok.com/@ibakhiofficial" target="_blank" class="ico-tiktok">
+						<img src="images/ico-tiktok.png" width="15" height="14"></a></li>
+
+				</ul>
+
+				<p>&copy; IBA Karachi</p>
+
+				
+
+			</div>
+
+		</div>
+
+		
+
+	</div>
+
+	<div id="myOverlay" class="overlay-search">
+  		<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  		<div class="overlay-content">
+    		<form  method="GET" action="search-results.php" id="cse-search-box-form-id">
+      			<input type="text" placeholder="Search.." onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Search...':this.value;" value="" name="q" id="cse-search-input-box-id">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    		</form>
+  		</div>
+	</div>
+
+
+
+<script>
+
+function openSearch() {
+
+  document.getElementById("myOverlay").style.display = "block";
+
+}
+
+
+
+function closeSearch() {
+
+  document.getElementById("myOverlay").style.display = "none";
+
+}
+
+</script>
+		<script>
+
+		var acc = document.getElementsByClassName("accordion");
+
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+
+		  acc[i].addEventListener("click", function() {
+
+		    this.classList.toggle("active");
+
+		    var panel = this.nextElementSibling;
+
+		    if (panel.style.maxHeight){
+
+			 panel.style.maxHeight = null;
+
+		    } else {
+
+			 panel.style.maxHeight = panel.scrollHeight + "px";
+
+		    } 
+
+		  });
+
+		}
+
+		</script>
+
+		<script>
+
+		var slideIndex = 1;
+
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+
+		  showSlides(slideIndex += n);
+
+		}
+
+		function currentSlide(n) {
+
+			showSlides(slideIndex = n);
+
+		}
+
+		function showSlides(n) {
+
+		var i;
+
+		var slides = document.getElementsByClassName("mySlides");
+
+		if (n > slides.length) {
+
+			slideIndex = 1
+
+		}
+
+		if (n < 1) {
+
+			slideIndex = slides.length
+
+		}
+
+		for (i = 0; i < slides.length; i++) {
+
+		    slides[i].style.display = "none";
+
+		}
+
+		  slides[slideIndex-1].style.display = "block";
+
+		}
+
+		</script>
+
+		<script>
+
+		function aboutIBA() {
+
+		  var x = document.getElementById("aboutIBA");
+
+		  if (x.style.display === "none") {
+
+		    x.style.display = "block";
+
+		  } else {
+
+		    x.style.display = "none";
+
+		  }
+
+		}
+
+		</script>
+
+			
+
+<script>
+
+	$(window).scroll(function() {
+
+	scrollFunction();
+
+	});
+
+	function scrollFunction() {
+
+	if(($('#alert').offset().top - $('#container').offset().top) <= 3){
+
+	document.getElementById("alert").style.top = "135px";
+
+	$("#logo").css("height","89px"); 
+
+	$("#logo").css("background-image", "url('images/logo.png')");
+
+	$("#header").css('background','');
+
+	document.getElementById("logo").style.textIndent = "-99999px"; 
+
+	document.getElementById("icon").style.top = "57%";
+
+	}else{
+
+	$("#header").css('background','#700f1a');
+
+	$("#logo").css("height","39px");
+
+	document.getElementById("alert").style.top = "93px";
+
+	$("#logo").css("background-image", "url('')");
+
+	document.getElementById("logo").style.textIndent = "0px";
+
+	document.getElementById("icon").style.top = "30%";
+
+	}
+
+	return false;
+
+}
+
+</script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<script>
+
+
+
+//Get the button
+
+
+
+var mybutton = document.getElementById("myBtn");
+
+
+
+
+
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+
+
+
+
+
+
+function scrollFunction() {
+
+
+
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+
+
+    mybutton.style.display = "block";
+
+
+
+  } else {
+
+    mybutton.style.display = "none";
+
+  }
+
+}
+
+// When the user clicks on the button, scroll to the top of the document
+
+function topFunction() {
+
+  document.body.scrollTop = 0;
+
+  document.documentElement.scrollTop = 0;
+
+}
+
+</script>
+
+</body>
+
+</html>

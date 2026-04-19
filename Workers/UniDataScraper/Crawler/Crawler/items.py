@@ -11,5 +11,15 @@ class CrawlerItem(scrapy.Item):
     # name = scrapy.Field()
     title=scrapy.Field()
     link=scrapy.Field()
-    save_dir = scrapy.Field()
+    uni=scrapy.Field()
+    save_dir=scrapy.Field()
+    pass
+
+
+class CrawlerItem2(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    link=scrapy.Field()
+    uni=scrapy.Field()
+    text=scrapy.Field()
     pass

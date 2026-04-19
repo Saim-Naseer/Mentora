@@ -1,0 +1,9 @@
+Content-Length: 0
+Date: Fri, 27 Mar 2026 06:08:58 GMT
+Location: https://ww2.comsats.edu.pk/ro/Undergraduate.aspx
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+Server-Timing: cfEdge;dur=14,cfOrigin;dur=0
+Server: cloudflare
+Cf-Ray: 9e2c393b790fff87-SIN
+Alt-Svc: h3=":443"; ma=86400

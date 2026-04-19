@@ -1,0 +1,13 @@
+Date: Fri, 27 Mar 2026 06:22:55 GMT
+Content-Type: text/html; charset=utf-8
+Location: https://www.au.edu.pk/
+Server: cloudflare
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Cf-Cache-Status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=13,cfOrigin;dur=630
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=juRmiBCxdQNY9bAbfzPQ9EEp7lDoXKaNYXyD1QyFSGbJ%2F1S3RgnWN%2B5mwZU5Xb3VYXtZzJBAHGbhOl1JrP7wc5A5oiRu6zPsoIghlAOQASbH%2BGxNkUC6fGLmrEDZ7iBd0v3bsg%3D%3D"}]}
+Cf-Ray: 9e2c4da70f21fde0-SIN
+Alt-Svc: h3=":443"; ma=86400

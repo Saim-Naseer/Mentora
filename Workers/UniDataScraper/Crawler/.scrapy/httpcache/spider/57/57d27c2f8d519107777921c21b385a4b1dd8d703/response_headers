@@ -1,0 +1,13 @@
+Content-Length: 0
+Date: Thu, 26 Mar 2026 22:17:42 GMT
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: PHP/8.0.30
+Set-Cookie: PHPSESSID=nf471oodmn8u677s42mruofs3v; path=/
+Set-Cookie: Admissions-Cookies=ffffffff096b1fc445525d5f4f58455e445a4a422760;expires=Thu, 26-Mar-2026 22:22:43 GMT;path=/;secure;httponly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: https://admissions.lums.edu.pk/application/
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=UTF-8

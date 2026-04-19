@@ -1,0 +1,25 @@
+Date: Sun, 19 Apr 2026 00:00:53 GMT
+Content-Type: text/html; charset=UTF-8
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cf-Mitigated: challenge
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=(self)
+Referrer-Policy: same-origin
+Server-Timing: chlray;desc="9ee7a1af6bc29248"
+Server-Timing: cfEdge;dur=2,cfOrigin;dur=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sEPy3sRUI0t%2BaXPC7u8vhifsU9VenBQTih%2B2mYwvwendDjiCjSsFm9GaF50SpvednNeEYQAZY2TSoV91%2F2MBWrm%2B8ZHWL6WDWxsmRQGWrh7vXSkX0%2B8DSEZVuEVHg0nrgA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Expect-Ct: max-age=86400, enforce
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
+Server: cloudflare
+Cf-Ray: 9ee7a1af6bc29248-LHE
+Alt-Svc: h3=":443"; ma=86400

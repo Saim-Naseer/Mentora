@@ -1,0 +1,8 @@
+Content-Length: 178
+Server: nginx/1.18.0 (Ubuntu)
+Date: Sun, 19 Apr 2026 12:33:22 GMT
+Content-Type: text/html
+Location: https://admissions.iqra.edu.pk/web/signin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff

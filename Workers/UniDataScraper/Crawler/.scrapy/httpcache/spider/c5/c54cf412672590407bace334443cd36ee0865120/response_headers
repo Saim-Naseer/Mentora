@@ -1,0 +1,10 @@
+Date: Fri, 27 Mar 2026 00:48:58 GMT
+Content-Type: text/html;charset=UTF-8
+Server: cloudflare
+Location: https://nwl.uet.edu.pk/
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=M4K2lFkdS5fk8euMjYYFCVkwK1tOU1tCme2jeRFZ14Nk%2FRdahEciPzSq%2Bvah0YxTTJZJPBYk7LwR%2BjxWFcskknGPnwfP5cEoW%2BjM%2BFJu5i4k2P8Gly%2Bv%2Bt%2FE5g5IrD5QPQ%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=24
+Cf-Ray: 9e2a647c7afdb9d8-LHE

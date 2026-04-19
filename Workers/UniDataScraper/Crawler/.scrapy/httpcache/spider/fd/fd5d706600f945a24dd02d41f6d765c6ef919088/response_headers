@@ -1,0 +1,10 @@
+Date: Fri, 27 Mar 2026 00:44:11 GMT
+Content-Type: text/html;charset=UTF-8
+Server: cloudflare
+Location: https://admission.uet.edu.pk/
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Rl6Hbg52IOpfe9k763PsxeeYVU16TWF2QtdSsCO7FWHOn5MtbhY7JEv%2FF%2BRx6qSLGcc4v5LcEGDqADioIhaq0ht7X%2Byov28Qawl8OJaYidG52Kmf03gVPlnflgjuUFWZZQ%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=12
+Cf-Ray: 9e2a5d7a7b7449a0-LHE

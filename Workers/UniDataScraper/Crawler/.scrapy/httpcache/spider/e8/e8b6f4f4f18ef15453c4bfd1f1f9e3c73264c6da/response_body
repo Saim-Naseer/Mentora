@@ -1,0 +1,1763 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1"><title>
+	Scheme of Study
+</title><meta name="description" content=" The Virtual University, Pakistan’s first University based completely on modern Information and Communication Technologies was established by the Government as a public sector. The Virtual University of Pakistan holds a Federal Charter, making its degrees recognized and accepted all over the country as well as overseas. There are highly qualified Faculties in the University having Different Departments which are Science, Accounting &amp; Finance, B.Ed., Banking &amp; Finance Business Administration, Commerce, Computer Science, Information Technology, Management Marketing, Mass Communication, Psychology, Public Administration, Software Engineering." /><meta name="keywords" content="VU, Virtual University of Pakistan, Virtual University, Education, Campus, Private Campus, Virtual Campus, Admissions, Admissions Spring 2014, Admission Foreign National, Admission Schedule, Apply Online, Science, Accounting &amp; Finance, B.Ed., Banking &amp; Finance Business Administration, Commerce, Computer Science, Information Technology, Management Marketing, Mass Communication, Psychology, Public Administration, Software Engineering, Lahore Campus, Islamabad Campus" /><meta name="robots" content="index, follow" /><meta name="copyright" content="Virtual university of Pakistan" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /><link rel="shortcut icon" type="image/x-icon" href="/img/logo.png" />
+    <script type="text/javascript" src="../js/kv-jsaccordions.min.js"></script>
+
+    <link href="../App_Themes/AccordionSchemeofStudy/jquerysctipttop.css" rel="stylesheet" type="text/css" /><link href="../App_Themes/AccordionSchemeofStudy/kv-jsaccordions.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/AccordionSchemeofStudy/styles.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/bootstrap.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Final.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/font-awesome.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/fonts.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Main.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/material-design-iconic-font.min.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Menu.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/plugins.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/responsive.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/Style.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/Default/style-mainmenu.css" type="text/css" rel="stylesheet" /></head>
+<body>
+    <form method="post" action="./StudyScheme" id="myform">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc2OTg0NTg5OA9kFgICAw9kFgQCAQ9kFgQCAQ9kFgICAg9kFgYCAg8WAh4LXyFJdGVtQ291bnQCAxYGZg9kFgYCAQ8PFgIeBFRleHQFDVVuZGVyZ3JhZHVhdGVkZAICDxUBDVVuZGVyZ3JhZHVhdGVkAgMPFgIfAAIEFghmD2QWAmYPFQIKQlMtTGF0ZXJhbApCUy1MYXRlcmFsZAIBD2QWAmYPFQICQlMCQlNkAgIPZBYCZg8VAgRCLkVkBEIuRWRkAgMPZBYCZg8VAhlBc3NvY2lhdGUgRGVncmVlIFByb2dyYW1zGUFzc29jaWF0ZSBEZWdyZWUgUHJvZ3JhbXNkAgEPZBYGAgEPDxYCHwEFCEdyYWR1YXRlZGQCAg8VAQhHcmFkdWF0ZWQCAw8WAh8AAgEWAmYPZBYCZg8VAgJNUwJNU2QCAg9kFgYCAQ8PFgIfAQUGT3RoZXJzZGQCAg8VARdEaXBsb21hcyAvIFNob3J0IENvdXJzZWQCAw8WAh8AAgQWCGYPZBYCZg8VAgdEaXBsb21hB0RpcGxvbWFkAgEPZBYCZg8VAg1TaG9ydCBDb3Vyc2VzDVNob3J0IENvdXJzZXNkAgIPZBYCZg8VAhpTcGVjaWFsaXphdGlvbiBDZXJ0aWZpY2F0ZRpTcGVjaWFsaXphdGlvbiBDZXJ0aWZpY2F0ZWQCAw9kFgJmDxUCDVplcm8gU2VtZXN0ZXINWmVybyBTZW1lc3RlcmQCAw8WAh8AAgwWGGYPZBYGAgEPDxYCHwEFAzEwMWRkAgIPFQQAPiBocmVmPSdodHRwczovL3d3dy52dS5lZHUucGsvcGFnZXMvaGFyYXNzbWVudFByb3RlY3Rpb24uYXNweCcgBF9uZXceUHJvdGVjdGlvbiBhZ2FpbnN0IEhhcnJhc3NtZW50ZAIDDxYCHgdWaXNpYmxlaBYCAgEPFgIfAGZkAgEPZBYGAgEPDxYCHwEFAjk4ZGQCAg8VBABBIGhyZWY9J2h0dHBzOi8vd3d3LnZ1LmVkdS5way9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD0zMTQzJyAEX25ldyRDaXRpemVuIFBvcnRhbC9WVSBDb21wbGFpbnQgSGFuZGxpbmdkAgMPFgIfAmgWAgIBDxYCHwBmZAICD2QWBgIBDw8WAh8BBQMxMDJkZAICDxUEAC8gaHJlZj0naHR0cHM6Ly93d3cudnUuZWR1LnBrL0Fib3V0VXMvUlRJLmFzcHgnIARfbmV3HlJpZ2h0IG9mIEFjY2VzcyB0byBJbmZvcm1hdGlvbmQCAw8WAh8CaBYCAgEPFgIfAGZkAgMPZBYGAgEPDxYCHwEFAjcyZGQCAg8VBAAjIGhyZWY9J2h0dHA6Ly9zb2NpZXRpZXMudnUuZWR1LnBrJyAEX25ldxJWVSBTb2NpZXRpZXMvQ2x1YnNkAgMPFgIfAmgWAgIBDxYCHwBmZAIED2QWBgIBDw8WAh8BBQMxMDBkZAICDxUEACAgaHJlZj0naHR0cHM6Ly9vcmljLnZ1LmVkdS5way8nIARfbmV3BE9SSUNkAgMPFgIfAmgWAgIBDxYCHwBmZAIFD2QWBgIBDw8WAh8BBQI4MGRkAgIPFQQAJCBocmVmPSdodHRwOi8vd3d3LnZ1LmVkdS5way92ZXJpZnknIARfTmV3HkRlZ3JlZS9UcmFuc2NyaXB0IFZlcmlmaWNhdGlvbmQCAw8WAh8CaBYCAgEPFgIfAGZkAgYPZBYGAgEPDxYCHwEFAjg1ZGQCAg8VBAAkIGhyZWY9JwlodHRwczovL3d3dy5kaWdpc2tpbGxzLnBrLycgBF9uZXcKRGlnaVNraWxsc2QCAw8WAh8CaBYCAgEPFgIfAGZkAgcPZBYGAgEPDxYCHwEFAjg2ZGQCAg8VBAAhIGhyZWY9J2h0dHA6Ly92c3BhY2UudnUuZWR1LnBrLycgBF9uZXcJVlNwYWNlQFZVZAIDDxYCHwJoFgICAQ8WAh8AZmQCCA9kFgYCAQ8PFgIfAQUCNjdkZAICDxUEAB4gaHJlZj0naHR0cDovL3FlYy52dS5lZHUucGsvJyAEX3FlYwNRRUNkAgMPFgIfAmgWAgIBDxYCHwBmZAIJD2QWBgIBDw8WAh8BBQI5MWRkAgIPFQQANyBocmVmPSdodHRwOi8vd3d3LnZ1LmVkdS5way9QaG90b0dhbGxlcnkvRGVmYXVsdC5hc3B4JyAFX3NlbGYNUGhvdG8gR2FsbGVyeWQCAw8WAh8CaBYCAgEPFgIfAGZkAgoPZBYGAgEPDxYCHwEFAjk3ZGQCAg8VBAAfIGhyZWY9J2h0dHA6Ly9zc2JjLnZ1LmVkdS5way8nIARfbmV3IFN0dWRlbnQgU3RhcnQtVXAgQnVzaW5lc3MgQ2VudGVyZAIDDxYCHwJoFgICAQ8WAh8AZmQCCw9kFgYCAQ8PFgIfAQUCMjNkZAICDxUEACEgaHJlZj0naHR0cDovL2FsdW1uaS52dS5lZHUucGsvJyAJX3Z1QWx1bW5pBkFsdW1uaWQCAw8WAh8CaBYCAgEPFgIfAGZkAgQPFgIfAGZkAgMPZBYCAgEPDxYCHwEFD1NjaGVtZSBvZiBTdHVkeWRkAgMPFgIfAAIGFgxmD2QWBGYPFQETVGhlIEZhY3VsdHkgb2YgQXJ0c2QCAw8WAh8AAgQWCGYPZBYGZg8VAhhCU1RoZUZhY3VsdHlvZkFydHM0WWVhcnMMQlMgKDQgWWVhcnMpZAIEDxUBGEJTVGhlRmFjdWx0eW9mQXJ0czRZZWFyc2QCBQ8WAh8AAgYWDGYPZBYCAgEPDxYCHgtOYXZpZ2F0ZVVybAUxLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUVjb25vbWljc2QWAmYPFQEJRWNvbm9taWNzZAIBD2QWAgIBDw8WAh8DBUUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RW5nbGlzaF8oQXBwbGllZF9MaW5ndWlzdGljcylkFgJmDxUBHUVuZ2xpc2ggKEFwcGxpZWQgTGluZ3Vpc3RpY3MpZAICD2QWAgIBDw8WAh8DBTcuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9SXNsYW1pY19TdHVkaWVzZBYCZg8VAQ9Jc2xhbWljIFN0dWRpZXNkAgMPZBYCAgEPDxYCHwMFOi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1NYXNzX0NvbW11bmljYXRpb25kFgJmDxUBEk1hc3MgQ29tbXVuaWNhdGlvbmQCBA9kFgICAQ8PFgIfAwUyLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPVBzeWNob2xvZ3lkFgJmDxUBClBzeWNob2xvZ3lkAgUPZBYCAgEPDxYCHwMFMS4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Tb2Npb2xvZ3lkFgJmDxUBCVNvY2lvbG9neWQCAQ9kFgZmDxUCLUFzc29jaWF0ZURlZ3JlZVByb2dyYW1zVGhlRmFjdWx0eW9mQXJ0czJ5ZWFycyNBc3NvY2lhdGUgRGVncmVlIFByb2dyYW1zICgyIHllYXJzKWQCBA8VAS1Bc3NvY2lhdGVEZWdyZWVQcm9ncmFtc1RoZUZhY3VsdHlvZkFydHMyeWVhcnNkAgUPFgIfAAIFFgpmD2QWAgIBDw8WAh8DBUUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9FY29ub21pY3NkFgJmDxUBHUFzc29jaWF0ZSBEZWdyZWUgaW4gRWNvbm9taWNzZAIBD2QWAgIBDw8WAh8DBVkuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9FbmdsaXNoXyhBcHBsaWVkX0xpbmd1aXN0aWNzKWQWAmYPFQExQXNzb2NpYXRlIERlZ3JlZSBpbiBFbmdsaXNoIChBcHBsaWVkIExpbmd1aXN0aWNzKWQCAg9kFgICAQ8PFgIfAwVOLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fTWFzc19Db21tdW5pY2F0aW9uZBYCZg8VASZBc3NvY2lhdGUgRGVncmVlIGluIE1hc3MgQ29tbXVuaWNhdGlvbmQCAw9kFgICAQ8PFgIfAwVGLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fUHN5Y2hvbG9neWQWAmYPFQEeQXNzb2NpYXRlIERlZ3JlZSBpbiBQc3ljaG9sb2d5ZAIED2QWAgIBDw8WAh8DBUUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9Tb2Npb2xvZ3lkFgJmDxUBHUFzc29jaWF0ZSBEZWdyZWUgaW4gU29jaW9sb2d5ZAICD2QWBmYPFQIcRGlwbG9tYVRoZUZhY3VsdHlvZkFydHMxWWVhchBEaXBsb21hICgxIFllYXIpZAIEDxUBHERpcGxvbWFUaGVGYWN1bHR5b2ZBcnRzMVllYXJkAgUPFgIfAAIEFghmD2QWAgIBDw8WAh8DBUUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9BcHBsaWVkX1BzeWNob2xvZ3lkFgJmDxUBHURpcGxvbWEgaW4gQXBwbGllZCBQc3ljaG9sb2d5ZAIBD2QWAgIBDw8WAh8DBUwuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9FbmdsaXNoX0xhbmd1YWdlX1RlYWNoaW5nZBYCZg8VASREaXBsb21hIGluIEVuZ2xpc2ggTGFuZ3VhZ2UgVGVhY2hpbmdkAgIPZBYCAgEPDxYCHwMFPi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1EaXBsb21hX2luX0xpbmd1aXN0aWNzZBYCZg8VARZEaXBsb21hIGluIExpbmd1aXN0aWNzZAIDD2QWAgIBDw8WAh8DBUguLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9UZWxldmlzaW9uX1Byb2R1Y3Rpb25kFgJmDxUBIERpcGxvbWEgaW4gVGVsZXZpc2lvbiBQcm9kdWN0aW9uZAIDD2QWBmYPFQIfQlNMYXRlcmFsVGhlRmFjdWx0eW9mQXJ0czJ5ZWFycxRCUy1MYXRlcmFsICgyIHllYXJzKWQCBA8VAR9CU0xhdGVyYWxUaGVGYWN1bHR5b2ZBcnRzMnllYXJzZAIFDxYCHwACBRYKZg9kFgICAQ8PFgIfAwUxLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUVjb25vbWljc2QWAmYPFQEJRWNvbm9taWNzZAIBD2QWAgIBDw8WAh8DBUUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RW5nbGlzaF8oQXBwbGllZF9MaW5ndWlzdGljcylkFgJmDxUBHUVuZ2xpc2ggKEFwcGxpZWQgTGluZ3Vpc3RpY3MpZAICD2QWAgIBDw8WAh8DBTouLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9TWFzc19Db21tdW5pY2F0aW9uZBYCZg8VARJNYXNzIENvbW11bmljYXRpb25kAgMPZBYCAgEPDxYCHwMFMi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Qc3ljaG9sb2d5ZBYCZg8VAQpQc3ljaG9sb2d5ZAIED2QWAgIBDw8WAh8DBTEuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U29jaW9sb2d5ZBYCZg8VAQlTb2Npb2xvZ3lkAgEPZBYEZg8VATpUaGUgRmFjdWx0eSBvZiBDb21wdXRlciBTY2llbmNlIGFuZCBJbmZvcm1hdGlvbiBUZWNobm9sb2d5ZAIDDxYCHwACBRYKZg9kFgZmDxUCO0JTVGhlRmFjdWx0eW9mQ29tcHV0ZXJTY2llbmNlYW5kSW5mb3JtYXRpb25UZWNobm9sb2d5NFllYXJzDEJTICg0IFllYXJzKWQCBA8VATtCU1RoZUZhY3VsdHlvZkNvbXB1dGVyU2NpZW5jZWFuZEluZm9ybWF0aW9uVGVjaG5vbG9neTRZZWFyc2QCBQ8WAh8AAgQWCGYPZBYCAgEPDxYCHwMFOC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Db21wdXRlcl9TY2llbmNlZBYCZg8VARBDb21wdXRlciBTY2llbmNlZAIBD2QWAgIBDw8WAh8DBTQuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGF0YV9TY2llbmNlZBYCZg8VAQxEYXRhIFNjaWVuY2VkAgIPZBYCAgEPDxYCHwMFPi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1JbmZvcm1hdGlvbl9UZWNobm9sb2d5ZBYCZg8VARZJbmZvcm1hdGlvbiBUZWNobm9sb2d5ZAIDD2QWAgIBDw8WAh8DBTwuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U29mdHdhcmVfRW5naW5lZXJpbmdkFgJmDxUBFFNvZnR3YXJlIEVuZ2luZWVyaW5nZAIBD2QWBmYPFQJQQXNzb2NpYXRlRGVncmVlUHJvZ3JhbXNUaGVGYWN1bHR5b2ZDb21wdXRlclNjaWVuY2VhbmRJbmZvcm1hdGlvblRlY2hub2xvZ3kyeWVhcnMjQXNzb2NpYXRlIERlZ3JlZSBQcm9ncmFtcyAoMiB5ZWFycylkAgQPFQFQQXNzb2NpYXRlRGVncmVlUHJvZ3JhbXNUaGVGYWN1bHR5b2ZDb21wdXRlclNjaWVuY2VhbmRJbmZvcm1hdGlvblRlY2hub2xvZ3kyeWVhcnNkAgUPFgIfAAIFFgpmD2QWAgIBDw8WAh8DBU8uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9Db21wdXRlcl9OZXR3b3JraW5nZBYCZg8VASdBc3NvY2lhdGUgRGVncmVlIGluIENvbXB1dGVyIE5ldHdvcmtpbmdkAgEPZBYCAgEPDxYCHwMFTC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX0NvbXB1dGVyX1NjaWVuY2VkFgJmDxUBJEFzc29jaWF0ZSBEZWdyZWUgaW4gQ29tcHV0ZXIgU2NpZW5jZWQCAg9kFgICAQ8PFgIfAwVILi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fRGF0YV9TY2llbmNlZBYCZg8VASBBc3NvY2lhdGUgRGVncmVlIGluIERhdGEgU2NpZW5jZWQCAw9kFgICAQ8PFgIfAwVWLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fRGF0YWJhc2VfTWFuYWdlbWVudF9TeXN0ZW1kFgJmDxUBLkFzc29jaWF0ZSBEZWdyZWUgaW4gRGF0YWJhc2UgTWFuYWdlbWVudCBTeXN0ZW1kAgQPZBYCAgEPDxYCHwMFVi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX1dlYl9EZXNpZ25fYW5kX0RldmVsb3BtZW50ZBYCZg8VAS5Bc3NvY2lhdGUgRGVncmVlIGluIFdlYiBEZXNpZ24gYW5kIERldmVsb3BtZW50ZAICD2QWBmYPFQI/RGlwbG9tYVRoZUZhY3VsdHlvZkNvbXB1dGVyU2NpZW5jZWFuZEluZm9ybWF0aW9uVGVjaG5vbG9neTFZZWFyEERpcGxvbWEgKDEgWWVhcilkAgQPFQE/RGlwbG9tYVRoZUZhY3VsdHlvZkNvbXB1dGVyU2NpZW5jZWFuZEluZm9ybWF0aW9uVGVjaG5vbG9neTFZZWFyZAIFDxYCHwACAhYEZg9kFgICAQ8PFgIfAwVDLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPURpcGxvbWFfaW5fQ29tcHV0ZXJfU2NpZW5jZWQWAmYPFQEbRGlwbG9tYSBpbiBDb21wdXRlciBTY2llbmNlZAIBD2QWAgIBDw8WAh8DBUkuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9JbmZvcm1hdGlvbl9UZWNobm9sb2d5ZBYCZg8VASFEaXBsb21hIGluIEluZm9ybWF0aW9uIFRlY2hub2xvZ3lkAgMPZBYGZg8VAkJCU0xhdGVyYWxUaGVGYWN1bHR5b2ZDb21wdXRlclNjaWVuY2VhbmRJbmZvcm1hdGlvblRlY2hub2xvZ3kyeWVhcnMUQlMtTGF0ZXJhbCAoMiB5ZWFycylkAgQPFQFCQlNMYXRlcmFsVGhlRmFjdWx0eW9mQ29tcHV0ZXJTY2llbmNlYW5kSW5mb3JtYXRpb25UZWNobm9sb2d5MnllYXJzZAIFDxYCHwACAxYGZg9kFgICAQ8PFgIfAwU4Li4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUNvbXB1dGVyX1NjaWVuY2VkFgJmDxUBEENvbXB1dGVyIFNjaWVuY2VkAgEPZBYCAgEPDxYCHwMFPi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1JbmZvcm1hdGlvbl9UZWNobm9sb2d5ZBYCZg8VARZJbmZvcm1hdGlvbiBUZWNobm9sb2d5ZAICD2QWAgIBDw8WAh8DBTwuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U29mdHdhcmVfRW5naW5lZXJpbmdkFgJmDxUBFFNvZnR3YXJlIEVuZ2luZWVyaW5nZAIED2QWBmYPFQIAAGQCBA8VAQBkAgUPFgIfAGZkAgIPZBYEZg8VARhUaGUgRmFjdWx0eSBvZiBFZHVjYXRpb25kAgMPFgIfAAIFFgpmD2QWBmYPFQIdQlNUaGVGYWN1bHR5b2ZFZHVjYXRpb240WWVhcnMMQlMgKDQgWWVhcnMpZAIEDxUBHUJTVGhlRmFjdWx0eW9mRWR1Y2F0aW9uNFllYXJzZAIFDxYCHwACAhYEZg9kFgICAQ8PFgIfAwU/Li4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUIuRWQuXyhIb25zKV9FbGVtZW50YXJ5ZBYCZg8VARdCLkVkLiAoSG9ucykgRWxlbWVudGFyeWQCAQ9kFgICAQ8PFgIfAwVYLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUIuRWQuXyhIb25zLilfRWFybHlfQ2hpbGRob29kX0NhcmVfYW5kX0VkdWNhdGlvbmQWAmYPFQEwQi5FZC4gKEhvbnMuKSBFYXJseSBDaGlsZGhvb2QgQ2FyZSBhbmQgRWR1Y2F0aW9uZAIBD2QWBmYPFQIeQkVkVGhlRmFjdWx0eW9mRWR1Y2F0aW9uMTVZZWFyD0IuRWQgKDEuNSBZZWFyKWQCBA8VAR5CRWRUaGVGYWN1bHR5b2ZFZHVjYXRpb24xNVllYXJkAgUPFgIfAAIBFgJmD2QWAgIBDw8WAh8DBUouLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9Qi5FZC5fU2Vjb25kYXJ5XygxLjUtWWVhcl9Qcm9ncmFtKWQWAmYPFQEiQi5FZC4gU2Vjb25kYXJ5ICgxLjUtWWVhciBQcm9ncmFtKWQCAg9kFgZmDxUCH0JFZFRoZUZhY3VsdHlvZkVkdWNhdGlvbjI1WWVhcnMQQi5FZCAoMi41IFllYXJzKWQCBA8VAR9CRWRUaGVGYWN1bHR5b2ZFZHVjYXRpb24yNVllYXJzZAIFDxYCHwACARYCZg9kFgICAQ8PFgIfAwVDLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUIuRWQuX0VsZW1lbnRhcnlfKDIuNS1ZZWFyKWQWAmYPFQEbQi5FZC4gRWxlbWVudGFyeSAoMi41LVllYXIpZAIDD2QWBmYPFQIyQXNzb2NpYXRlRGVncmVlUHJvZ3JhbXNUaGVGYWN1bHR5b2ZFZHVjYXRpb24yWWVhcnMjQXNzb2NpYXRlIERlZ3JlZSBQcm9ncmFtcyAoMiBZZWFycylkAgQPFQEyQXNzb2NpYXRlRGVncmVlUHJvZ3JhbXNUaGVGYWN1bHR5b2ZFZHVjYXRpb24yWWVhcnNkAgUPFgIfAAICFgRmD2QWAgIBDw8WAh8DBV4uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9FYXJseV9DaGlsZGhvb2RfQ2FyZV9hbmRfRWR1Y2F0aW9uZBYCZg8VATZBc3NvY2lhdGUgRGVncmVlIGluIEVhcmx5IENoaWxkaG9vZCBDYXJlIGFuZCBFZHVjYXRpb25kAgEPZBYCAgEPDxYCHwMFRS4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX0VkdWNhdGlvbmQWAmYPFQEdQXNzb2NpYXRlIERlZ3JlZSBpbiBFZHVjYXRpb25kAgQPZBYGZg8VAiRCU0xhdGVyYWxUaGVGYWN1bHR5b2ZFZHVjYXRpb24yeWVhcnMUQlMtTGF0ZXJhbCAoMiB5ZWFycylkAgQPFQEkQlNMYXRlcmFsVGhlRmFjdWx0eW9mRWR1Y2F0aW9uMnllYXJzZAIFDxYCHwACAhYEZg9kFgICAQ8PFgIfAwU/Li4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUIuRWQuXyhIb25zKV9FbGVtZW50YXJ5ZBYCZg8VARdCLkVkLiAoSG9ucykgRWxlbWVudGFyeWQCAQ9kFgICAQ8PFgIfAwVYLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUIuRWQuXyhIb25zLilfRWFybHlfQ2hpbGRob29kX0NhcmVfYW5kX0VkdWNhdGlvbmQWAmYPFQEwQi5FZC4gKEhvbnMuKSBFYXJseSBDaGlsZGhvb2QgQ2FyZSBhbmQgRWR1Y2F0aW9uZAIDD2QWBGYPFQEZVGhlIEZhY3VsdHkgb2YgTWFuYWdlbWVudGQCAw8WAh8AAgUWCmYPZBYGZg8VAh5CU1RoZUZhY3VsdHlvZk1hbmFnZW1lbnQ0WWVhcnMMQlMgKDQgWWVhcnMpZAIEDxUBHkJTVGhlRmFjdWx0eW9mTWFuYWdlbWVudDRZZWFyc2QCBQ8WAh8AAgUWCmYPZBYCAgEPDxYCHwMFPC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1BY2NvdW50aW5nX35fRmluYW5jZWQWAmYPFQEUQWNjb3VudGluZyAmIEZpbmFuY2VkAgEPZBYCAgEPDxYCHwMFXC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1CYWNoZWxvcl9vZl9CdXNpbmVzc19+X0luZm9ybWF0aW9uX1RlY2hub2xvZ3lfKEJCSVQpZBYCZg8VATRCYWNoZWxvciBvZiBCdXNpbmVzcyAmIEluZm9ybWF0aW9uIFRlY2hub2xvZ3kgKEJCSVQpZAICD2QWAgIBDw8WAh8DBT8uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QnVzaW5lc3NfQWRtaW5pc3RyYXRpb25kFgJmDxUBF0J1c2luZXNzIEFkbWluaXN0cmF0aW9uZAIDD2QWAgIBDw8WAh8DBTAuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9Q29tbWVyY2VkFgJmDxUBCENvbW1lcmNlZAIED2QWAgIBDw8WAh8DBT0uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9UHVibGljX0FkbWluaXN0cmF0aW9uZBYCZg8VARVQdWJsaWMgQWRtaW5pc3RyYXRpb25kAgEPZBYGZg8VAjNBc3NvY2lhdGVEZWdyZWVQcm9ncmFtc1RoZUZhY3VsdHlvZk1hbmFnZW1lbnQyeWVhcnMjQXNzb2NpYXRlIERlZ3JlZSBQcm9ncmFtcyAoMiB5ZWFycylkAgQPFQEzQXNzb2NpYXRlRGVncmVlUHJvZ3JhbXNUaGVGYWN1bHR5b2ZNYW5hZ2VtZW50MnllYXJzZAIFDxYCHwACChYUZg9kFgICAQ8PFgIfAwVQLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fQWNjb3VudGluZ19+X0ZpbmFuY2VkFgJmDxUBKEFzc29jaWF0ZSBEZWdyZWUgaW4gQWNjb3VudGluZyAmIEZpbmFuY2VkAgEPZBYCAgEPDxYCHwMFUy4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX0J1c2luZXNzX0FkbWluaXN0cmF0aW9uZBYCZg8VAStBc3NvY2lhdGUgRGVncmVlIGluIEJ1c2luZXNzIEFkbWluaXN0cmF0aW9uZAICD2QWAgIBDw8WAh8DBU4uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9CdXNpbmVzc19BbmFseXRpY3NkFgJmDxUBJkFzc29jaWF0ZSBEZWdyZWUgaW4gQnVzaW5lc3MgQW5hbHl0aWNzZAIDD2QWAgIBDw8WAh8DBUQuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9Db21tZXJjZWQWAmYPFQEcQXNzb2NpYXRlIERlZ3JlZSBpbiBDb21tZXJjZWQCBA9kFgICAQ8PFgIfAwVVLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUFzc29jaWF0ZV9EZWdyZWVfaW5fSHVtYW5fUmVzb3VyY2VfTWFuYWdlbWVudGQWAmYPFQEtQXNzb2NpYXRlIERlZ3JlZSBpbiBIdW1hbiBSZXNvdXJjZSBNYW5hZ2VtZW50ZAIFD2QWAgIBDw8WAh8DBUsuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9Jc2xhbWljX0JhbmtpbmdkFgJmDxUBI0Fzc29jaWF0ZSBEZWdyZWUgaW4gSXNsYW1pYyBCYW5raW5nZAIGD2QWAgIBDw8WAh8DBVEuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9PcGVyYXRpb25zX01hbmFnZW1lbnRkFgJmDxUBKUFzc29jaWF0ZSBEZWdyZWUgaW4gT3BlcmF0aW9ucyBNYW5hZ2VtZW50ZAIHD2QWAgIBDw8WAh8DBVEuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9QdWJsaWNfQWRtaW5pc3RyYXRpb25kFgJmDxUBKUFzc29jaWF0ZSBEZWdyZWUgaW4gUHVibGljIEFkbWluaXN0cmF0aW9uZAIID2QWAgIBDw8WAh8DBU8uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9TYWxlc19hbmRfTWFya2V0aW5nZBYCZg8VASdBc3NvY2lhdGUgRGVncmVlIGluIFNhbGVzIGFuZCBNYXJrZXRpbmdkAgkPZBYCAgEPDxYCHwMFUy4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX1N1cHBseV9DaGFpbl9NYW5hZ2VtZW50ZBYCZg8VAStBc3NvY2lhdGUgRGVncmVlIGluIFN1cHBseSBDaGFpbiBNYW5hZ2VtZW50ZAICD2QWBmYPFQIiRGlwbG9tYVRoZUZhY3VsdHlvZk1hbmFnZW1lbnQxWWVhchBEaXBsb21hICgxIFllYXIpZAIEDxUBIkRpcGxvbWFUaGVGYWN1bHR5b2ZNYW5hZ2VtZW50MVllYXJkAgUPFgIfAAIJFhJmD2QWAgIBDw8WAh8DBT0uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9BY2NvdW50aW5nZBYCZg8VARVEaXBsb21hIGluIEFjY291bnRpbmdkAgEPZBYCAgEPDxYCHwMFRy4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1EaXBsb21hX2luX0FjY291bnRpbmdffl9GaW5hbmNlZBYCZg8VAR9EaXBsb21hIGluIEFjY291bnRpbmcgJiBGaW5hbmNlZAICD2QWAgIBDw8WAh8DBUQuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9CYW5raW5nX35fRmluYW5jZWQWAmYPFQEcRGlwbG9tYSBpbiBCYW5raW5nICYgRmluYW5jZWQCAw9kFgICAQ8PFgIfAwVKLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPURpcGxvbWFfaW5fQnVzaW5lc3NfQWRtaW5pc3RyYXRpb25kFgJmDxUBIkRpcGxvbWEgaW4gQnVzaW5lc3MgQWRtaW5pc3RyYXRpb25kAgQPZBYCAgEPDxYCHwMFVC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1EaXBsb21hX2luX0VudHJlcHJlbmV1cnNoaXBffl9TTUVfTWFuYWdlbWVudGQWAmYPFQEsRGlwbG9tYSBpbiBFbnRyZXByZW5ldXJzaGlwICYgU01FIE1hbmFnZW1lbnRkAgUPZBYCAgEPDxYCHwMFOi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1EaXBsb21hX2luX0ZpbmFuY2VkFgJmDxUBEkRpcGxvbWEgaW4gRmluYW5jZWQCBg9kFgICAQ8PFgIfAwVMLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPURpcGxvbWFfaW5fSHVtYW5fUmVzb3VyY2VfTWFuYWdlbWVudGQWAmYPFQEkRGlwbG9tYSBpbiBIdW1hbiBSZXNvdXJjZSBNYW5hZ2VtZW50ZAIHD2QWAgIBDw8WAh8DBUcuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9NYXJrZXRpbmdfTWFuYWdlbWVudGQWAmYPFQEfRGlwbG9tYSBpbiBNYXJrZXRpbmcgTWFuYWdlbWVudGQCCA9kFgICAQ8PFgIfAwVILi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPURpcGxvbWFfaW5fUHVibGljX0FkbWluaXN0cmF0aW9uZBYCZg8VASBEaXBsb21hIGluIFB1YmxpYyBBZG1pbmlzdHJhdGlvbmQCAw9kFgZmDxUCOlNwZWNpYWxpemF0aW9uQ2VydGlmaWNhdGVUaGVGYWN1bHR5b2ZNYW5hZ2VtZW50T25lU2VtZXN0ZXIpU3BlY2lhbGl6YXRpb24gQ2VydGlmaWNhdGUgKE9uZSBTZW1lc3RlcilkAgQPFQE6U3BlY2lhbGl6YXRpb25DZXJ0aWZpY2F0ZVRoZUZhY3VsdHlvZk1hbmFnZW1lbnRPbmVTZW1lc3RlcmQCBQ8WAh8AAgUWCmYPZBYCAgEPDxYCHwMFQS4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1TcGVjaWFsaXphdGlvbl9pbl9CYW5raW5nZBYCZg8VARlTcGVjaWFsaXphdGlvbiBpbiBCYW5raW5nZAIBD2QWAgIBDw8WAh8DBUEuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U3BlY2lhbGl6YXRpb25faW5fRmluYW5jZWQWAmYPFQEZU3BlY2lhbGl6YXRpb24gaW4gRmluYW5jZWQCAg9kFgICAQ8PFgIfAwVTLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPVNwZWNpYWxpemF0aW9uX2luX0h1bWFuX1Jlc291cmNlX01hbmFnZW1lbnRkFgJmDxUBK1NwZWNpYWxpemF0aW9uIGluIEh1bWFuIFJlc291cmNlIE1hbmFnZW1lbnRkAgMPZBYCAgEPDxYCHwMFRC4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1TcGVjaWFsaXphdGlvbl9pbl9NYW5hZ2VtZW50ZBYCZg8VARxTcGVjaWFsaXphdGlvbiBpbiBNYW5hZ2VtZW50ZAIED2QWAgIBDw8WAh8DBUMuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U3BlY2lhbGl6YXRpb25faW5fTWFya2V0aW5nZBYCZg8VARtTcGVjaWFsaXphdGlvbiBpbiBNYXJrZXRpbmdkAgQPZBYGZg8VAiVCU0xhdGVyYWxUaGVGYWN1bHR5b2ZNYW5hZ2VtZW50MnllYXJzFEJTLUxhdGVyYWwgKDIgeWVhcnMpZAIEDxUBJUJTTGF0ZXJhbFRoZUZhY3VsdHlvZk1hbmFnZW1lbnQyeWVhcnNkAgUPFgIfAAIFFgpmD2QWAgIBDw8WAh8DBTwuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QWNjb3VudGluZ19+X0ZpbmFuY2VkFgJmDxUBFEFjY291bnRpbmcgJiBGaW5hbmNlZAIBD2QWAgIBDw8WAh8DBVwuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QmFjaGVsb3Jfb2ZfQnVzaW5lc3Nffl9JbmZvcm1hdGlvbl9UZWNobm9sb2d5XyhCQklUKWQWAmYPFQE0QmFjaGVsb3Igb2YgQnVzaW5lc3MgJiBJbmZvcm1hdGlvbiBUZWNobm9sb2d5IChCQklUKWQCAg9kFgICAQ8PFgIfAwU/Li4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUJ1c2luZXNzX0FkbWluaXN0cmF0aW9uZBYCZg8VARdCdXNpbmVzcyBBZG1pbmlzdHJhdGlvbmQCAw9kFgICAQ8PFgIfAwUwLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPUNvbW1lcmNlZBYCZg8VAQhDb21tZXJjZWQCBA9kFgICAQ8PFgIfAwU9Li4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPVB1YmxpY19BZG1pbmlzdHJhdGlvbmQWAmYPFQEVUHVibGljIEFkbWluaXN0cmF0aW9uZAIED2QWBGYPFQEjVGhlIEZhY3VsdHkgb2YgU2NpZW5jZSAmIFRlY2hub2xvZ3lkAgMPFgIfAAIEFghmD2QWBmYPFQIlQlNUaGVGYWN1bHR5b2ZTY2llbmNlVGVjaG5vbG9neTRZZWFycwxCUyAoNCBZZWFycylkAgQPFQElQlNUaGVGYWN1bHR5b2ZTY2llbmNlVGVjaG5vbG9neTRZZWFyc2QCBQ8WAh8AAgUWCmYPZBYCAgEPDxYCHwMFNi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1CaW9pbmZvcm1hdGljc2QWAmYPFQEOQmlvaW5mb3JtYXRpY3NkAgEPZBYCAgEPDxYCHwMFNS4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1CaW90ZWNobm9sb2d5ZBYCZg8VAQ1CaW90ZWNobm9sb2d5ZAICD2QWAgIBDw8WAh8DBTMuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9TWF0aGVtYXRpY3NkFgJmDxUBC01hdGhlbWF0aWNzZAIDD2QWAgIBDw8WAh8DBTIuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9U3RhdGlzdGljc2QWAmYPFQEKU3RhdGlzdGljc2QCBA9kFgICAQ8PFgIfAwUvLi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPVpvb2xvZ3lkFgJmDxUBB1pvb2xvZ3lkAgEPZBYGZg8VAjpBc3NvY2lhdGVEZWdyZWVQcm9ncmFtc1RoZUZhY3VsdHlvZlNjaWVuY2VUZWNobm9sb2d5MnllYXJzI0Fzc29jaWF0ZSBEZWdyZWUgUHJvZ3JhbXMgKDIgeWVhcnMpZAIEDxUBOkFzc29jaWF0ZURlZ3JlZVByb2dyYW1zVGhlRmFjdWx0eW9mU2NpZW5jZVRlY2hub2xvZ3kyeWVhcnNkAgUPFgIfAAIEFghmD2QWAgIBDw8WAh8DBUkuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9CaW90ZWNobm9sb2d5ZBYCZg8VASFBc3NvY2lhdGUgRGVncmVlIGluIEJpb3RlY2hub2xvZ3lkAgEPZBYCAgEPDxYCHwMFRy4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX01hdGhlbWF0aWNzZBYCZg8VAR9Bc3NvY2lhdGUgRGVncmVlIGluIE1hdGhlbWF0aWNzZAICD2QWAgIBDw8WAh8DBUYuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9QXNzb2NpYXRlX0RlZ3JlZV9pbl9TdGF0aXN0aWNzZBYCZg8VAR5Bc3NvY2lhdGUgRGVncmVlIGluIFN0YXRpc3RpY3NkAgMPZBYCAgEPDxYCHwMFQy4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1Bc3NvY2lhdGVfRGVncmVlX2luX1pvb2xvZ3lkFgJmDxUBG0Fzc29jaWF0ZSBEZWdyZWUgaW4gWm9vbG9neWQCAg9kFgZmDxUCKURpcGxvbWFUaGVGYWN1bHR5b2ZTY2llbmNlVGVjaG5vbG9neTFZZWFyEERpcGxvbWEgKDEgWWVhcilkAgQPFQEpRGlwbG9tYVRoZUZhY3VsdHlvZlNjaWVuY2VUZWNobm9sb2d5MVllYXJkAgUPFgIfAAICFgRmD2QWAgIBDw8WAh8DBUEuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9RGlwbG9tYV9pbl9CaW9pbmZvcm1hdGljc2QWAmYPFQEZRGlwbG9tYSBpbiBCaW9pbmZvcm1hdGljc2QCAQ9kFgICAQ8PFgIfAwVELi4vQWNhZGVtaWNQcm9ncmFtcy9TdHVkeVNjaGVtZS5hc3B4P3NwPURpcGxvbWFfaW5fTW9sZWN1bGFyX0Jpb2xvZ3lkFgJmDxUBHERpcGxvbWEgaW4gTW9sZWN1bGFyIEJpb2xvZ3lkAgMPZBYGZg8VAixCU0xhdGVyYWxUaGVGYWN1bHR5b2ZTY2llbmNlVGVjaG5vbG9neTJ5ZWFycxRCUy1MYXRlcmFsICgyIHllYXJzKWQCBA8VASxCU0xhdGVyYWxUaGVGYWN1bHR5b2ZTY2llbmNlVGVjaG5vbG9neTJ5ZWFyc2QCBQ8WAh8AAgQWCGYPZBYCAgEPDxYCHwMFNi4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1CaW9pbmZvcm1hdGljc2QWAmYPFQEOQmlvaW5mb3JtYXRpY3NkAgEPZBYCAgEPDxYCHwMFNS4uL0FjYWRlbWljUHJvZ3JhbXMvU3R1ZHlTY2hlbWUuYXNweD9zcD1CaW90ZWNobm9sb2d5ZBYCZg8VAQ1CaW90ZWNobm9sb2d5ZAICD2QWAgIBDw8WAh8DBTMuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9TWF0aGVtYXRpY3NkFgJmDxUBC01hdGhlbWF0aWNzZAIDD2QWAgIBDw8WAh8DBS8uLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9Wm9vbG9neWQWAmYPFQEHWm9vbG9neWQCBQ9kFgRmDxUBDVplcm8gU2VtZXN0ZXJkAgMPFgIfAAIBFgJmD2QWBmYPFQIqWmVyb1NlbWVzdGVyWmVyb1NlbWVzdGVyNE1vbnRoc09uZVNlbWVzdGVyJ1plcm8gU2VtZXN0ZXIgKDQgTW9udGhzIC8gT25lIFNlbWVzdGVyKWQCBA8VASpaZXJvU2VtZXN0ZXJaZXJvU2VtZXN0ZXI0TW9udGhzT25lU2VtZXN0ZXJkAgUPFgIfAAIBFgJmD2QWAgIBDw8WAh8DBTUuLi9BY2FkZW1pY1Byb2dyYW1zL1N0dWR5U2NoZW1lLmFzcHg/c3A9WmVyb19TZW1lc3RlcmQWAmYPFQENWmVybyBTZW1lc3RlcmRk7hxgk6FCzlSCfVGnYfOkmLefe1n6vmioU9twsmfqJeE=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="476C9FA3" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdADcF7OBv2R6jqCNrvDyKc6Qsw9X8xUO0aNAxo3DcTY1zXiwIIBaXBZlkqtTA2dAwMMAsmfrBz+EDX1h+eeEmLe2THCAQtuw5U+YrPB/QlWoj8TUXjFI8OBYpBA7c4jvK2eW0gb3cC9KmC4fb2xAcVBNLvAM6j2sQXuERV7iaRBlK3lL3QWxW0+aLfos9XXamqK0y2uw5bya/19acrM17zgcVK9doNpiR+4HbrNVDOrrhTqcKoaslxldNOFqX1gw6jZBB6X+2tLsear9k+zzfTXdH/XDvFwdT9gimiehjOLWBosdBkZJ1zrZyWRRCh7Jkrz5gmMhQHbcrBY97uNNvUA8uxUAAmAI2YOqicNc30t5OxFfTG1n8Mx6Y7AgHWuQZfGC2gyGQ0xPLW9R2OSBJZ0qm0Wg/XTUelV+K+dXYRCTpV2QgtuA8oz2MgZXV2sPvuCZ42pK5rvmMOy36S1yiqYFZhYMdRVfAPtgzt6Uu+3hBRwYzGs+zxzPHDDi5w9q5mVWs2LIJ5leFbW5hOMPK/Z5j8E1KqNOlrZwHV46VAI1jjyTV+bmwZykpwQq8vzkOFY/GjYJmxIRl4uU7mPvkqo6y8Gd2jWq8xL0Oa6N/Z0tRXsqwWX9HYhp90c5Z7HGDNbYCjiHZfBamY0nUCnNOqQ8DVGM6MMLmC5t9FJFPnvvv/fZ2uH3sKigl2PYLgB5rICu5phqxQHjYBa2/6EppJP3jZUBwQVUNHa8NZE2SsI4mdPNc6uxTbC+PYHZH7oYAcEeDRMdVj0o2mLPG1GabDNL1TbttCrjCQbGbYQQ1nZTyUx+k6Y6MPbcOg1bvdFP7MNxKVDFdF4kPQB6zDyITWCFBBdDGUnN1vxF0t80XutlQkI1Jv3Ey2fQSH7xbfxsAKMNSEpr6CxdjIEdobc7ViCPX2K7Hd1D+KJ5PpOIPzCY3ise+es0BfZM5u+3H3TM8EXCQXHhOzDcWFsv8x5RoNZZguAet8hsZtishEX/mCtdVQ0KxJG/7UwxJYhZYYlybStgrLglYpbqqtIP/fP1GOciaFB4hsb51UZ/N1x1MC8a1PaUPme/lo2+mSqevzSHIksg0eCGKpey+2t98ShFwjLxF4tQifs0yLT0Z1K+Y4+WOMyGumuCGSlEMX2/h8yre+SlE6mhXe1mPP5uh1QUNNQYJ4jPB9LXPPkzMHpm1pDgtRoqCistfS+FpWPvM1nFmh6I=" />
+     
+<link rel="shortcut icon" type="image/x-icon" href="/img/logo.png" />
+
+ 
+    
+     
+<link id="ucDetailsHeader_HeaderMenuMSG_cssStyle" rel="stylesheet" type="text/css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+    .search.open {
+        padding-right:0%;
+        max-width:30%;
+    }
+</style> 
+<script>
+    (function () {
+        var cx = '002967652935449813969:c0oouwidqv8';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+
+    var selectedColor;
+
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link href="/switcher/color-switcher.css" rel="stylesheet" />
+
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Green/color.css" title="Green" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/SeaGreen/color.css" title="SeaGreen" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Brown/color.css" title="Brown" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Pink/color.css" title="Pink" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/BrightYellow/color.css" title="BrightYellow" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Purple/color.css" title="Purple" media="screen" />
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Red/color.css" title="Red" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/orange/color.css" title="orange" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Blue/color.css" title="Blue" media="screen" />
+
+
+
+<!-- Color Switcher -->
+
+
+
+
+<!-- Color Switcher end -->
+
+<div class="progress-container fixed-top">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+</div>
+
+
+<div class="as-mainwrapper">
+    <!--Body Area Starts-->
+    <div class="bg-white">
+
+        <header id="headermain">
+            <div id="ucDetailsHeader_HeaderMenuMSG_DivTop" class="header-top header-logo-menu sticker">
+
+                <div class="row">
+                    <div class="col-4 mr-lg-0 mr-md-0 mr-sm-6 mr-xs-6">
+                        <a href="/">
+                            <img class="mt-3 logo-ad  img-fluid" src="/img/logo.png" alt="VU" id="VULogoSmall"></a>
+
+
+                        <div id="smallVUText" class="fg-title-vu d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+                            Virtual University of Pakistan
+                        </div>
+
+                    </div>
+                    <div class="col-3 d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+
+                        <span class="fg-title">Federal Government University</span>
+                    </div>
+                    <div class="col-5 " style="    display: flex;    flex-direction: row;    align- items: center;">
+                        <div class="header-top-right" style="margin-top:27px;">
+
+                            <div class="content d-inline-block">
+                                <a href="https://vulms.vu.edu.pk/" target="_blank">LMS
+                                </a>
+                            </div>
+                            <div class="content d-inline-block">
+                                <a href="https://ocw.vu.edu.pk/" target="_blank">OCW
+                                </a>
+                            </div>
+                           
+                            <div class="content d-inline-block"><a href="/services.aspx">Contact Us</a></div>
+
+                            <meta name="google-translate-customization" content="bc046075478efb7e-a15ff2a2d6a3d585-g1afdba391878be79-f"></meta>
+
+                            <div class="google-translate ml-5 d-lg-block d-sm-none d-xs-none" id="google_translate_element">
+                            </div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({ pageLanguage: '', includedLanguages: 'en,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-451XXXXX-1' }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+                        </div>
+                    </div>
+                </div>
+              
+                        <!--menu-->
+                  <div class="Menucon">
+                    <nav id='cssmenu'>
+                        <div id="head-mobile">
+                            <div class="mainContainer">
+                                    
+                            
+                                <div class="mr-5">
+
+                                <div id="ucDetailsHeader_HeaderMenuMSG_divSearchIconMobileView" class="divSearchIconMobileView">
+                                    <img src="../images/SearchIconMobileView.png" style="float:right;">
+                                </div>
+
+                                    <div id="ucDetailsHeader_HeaderMenuMSG_divSearchBarMobileView" class="divSearchBarMobileView">
+                                    <div class="search_box">
+                                        <gcse:searchbox-only resultsurl="/search.aspx" "></gcse:searchbox-only>
+                                    </div>
+                                </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div class="menubutton"></div>
+                          <ul id="menuUl" class="internalMenuDisplay justify-content-center">
+                            <li class="menuli" id="About">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/aboutus.png">
+                                </div>
+                                <a id="divAbout" href='javascript:void(0);' class="menuMainHeading">About Us
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">About VU<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/AboutVU.aspx">Introduction</a></li>
+                                            <li><a href="/AboutUs/visionAndmission.aspx">Vision and Mission</a></li>
+                                            <li><a href="/AboutUs/Education.aspx">Mode of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">VU at a Glance<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Milestones.aspx">Milestones</a></li>
+                                            <li><a href="/AboutUs/MOUsCollaboration.aspx">MOU's and Collaboration</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">University Administration<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/organization.aspx">Organizational Structure</a></li>
+                                            <li><a href="/AboutUs/BOG.aspx">Board of Governors</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Offices & Staff<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Directorates.aspx">Staff Directory</a></li>
+                                            <li><a href="/AboutUs/Faculty.aspx">Faculty Members</a></li>
+                                            <li><a href="/AboutUs/AdjunctFaculty.aspx">Adjunct Faculty Memebers</a></li>
+                                            <li><a href="/AboutUs/RTI.aspx">Right of Access to Information</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Admissions">
+                                <div class="menuIcons ">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/admission.png">
+                                </div>
+                                <a id="divAdmission" href='javascript:void(0);' class="menuMainHeading ">Admissions</a>
+                               <ul class="settopmargin">
+                                    
+                                    
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Undergraduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS-Lateral">BS-Lateral</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS">BS</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=B.Ed">B.Ed</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Associate Degree Programs">Associate Degree Programs</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Graduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=MS">MS</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Diplomas / Short Course<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Diploma">Diploma</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Short Courses">Short Courses</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Specialization Certificate">Specialization Certificate</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Zero Semester">Zero Semester</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                    
+
+                                   <li><a href="/prospectus/default.aspx">Prospectus</a></li>
+                                   <li><a href="/Admissions/AdmissionProcedure.aspx">Admission Schedule</a></li>
+                                   <li><a href="/FeeStructure.aspx">Fee Structure</a></li>
+
+                                   <li><a href='javascript:void(0);' class="subMenuHeading">Procedure & Guidelines<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                       <ul>
+                                           <li><a href="/RecentAdvertisement/Default.aspx">Admission Advertisements</a></li>
+                                           <li><a href="/Apply/Admissions.aspx">How to Apply?</a></li>
+                                           <li><a href="/Apply/eLearningQuestionnaire.aspx">Is VU e-Learning suitable for me?</a></li>
+                                           <li class="ManuallysetMenuItemheight"><a href="/Admissions/TransferStudents.aspx">Admission Through Course Exemption</a></li>
+                                           <li><a href="/Admissions/AdmissionThroughBSEntryRoute.aspx">Admission Through Entry Option</a></li>
+                                           <li><a href="/pages/AdmissionForeign.aspx">Admission Foreign National</a></li>
+                                       </ul>
+                                   </li>
+
+                                   
+                                   
+                                   <li><a href="/StudyScheme/StudyScheme.aspx">Scheme of Study</a></li>
+                                   <li style="padding-top: 5px;"><a class="highlightmenuitem" style="display: inline-block; color: white; padding-left: 5px; padding-bottom: 5px;" href="/Apply/Login.aspx">Apply Now</a></li>
+                                   <li><a href="/Apply/admitlist.aspx">Admitted Candidates List</a></li>
+                               </ul>
+                            </li>
+                            <li class="menuli" id="Academics">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/facutlyprogram.png">
+                                </div>
+                                <a id="divFaculties" href='javascript:void(0);' class="menuMainHeading">Academics
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Arts<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Economics">Department of Economics</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of English">Department of English</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mass Communication">Department of Mass Communication</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Psychology">Department of Psychology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Sociology">Department of Sociology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Islamic Studies">Department of Islamic Studies</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of CS & IT<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Computer Science">Department of Computer Science</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Education<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Education">Department of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Management<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Management Sciences">Department of Management Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Public Admin">Department of Public Admin</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Science and Technology<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Biological Sciences">Department of Biological Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mathematics">Department of Mathematics</a></li>
+                                            
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Statistics">Department of Statistics</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="Students">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/students.png">
+                                </div>
+                                <a id="divstudents" href='javascript:void(0);' class="menuMainHeading">Students
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Services<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://vulms.vu.edu.pk" target="_LMS">Learning Management System</a> </li>
+                                            <li><a href="https://datesheet.vu.edu.pk" target="_Datesheet">Examination (make your date sheet)</a> </li>
+                                            <li><a href="https://handbook.vu.edu.pk/" target="_blank">Student Handbook</a></li>
+                                            <li><a href="https://bookshop.vu.edu.pk/" target="_blank">Bookshop</a></li>
+                                            <li><a href="http://societies.vu.edu.pk/pages/Home.aspx" target="_blank">Clubs and Societies</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Information<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/StudentServices/LectureSchedule.aspx">Lecture Schedule</a></li>
+                                            <li><a href="/Orientation/VUOrientation.aspx">Orientation Videos</a> </li>
+                                            <li><a href="/pages/VUGradingScheme.aspx">VU Grading Scheme</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Scholarships<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/pages/VUScholarships.aspx">VU Scholarships</a></li>
+                                            <li><a href="https://www.educator.com/scholarship/" target="_blank">Educator Scholarships</a></li>
+                                            <li><a href="/pages/Bait-ul-Mal-stipend.aspx">Pakistan Bait-Ul-Mall Stipends</a></li>
+                                            <li><a href="/Scholarships/Scholarships.aspx">NBP Student Loan Scheme</a></li>
+                                            <li><a href="/pages/SyedaMubarikBegumScholarships.aspx">Syeda Mubarik Begum</a></li>
+                                            <li><a href="/pages/PunjabWorkders.aspx">Punjab Workers Welfare Board</a></li>
+                                            <li><a href="/pages/PEEF.aspx">Punjab Educational Endowment Fund</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/StudentServices/AcademicCalendar.aspx">Academic Calender</a></li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="virtualcampus">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/virtualcampus.png">
+                                </div>
+                                <a id="divvirtualcampus" href='javascript:void(0);' class="menuMainHeading">Campuses
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Virtual Campuses<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/PVCs/Default.aspx?Type=All">All</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Own">VU Own Campuses</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Private">Private Campuses</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Become A VU Campus<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/Pages/CampusOpportunityMain.aspx">How to Apply</a></li>
+                                            <li><a href="/pages/PVCRules.aspx">PVC Rules</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Campus Portal<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://campus.vu.edu.pk/">Examination Portal</a></li>
+                                            <li><a href="https://campusexams.vu.edu.pk/">Student Portal</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="ResearchDevelopment">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/projects.png">
+                                </div>
+                                <a id="divResearchDevelopment " href='javascript:void(0);' class="menuMainHeading">Research & Development 
+                                </a>
+
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.digiskills.pk" target="_new">DigiSkills.pk</a></li>
+                                    <li><a href="/PDC" target="_new">Professional Development Center</a></li>
+                                    <li class="ManuallysetMenuItemheight"><a href="https://oric.vu.edu.pk/" target="_new">Office of Research, Innovation and Commercialization</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Services">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/services.png">
+                                </div>
+                                <a id="divServices" href='javascript:void(0);' class="menuMainHeading">Services
+                                </a>
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.vu.edu.pk/vss/" target="_new">Software Solutions</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="JobsTenders">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/opportunity.png">
+                                </div>
+                                <a id="divJobsTenders" href='javascript:void(0);' class="menuMainHeading">Jobs & Tenders
+                                </a>
+                                <ul class="settopmargin">
+                                    <li><a href="/Opportunities/Jobs.aspx">Job Advertisements</a></li>
+                                    
+                                    <li><a href="http://qb.vu.edu.pk/public/ExaminerRegistration.aspx" target="_examSuperintendent">Exam Superintendent Registration</a></li>
+                                    <li><a href="/Opportunities/CourseDevelopment.aspx">Course Development</a></li>
+                                    
+                                    <li><a href="/Opportunities/Tenders.aspx">Tenders</a></li>
+                                    
+                                           
+                                       
+                                    
+                                           
+                                       
+
+                                </ul>
+                            </li>
+
+                            <li class="menuli" id="VUTV">
+
+                                <div class="menuIcons">
+                                    <a href="/vutv">
+                                        <img src="/app_themes/Default/img/menuicons/menubaricon/vutv.png">
+                                    </a>
+                                </div>
+                                <a id="divVUTV" href="/vutv" class="menuMainHeading">VUTV
+                                </a>
+
+
+                            </li>
+
+
+
+                            <li class="menuli" id="ImportantLinks">
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/importantlink.png">
+                                </div>
+                                <a id="divImportantLinks" href='javascript:void(0);' class="menuMainHeading ">Important Links</a>
+
+                                <ul class="lastmenuitem settopmargin">
+
+                                    
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/pages/harassmentProtection.aspx'  target='_new'>Protection against Harrassment </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/NewsDetails.aspx?type=&NewsId=3143'  target='_new'>Citizen Portal/VU Complaint Handling </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/AboutUs/RTI.aspx'  target='_new'>Right of Access to Information </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://societies.vu.edu.pk'  target='_new'>VU Societies/Clubs </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://oric.vu.edu.pk/'  target='_new'>ORIC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/verify'  target='_New'>Degree/Transcript Verification </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='	https://www.digiskills.pk/'  target='_new'>DigiSkills </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://vspace.vu.edu.pk/'  target='_new'>VSpace@VU </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://qec.vu.edu.pk/'  target='_qec'>QEC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/PhotoGallery/Default.aspx'  target='_self'>Photo Gallery </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://ssbc.vu.edu.pk/'  target='_new'>Student Start-Up Business Center </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://alumni.vu.edu.pk/'  target='_vuAlumni'>Alumni </a>
+
+                                                
+                                            </li>
+                                        
+
+                                    
+
+                                    <li><a class="highlightmenuitem" href="../PhotoGallery/ImportantLinks.aspx">More Links</a></li>
+
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+
+                            </li>
+
+                            <li class="setSearchliwidth">
+                                <!--Search Form-->
+                                <div class="header-search">
+                                    <div class="search-menu mb-3">
+                                        <i id="toggle-search" class="zmdi zmdi-search-for"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </nav>  
+                </div>
+                <div class="search">
+
+                    <div id="search_box">
+
+                        <gcse:searchbox-only resultsurl="/search.aspx"></gcse:searchbox-only>
+
+
+                    </div>
+
+                </div>
+ 
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<span id="ucDetailsHeader_HeaderMenuMSG_lblMsg"></span>
+
+<script type='text/javascript' src="/scripts/Menu.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function () {
+        $(".divSearchIconMobileView").click(function () {
+
+            $('.divSearchIconMobileView').hide();
+            $('.divSearchBarMobileView').show();
+
+        });
+        // Function to handle adding/removing the class based on window width
+        function updateMenuDisplay() {
+            var winWidth = $(window).width(); // Get the window width
+            if (winWidth > 650) {
+                $('#menuUl').addClass('internalMenuDisplay');
+            } else {
+                $('#menuUl').removeClass('internalMenuDisplay');
+            }
+        }
+        // Run the function on page load
+        updateMenuDisplay();
+        // Attach the function to the window resize event
+        $(window).on('resize', updateMenuDisplay);
+    });
+</script>
+
+
+
+<script src="/js/DetailsViewDefault.js"></script>
+
+
+    
+
+
+
+<!--End of Header Area-->
+<!--Slider Area Start-->
+<!-- 16:9 aspect ratio -->
+    <div class="banner-content">
+        <div class="container1">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-content-wrapper text-center full-width">
+                        <div id="ucDetailsHeader_divPageHeading" class="text-content" style="margin-top:10px;">
+                            <h1 class="title1">
+                                
+                                <span id="ucDetailsHeader_lblPageTitle" class="tlt block" data-in-effect="" data-out-effect="">Scheme of Study</span> 
+
+                            </h1>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="about-page-area section-padding sidecolor">
+    <div class="container containermargincenter bodyContentContainer">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12">
+
+
+                    
+        <table align="left" cellpadding="3" cellspacing="3" width="100%" class="table-bordered" style="font-size:0.4rem !important;">
+            <tr>
+                <td colspan="3">                  
+                    <div class="wrapper">
+        
+                <div >
+                  <h4 class="accordion-item"><br>The Faculty of Arts</h4>
+                    <input type="hidden" name="rptrFaculty$ctl00$hdnFaculty" id="rptrFaculty_hdnFaculty_0" value="The Faculty of Arts" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSTheFacultyofArts4Years'>&nbsp;BS (4 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_0_hdnDegree_0" value="BS" />
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_0_hdnDuration_0" value="4 Years" />
+                            <div class="accordion-panel" id='BSTheFacultyofArts4Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Economics" target="_blank">Economics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=English_(Applied_Linguistics)" target="_blank">English (Applied Linguistics)</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Islamic_Studies" target="_blank">Islamic Studies</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Mass_Communication" target="_blank">Mass Communication</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Psychology" target="_blank">Psychology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_0_HyperLink1_5" href="../AcademicPrograms/StudyScheme.aspx?sp=Sociology" target="_blank">Sociology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='AssociateDegreeProgramsTheFacultyofArts2years'>&nbsp;Associate Degree Programs (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl01$hdnDegree" id="rptrFaculty_rptrDegree_0_hdnDegree_1" value="Associate Degree Programs" />
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl01$hdnDuration" id="rptrFaculty_rptrDegree_0_hdnDuration_1" value="2 years" />
+                            <div class="accordion-panel" id='AssociateDegreeProgramsTheFacultyofArts2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_1_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Economics" target="_blank">Associate Degree in Economics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_1_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_English_(Applied_Linguistics)" target="_blank">Associate Degree in English (Applied Linguistics)</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_1_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Mass_Communication" target="_blank">Associate Degree in Mass Communication</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_1_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Psychology" target="_blank">Associate Degree in Psychology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_1_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Sociology" target="_blank">Associate Degree in Sociology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='DiplomaTheFacultyofArts1Year'>&nbsp;Diploma (1 Year)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl02$hdnDegree" id="rptrFaculty_rptrDegree_0_hdnDegree_2" value="Diploma" />
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl02$hdnDuration" id="rptrFaculty_rptrDegree_0_hdnDuration_2" value="1 Year" />
+                            <div class="accordion-panel" id='DiplomaTheFacultyofArts1Year'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_2_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Applied_Psychology" target="_blank">Diploma in Applied Psychology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_2_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_English_Language_Teaching" target="_blank">Diploma in English Language Teaching</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_2_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Linguistics" target="_blank">Diploma in Linguistics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_2_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Television_Production" target="_blank">Diploma in Television Production</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSLateralTheFacultyofArts2years'>&nbsp;BS-Lateral (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl03$hdnDegree" id="rptrFaculty_rptrDegree_0_hdnDegree_3" value="BS-Lateral" />
+                            <input type="hidden" name="rptrFaculty$ctl00$rptrDegree$ctl03$hdnDuration" id="rptrFaculty_rptrDegree_0_hdnDuration_3" value="2 years" />
+                            <div class="accordion-panel" id='BSLateralTheFacultyofArts2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_3_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Economics" target="_blank">Economics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_3_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=English_(Applied_Linguistics)" target="_blank">English (Applied Linguistics)</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_3_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Mass_Communication" target="_blank">Mass Communication</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_3_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Psychology" target="_blank">Psychology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_0_rptrStudyProgram_3_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Sociology" target="_blank">Sociology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+                <div >
+                  <h4 class="accordion-item"><br>The Faculty of Computer Science and Information Technology</h4>
+                    <input type="hidden" name="rptrFaculty$ctl01$hdnFaculty" id="rptrFaculty_hdnFaculty_1" value="The Faculty of Computer Science and Information Technology" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSTheFacultyofComputerScienceandInformationTechnology4Years'>&nbsp;BS (4 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_1_hdnDegree_0" value="BS" />
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_1_hdnDuration_0" value="4 Years" />
+                            <div class="accordion-panel" id='BSTheFacultyofComputerScienceandInformationTechnology4Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Computer_Science" target="_blank">Computer Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_0_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Data_Science" target="_blank">Data Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_0_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Information_Technology" target="_blank">Information Technology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_0_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Software_Engineering" target="_blank">Software Engineering</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='AssociateDegreeProgramsTheFacultyofComputerScienceandInformationTechnology2years'>&nbsp;Associate Degree Programs (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl01$hdnDegree" id="rptrFaculty_rptrDegree_1_hdnDegree_1" value="Associate Degree Programs" />
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl01$hdnDuration" id="rptrFaculty_rptrDegree_1_hdnDuration_1" value="2 years" />
+                            <div class="accordion-panel" id='AssociateDegreeProgramsTheFacultyofComputerScienceandInformationTechnology2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_1_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Computer_Networking" target="_blank">Associate Degree in Computer Networking</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_1_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Computer_Science" target="_blank">Associate Degree in Computer Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_1_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Data_Science" target="_blank">Associate Degree in Data Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_1_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Database_Management_System" target="_blank">Associate Degree in Database Management System</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_1_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Web_Design_and_Development" target="_blank">Associate Degree in Web Design and Development</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='DiplomaTheFacultyofComputerScienceandInformationTechnology1Year'>&nbsp;Diploma (1 Year)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl02$hdnDegree" id="rptrFaculty_rptrDegree_1_hdnDegree_2" value="Diploma" />
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl02$hdnDuration" id="rptrFaculty_rptrDegree_1_hdnDuration_2" value="1 Year" />
+                            <div class="accordion-panel" id='DiplomaTheFacultyofComputerScienceandInformationTechnology1Year'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_2_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Computer_Science" target="_blank">Diploma in Computer Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_2_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Information_Technology" target="_blank">Diploma in Information Technology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSLateralTheFacultyofComputerScienceandInformationTechnology2years'>&nbsp;BS-Lateral (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl03$hdnDegree" id="rptrFaculty_rptrDegree_1_hdnDegree_3" value="BS-Lateral" />
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl03$hdnDuration" id="rptrFaculty_rptrDegree_1_hdnDuration_3" value="2 years" />
+                            <div class="accordion-panel" id='BSLateralTheFacultyofComputerScienceandInformationTechnology2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_3_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Computer_Science" target="_blank">Computer Science</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_3_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Information_Technology" target="_blank">Information Technology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_1_rptrStudyProgram_3_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Software_Engineering" target="_blank">Software Engineering</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id=''>&nbsp;</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl04$hdnDegree" id="rptrFaculty_rptrDegree_1_hdnDegree_4" value="Cisco Networking Academy" />
+                            <input type="hidden" name="rptrFaculty$ctl01$rptrDegree$ctl04$hdnDuration" id="rptrFaculty_rptrDegree_1_hdnDuration_4" />
+                            <div class="accordion-panel" id=''>
+                                
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+                <div >
+                  <h4 class="accordion-item"><br>The Faculty of Education</h4>
+                    <input type="hidden" name="rptrFaculty$ctl02$hdnFaculty" id="rptrFaculty_hdnFaculty_2" value="The Faculty of Education" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSTheFacultyofEducation4Years'>&nbsp;BS (4 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_2_hdnDegree_0" value="BS" />
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_2_hdnDuration_0" value="4 Years" />
+                            <div class="accordion-panel" id='BSTheFacultyofEducation4Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._(Hons)_Elementary" target="_blank">B.Ed. (Hons) Elementary</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_0_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._(Hons.)_Early_Childhood_Care_and_Education" target="_blank">B.Ed. (Hons.) Early Childhood Care and Education</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BEdTheFacultyofEducation15Year'>&nbsp;B.Ed (1.5 Year)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl01$hdnDegree" id="rptrFaculty_rptrDegree_2_hdnDegree_1" value="B.Ed" />
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl01$hdnDuration" id="rptrFaculty_rptrDegree_2_hdnDuration_1" value="1.5 Year" />
+                            <div class="accordion-panel" id='BEdTheFacultyofEducation15Year'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_1_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._Secondary_(1.5-Year_Program)" target="_blank">B.Ed. Secondary (1.5-Year Program)</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BEdTheFacultyofEducation25Years'>&nbsp;B.Ed (2.5 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl02$hdnDegree" id="rptrFaculty_rptrDegree_2_hdnDegree_2" value="B.Ed" />
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl02$hdnDuration" id="rptrFaculty_rptrDegree_2_hdnDuration_2" value="2.5 Years" />
+                            <div class="accordion-panel" id='BEdTheFacultyofEducation25Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_2_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._Elementary_(2.5-Year)" target="_blank">B.Ed. Elementary (2.5-Year)</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='AssociateDegreeProgramsTheFacultyofEducation2Years'>&nbsp;Associate Degree Programs (2 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl03$hdnDegree" id="rptrFaculty_rptrDegree_2_hdnDegree_3" value="Associate Degree Programs" />
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl03$hdnDuration" id="rptrFaculty_rptrDegree_2_hdnDuration_3" value="2 Years" />
+                            <div class="accordion-panel" id='AssociateDegreeProgramsTheFacultyofEducation2Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_3_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Early_Childhood_Care_and_Education" target="_blank">Associate Degree in Early Childhood Care and Education</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_3_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Education" target="_blank">Associate Degree in Education</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSLateralTheFacultyofEducation2years'>&nbsp;BS-Lateral (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl04$hdnDegree" id="rptrFaculty_rptrDegree_2_hdnDegree_4" value="BS-Lateral" />
+                            <input type="hidden" name="rptrFaculty$ctl02$rptrDegree$ctl04$hdnDuration" id="rptrFaculty_rptrDegree_2_hdnDuration_4" value="2 years" />
+                            <div class="accordion-panel" id='BSLateralTheFacultyofEducation2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_4_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._(Hons)_Elementary" target="_blank">B.Ed. (Hons) Elementary</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_2_rptrStudyProgram_4_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=B.Ed._(Hons.)_Early_Childhood_Care_and_Education" target="_blank">B.Ed. (Hons.) Early Childhood Care and Education</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+                <div >
+                  <h4 class="accordion-item"><br>The Faculty of Management</h4>
+                    <input type="hidden" name="rptrFaculty$ctl03$hdnFaculty" id="rptrFaculty_hdnFaculty_3" value="The Faculty of Management" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSTheFacultyofManagement4Years'>&nbsp;BS (4 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_3_hdnDegree_0" value="BS" />
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_3_hdnDuration_0" value="4 Years" />
+                            <div class="accordion-panel" id='BSTheFacultyofManagement4Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Accounting_~_Finance" target="_blank">Accounting & Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_0_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Bachelor_of_Business_~_Information_Technology_(BBIT)" target="_blank">Bachelor of Business & Information Technology (BBIT)</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_0_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Business_Administration" target="_blank">Business Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_0_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Commerce" target="_blank">Commerce</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_0_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Public_Administration" target="_blank">Public Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='AssociateDegreeProgramsTheFacultyofManagement2years'>&nbsp;Associate Degree Programs (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl01$hdnDegree" id="rptrFaculty_rptrDegree_3_hdnDegree_1" value="Associate Degree Programs" />
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl01$hdnDuration" id="rptrFaculty_rptrDegree_3_hdnDuration_1" value="2 years" />
+                            <div class="accordion-panel" id='AssociateDegreeProgramsTheFacultyofManagement2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Accounting_~_Finance" target="_blank">Associate Degree in Accounting & Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Business_Administration" target="_blank">Associate Degree in Business Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Business_Analytics" target="_blank">Associate Degree in Business Analytics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Commerce" target="_blank">Associate Degree in Commerce</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Human_Resource_Management" target="_blank">Associate Degree in Human Resource Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_5" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Islamic_Banking" target="_blank">Associate Degree in Islamic Banking</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_6" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Operations_Management" target="_blank">Associate Degree in Operations Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_7" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Public_Administration" target="_blank">Associate Degree in Public Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_8" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Sales_and_Marketing" target="_blank">Associate Degree in Sales and Marketing</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_1_HyperLink1_9" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Supply_Chain_Management" target="_blank">Associate Degree in Supply Chain Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='DiplomaTheFacultyofManagement1Year'>&nbsp;Diploma (1 Year)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl02$hdnDegree" id="rptrFaculty_rptrDegree_3_hdnDegree_2" value="Diploma" />
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl02$hdnDuration" id="rptrFaculty_rptrDegree_3_hdnDuration_2" value="1 Year" />
+                            <div class="accordion-panel" id='DiplomaTheFacultyofManagement1Year'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Accounting" target="_blank">Diploma in Accounting</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Accounting_~_Finance" target="_blank">Diploma in Accounting & Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Banking_~_Finance" target="_blank">Diploma in Banking & Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Business_Administration" target="_blank">Diploma in Business Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Entrepreneurship_~_SME_Management" target="_blank">Diploma in Entrepreneurship & SME Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_5" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Finance" target="_blank">Diploma in Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_6" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Human_Resource_Management" target="_blank">Diploma in Human Resource Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_7" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Marketing_Management" target="_blank">Diploma in Marketing Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_2_HyperLink1_8" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Public_Administration" target="_blank">Diploma in Public Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='SpecializationCertificateTheFacultyofManagementOneSemester'>&nbsp;Specialization Certificate (One Semester)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl03$hdnDegree" id="rptrFaculty_rptrDegree_3_hdnDegree_3" value="Specialization Certificate" />
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl03$hdnDuration" id="rptrFaculty_rptrDegree_3_hdnDuration_3" value="One Semester" />
+                            <div class="accordion-panel" id='SpecializationCertificateTheFacultyofManagementOneSemester'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_3_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Specialization_in_Banking" target="_blank">Specialization in Banking</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_3_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Specialization_in_Finance" target="_blank">Specialization in Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_3_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Specialization_in_Human_Resource_Management" target="_blank">Specialization in Human Resource Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_3_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Specialization_in_Management" target="_blank">Specialization in Management</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_3_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Specialization_in_Marketing" target="_blank">Specialization in Marketing</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSLateralTheFacultyofManagement2years'>&nbsp;BS-Lateral (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl04$hdnDegree" id="rptrFaculty_rptrDegree_3_hdnDegree_4" value="BS-Lateral" />
+                            <input type="hidden" name="rptrFaculty$ctl03$rptrDegree$ctl04$hdnDuration" id="rptrFaculty_rptrDegree_3_hdnDuration_4" value="2 years" />
+                            <div class="accordion-panel" id='BSLateralTheFacultyofManagement2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_4_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Accounting_~_Finance" target="_blank">Accounting & Finance</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_4_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Bachelor_of_Business_~_Information_Technology_(BBIT)" target="_blank">Bachelor of Business & Information Technology (BBIT)</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_4_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Business_Administration" target="_blank">Business Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_4_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Commerce" target="_blank">Commerce</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_3_rptrStudyProgram_4_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Public_Administration" target="_blank">Public Administration</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+                <div >
+                  <h4 class="accordion-item"><br>The Faculty of Science & Technology</h4>
+                    <input type="hidden" name="rptrFaculty$ctl04$hdnFaculty" id="rptrFaculty_hdnFaculty_4" value="The Faculty of Science &amp; Technology" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSTheFacultyofScienceTechnology4Years'>&nbsp;BS (4 Years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_4_hdnDegree_0" value="BS" />
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_4_hdnDuration_0" value="4 Years" />
+                            <div class="accordion-panel" id='BSTheFacultyofScienceTechnology4Years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Bioinformatics" target="_blank">Bioinformatics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_0_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Biotechnology" target="_blank">Biotechnology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_0_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Mathematics" target="_blank">Mathematics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_0_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Statistics" target="_blank">Statistics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_0_HyperLink1_4" href="../AcademicPrograms/StudyScheme.aspx?sp=Zoology" target="_blank">Zoology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='AssociateDegreeProgramsTheFacultyofScienceTechnology2years'>&nbsp;Associate Degree Programs (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl01$hdnDegree" id="rptrFaculty_rptrDegree_4_hdnDegree_1" value="Associate Degree Programs" />
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl01$hdnDuration" id="rptrFaculty_rptrDegree_4_hdnDuration_1" value="2 years" />
+                            <div class="accordion-panel" id='AssociateDegreeProgramsTheFacultyofScienceTechnology2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_1_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Biotechnology" target="_blank">Associate Degree in Biotechnology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_1_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Mathematics" target="_blank">Associate Degree in Mathematics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_1_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Statistics" target="_blank">Associate Degree in Statistics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_1_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Associate_Degree_in_Zoology" target="_blank">Associate Degree in Zoology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='DiplomaTheFacultyofScienceTechnology1Year'>&nbsp;Diploma (1 Year)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl02$hdnDegree" id="rptrFaculty_rptrDegree_4_hdnDegree_2" value="Diploma" />
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl02$hdnDuration" id="rptrFaculty_rptrDegree_4_hdnDuration_2" value="1 Year" />
+                            <div class="accordion-panel" id='DiplomaTheFacultyofScienceTechnology1Year'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_2_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Bioinformatics" target="_blank">Diploma in Bioinformatics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_2_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Diploma_in_Molecular_Biology" target="_blank">Diploma in Molecular Biology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='BSLateralTheFacultyofScienceTechnology2years'>&nbsp;BS-Lateral (2 years)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl03$hdnDegree" id="rptrFaculty_rptrDegree_4_hdnDegree_3" value="BS-Lateral" />
+                            <input type="hidden" name="rptrFaculty$ctl04$rptrDegree$ctl03$hdnDuration" id="rptrFaculty_rptrDegree_4_hdnDuration_3" value="2 years" />
+                            <div class="accordion-panel" id='BSLateralTheFacultyofScienceTechnology2years'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_3_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Bioinformatics" target="_blank">Bioinformatics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_3_HyperLink1_1" href="../AcademicPrograms/StudyScheme.aspx?sp=Biotechnology" target="_blank">Biotechnology</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_3_HyperLink1_2" href="../AcademicPrograms/StudyScheme.aspx?sp=Mathematics" target="_blank">Mathematics</a>
+                                            </li>
+                                        </ul>
+                                    
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_4_rptrStudyProgram_3_HyperLink1_3" href="../AcademicPrograms/StudyScheme.aspx?sp=Zoology" target="_blank">Zoology</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+                <div >
+                  <h4 class="accordion-item"><br>Zero Semester</h4>
+                    <input type="hidden" name="rptrFaculty$ctl05$hdnFaculty" id="rptrFaculty_hdnFaculty_5" value="Zero Semester" />
+                    <hr class="new1">
+                </div>
+                <div>
+                    
+                            <h4><span style="cursor: pointer" class="accordion-item heading-Fee acc" data-panel-id='ZeroSemesterZeroSemester4MonthsOneSemester'>&nbsp;Zero Semester (4 Months / One Semester)</span></h4>                            
+                            <input type="hidden" name="rptrFaculty$ctl05$rptrDegree$ctl00$hdnDegree" id="rptrFaculty_rptrDegree_5_hdnDegree_0" value="Zero Semester" />
+                            <input type="hidden" name="rptrFaculty$ctl05$rptrDegree$ctl00$hdnDuration" id="rptrFaculty_rptrDegree_5_hdnDuration_0" value="4 Months / One Semester" />
+                            <div class="accordion-panel" id='ZeroSemesterZeroSemester4MonthsOneSemester'>
+                                
+                                        <ul>
+                                            <li class="facultyul">
+                                                <a id="rptrFaculty_rptrDegree_5_rptrStudyProgram_0_HyperLink1_0" href="../AcademicPrograms/StudyScheme.aspx?sp=Zero_Semester" target="_blank">Zero Semester</a>
+                                            </li>
+                                        </ul>
+                                    
+                            </div>
+                            <div>
+                    
+                        
+                </div>                
+            
+         </div>
+                </td>
+            </tr>
+        </table>        
+         
+
+                                                 </div>
+
+                                             </div>
+
+
+                                         </div>
+                                     </div>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4NVQCFRG5"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-Q4NVQCFRG5');</script>
+<div class="footer-widget-area">
+    <div class="container-left">
+
+         <div class="single-logo mb-5">
+                <h2> GET IN TOUCH</h2>
+            </div>
+
+
+
+        <div class="footer-bg-blur p-xl-6 p-lg-6 p-md-6 p-sm-0 p-xs-0 m-xl-5 m-lg-5 m-md-5 m-sm-0 m-xs-0">
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+
+                    <div  class="single-footer-widget pl-xl-3 pl-lg-3 pl-md-3 pl-sm-4 pl-xs-4 pr-sm-4 pr-xs-4">
+                        <h3 class="footer-heading-text mt-xl-0 mt-lg-0 mt-md-5 mt-sm-0 mt-xs-0">Head Office (Islamabad)</h3>
+                        
+                            <a href="tel:009251111880880">
+                                <span>
+                                    <img class="img-responsive  icon-phone" src="/img/footer/phone.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-phone" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">+92 (51) 111 880 880</h2>
+                            </a>
+
+
+
+                        
+                            <a href="tel:00923041110880">
+                                <span>
+                                    <img class="img-responsive icon-mobile" src="/img/footer/mobile.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-mobile" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">  1288 (For Admissions Related Queries)</h2>
+                                
+                            </a>
+
+                        
+
+
+                        
+                            <a>
+                                <span>
+                                    <img class="img-responsive icon-map" src="/img/footer/map.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-map" src="/img/footer/line.png" alt="Phone">
+                                </span>
+
+                                <a href="https://maps.app.goo.gl/cvkJdpp2EXnXHWuQ7" target="_blank">
+                                    <h2  class="text-space-map text-space">Sir Syed Memorial Society Building, 19-Ataturk Avenue, G-5/1, Islamabad</h2>
+                                </a>
+                            </a>
+
+                        <a href="mailto:info@vu.edu.pk">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/envelope.png" alt="Phone"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">info@vu.edu.pk</h2>
+                        </a>
+
+                        <a href="https://www.vu.edu.pk/contact" target="_contactus">
+                            <span>
+                                <img class="img-responsive icon-contactus" src="/img/footer/contactus.png" alt="contactus"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="contactus">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Contact Us</h2>
+                        </a>
+
+                          <a href="https://www.vu.edu.pk/SupportSystem/" target="_help">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/help.png" alt="help"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Help</h2>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12 pr-4">
+                    
+                    <div class=" img-responive footer-logo visible-logo">
+                        
+                            <img class="mr-3" src="/img/footer/logo_govt_of_pakistan.png">
+                        
+                        
+                            <img class="imagedisplay" src="/img/footer/star-VU--white.png" alt="">
+                        
+                    </div>
+                    <div class="follow-us visible-logo">
+                        <h3>Follow Us</h3>
+                    </div>
+
+
+
+                    <div class="img-responive footer-line visible-logo">                        
+                            <img src="/img/footer/footer-line.png" alt="">
+                    </div>
+                
+
+
+
+                    <div class="social-icon-new p-lg-0 pl-sm-5 pl-xs-5 pb-sm-3 pb-xs-3">
+
+                        <a href="https://www.facebook.com/VirtualUniversityOfPakistan" target="_blank">
+                            <img class="img-responsive" src="/img/footer/facebook-square.png" alt="Facebook" />
+                        </a>
+
+                        <a href="https://twitter.com/VUPakistan" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/twitter.png" alt="Phone" />
+                        </a>
+                        <a href="https://www.instagram.com/virtualuniversityofpakistan/?hl=en" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/instagram.png" alt="Phone" />
+                        </a>
+
+                        <a href="https://www.youtube.com/vu" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/youtube.png" alt="Phone" height="33" />
+                        </a>
+
+                        <a href="https://pk.linkedin.com/school/virtual-university-of-pakistan/?trk=public_profile_topcard-school" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/linkedin.png" alt="Phone" />
+                        </a>
+                    </div>
+
+                    
+
+                </div>
+                
+                
+
+            </div>
+            
+            
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Footer Widget Area-->
+<!--Footer Area Start-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-12">
+                <div class="content">
+                    © Virtual University of Pakistan <a href="/sitemap.aspx" class="font-13">(Site Map)</a>                   
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12">
+                <div class="column-right content">                    
+                    <span class="font-13">Designed and Developed by IT Department</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  </div>
+                             <!--End of Bg White-->
+                          </div> 
+
+
+                                 <!--End of Footer Area-->
+                             
+                             <!--End of Bg White-->
+                         
+                             <!--End of Main Wrapper Area-->
+                             
+                             <!-- jquery
+    ============================================ -->
+                             <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+                            <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+                             <!-- popper JS
+    ============================================ -->
+                             <script src="/js/popper.min.js"></script>
+
+                             <!-- bootstrap JS
+    ============================================ -->
+                             <script src="/js/bootstrap.min.js"></script>
+
+                             <!-- AJax Mail JS
+    ============================================ -->
+                             <script src="/js/ajax-mail.js"></script>
+
+                            
+                             <!-- plugins JS
+    ============================================ -->
+                             <script src="/js/plugins.js"></script>
+                             <script src="/js/main.js"></script>
+                                               </script>                                     </script>
+                           
+<script src="/js/switcher/styleswitch.js"></script>
+
+
+
+ 
+        
+    </form>
+
+</body>    
+</html>

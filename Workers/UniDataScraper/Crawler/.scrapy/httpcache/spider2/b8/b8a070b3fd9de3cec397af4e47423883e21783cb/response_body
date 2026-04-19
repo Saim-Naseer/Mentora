@@ -1,0 +1,658 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+    <meta name="language" content="English" />
+	<meta name="copyright" content="CITS UoP" />
+				<meta name="author" content="CITS UoP" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     	<title>Aid & Scholarships | University of Peshawar</title>
+
+	<meta name="description" content="The Student Financial Aid Office at University of Peshawar is here to serve student body and provide financial assistance in the fairest and most efficient way possible. The objective is to provide equal opportunity for the talented students who are at disadvantage being incapable of meeting cost of education at leading higher education institutions." />
+	<meta name="keywords" content="Scholarships, Aids, Undergraduate Scholarships, Postgraduate Scholarships, Financial Support, Financial Aid, Ph.D Scholarships, M.S Scholarships, Prime Minister Laptop Scheme, Need Based Scholarships, USAID Scholarships, UoP Merit Scholarships, USEFPakistan Curlture Exchange Scholarships, Fauji Foun" />
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.uop.edu.pk/images/favicon.png">
+      <meta property="og:image" content="
+      http://www.uop.edu.pk/images/img-3.jpg      "/>
+	<meta property="og:title" content="Aid & Scholarships | University of Peshawar" />
+	<meta property="og:site_name" content="University of Peshawar" />
+	<meta property="og:description" content="The Student Financial Aid Office at University of Peshawar is here to serve student body and provide financial assistance in the fairest and most efficient way possible. The objective is to provide equal opportunity for the talented students who are at disadvantage being incapable of meeting cost of education at leading higher education institutions." />
+    <!--
+    
+  /$$$$$$        /$$$$$$       /$$$$$$$$        /$$$$$$                      /$$   /$$                       /$$$$$$$ 
+ /$$__  $$      |_  $$_/      |__  $$__/       /$$__  $$                    | $$  | $$                      | $$__  $$
+| $$  \__/        | $$           | $$         | $$  \__/                    | $$  | $$        /$$$$$$       | $$  \ $$
+| $$              | $$           | $$         |  $$$$$$        /$$$$$$      | $$  | $$       /$$__  $$      | $$$$$$$/
+| $$              | $$           | $$          \____  $$      |______/      | $$  | $$      | $$  \ $$      | $$____/ 
+| $$    $$        | $$           | $$          /$$  \ $$                    | $$  | $$      | $$  | $$      | $$      
+|  $$$$$$/       /$$$$$$         | $$         |  $$$$$$/                    |  $$$$$$/      |  $$$$$$/      | $$      
+ \______/       |______/         |__/          \______/                      \______/        \______/       |__/      
+                                                                                                                      
+                                                                                                                      
+ Centre for I.T Services, 
+ University of Peshawar, Pakistan                                                                                                                
+    
+    -->
+    
+    
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/prettyPhoto.css" />
+    	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/stylemobile.css" />
+
+	<!-- <link href='../../../../fonts.googleapis.com/css_d229e2d1.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_ea4516fe.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_6d8124a6.css' rel='stylesheet' type='text/css' /> -->
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/mobilenavigation.css" />
+	<script src="http://www.uop.edu.pk/script/modernizr.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.js" type="text/javascript"></script>
+    <script src="http://www.uop.edu.pk/script/jquery-ui.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.retina.js" type="text/javascript"></script>
+        	<script src="http://www.uop.edu.pk/script/scripts.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function (){
+        $(window).scroll(function () {
+            if ($(document).scrollTop() <= 40) {
+                $('#header-full').removeClass('small');
+                $('.tabs-blur').removeClass('no-blur');
+                $('#main-header').removeClass('small');
+            } else {
+                $('#header-full').addClass('small');
+                $('.tabs-blur').addClass('no-blur');
+                $('#main-header').addClass('small');
+            }
+        });
+        
+        $("a[data-rel^='prettyPhoto']").prettyPhoto({
+			default_width: 600,
+			default_height: 420,
+			social_tools: false
+		});
+      /*  $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } }); */
+        $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
+		$('.slider-tabs.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('.slider-partners.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true,
+            itemWidth: 163,
+            itemMargin: 0
+        });
+		$('#slider-news.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('#slider-event.flexslider').flexslider({
+            animation: "fade",
+            pauseOnAction: true
+        });
+		$( ".accordion" ).accordion({
+	        heightStyle: "content"
+        });
+		$('a[data-rel]').each(function() {
+			$(this).attr('rel', $(this).data('rel'));
+		});
+		$('img[data-retina]').retina({checkIfImageExists: true});
+		$(".open-menu").click(function(){
+		    $("body").addClass("no-move");
+		});
+		$(".close-menu, .close-menu-big").click(function(){
+		    $("body").removeClass("no-move");
+		});
+	});
+	</script>
+      <script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#slideshow-tabs").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 8000, true);
+		
+	});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63785890-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+  (function() {
+    var cx = '009134963228199774510:9nseutcvucc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!-- Popup......... start.... -->
+<style type="text/css">
+	/* popup .................*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+
+
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+	</style>
+<script type="text/javascript">
+$(document).ready(function() {    
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.9);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+</script>
+<!-- popup data end... -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<header id="main-header" class="clearfix">
+        <div id="header-full" class="clearfix">
+            <div id="header" class="clearfix">
+                <a href="#nav" class="open-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</a>
+                <a href="http://www.uop.edu.pk/" id="logo"><img src="http://www.uop.edu.pk/images/uop-logo-75-f.png" data-retina="http://www.uop.edu.pk/images/logo.png" alt="University of Peshawar Logo" /></a>
+                <aside id="header-content">
+                   <form method="get" action="http://www.uop.edu.pk/search" id="searchform" />
+                    
+                        <div>
+                            <input type="text" name="q" class="input" id="s" />
+                            <input type="submit"  class="button"  />
+
+                        </div>
+                    </form>
+                   <ul id="nav-header">
+          <!--        <li><a href="http://www.uop.edu.pk/contacts/feedback.php">Grievance Redressal Cell</a></li>    -->   
+
+ <li><a href="https://www.google.com/a/uop.edu.pk/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">Email</a></li>
+                        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li>
+  <li><a href="http://lms.uop.edu.pk/portal/" >UoP-LMS</a></li>
+  <li><a href="http://www.uop.edu.pk/tender/" >Tenders</a></li>
+                        <li><a href="http://www.uop.edu.pk/jobs/" >Jobs</a></li>
+                        
+                <!--        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li> -->
+                        <li><a href="http://www.uop.edu.pk/contacts/" >Contact Us</a></li>
+                      
+                       
+
+                    </ul>
+                     
+                    
+                    <h3 id="slogan">&nbsp;</h3>
+                </aside>
+            </div>
+        </div> 
+
+ <nav id="nav" class="clearfix">
+                    <a href="#" class="close-menu-big">Close</a>
+                    <div id="nav-container">
+                        <a href="#" class="close-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <ul id="nav-main">
+                            <li
+                                                        
+                             ><a href="http://www.uop.edu.pk/">Home</a></li>
+                            <li
+                                                         
+                            ><a href="#">About UOP</a>
+                            <ul>
+                        <li><a href="http://www.uop.edu.pk/about/">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/about/?q=genesis">Genesis</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=vision-mission">Vision & Mission</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=maps-directions">Maps & Directions</a></li>
+                               </ul>
+                            
+                            </li>
+                             <li  ><a href="#">Administration</a>
+                                <ul>
+                                <li><a href="http://www.uop.edu.pk/administration/">Overview</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=statutory-body">Authorities of the University of Peshawar</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=administrative-offices">Administrative Offices</a></li>
+
+
+                                </ul>
+                          </li>
+                            <li  class='current-menu-item' ><a href="#">Admissions</a>
+                                <ul>
+                             <li><a href="http://www.uop.edu.pk/admissions/?q=Overview">Overview</a></li>
+
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Undergraduate">Undergraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Postgraduate">Postgraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Higher-Studies">Higher Studies</a></li>
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid & Scholarships</a></li>
+                                   <!--  <li><a href="http://www.uop.edu.pk/admissions/?q=meritlist">Postgraduate Merit List</a></li> -->
+<!--                                     <li><a href="admissions/?q=FAQs">Frequently Asked Questions</a></li>
+-->                                   <!--  <li><a href="admissions/?q=downloads">Downloads</a></li> -->
+
+                                </ul>
+                      </li>
+                             <li  ><a href="#">Academics</a>
+                                <ul>
+<li> <a href="http://www.uop.edu.pk/departments">Academic Departments</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/">Faculties</a>
+                                    
+                  <!--                   <ul>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Arts-and-Humanities">Arts & Humanities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Islamic-and-Oriental-Studies">Islamic & Oriental Studies</a></li>
+                                     <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Life-and-Environmental-Sciences">Life & Environmental Sciences</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Management-and-Information-Sciences">Management & Information Sciences</a></li>
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Numerical-and-Physical-Sciences">Numerical & Physical Sciences</a></li>
+                                  
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Social-Sciences">Social Sciences</a></li>
+                                     </ul>
+-->
+                                    
+                                    </li>
+                                     <li><a href="#">Research Centres</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/departments/?q=Area-Study-Centre">Area Study Centre</a></li>
+                                    <li><a href="http://nceg.uop.edu.pk/">NCE in Geology</a></li>  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=NCE-in-Physical-Chemistry">NCE in Physical Chemistry</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Pakistan-Study-Centre">Pakistan Study Centre</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Shaykh-Zayed-Islamic-Centre">Shaykh Zayed Islamic Centre</a></li>
+                                     </ul>
+                                    
+                                    </li>
+                                  <li><a href="http://journals.uop.edu.pk/">Research Journals</a></li>
+
+                                     <li><a href="#">Research Labs</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/labs/crl/">Centralized Resource Laboratory</a></li>
+                                      <li><a href="http://www.uop.edu.pk/labs/mrl/">Materials Research Laboratory</a></li></ul></li>
+                                    <li><a href="#">Colleges</a>
+                                    
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=College-of-Home-Economics">College of Home Economics</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Jinnah-College-for-Women">Jinnah College for Women</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Law-College">Law College</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Quaid-e-Azam-College-of-Commerce">Quaid-e-Azam College of Commerce</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-College-for-Boys">University College for Boys</a></li>
+                               </ul>
+                                    
+                                    
+                                    </li>
+                                   <li><a href="#">Schools</a>
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Model-School">University Model School</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Public-School">University Public School</a></li>
+                                  
+                               </ul>
+                                   
+                                   
+                                   </li>
+
+<!-- <li><a href="http://www.uop.edu.pk/affilated-institutes/">Affiliated Institutes</a>
+                              </li> -->
+<li><a href="http://www.uop.edu.pk/dde/">Distance Education</a>
+                              </li> 
+
+ </ul>
+                            
+                             <li  ><a href="#">Examinations</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Overview">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Results">Results</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Private-Examinations">Private Examinations</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Overview&r=Online-Verification-of-Documents">Online Verification</a></li>
+
+  
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Downloads">Downloads</a></li>
+<!--                                     <li><a href="examinations/?q=FAQs">Frequently Asked Questions</a></li>
+-->
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="#">ORIC</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Overview">Overview</a></li>
+                                     <li><a href="http://www.uop.edu.pk/oric/?q=Research-Activities">Research Activities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Industrial-Linkages">Industrial Linkages</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=MOU">MoU</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Funding">Funding</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=downloads">Downloads</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="http://www.uop.edu.pk/qec/">QEC</a>
+                               
+                            </li>
+                   <li  ><a href="http://www.uop.edu.pk/das/">Advanced Studies</a></li>   
+
+<!--<li><a href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></li>  
+
+-->
+      
+                      </ul>
+                      
+                     
+              <!-- <a href="http://www.uop.edu.pk/fro/" id="button-registration">Get Involved</a>  
+<a href="http://www.uop.edu.pk/online/" id="button-registration">Online Learning</a>  -->
+</div> 
+                </nav>
+    </header>
+
+    <div id="content-container">
+        <div id="content" class="clearfix" style="width:1125px;">
+                            
+<nav id="nav-sub-container" class="clearfix">
+                <ul id="nav-sub">
+                  
+                    <li
+                                       ><a href="http://www.uop.edu.pk/admissions/?q=Overview">Overview</a></li>
+                    <li
+                                       ><a href="http://www.uop.edu.pk/admissions/?q=Undergraduate">Undergraduate</a></li>
+                     <li
+                                       ><a href="http://www.uop.edu.pk/admissions/?q=Postgraduate">Postgraduate</a></li>
+                     <li
+                                       ><a href="http://www.uop.edu.pk/admissions/?q=Higher-Studies">Higher Studies</a></li>
+                     <li
+                   class='current-menu-item'                    ><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid & Scholarships</a></li>
+                    
+                    <li ><a href="http://www.uop.edu.pk/admissions/?q=downloads">Downloads</a></li>
+                </ul>
+            </nav>
+            
+            
+          
+
+            <div id="main-content" style="width:1123px;">
+                            <div style="margin-bottom:12px;"></div>
+                <article class="static-page">
+                
+                <h1>Scholarships Overview</h1>
+<p style="text-align:justify">In Pakistan, currently, less than 8% of the 17-23 age group is enrolled in any form of higher education that is amongst the lowest in the world. The estimated population of this age group will be 30 million by the year 2015.</p>
+<p style="text-align:justify">Needs based scholarships would be an answer to offset the challenge of financial constraints. Although in the majority of public sector universities the tuition fee is subsidized but it is still unaffordable for most of the students. Since 35 percent of the Pakistani population is living below the poverty line, it is almost impossible get the higher education for this segment of the society. The objective is to provide equal opportunity for the talented students who are at disadvantage being incapable of meeting cost of education at leading higher education institutions.</p>
+<p style="text-align:justify">The Student Financial Aid Office at University of Peshawar is here to serve student body and provide financial assistance in the fairest and most efficient way possible.</p>
+<p style="text-align:justify">The mission of the Students Financial Aid Office is to provide University Students with the timely delivery of financial assistance while maintaining accountability and proper stewardship of the public, institutional and private funds with which it is entrusted. We are committed to provide courteous service to support the academic mission and goals of the University and its students.</p>
+<p style="text-align:justify">This office provides students with an abundance of general financial aid information to assist students in understanding processes and in making informed financial decisions. Prospective students and their parents are especially invited to visit for general information about university costs, the types of financial aid that are available, the financial aid process, and necessary financial aid application requirements to understand eligibility of the students for financial aid.</p>
+
+<div class="accordion">
+	
+  <h3 class="title-faq">Prime Minister's National ICT Scholarship Program 2014 at Undergraduate Level for I.T and C.S</h3>
+			<div class="content-faq">
+            <p>Ministry of Information Technology announces this wonderful opportunity for the talented students of rural / nonmetropolitan areas of Pakistan to study in top ICT universities of the country. Applicants have either passed or appeared in F.Sc Examination with Mathematics and Physics in 2013 or 2014 as a regular student from a school / college registered with National ICT R&amp;D Fund (list of registered schools / colleges is available at www.ictrdf.org.pk/scholarship). Candidates must have obtained 60% or above marks in Matriculation (Science Group) exam.</p></div>
+
+
+	
+  <h3 class="title-faq">Ehsaas Undergraduate Scholarship Program</h3>
+			<div class="content-faq">
+            <p>Education beyond intermediate is one of the ways to overcome poverty. However, access to higher education is itself distributed very unevenly. For example, only 0.4% of the children from the lowest income quintile (from the relevant age cohort) are enrolled in higher education institutions, which is far below the national average of 10%. Ehsas scholarships aim to eliminate this source of unequal access.
+
+
+According to the National Human Development Report 2017, Pakistan is one of the youngest country in the world. Realizing its demographic reality which has a population of around 220 million out of which more than half are of university age cohort, the priority of Government of Pakistan is to work on such programs which give drive to provide access to financially deserving and also encourages gender equity. The strategy is to create opportunities for a sizeable segment of youth to bring them under the net of higher education and create equal education opportunities for all.</p> 
+<a href="https://www.hec.gov.pk/english/services/students/Ehsaas/Pages/default.aspx" >Click here for more details</a>
+</div>
+
+
+
+            <h3 class="title-faq">Prime Minister's Tuition Fee Payment Scheme for Masters / M.S / M.Phil and Ph. D Students of Less Developed Areas</h3>
+			<div class="content-faq">
+			  <p>The Federal Government, in move to support the educational sector of less developed areas of Balochistan, Gilgit/ Baltistan, FATA, Interior Sindh, South Punjab, Malakand, Kohistan and D.I. Khan areas of Khyber Pakhtunkhwa has decided to pay the tuition fee of all the students of these areas studying in Masters, M.S, M. Phil in the Public Sector Universities of their respective area of domicile and all Public Sector Universities of Pakistan for Ph. D.</p>
+			  <p>For further details, <a href="http://www.hec.gov.pk/InsideHEC/Divisions/HRD/tfp/Pages/Introduction.aspx">Click here</a></p>
+			</div>
+             <h3 class="title-faq">HEC-Needs Based Scholarship</h3>
+			<div class="content-faq">
+			  <p>Higher Education Commission (HEC) aims to elevate the socio-economic position of the needy &amp; deserving students by providing access to quality education through needs-based scholarships. Government of Pakistan (GOP) has also duly acknowledged the financial constraints barring students from acquiring higher education and has thus earmarked substantial funds for the improvement of education sector. More than 10,000 scholarships are announced this year for financially disadvantaged students all over Pakistan including 61 public sector universities of Pakistan. University of Peshawar was awarded 250 scholarships for the session 2013-14.</p>
+			  <p>For further details, <a href="http://www.hec.gov.pk/InsideHEC/Divisions/HRD/Scholarships/NBS/HNBS/Pages/IntroductionObjectives2.aspx">Click here</a></p>
+			</div>
+             <h3 class="title-faq">Prime Minister's National Programme for Provision of Laptops to Talented Students:</h3>
+			<div class="content-faq">
+			  <p>The subject scheme is one of the initiatives launched under the Prime Minister's Youth Schemes for 2013-14. During this year 100,000 laptops will be distributed amongst the students as per defined eligibility criteria. The criteria covers distribution of laptops to all Ph.D, M.Phil, and MS students studying in any public sector HEI's duly recognized by HEC. The distribution of laptops to students studying in Masters (16 years) and Bachelors will be on merit , and will be given to top students who secured 60% marks in previous annual examination or 70% marks (based on CGPA) in last semester examinations.</p>
+			  <p>For further details, <a href="http://www.hec.gov.pk/pmnls/">Click here</a></p>
+			  </div>
+             <h3 class="title-faq">HEC-French Needs Based Scholarship</h3>
+			<div class="content-faq">
+			  <p>Government of France through its Embassy in Islamabad offered scholarships for the studious but unprivileged students of 6 Pakistani Universities. A Memorandum of Understanding (MoU) was signed by the Ambassador, Chairperson and the vice chancellors. The objective of the MoU is to support the students on the bases of financial destitution. This scholarship will be offered in the fields of Social Science, Business and Architecture to the students of 6 top Pakistani universities.</p>
+			  <p>For further details, <a href="http://www.hec.gov.pk/InsideHEC/Divisions/HRD/Scholarships/NBS/HFNBS/Pages/IntroductionObjectives2.aspx">Click here</a></p>
+			</div>
+             <h3 class="title-faq">USAID Scholarship For B.Ed (Hons) Pre-Step</h3>
+			<div class="content-faq">
+			  <p>The USAID Teacher Education Project in Pakistan is supporting the Higher Education Commission and the Government of Pakistan to improve teacher preparation in order to improve classroom-level teaching and learning practices, over the longer term. Scholarships will be awarded on merit and need basis to B.Ed. (Hons.) to cater for students' hostel/pocket/books expenses, admission and registration expenses. 15 scholarships are offered by university for students enrolling in the B.Ed program. Requirements for scholarships depend on the provincial department of education or the university.</p>
+			  <p>For further details, <a href="http://newdegrees.prestep.org/about.html">Click here</a></p>
+			</div>
+             <h3 class="title-faq">UoP Merit Cum Need Based Scholarship Program for students of all Departments/ Institutes/ Constituent Colleges
+
+ </h3>
+			<div class="content-faq">
+			  <p>University of Peshawar Merit Cum Need Based Fee Concession are merit cum Need based and awarded to undergraduate and graduate level students depending on University Financial Position. A total of two hundred (200) students were awarded Fee Concession in session 2013-14. This scholarship program is available for all disciplines taught in the University. Students are awarded fee concession for 1 year of their studies.</p>
+			  
+			</div>
+           <h3 class="title-faq">University of Peshawar Merit Scholarships for B. A/B.Sc Position Holders:</h3>
+
+			<div class="content-faq">
+			  <p>University of Peshawar Merit Scholarships is merit - based and awarded to Masters Students enrolled in any Institute/department of the University of Peshawar and have got 1st , 2nd or 3rd position in University of Peshawar B.A/B.Sc exams. These students are awarded full admission fee waiver for their full course.</p>
+			</div>
+             <h3 class="title-faq">University of Peshawar Brother/Sister Concession:</h3>
+			<div class="content-faq">
+			  <p>University of Peshawar award brother sister concession to two or more brothers or sisters attending the University of Peshawar or such institutions who are under the management of the University and do not enjoy any other concession of the University of Peshawar. The one in the highest class shall pay the full tuition fee prescribed and others half of the tuition fee.</p>
+			</div>
+             <h3 class="title-faq">Peshawar University Teachers Contribution Scholarship for Needy and Deserving Students:</h3>
+			<div class="content-faq">
+			  <p>University of Peshawar teachers being the role models for the society, take a bold initiative to donate a handsome amount from their salaries for the help of the needy students who find it hard to continue their studies due to their poor financial conditions. These scholarships are advertised and after thorough interviews at both the departmental level as well as University level are awarded full or partial help in their admissions dues.</p>
+			</div>
+                        <h3 class="title-faq">Workers Welfare Board Directorate of Education Khyber Pakhtunkhwa Scholarship Program for All Study Programs</h3>
+             <div class="content-faq">
+               <p>This program is administered by Workers Welfare Board, Directorate of Education Khyber Pakhtunkhwa for the benefit of those students whose parents are registered labor employees in industrial sector of Khyber Pakhtunkhwa province. The scholarship covers full tuition fee support and other charges including transport, accommodation, library and computer lab charges.</p>
+             </div>
+             <h3 class="title-faq">USEFPakistan Cultural Exchange Programs to USA</h3>
+			<div class="content-faq">
+			  <p>The United States Education Foundation of Pakistan has top priority for students from marginalized communities of Pakistan to provide them international exposure in top world ranking universities of USA for 1 month, 1 semester and 1 year, non-degree study in USA under USEFP Undergraduate Cultural Exchange Programs. In session 2013 a total of 15 students were selected in two consecutive batches to study in USA. These students are selected from marginalized areas of Chitral, FATA, PATA, Gilgit-Baltistan, Lakki Marwat, Charsadda, Swabi and Karak etc.</p>
+			  <p>For further details, <a href="http://http//usefpakistan.org/">Click here</a></p>
+			</div>
+             <h3 class="title-faq">Frontier Education Foundation Scholarship Program</h3>
+			<div class="content-faq">
+			  <p>With cooperation of Frontier Education Foundation, these scholarships are on the basis of merit-cum-in affordability. In academic year 2012-2013, FEF provided a total of ten (10) scholarships to students of University of Peshawar. The grant provides RS. 24,000/-  per annum for tuition fee support. The award is renewable in 2nd year on the basis of academic performance. This scholarship scheme is available for the following graduate level programmes.</p>
+            </div>
+                        <h3 class="title-faq">Mahvash and Jahangir Siddiqui Foundation and Sajjad Foundation (Singapore) sponsored Summer Program on Economic and Enterprise Development in National University of Singapore</h3>
+			<div class="content-faq">
+			  <p>This is a two weeks summer program being held at the National University of Singapore (NUS).This program hosts undergraduate students from universities in various parts of the world and is an excellent opportunity for participants to learn about Singapore. These students will also get an opportunity to learn about creative and innovative ideas to start their own businesses in future.</p>
+            </div>
+             <h3 class="title-faq">Fauji Foundation Excellence Award</h3>
+			<div class="content-faq">
+			  <p>Fauji Foundation Educational Stipend Scheme for the welfare of Ex-servicemen and their families. The benefits of this scheme are reaching Beneficiaries studying in schools, colleges, universities as well as those undergoing professional or technical education.</p>
+			  <p>For further details, <a href="http://www.fauji.org.pk/fauji/welfare/stipends">Click here</a></p>
+            </div>
+             <h3 class="title-faq">Shaheen Excellence Award</h3>
+			<div class="content-faq">
+			  <p>Chief of the Air Staff, Pakistan Air Force has now approved the Shaheen Excellence Award for those students securing first position in a university examination (BA/BSc, MA/MSc, MPhil and PhD). Eligible students may apply with supporting documents duly verified to Shaheen Foundation PAF Post Box No. 2225 GPO Islamabad within three months of the declaration of results.</p>
+			  <p>For further details, <a href="http://visit%20http//www.shaheenfoundation.com/fellowships.html">Click here</a></p>
+            </div>
+             <h3 class="title-faq">FFC (Fauji Fertilizer Company Limited) Ward of Farmers Scholarships</h3>
+			<div class="content-faq">
+			  <p>FFC has been encouraging education to the less privileged talented youth by providing them scholarship. Scholarship is granted under three different categories including Scholarship to the wards of the farmers, Merit scholarships for the students of districts Ghotki and Rahim Yar Khan and Children of FFC employee.</p>
+			  <p>For further details, <a href="http://http//www.ffc.com.pk/education.aspx">Click here</a></p>
+			  </div>
+             <h3 class="title-faq">National Bank of Pakistan Student Loan Scheme</h3>
+			<div class="content-faq">
+			  <p>Pursuant to the announcement made by the Federal Finance Minister in his 2001-2002 budget speech, a Student Loan Scheme (SLS) for education was launched by the Government of Pakistan in collaboration with major commercial banks of Pakistan (NBP, HBL, UBL, MCB and ABL). Under the scheme, financial assistance is provided by way of interest free loans to the meritorious students who have financial constraints for pursuing their studies in various educational institutions within Pakistan. The scheme is being administered by a high powered committee comprising Deputy Governor, State Bank of Pakistan, Presidents of the commercial banks and representative of Ministry of Finance, Government of Pakistan.</p>
+			  <p>For further details, <a href="http://nbp.com.pk/StudentLoan/index.aspx">Click here</a></p>
+            </div>
+            
+            
+</div>
+                            
+
+
+                </article>
+            </div>
+                     
+            
+                                        						   
+        </div>
+    </div>
+    <footer id="main-footer" >
+        <div id="blur-top">
+            <a href="#" id="link-back-top">Back to Top</a>
+        </div>
+        <!--<div id="slogan-footer">
+        style="background:url(images/img-8.jpg) no-repeat 50% 0;"
+           <h4>To love and to serve the entire creation of the Creator</h4>
+        </div>-->
+        <div id="footer-content" class="clearfix">
+            <div id="footer-container">
+                <div id="sidebar-footer-left" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix" >
+                            <h3 class="widget-title" style="color:#fff;">Quick Links</h3>
+                            <ul >
+                            <li><strong><a style="color:#fff;" href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></strong></li>
+ <li><a style="color:#fff;" href="http://www.uop.edu.pk/jobs/"><strong>Jobs</strong></a></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/tender/">Tender</a></strong></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/maingallery/">Picture Gallery</a></strong></li>
+                                <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/LifeOnCampus/">Life on Campus</a></strong></li>
+                                                                <li><strong><a style="color:#fff;" href="https://cpec-centre.pk/">CoE-CPEC</a></strong></li>
+
+
+                               <!-- <li><strong><a href="http://www.uop.edu.pk/pio">Public Information Office</a></strong></li>-->
+
+
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div id="sidebar-footer-middle" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix">
+                            <h3 class="widget-title" style="color:#fff;">Campus Location</h3>		
+                            <article class="text-widget " >
+					           <iframe class="map-area" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d6615.401372220392!2d71.48921630340652!3d34.00022108817633!3m2!1i1024!2i768!4f13.1!2m1!1suniversity+of+peshawar!5e0!3m2!1sen!2s!4v1424811883868"></iframe><br />                                   </article>
+                        </div>
+                    </aside>
+                </div>
+                <article id="footer-address" class="clearfix">
+                    <h3 id="title-footer-address"><span>Contact Us</span></h3>
+                    <p style="color:#000;"><strong>
+                    You can contact us via </strong><br />
+
+                      <strong>Phone #:</strong> +92-91-9216701<br />
+                                            <strong>For admissions:</strong> admissions@uop.edu.pk <br />
+                      <strong>For examinations:</strong> controller@uop.edu.pk <br />
+
+                      <strong>For website:</strong> webmaster@uop.edu.pk <br />
+                  </p>
+                   
+                    <ul id="list-social" class="clearfix">
+                        <li id="icon-facebook"><a href="https://www.facebook.com/UniversityOfPeshawarOfficialPage">Facebook</a></li>
+                        <li id="icon-twitter"><a href="https://twitter.com/upeshpakistan">Twitter</a></li>
+                        <li id="icon-gplus"><a href="http://www.google.com/+UoPEduPkOfficial">Google Plus</a></li>
+                        <li id="icon-linkedin"><a href="#">Linkedin</a></li>
+                        <li id="icon-youtube"><a href="#">Youtube</a></li>
+                        <li id="icon-flickr" class="last"><a href="#">Flickr</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+                <div id="footer-copyright">
+            <div id="footer-copyright-content" class="clearfix">
+               
+                <p id="text-address">University of Peshawar</p>
+               
+                <p id="text-copyright">Copyright &copy; 2024. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+Date: Fri, 27 Mar 2026 06:11:03 GMT
+Content-Type: text/plain; charset=utf-8
+Server: cloudflare
+X-Powered-By: PHP/7.4.32
+X-Frame-Options: SAMEORIGIN
+Link: <https://newcampus.uet.edu.pk/wp-json/>; rel="https://api.w.org/"
+Set-Cookie: lp_session_guest=g-69c61f76d6b9b; expires=Sun, 29-Mar-2026 06:11:02 GMT; Max-Age=172800; path=/; secure; HttpOnly
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tdqXpqBtDsdcRJHG%2FmRYGOh6nYz%2FKs64IJXcN0dkXIs0YVeZSDeH4Pwf15bAri8x5S2VJO6t6haVKpNCBM%2FWnBPd12uOlpzlYMELUvLg%2F5TC0Y9ywkPyfsOWuXB2nvz2b8QDTKBReQ%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Cf-Cache-Status: BYPASS
+Server-Timing: cfCacheStatus;desc="BYPASS"
+Server-Timing: cfEdge;dur=11,cfOrigin;dur=1150
+Content-Encoding: gzip
+Cf-Ray: 9e2c3c42ea3cfe01-SIN

@@ -1,0 +1,2947 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Virtual University of Pakistan
+</title><meta charset="utf-8" /><meta http-equiv="x-ua-compatible" content="ie=edge" /><meta name="description" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- favicon
+    ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/logo.png" />
+
+    <script type="text/javascript">
+        window.onload = function () {
+            if (window.location.hash) {
+                var target = document.getElementById(window.location.hash. (1));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        };
+    </script>
+
+    <style>
+        ._10b4::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ._10b4::-webkit-scrollbar-track {
+            background: #dfdd1a;
+            border-radius: 10px;
+        }
+
+        ._10b4::-webkit-scrollbar-thumb {
+            background-color: #b79c42;
+            border-radius: 20px;
+            border: 2px solid #b79c42;
+        }
+
+        ._10b4::-webkit-scrollbar {
+            width: 4px;
+        }
+    </style>
+
+    <script>
+
+        function applyHoverEffect(circleid, ovalid, detailsDivId, imageName) {
+            var div1 = document.getElementById(circleid);
+            var div2 = document.getElementById(ovalid);
+            var divDetails = document.getElementById(detailsDivId);
+            var imgMap = document.getElementById('imgMap');
+
+            HideDetailsDiv(1);
+
+            div1.classList.add("hover1");
+            div2.classList.add("hover1");
+            divDetails.style.visibility = 'visible';
+            divDetails.style.height = '';
+
+            imgMap.src = '/img/vucamp/' + imageName;
+
+        }
+
+        function removeHoverEffect() {
+            var div1 = document.getElementById("divCircleIsb");
+            var div2 = document.getElementById("divOvalIsb");
+            var div3 = document.getElementById("divCirclePunjab");
+            var div4 = document.getElementById("divOvalPunjab");
+            var div5 = document.getElementById("divCircleSindh");
+            var div6 = document.getElementById("divOvalSindh");
+            var div7 = document.getElementById("divCircleBlochistan");
+            var div8 = document.getElementById("divOvalBlochistan");
+            var div9 = document.getElementById("divCircleKyberPakhunkhwa");
+            var div10 = document.getElementById("divOvalKyberPakhunkhwa");
+            var div11 = document.getElementById("divCircleAzadKashmir");
+            var div12 = document.getElementById("divOvalAzadKashmir");
+            var div13 = document.getElementById("divCircleGilgitBaltistan");
+            var div14 = document.getElementById("divOvalGilgitBaltistan");
+            var div15 = document.getElementById("divCircleoverseas");
+            var div16 = document.getElementById("divOvaloverseas");
+            var div17 = document.getElementById("divCirclePakistan");
+            var div18 = document.getElementById("divOvalPakistan");
+
+
+            var imgMap = document.getElementById('imgMap');
+            imgMap.src = '/img/vucamp/map.png'
+
+
+            div1.classList.remove("hover1");
+            div2.classList.remove("hover1");
+            div3.classList.remove("hover1");
+            div4.classList.remove("hover1");
+            div5.classList.remove("hover1");
+            div6.classList.remove("hover1");
+            div7.classList.remove("hover1");
+            div8.classList.remove("hover1");
+            div9.classList.remove("hover1");
+            div10.classList.remove("hover1");
+            div11.classList.remove("hover1");
+            div12.classList.remove("hover1");
+            div13.classList.remove("hover1");
+            div14.classList.remove("hover1");
+            div15.classList.remove("hover1");
+            div16.classList.remove("hover1");
+            div17.classList.remove("hover1");
+            div18.classList.remove("hover1");
+
+            HideDetailsDiv(0);
+
+        }
+
+        function HideDetailsDiv(hidePakistan) {
+
+            var divDetails1 = document.getElementById("divIsbDetails");
+            var divDetails2 = document.getElementById("divPunjabDetails");
+            var divDetails3 = document.getElementById("divSindhDetails");
+            var divDetails4 = document.getElementById("divBlochistanDetails");
+            var divDetails5 = document.getElementById("divKPKDetails");
+            var divDetails6 = document.getElementById("divAJKDetails");
+            var divDetails7 = document.getElementById("divGBDetails");
+            var divDetails8 = document.getElementById("divOverseasDetails");
+            var divDetails9 = document.getElementById("divPakistanDetails");
+
+            divDetails1.style.visibility = 'hidden';
+            divDetails2.style.visibility = 'hidden';
+            divDetails3.style.visibility = 'hidden';
+            divDetails4.style.visibility = 'hidden';
+            divDetails5.style.visibility = 'hidden';
+            divDetails6.style.visibility = 'hidden';
+            divDetails7.style.visibility = 'hidden';
+            divDetails8.style.visibility = 'hidden';
+
+            if (hidePakistan == 1) {
+                divDetails9.style.visibility = 'hidden';
+                divDetails9.style.height = '0px';
+            }
+            else {
+                divDetails9.style.visibility = 'visible';
+                divDetails9.style.height = '';
+            }
+
+
+            divDetails1.style.height = '0px';
+            divDetails2.style.height = '0px';
+            divDetails3.style.height = '0px';
+            divDetails4.style.height = '0px';
+            divDetails5.style.height = '0px';
+            divDetails6.style.height = '0px';
+            divDetails7.style.height = '0px';
+            divDetails8.style.height = '0px';
+
+        }
+
+    </script>
+
+
+    <link rel="stylesheet" href="css/bxslider.css" /><link href="App_Themes/Default/bootstrap.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/Final.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/font-awesome.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/fonts.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/Main.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/material-design-iconic-font.min.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/Menu.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/plugins.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/responsive.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/Style.css" type="text/css" rel="stylesheet" /><link href="App_Themes/Default/style-mainmenu.css" type="text/css" rel="stylesheet" /></head>
+<body style="overflow: hidden">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="nBx6sVpQ"></script>
+    <form method="post" action="./" id="Default">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTQ1NDIwOTg2D2QWAgIDD2QWdgIBD2QWAgICD2QWBgICDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWBgIBDw8WAh4EVGV4dAUNVW5kZXJncmFkdWF0ZWRkAgIPFQENVW5kZXJncmFkdWF0ZWQCAw8WAh8AAgQWCGYPZBYCZg8VAgpCUy1MYXRlcmFsCkJTLUxhdGVyYWxkAgEPZBYCZg8VAgJCUwJCU2QCAg9kFgJmDxUCBEIuRWQEQi5FZGQCAw9kFgJmDxUCGUFzc29jaWF0ZSBEZWdyZWUgUHJvZ3JhbXMZQXNzb2NpYXRlIERlZ3JlZSBQcm9ncmFtc2QCAQ9kFgYCAQ8PFgIfAQUIR3JhZHVhdGVkZAICDxUBCEdyYWR1YXRlZAIDDxYCHwACARYCZg9kFgJmDxUCAk1TAk1TZAICD2QWBgIBDw8WAh8BBQZPdGhlcnNkZAICDxUBF0RpcGxvbWFzIC8gU2hvcnQgQ291cnNlZAIDDxYCHwACBBYIZg9kFgJmDxUCB0RpcGxvbWEHRGlwbG9tYWQCAQ9kFgJmDxUCDVNob3J0IENvdXJzZXMNU2hvcnQgQ291cnNlc2QCAg9kFgJmDxUCGlNwZWNpYWxpemF0aW9uIENlcnRpZmljYXRlGlNwZWNpYWxpemF0aW9uIENlcnRpZmljYXRlZAIDD2QWAmYPFQINWmVybyBTZW1lc3Rlcg1aZXJvIFNlbWVzdGVyZAIDDxYCHwACDBYYZg9kFgYCAQ8PFgIfAQUDMTAxZGQCAg8VBAA+IGhyZWY9J2h0dHBzOi8vd3d3LnZ1LmVkdS5way9wYWdlcy9oYXJhc3NtZW50UHJvdGVjdGlvbi5hc3B4JyAEX25ldx5Qcm90ZWN0aW9uIGFnYWluc3QgSGFycmFzc21lbnRkAgMPFgIeB1Zpc2libGVoFgICAQ8WAh8AZmQCAQ9kFgYCAQ8PFgIfAQUCOThkZAICDxUEAEEgaHJlZj0naHR0cHM6Ly93d3cudnUuZWR1LnBrL05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTMxNDMnIARfbmV3JENpdGl6ZW4gUG9ydGFsL1ZVIENvbXBsYWludCBIYW5kbGluZ2QCAw8WAh8CaBYCAgEPFgIfAGZkAgIPZBYGAgEPDxYCHwEFAzEwMmRkAgIPFQQALyBocmVmPSdodHRwczovL3d3dy52dS5lZHUucGsvQWJvdXRVcy9SVEkuYXNweCcgBF9uZXceUmlnaHQgb2YgQWNjZXNzIHRvIEluZm9ybWF0aW9uZAIDDxYCHwJoFgICAQ8WAh8AZmQCAw9kFgYCAQ8PFgIfAQUCNzJkZAICDxUEACMgaHJlZj0naHR0cDovL3NvY2lldGllcy52dS5lZHUucGsnIARfbmV3ElZVIFNvY2lldGllcy9DbHVic2QCAw8WAh8CaBYCAgEPFgIfAGZkAgQPZBYGAgEPDxYCHwEFAzEwMGRkAgIPFQQAICBocmVmPSdodHRwczovL29yaWMudnUuZWR1LnBrLycgBF9uZXcET1JJQ2QCAw8WAh8CaBYCAgEPFgIfAGZkAgUPZBYGAgEPDxYCHwEFAjgwZGQCAg8VBAAkIGhyZWY9J2h0dHA6Ly93d3cudnUuZWR1LnBrL3ZlcmlmeScgBF9OZXceRGVncmVlL1RyYW5zY3JpcHQgVmVyaWZpY2F0aW9uZAIDDxYCHwJoFgICAQ8WAh8AZmQCBg9kFgYCAQ8PFgIfAQUCODVkZAICDxUEACQgaHJlZj0nCWh0dHBzOi8vd3d3LmRpZ2lza2lsbHMucGsvJyAEX25ldwpEaWdpU2tpbGxzZAIDDxYCHwJoFgICAQ8WAh8AZmQCBw9kFgYCAQ8PFgIfAQUCODZkZAICDxUEACEgaHJlZj0naHR0cDovL3ZzcGFjZS52dS5lZHUucGsvJyAEX25ldwlWU3BhY2VAVlVkAgMPFgIfAmgWAgIBDxYCHwBmZAIID2QWBgIBDw8WAh8BBQI2N2RkAgIPFQQAHiBocmVmPSdodHRwOi8vcWVjLnZ1LmVkdS5way8nIARfcWVjA1FFQ2QCAw8WAh8CaBYCAgEPFgIfAGZkAgkPZBYGAgEPDxYCHwEFAjkxZGQCAg8VBAA3IGhyZWY9J2h0dHA6Ly93d3cudnUuZWR1LnBrL1Bob3RvR2FsbGVyeS9EZWZhdWx0LmFzcHgnIAVfc2VsZg1QaG90byBHYWxsZXJ5ZAIDDxYCHwJoFgICAQ8WAh8AZmQCCg9kFgYCAQ8PFgIfAQUCOTdkZAICDxUEAB8gaHJlZj0naHR0cDovL3NzYmMudnUuZWR1LnBrLycgBF9uZXcgU3R1ZGVudCBTdGFydC1VcCBCdXNpbmVzcyBDZW50ZXJkAgMPFgIfAmgWAgIBDxYCHwBmZAILD2QWBgIBDw8WAh8BBQIyM2RkAgIPFQQAISBocmVmPSdodHRwOi8vYWx1bW5pLnZ1LmVkdS5way8nIAlfdnVBbHVtbmkGQWx1bW5pZAIDDxYCHwJoFgICAQ8WAh8AZmQCBA8WAh8AZmQCAw9kFgICAQ8WAh8AAgIWBGYPZBYCZg8VBAAFX3NlbGY4IGhyZWY9J2h0dHBzOi8vd3d3LnZ1LmVkdS5way9PcmllbnRhdGlvbi9WVU9yaWVudGF0aW9uJyAyaW1nL0hvbWVQYWdlU2xpZGVyL1NsaWRlci9TbGlkZXJuZXdjbGFzc2VzMjAyNi5qcGdkAgEPZBYCZg8VBAAFX3NlbGZLIGhyZWY9J2h0dHBzOi8vdXMwNndlYi56b29tLnVzL3dlYmluYXIvcmVnaXN0ZXIvV05fOF9tMklYMW9UN3EyeTBqUlVEZk0tUScgLGltZy9Ib21lUGFnZVNsaWRlci9TbGlkZXIvb3JpZW50bWFzc2NvbW0uanBnZAIFDxYCHwACBhYMZg9kFghmDxUCAjE4A0FwcmQCAQ8PFgQfAQVCWWFrIEZhcm1lcnPigJkgVHJhaW5pbmcgJiBBd2FyZW5lc3MgU2Vzc2lvbiBTdWNjZXNzZnVsbHkgSGVsZCAuLi4uHgtQb3N0QmFja1VybAUkfi9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD05NDMyZGQCAw8PFgIfAQUNIEFwciAxOCwgMjAyNmRkAgQPFQE7PGEgaHJlZj0nL05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTk0MzInPlJlYWQgTW9yZTwvYT5kAgEPZBYIZg8VAgIxNgNBcHJkAgEPDxYEHwEFQFRyYWluaW5nICYgQXdhcmVuZXNzIFNlc3Npb24gb24gWWFrIFJlc2VhcmNoIFN1Y2Nlc3NmdWxseSBIZS4uLi4fAwUkfi9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD05NDMxZGQCAw8PFgIfAQUNIEFwciAxNiwgMjAyNmRkAgQPFQE7PGEgaHJlZj0nL05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTk0MzEnPlJlYWQgTW9yZTwvYT5kAgIPZBYIZg8VAgIxNgNBcHJkAgEPDxYEHwEFQE5PVElDRSAtIEVYVEVOU0lPTiBPRiBDT1VSU0UgU0VMRUNUSU9OIERFQURMSU5FIFNQUklORyAyMDI2IC4uLi4fAwUkfi9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD05NDMwZGQCAw8PFgIfAQUNIEFwciAxNiwgMjAyNmRkAgQPFQE7PGEgaHJlZj0nL05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTk0MzAnPlJlYWQgTW9yZTwvYT5kAgMPZBYIZg8VAgIxNQNBcHJkAgEPDxYEHwEFOEFwcGxpY2F0aW9ucyBOb3cgT3BlbiBmb3IgVlUgU29mdHdhcmUgSG91c2UgKDIxc3QgQmF0Y2gpHwMFJH4vTmV3c0RldGFpbHMuYXNweD90eXBlPSZOZXdzSWQ9OTQyOWRkAgMPDxYCHwEFDSBBcHIgMTUsIDIwMjZkZAIEDxUBOzxhIGhyZWY9Jy9OZXdzRGV0YWlscy5hc3B4P3R5cGU9Jk5ld3NJZD05NDI5Jz5SZWFkIE1vcmU8L2E+ZAIED2QWCGYPFQICMTMDQXByZAIBDw8WBB8BBSlSZWFkeSB0byBsZXZlbCB1cCB5b3VyIHNraWxsc+KAlGZvciBGUkVFPx8DBSR+L05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTk0MjhkZAIDDw8WAh8BBQ0gQXByIDEzLCAyMDI2ZGQCBA8VATs8YSBocmVmPScvTmV3c0RldGFpbHMuYXNweD90eXBlPSZOZXdzSWQ9OTQyOCc+UmVhZCBNb3JlPC9hPmQCBQ9kFghmDxUCAjA3A0FwcmQCAQ8PFgQfAQVARXh0ZW5zaW9uIGluIGR1ZSBkYXRlIHRvIGFwcGx5IGZvciBOZWVkIGJhc2VkIFNjaG9sYXJzaGlwIChTLi4uLh8DBSR+L05ld3NEZXRhaWxzLmFzcHg/dHlwZT0mTmV3c0lkPTk0MjdkZAIDDw8WAh8BBQ0gQXByIDA3LCAyMDI2ZGQCBA8VATs8YSBocmVmPScvTmV3c0RldGFpbHMuYXNweD90eXBlPSZOZXdzSWQ9OTQyNyc+UmVhZCBNb3JlPC9hPmQCCQ8WAh8AAgQWCGYPZBYSZg8VAR8vRXZlbnREZXRhaWxzLmFzcHg/RXZlbnRJRD0xMjcxZAIBDw8WAh8BBQQxMjcxZGQCAw8PFgIeCEltYWdlVXJsBUN+L0V2ZW50cy9HZXRFdmVudFRpdGxlSW1hZ2UuYXNweD9yZWY9TTUvYnowQTdTSGc9JmZyZWY9R0kvZ2NlZmlWNnc9ZGQCBQ8PFgIfAmhkZAIHDw8WBB8BBR1EZXBhcnRtZW50IG9mIE1hbmFnZW1lbnQgLi4uLh8DBSB+L0V2ZW50RGV0YWlscy5hc3B4P0V2ZW50SUQ9MTI3MWRkAgkPDxYCHwEFIURlcGFydG1lbnQgb2YgTWFuYWdlbWVudCBTY2llbmNlc2RkAgoPFQEvPHNwYW4gY2xhc3M9InR4dE9mZldoaXRlIj5BcHJpbCAxNiwgMjAyNjwvc3Bhbj5kAgsPDxYCHwEFrgFUaGUgRGVwYXJ0bWVudCBvZiBNYW5hZ2VtZW50IFNjaWVuY2VzIGF0IHRoZSBWaXJ0dWFsIFVuaXZlcnNpdHkgb2YgUGFraXN0YW4gc3VjY2Vzc2Z1bGx5IGNvbmR1Y3RlZCBhbiBlbmdhZ2luZyBhbmQgaW50ZXJhY3RpdmUgb25saW5lIG9yaWVudGF0aW9uIHNlc3Npb24gZm9yIG5ld2x5IGFkbWl0dC4uLi5kZAINDw8WAh8DBSB+L0V2ZW50RGV0YWlscy5hc3B4P0V2ZW50SUQ9MTI3MWRkAgEPZBYSZg8VAR8vRXZlbnREZXRhaWxzLmFzcHg/RXZlbnRJRD0xMjY1ZAIBDw8WAh8BBQQxMjY1ZGQCAw8PFgIfBAVDfi9FdmVudHMvR2V0RXZlbnRUaXRsZUltYWdlLmFzcHg/cmVmPVJUTDVHem9yMVVJPSZmcmVmPTlxeTkrdjd6dzJjPWRkAgUPDxYCHwJoZGQCBw8PFgQfAQUdU2VtaW5hciBvbiBBY2Nlc3MsIEVxdWl0eS4uLi4fAwUgfi9FdmVudERldGFpbHMuYXNweD9FdmVudElEPTEyNjVkZAIJDw8WAh8BBRdEZXBhcnRtZW50IG9mIEVkdWNhdGlvbmRkAgoPFQExPHNwYW4gY2xhc3M9InR4dE9mZldoaXRlIj5KYW51YXJ5IDIzLCAyMDI2PC9zcGFuPmQCCw8PFgIfAQWuAVNlbWluYXIgb24gQWNjZXNzLCBFcXVpdHksIGFuZCBMaWZlbG9uZyBMZWFybmluZyBpbiBSZWNvZ25pdGlvbiBvZiB0aGUgSW50ZXJuYXRpb25hbCBEYXkgb2YgRWR1Y2F0aW9uDQoNCiANCg0KVGhlIERlcGFydG1lbnQgb2YgRWR1Y2F0aW9uLCBWaXJ0dWFsIFVuaXZlcnNpdHkgb2YgUGFraXN0YW4sLi4uLmRkAg0PDxYCHwMFIH4vRXZlbnREZXRhaWxzLmFzcHg/RXZlbnRJRD0xMjY1ZGQCAg9kFhJmDxUBHy9FdmVudERldGFpbHMuYXNweD9FdmVudElEPTEyNjNkAgEPDxYCHwEFBDEyNjNkZAIDDw8WAh8EBUN+L0V2ZW50cy9HZXRFdmVudFRpdGxlSW1hZ2UuYXNweD9yZWY9KzJKOHU4b2swcEk9JmZyZWY9eUdReCtSeklWQ009ZGQCBQ8PFgIfAmhkZAIHDw8WBB8BBR1BIFdlYmluYXIgb24gRW1lcmdpbmcgVHJlLi4uLh8DBSB+L0V2ZW50RGV0YWlscy5hc3B4P0V2ZW50SUQ9MTI2M2RkAgkPDxYCHwEFF0RlcGFydG1lbnQgb2YgRWR1Y2F0aW9uZGQCCg8VATE8c3BhbiBjbGFzcz0idHh0T2ZmV2hpdGUiPkphbnVhcnkgMjAsIDIwMjY8L3NwYW4+ZAILDw8WAh8BBa4BRW1lcmdpbmcgVHJlbmRzIGFuZCBDaGFsbGVuZ2VzIGluIFNvY2lhbCBTY2llbmNlIERhdGEgQW5hbHl0aWNzDQoNCiANCg0KVGhlIERlcGFydG1lbnQgb2YgRWR1Y2F0aW9uLCBWaXJ0dWFsIFVuaXZlcnNpdHkgb2YgUGFraXN0YW4sIHN1Y2Nlc3NmdWxseSBob3N0ZWQgYSB3ZWJpbmFyIHRpdGxlZCAuLi4uZGQCDQ8PFgIfAwUgfi9FdmVudERldGFpbHMuYXNweD9FdmVudElEPTEyNjNkZAIDD2QWEmYPFQEfL0V2ZW50RGV0YWlscy5hc3B4P0V2ZW50SUQ9MTI2MmQCAQ8PFgIfAQUEMTI2MmRkAgMPDxYCHwQFQ34vRXZlbnRzL0dldEV2ZW50VGl0bGVJbWFnZS5hc3B4P3JlZj1SMm9GRWFONzUycz0mZnJlZj1nZHladWVSOFpIQT1kZAIFDw8WAh8CaGRkAgcPDxYEHwEFHVRoZSBEZXBhcnRtZW50IG9mIEVjb25vbWkuLi4uHwMFIH4vRXZlbnREZXRhaWxzLmFzcHg/RXZlbnRJRD0xMjYyZGQCCQ8PFgIfAQUXRGVwYXJ0bWVudCBvZiBFY29ub21pY3NkZAIKDxUBMTxzcGFuIGNsYXNzPSJ0eHRPZmZXaGl0ZSI+SmFudWFyeSAxNiwgMjAyNjwvc3Bhbj5kAgsPDxYCHwEFrgFUaGUgRGVwYXJ0bWVudCBvZiBFY29ub21pY3Mgb3JnYW5pemVkIGEgd2ViaW5hciBvbiBCbG9ja2NoYWluIGFuZCBEaWdpdGFsIE1vbmV5LCBhdHRlbmRlZCBieSBtb3JlIHRoYW4gMTAwIHBhcnRpY2lwYW50cywgaW5jbHVkaW5nIHN0dWRlbnRzIGFuZCBmYWN1bHR5IG1lbWJlcnMuIFRoZSBzZXNzaS4uLi5kZAINDw8WAh8DBSB+L0V2ZW50RGV0YWlscy5hc3B4P0V2ZW50SUQ9MTI2MmRkAg0PDxYCHwEFAzEwMGRkAg8PDxYCHwEFAzIxMGRkAhEPDxYCHwEFBjE1OTMxOWRkAhMPDxYCHwEFBjE3NTM2OWRkAhUPDxYCHwEFAzEzN2RkAhcPDxYCHwEFAjMyZGQCGQ8PFgIfAQUDMTc4ZGQCGw8PFgIfAQUHNjg1LDY0MWRkAh0PDxYCHwEFBzE4Niw2MzFkZAIfDw8WAh8BBQExZGQCIQ8PFgIfAQUBM2RkAiMPDxYCHwEFBjMwLDAyNGRkAiUPDxYCHwEFBTksODIyZGQCJw8PFgIfAQUCOTlkZAIpDw8WAh8BBQIxOWRkAisPDxYCHwEFAzEzNmRkAi0PDxYCHwEFBzUyNiw0ODlkZAIvDw8WAh8BBQcxNDAsMTk4ZGQCMQ8PFgIfAQUCMTFkZAIzDw8WAh8BBQE4ZGQCNQ8PFgIfAQUCMTVkZAI3Dw8WAh8BBQY2NiwyMzZkZAI5Dw8WAh8BBQYyMiw2MDJkZAI7Dw8WAh8BBQE3ZGQCPQ8PFgIfAQUBMmRkAj8PDxYCHwEFATVkZAJBDw8WAh8BBQUzLDc4MGRkAkMPDxYCHwEFBTEsMDM5ZGQCRQ8PFgIfAQUCMTNkZAJHDw8WAh8BBQEyZGQCSQ8PFgIfAQUCMTRkZAJLDw8WAh8BBQYzMSwzMDdkZAJNDw8WAh8BBQU3LDkxMGRkAk8PDxYCHwEFATNkZAJRDw8WAh8BBQEwZGQCUw8PFgIfAQUBM2RkAlUPDxYCHwEFBTcsOTE0ZGQCVw8PFgIfAQUFMiwxOTFkZAJZDw8WAh8BBQEyZGQCWw8PFgIfAQUBMGRkAl0PDxYCHwEFATJkZAJfDw8WAh8BBQUxLDk4NGRkAmEPDxYCHwEFAzY0N2RkAmMPDxYCHwEFAzEzNWRkAmUPDxYCHwEFBjE3LDkwN2RkAmcPDxYCHwEFBTIsMjIyZGQCaQ8PFgIfAQUDMTM3ZGQCaw8PFgIfAQUBM2RkAm0PDxYCHwEFATdkZAJvDw8WAh8BBQEyZGQCcQ8PFgIfAQUBNGRkAnMPDxYCHwEFAjE2ZGQCdQ8PFgIfAQUDMTM1ZGQCdw8PFgIfAQUDMTU1ZGQCeQ8PFgIfAQUCMjNkZGQsHHXkOhYed6f+gUAVSTyps9z21cCMEghGA1UYzc/Jog==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="OebDKiEIW2erxsfMaMdtzxGz1A1ET9fMR4FMogJ5SYNhwfRAwrVoK5aWN0k4O0xOugPwyI6ynK2QHc4XPV19qEmURPoH_HRhKQwNveFsHs81" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA8VBEmSRdXulCVvgt0rkiNQ52xV98c2uycNsn/RZ9L/40CQyvuls5TCGzEUBVatTE5PkCizDbmuGDu0V6VAb0FdTT2UaHY4/fw1bwX7Dsor9FihA5trjljJTQOd1kaaB6LDaVnVp4Dwh1Sbi2/TI1LhyngMymbT9ntORxfyqmG1Ilw7PyL4JpbAM6oUyekdeVyabUOhIz8lsolSV1p1DLdE4Zlnf+42FU1QrK7T0ND66Iv988lPCq2cNZhifDDdrj2haA+Wngh6RyhX5shlaA2OkhadfL6yf8NNmnECJVD/SQPca2t6JwWTedmCKufI0bpgwSaQetF6O9pkCEdVnsLxv76dK/jpSNjcCPPQ+H9X2w==" />
+
+
+        <!--Main Wrapper Start-->
+
+        <!--Bg White Start-->
+
+        <!--Header Area Start-->
+
+        <link id="Progressbar1_cssStyle" rel="stylesheet" type="text/css"></link>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+    .search.open {
+        padding-right:0%;
+        max-width:30%;
+    }
+</style> 
+<script>
+    (function () {
+        var cx = '002967652935449813969:c0oouwidqv8';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+
+    var selectedColor;
+
+</script>
+
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<link href="/switcher/color-switcher.css" rel="stylesheet" />
+
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Green/color.css" title="Green" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/SeaGreen/color.css" title="SeaGreen" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Brown/color.css" title="Brown" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Pink/color.css" title="Pink" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/BrightYellow/color.css" title="BrightYellow" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Purple/color.css" title="Purple" media="screen" />
+
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Red/color.css" title="Red" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/orange/color.css" title="orange" media="screen" />
+<link rel="alternate stylesheet" type="text/css" href="/switcher/Themes/Blue/color.css" title="Blue" media="screen" />
+
+
+
+<!-- Color Switcher -->
+
+
+
+
+<!-- Color Switcher end -->
+
+<div class="progress-container fixed-top">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+</div>
+
+
+<div class="as-mainwrapper">
+    <!--Body Area Starts-->
+    <div class="bg-white">
+
+        <header id="headermain">
+            <div id="Progressbar1_DivTop" class="header-top header-logo-menu sticker">
+
+                <div class="row">
+                    <div class="col-4 mr-lg-0 mr-md-0 mr-sm-6 mr-xs-6">
+                        <a href="/">
+                            <img class="mt-3 logo-ad  img-fluid" src="/img/logo.png" alt="VU" id="VULogoSmall"></a>
+
+
+                        <div id="smallVUText" class="fg-title-vu d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+                            Virtual University of Pakistan
+                        </div>
+
+                    </div>
+                    <div class="col-3 d-xl-inline-block d-lg-inline-block d-md-none d-sm-none d-xs-none">
+
+                        <span class="fg-title">Federal Government University</span>
+                    </div>
+                    <div class="col-5 " style="    display: flex;    flex-direction: row;    align- items: center;">
+                        <div class="header-top-right" style="margin-top:27px;">
+
+                            <div class="content d-inline-block">
+                                <a href="https://vulms.vu.edu.pk/" target="_blank">LMS
+                                </a>
+                            </div>
+                            <div class="content d-inline-block">
+                                <a href="https://ocw.vu.edu.pk/" target="_blank">OCW
+                                </a>
+                            </div>
+                           
+                            <div class="content d-inline-block"><a href="/services.aspx">Contact Us</a></div>
+
+                            <meta name="google-translate-customization" content="bc046075478efb7e-a15ff2a2d6a3d585-g1afdba391878be79-f"></meta>
+
+                            <div class="google-translate ml-5 d-lg-block d-sm-none d-xs-none" id="google_translate_element">
+                            </div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({ pageLanguage: '', includedLanguages: 'en,ur', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-451XXXXX-1' }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+                        </div>
+                    </div>
+                </div>
+              
+                        <!--menu-->
+                  <div class="Menucon">
+                    <nav id='cssmenu'>
+                        <div id="head-mobile">
+                            <div class="mainContainer">
+                                    
+                            
+                                <div class="mr-5">
+
+                                <div id="Progressbar1_divSearchIconMobileView" class="divSearchIconMobileView">
+                                    <img src="../images/SearchIconMobileView.png" style="float:right;">
+                                </div>
+
+                                    <div id="Progressbar1_divSearchBarMobileView" class="divSearchBarMobileView">
+                                    <div class="search_box">
+                                        <gcse:searchbox-only resultsurl="/search.aspx" "></gcse:searchbox-only>
+                                    </div>
+                                </div>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <div class="menubutton"></div>
+                          <ul id="menuUl" class="internalMenuDisplay justify-content-center">
+                            <li class="menuli" id="About">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/aboutus.png">
+                                </div>
+                                <a id="divAbout" href='javascript:void(0);' class="menuMainHeading">About Us
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">About VU<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/AboutVU.aspx">Introduction</a></li>
+                                            <li><a href="/AboutUs/visionAndmission.aspx">Vision and Mission</a></li>
+                                            <li><a href="/AboutUs/Education.aspx">Mode of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">VU at a Glance<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Milestones.aspx">Milestones</a></li>
+                                            <li><a href="/AboutUs/MOUsCollaboration.aspx">MOU's and Collaboration</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">University Administration<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/organization.aspx">Organizational Structure</a></li>
+                                            <li><a href="/AboutUs/BOG.aspx">Board of Governors</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Offices & Staff<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/AboutUs/Directorates.aspx">Staff Directory</a></li>
+                                            <li><a href="/AboutUs/Faculty.aspx">Faculty Members</a></li>
+                                            <li><a href="/AboutUs/AdjunctFaculty.aspx">Adjunct Faculty Memebers</a></li>
+                                            <li><a href="/AboutUs/RTI.aspx">Right of Access to Information</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Admissions">
+                                <div class="menuIcons ">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/admission.png">
+                                </div>
+                                <a id="divAdmission" href='javascript:void(0);' class="menuMainHeading ">Admissions</a>
+                               <ul class="settopmargin">
+                                    
+                                    
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Undergraduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS-Lateral">BS-Lateral</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=BS">BS</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=B.Ed">B.Ed</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Associate Degree Programs">Associate Degree Programs</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Graduate<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=MS">MS</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                            
+                                            <li>
+                                                <a href="javascript:void(0);">Diplomas / Short Course<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                                <ul>
+                                                    
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Diploma">Diploma</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Short Courses">Short Courses</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Specialization Certificate">Specialization Certificate</a></li>
+                                                        
+                                                            <li><a href="/AboutUs/ProgramsOffered.aspx?Degree=Zero Semester">Zero Semester</a></li>
+                                                        
+                                                </ul>
+                                            </li>
+
+                                        
+                                    
+
+                                   <li><a href="/prospectus/default.aspx">Prospectus</a></li>
+                                   <li><a href="/Admissions/AdmissionProcedure.aspx">Admission Schedule</a></li>
+                                   <li><a href="/FeeStructure.aspx">Fee Structure</a></li>
+
+                                   <li><a href='javascript:void(0);' class="subMenuHeading">Procedure & Guidelines<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                       <ul>
+                                           <li><a href="/RecentAdvertisement/Default.aspx">Admission Advertisements</a></li>
+                                           <li><a href="/Apply/Admissions.aspx">How to Apply?</a></li>
+                                           <li><a href="/Apply/eLearningQuestionnaire.aspx">Is VU e-Learning suitable for me?</a></li>
+                                           <li class="ManuallysetMenuItemheight"><a href="/Admissions/TransferStudents.aspx">Admission Through Course Exemption</a></li>
+                                           <li><a href="/Admissions/AdmissionThroughBSEntryRoute.aspx">Admission Through Entry Option</a></li>
+                                           <li><a href="/pages/AdmissionForeign.aspx">Admission Foreign National</a></li>
+                                       </ul>
+                                   </li>
+
+                                   
+                                   
+                                   <li><a href="/StudyScheme/StudyScheme.aspx">Scheme of Study</a></li>
+                                   <li style="padding-top: 5px;"><a class="highlightmenuitem" style="display: inline-block; color: white; padding-left: 5px; padding-bottom: 5px;" href="/Apply/Login.aspx">Apply Now</a></li>
+                                   <li><a href="/Apply/admitlist.aspx">Admitted Candidates List</a></li>
+                               </ul>
+                            </li>
+                            <li class="menuli" id="Academics">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/facutlyprogram.png">
+                                </div>
+                                <a id="divFaculties" href='javascript:void(0);' class="menuMainHeading">Academics
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Arts<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Economics">Department of Economics</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of English">Department of English</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mass Communication">Department of Mass Communication</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Psychology">Department of Psychology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Sociology">Department of Sociology</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Islamic Studies">Department of Islamic Studies</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of CS & IT<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Computer Science">Department of Computer Science</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Education<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Education">Department of Education</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Management<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Management Sciences">Department of Management Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Public Admin">Department of Public Admin</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Faculty of Science and Technology<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Biological Sciences">Department of Biological Sciences</a></li>
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Mathematics">Department of Mathematics</a></li>
+                                            
+                                            <li><a href="/AcademicDepartment/Default.aspx?Department=Department of Statistics">Department of Statistics</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="Students">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/students.png">
+                                </div>
+                                <a id="divstudents" href='javascript:void(0);' class="menuMainHeading">Students
+                                </a>
+
+                               <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Services<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://vulms.vu.edu.pk" target="_LMS">Learning Management System</a> </li>
+                                            <li><a href="https://datesheet.vu.edu.pk" target="_Datesheet">Examination (make your date sheet)</a> </li>
+                                            <li><a href="https://handbook.vu.edu.pk/" target="_blank">Student Handbook</a></li>
+                                            <li><a href="https://bookshop.vu.edu.pk/" target="_blank">Bookshop</a></li>
+                                            <li><a href="http://societies.vu.edu.pk/pages/Home.aspx" target="_blank">Clubs and Societies</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Information<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/StudentServices/LectureSchedule.aspx">Lecture Schedule</a></li>
+                                            <li><a href="/Orientation/VUOrientation.aspx">Orientation Videos</a> </li>
+                                            <li><a href="/pages/VUGradingScheme.aspx">VU Grading Scheme</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Scholarships<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/pages/VUScholarships.aspx">VU Scholarships</a></li>
+                                            <li><a href="https://www.educator.com/scholarship/" target="_blank">Educator Scholarships</a></li>
+                                            <li><a href="/pages/Bait-ul-Mal-stipend.aspx">Pakistan Bait-Ul-Mall Stipends</a></li>
+                                            <li><a href="/Scholarships/Scholarships.aspx">NBP Student Loan Scheme</a></li>
+                                            <li><a href="/pages/SyedaMubarikBegumScholarships.aspx">Syeda Mubarik Begum</a></li>
+                                            <li><a href="/pages/PunjabWorkders.aspx">Punjab Workers Welfare Board</a></li>
+                                            <li><a href="/pages/PEEF.aspx">Punjab Educational Endowment Fund</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="/StudentServices/AcademicCalendar.aspx">Academic Calender</a></li>
+
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="virtualcampus">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/virtualcampus.png">
+                                </div>
+                                <a id="divvirtualcampus" href='javascript:void(0);' class="menuMainHeading">Campuses
+                                </a>
+
+                                <ul class="settopmargin">
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Virtual Campuses<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/PVCs/Default.aspx?Type=All">All</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Own">VU Own Campuses</a></li>
+                                            <li><a href="/PVCs/Default.aspx?type=Private">Private Campuses</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Become A VU Campus<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="/Pages/CampusOpportunityMain.aspx">How to Apply</a></li>
+                                            <li><a href="/pages/PVCRules.aspx">PVC Rules</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='javascript:void(0);' class="subMenuHeading">Campus Portal<i class="zmdi zmdi-chevron-right ml-2"></i></a>
+                                        <ul class="setwidth">
+                                            <li><a href="https://campus.vu.edu.pk/">Examination Portal</a></li>
+                                            <li><a href="https://campusexams.vu.edu.pk/">Student Portal</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+
+
+                            <li class="menuli" id="ResearchDevelopment">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/projects.png">
+                                </div>
+                                <a id="divResearchDevelopment " href='javascript:void(0);' class="menuMainHeading">Research & Development 
+                                </a>
+
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.digiskills.pk" target="_new">DigiSkills.pk</a></li>
+                                    <li><a href="/PDC" target="_new">Professional Development Center</a></li>
+                                    <li class="ManuallysetMenuItemheight"><a href="https://oric.vu.edu.pk/" target="_new">Office of Research, Innovation and Commercialization</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="Services">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/services.png">
+                                </div>
+                                <a id="divServices" href='javascript:void(0);' class="menuMainHeading">Services
+                                </a>
+                                 <ul class="settopmargin">
+                                    <li><a href="https://www.vu.edu.pk/vss/" target="_new">Software Solutions</a></li>
+                                </ul>
+
+                            </li>
+
+                            <li class="menuli" id="JobsTenders">
+
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/opportunity.png">
+                                </div>
+                                <a id="divJobsTenders" href='javascript:void(0);' class="menuMainHeading">Jobs & Tenders
+                                </a>
+                                <ul class="settopmargin">
+                                    <li><a href="/Opportunities/Jobs.aspx">Job Advertisements</a></li>
+                                    
+                                    <li><a href="http://qb.vu.edu.pk/public/ExaminerRegistration.aspx" target="_examSuperintendent">Exam Superintendent Registration</a></li>
+                                    <li><a href="/Opportunities/CourseDevelopment.aspx">Course Development</a></li>
+                                    
+                                    <li><a href="/Opportunities/Tenders.aspx">Tenders</a></li>
+                                    
+                                           
+                                       
+                                    
+                                           
+                                       
+
+                                </ul>
+                            </li>
+
+                            <li class="menuli" id="VUTV">
+
+                                <div class="menuIcons">
+                                    <a href="/vutv">
+                                        <img src="/app_themes/Default/img/menuicons/menubaricon/vutv.png">
+                                    </a>
+                                </div>
+                                <a id="divVUTV" href="/vutv" class="menuMainHeading">VUTV
+                                </a>
+
+
+                            </li>
+
+
+
+                            <li class="menuli" id="ImportantLinks">
+                                <div class="menuIcons">
+                                    <img src="/app_themes/Default/img/menuicons/menubaricon/importantlink.png">
+                                </div>
+                                <a id="divImportantLinks" href='javascript:void(0);' class="menuMainHeading ">Important Links</a>
+
+                                <ul class="lastmenuitem settopmargin">
+
+                                    
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/pages/harassmentProtection.aspx'  target='_new'>Protection against Harrassment </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/NewsDetails.aspx?type=&NewsId=3143'  target='_new'>Citizen Portal/VU Complaint Handling </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://www.vu.edu.pk/AboutUs/RTI.aspx'  target='_new'>Right of Access to Information </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://societies.vu.edu.pk'  target='_new'>VU Societies/Clubs </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='https://oric.vu.edu.pk/'  target='_new'>ORIC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/verify'  target='_New'>Degree/Transcript Verification </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='	https://www.digiskills.pk/'  target='_new'>DigiSkills </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://vspace.vu.edu.pk/'  target='_new'>VSpace@VU </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://qec.vu.edu.pk/'  target='_qec'>QEC </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://www.vu.edu.pk/PhotoGallery/Default.aspx'  target='_self'>Photo Gallery </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://ssbc.vu.edu.pk/'  target='_new'>Student Start-Up Business Center </a>
+
+                                                
+                                            </li>
+                                        
+
+                                            
+
+                                            <li class=''>
+
+                                                <a  href='http://alumni.vu.edu.pk/'  target='_vuAlumni'>Alumni </a>
+
+                                                
+                                            </li>
+                                        
+
+                                    
+
+                                    <li><a class="highlightmenuitem" href="../PhotoGallery/ImportantLinks.aspx">More Links</a></li>
+
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+
+                            </li>
+
+                            <li class="setSearchliwidth">
+                                <!--Search Form-->
+                                <div class="header-search">
+                                    <div class="search-menu mb-3">
+                                        <i id="toggle-search" class="zmdi zmdi-search-for"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>                    
+                    </nav>  
+                </div>
+                <div class="search">
+
+                    <div id="search_box">
+
+                        <gcse:searchbox-only resultsurl="/search.aspx"></gcse:searchbox-only>
+
+
+                    </div>
+
+                </div>
+ 
+            </div>
+
+        </header>
+    </div>
+</div>
+
+<span id="Progressbar1_lblMsg"></span>
+
+<script type='text/javascript' src="/scripts/Menu.js"></script>
+<script type="text/javascript"> 
+    $(document).ready(function () {
+        $(".divSearchIconMobileView").click(function () {
+
+            $('.divSearchIconMobileView').hide();
+            $('.divSearchBarMobileView').show();
+
+        });
+        // Function to handle adding/removing the class based on window width
+        function updateMenuDisplay() {
+            var winWidth = $(window).width(); // Get the window width
+            if (winWidth > 650) {
+                $('#menuUl').addClass('internalMenuDisplay');
+            } else {
+                $('#menuUl').removeClass('internalMenuDisplay');
+            }
+        }
+        // Run the function on page load
+        updateMenuDisplay();
+        // Attach the function to the window resize event
+        $(window).on('resize', updateMenuDisplay);
+    });
+</script>
+
+
+        <!--End of Header Area-->
+
+        <script>
+
+            eraseCookie('style');
+
+            var c = readCookie('style');
+
+            if (c) {
+                switchStylestyle(c);
+                selectedColor = c;
+            }
+            else {
+
+                const color = ['Green', 'Brown', 'orange', 'Blue', 'BrightYellow'];
+                const random = Math.floor(Math.random() * color.length);
+
+                switchStylestyle(color[random]);
+                selectedColor = color[random];
+
+            }
+            selectedColor = 'BrightYellow'
+            function switchStylestyle(styleName) {
+                selectedColor = styleName;
+                $('link[rel*=style][title]').each(function (i) {
+                    this.disabled = true;
+                    if (this.getAttribute('title') == styleName) this.disabled = false;
+                });
+                createCookie('style', styleName, 365);
+
+            }
+            function createCookie(name, value, days) {
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    var expires = "; expires=" + date.toGMTString();
+                }
+                else var expires = "";
+                document.cookie = name + "=" + value + expires + "; path=/";
+
+            }
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            function eraseCookie(name) {
+                createCookie(name, "", -1);
+            }
+            //HideAllDivs();
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("slides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+        </script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                // executes when HTML-Document is loaded and DOM is ready
+
+                /*  eraseCookie('style');*/
+
+                var c = readCookie('style');
+
+                if (c) {
+                    switchStylestyle(c);
+                    selectedColor = c;
+                }
+                else {
+
+                    const color = ['Green', 'Brown', 'orange', 'Blue', 'BrightYellow'];
+                    const random = Math.floor(Math.random() * color.length);
+
+                    switchStylestyle(color[random]);
+                    selectedColor = color[random];
+
+                }
+
+                //hard-code Yellow
+                switchStylestyle('BrightYellow');
+                selectedColor = 'BrightYellow';
+
+                CAimg.src = 'switcher/Themes/' + selectedColor + '/impFacts/CA.png';
+                ASimg.src = 'switcher/Themes/' + selectedColor + '/impFacts/AS.png';
+                TGimg.src = 'switcher/Themes/' + selectedColor + '/impFacts/TG.png';
+                DPimg.src = 'switcher/Themes/' + selectedColor + '/impFacts/DP.png';
+
+            });
+
+            function switchStylestyle(styleName) {
+                selectedColor = styleName;
+                $('link[rel*=style][title]').each(function (i) {
+                    this.disabled = true;
+                    if (this.getAttribute('title') == styleName) this.disabled = false;
+                });
+                createCookie('style', styleName, 365);
+
+            }
+            function createCookie(name, value, days) {
+                if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    var expires = "; expires=" + date.toGMTString();
+                }
+                else var expires = "";
+                document.cookie = name + "=" + value + expires + "; path=/";
+
+            }
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+
+                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            function eraseCookie(name) {
+                createCookie(name, "", -1);
+            }
+            {
+                const sliders = document.querySelectorAll(".slider");
+                // interval between switching images
+                // can't be less than your animation duration in css!
+                const interval = 5600;
+                // if you don't want to first animation last longer than other animations  
+                // set animDuration (in miliseconds) to your value of animation duration in css
+                const animDuration = 10000; //old was = 600; updated 2026-01-05
+
+                for (let i = 0; i < sliders.length; ++i) {
+                    const slider = sliders[i];
+                    const dots = slider.querySelector(".dots");
+                    const sliderImgs = slider.querySelectorAll(".img");
+
+                    let currImg = 0;
+                    let prevImg = sliderImgs.length - 1;
+                    let intrvl;
+                    let timeout;
+
+                    // Creates dots and add listeners to them
+                    for (let i = 0; i < sliderImgs.length; ++i) {
+                        const dot = document.createElement("div");
+                        dot.classList.add("dot");
+                        dots.appendChild(dot);
+                        dot.addEventListener("click", dotClick.bind(null, i), false);
+                    }
+
+                    const allDots = dots.querySelectorAll(".dot");
+                    allDots[0].classList.add("active-dot");
+
+                    sliderImgs[0].style.left = "0";
+                    timeout = setTimeout(() => {
+                        animateSlider();
+                        sliderImgs[0].style.left = "";
+                        intrvl = setInterval(animateSlider, interval);
+                    }, interval - animDuration);
+
+                    /**
+                     * Animates images
+                     * @param {number} [nextImg] - index of next image to show
+                     * @param {boolean} [right = false] - animate to right
+                     */
+                    function animateSlider(nextImg, right) {
+                        if (!nextImg)
+                            nextImg = currImg + 1 < sliderImgs.length ? currImg + 2 : 1;
+
+                        --nextImg;
+                        sliderImgs[prevImg].style.animationName = "";
+
+                        if (!right) {
+                            sliderImgs[nextImg].style.animationName = "leftNext";
+                            sliderImgs[currImg].style.animationName = "leftCurr";
+                        }
+                        else {
+                            sliderImgs[nextImg].style.animationName = "rightNext";
+                            sliderImgs[currImg].style.animationName = "rightCurr";
+                        }
+
+                        prevImg = currImg;
+                        currImg = nextImg;
+
+                        currDot = allDots[currImg];
+                        currDot.classList.add("active-dot");
+                        prevDot = allDots[prevImg];
+                        prevDot.classList.remove("active-dot");
+                    }
+
+                    /**
+                     * Decides if animate to left or right and highlights clicked dot
+                     * @param {number} num - index of clicked dot
+                     */
+                    function dotClick(num) {
+                        if (num == currImg)
+                            return false;
+
+                        clearTimeout(timeout);
+                        clearInterval(intrvl);
+
+                        if (num > currImg)
+                            animateSlider(num + 1);
+                        else
+                            animateSlider(num + 1, true);
+
+                        intrvl = setInterval(animateSlider, interval);
+                    }
+                }
+            }
+
+        </script>
+
+        <!--Slider Area Start-->
+        <!-- 16:9 aspect ratio -->
+
+
+
+        
+
+        <div id="divSlider" class="preview-2">
+            <div id="bxslider" class="slides bxslider height-control ">
+                
+
+                        <a title='' target='_self'  href='https://www.vu.edu.pk/Orientation/VUOrientation' >
+                            <img class="img-fluid height-control" src='img/HomePageSlider/Slider/Slidernewclasses2026.jpg' alt="" />
+                        </a>
+                    
+
+                        <a title='' target='_self'  href='https://us06web.zoom.us/webinar/register/WN_8_m2IX1oT7q2y0jRUDfM-Q' >
+                            <img class="img-fluid height-control" src='img/HomePageSlider/Slider/orientmasscomm.jpg' alt="" />
+                        </a>
+                    
+                
+            </div>
+
+
+        </div>
+        <!--End of Slider Area-->
+        
+
+        <div class="latest-new-area product-area section-top-padding-events d-xl-block d-lg-block d-md-block d-sm-none d-xs-none">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title-wrapper-Events">
+                                <div class="section-title">
+                                    <h3 data-aos="zoom-out-up" data-aos-delay="300">Why VU?</h3>
+
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="about-container">
+                                
+
+
+                                <div class="row">
+                                    <div id="QE" class="QE-1">
+
+                                        <a href="WhyVU/QualityEducation.aspx">
+                                            
+
+                                            <div id="CQA" class="card-Whyvu img-responsive whuvutitle">
+                                                <div class="card-img-top-Whyvu img-responsive">
+                                                    <img id="QA" class="card-img-top img-responsive" alt="Card image cap" src="img/WHYVU/qe-image.png">
+                                                </div>
+                                                <div class="card-img-buttom ">
+                                                    <img id="QA" class=" img-responsive" alt="Card image cap" src="img/WHYVU/Union 18.png">
+                                                </div>
+                                                <div class="impact-card-body whyvu-text-center  ">
+                                                    <h4 id="QAtext">Quality Education at Your Doorstep</h4>
+                                                    <div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="AAG" class="AAG-1">
+                                        <a href="/WhyVU/Accessibility.aspx">
+                                            <div id="CGlobe" class="card-Whyvu img-responsive whuvutitle">
+                                                <div class="card-img-top-Whyvu img-responsive">
+                                                    <img id="Globe" class="card-img-top img-responsive" src="img/WHYVU/Globe.png"
+                                                        alt="Card image cap">
+                                                </div>
+                                                <div class="card-img-buttom ">
+                                                    <img id="QA" class=" img-responsive" alt="Card image cap" src="img/WHYVU/Union 18.png">
+                                                </div>
+                                                <div class="impact-card-body whyvu-text-center  ">
+                                                    <h4 id="Gtext" class="card-title">Accessible Across The Globe</h4>
+
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div id="IT" class="IT-1">
+                                        <a href="/WhyVU/BIT.aspx">
+                                            <div id="CIT" class="card-Whyvu img-responsive whuvutitle">
+
+                                                <div class="card-img-top-Whyvu img-responsive">
+                                                    <img class="card-img-top img-responsive" alt="Card image cap" src="img/WHYVU/computer.jpg">
+                                                </div>
+                                                <div class="card-img-buttom ">
+                                                    <img class=" img-responsive" alt="Card image cap" src="img/WHYVU/Union 18.png">
+                                                </div>
+                                                <div class="impact-card-body whyvu-text-center ">
+                                                    <h4 id="ITtext" class="card-title">Based On Information Technology</h4>
+
+                                                </div>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div id="FA" class="FA-1">
+                                        <a href="/WhyVU/FlexibleandAffordable.aspx">
+                                            <div id="CAFF" class="card-Whyvu img-responsive whuvutitle">
+                                                <div class="card-img-top-Whyvu img-responsive">
+                                                    <img id="AFF" class="card-img-top img-responsive " src="img/WHYVU/Money.jpg"
+                                                        alt="Card image cap">
+                                                </div>
+                                                <div class="card-img-buttom ">
+                                                    <img class=" img-responsive" alt="Card image cap" src="img/WHYVU/Union 18.png">
+                                                </div>
+                                                <div class="impact-card-body whyvu-text-center ">
+                                                    <h4 id="AFFtext" class="card-title">Flexible and Affordable</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--About Area Start-->
+
+
+        <!--End of About Area-->
+
+        <!--Start of Latest News-->
+        <div id="divNews" class="about-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="about-container">
+                            <h3>Latest News ?</h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-9 col-md-8 col-12 mt-50" data-aos="fade-left" style="float: left">
+                                        
+                                        
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                18
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_0" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl00$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9432&quot;, false, true))">Yak Farmers’ Training & Awareness Session Successfully Held ....</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_0" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 18, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9432'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                16
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_1" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl01$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9431&quot;, false, true))">Training & Awareness Session on Yak Research Successfully He....</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_1" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 16, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9431'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                16
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_2" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl02$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9430&quot;, false, true))">NOTICE - EXTENSION OF COURSE SELECTION DEADLINE SPRING 2026 ....</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_2" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 16, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9430'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                15
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_3" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl03$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9429&quot;, false, true))">Applications Now Open for VU Software House (21st Batch)</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_3" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 15, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9429'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                13
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_4" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl04$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9428&quot;, false, true))">Ready to level up your skills—for FREE?</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_4" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 13, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9428'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="single-latest-item">
+                                                    <div class="single-latest-image">
+                                                        <div class="shortdate m-2">
+                                                            <div class="day">
+                                                                07
+                                                            </div>
+                                                            <div class="month">
+                                                                Apr
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="single-latest-text">
+                                                        <div class="news-parent pl-sm-1 pl-xs-1">
+                                                            <h3 class="pt-1">
+                                                                <a id="rptrNews_lblTitle_5" class="fables-main-text-color font-20 font-weight-bold" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrNews$ctl05$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;NewsDetails.aspx?type=&amp;NewsId=9427&quot;, false, true))">Extension in due date to apply for Need based Scholarship (S....</a>
+                                                            </h3>
+                                                            <div class="single-item-comment-view">
+                                                                <span class="ml-3 font-15 font-weight-bold  SecondlyHeadingColor"><i class="zmdi zmdi-calendar-check"></i>
+                                                                    <span id="rptrNews_lblDate_5" class="font-15 font-weight-bold SecondlyHeadingColor"> Apr 07, 2026</span>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                        <div class="internal-text-newslist set-home-newslistmargin">
+                                                            <span class="facultyul">
+                                                                <a href='/NewsDetails.aspx?type=&NewsId=9427'>Read More</a>
+                                                            </span>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            
+                                    </div>
+                                    <span id="lblNoNew" class="pt-1 pb-1 "><font color="Red"></font></span>
+                                    <div class="col-3 col-md-4 mt-50" data-aos="fade-left">
+                                        <div class="fb-page fb-hidde" data-href="https://www.facebook.com/VirtualUniversityOfPakistan" data-tabs="timeline" data-width="400" data-height="642" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+                                            <blockquote cite="https://www.facebook.com/VirtualUniversityOfPakistan" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/VirtualUniversityOfPakistan">Virtual University of Pakistan</a></blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="text-right latestNewsbtn mr-xl-5 mr-lg-5 mr-md-0 mr-sm-0 mr-xs-0 ml-xl-0 ml-lg-0 ml-md-4 ml-sm-4 ml-xs-4">
+                                        <a class="btn btn-default-News btn-xs float-xl-none float-lg-none float-md-none float-sm-left float-xs-left" href="news/NewsList.aspx">View All News</a>
+                                        <a class="btn btn-default-News btn-xs float-xl-none float-lg-none float-md-none float-sm-left float-xs-left ml-1" href="PressRelease/Default.aspx">View Press Release</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Latest News Area Start-->
+        <div id="divEvents" class="product-area section-top-padding-events bg-white">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title-wrapper-Events">
+                                <div class="section-title">
+                                    <h3 data-aos="zoom-out-up" data-aos-delay="300">EVENTS</h3>
+
+                                </div>
+                            </div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <div class="container" data-ng-animate="fade-out-top">
+                                <div class="row">
+
+                                    
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="single-item" data-aos="fade-left">
+                                                    <div class="single-item-image overlay-effect" data-aos="fade-left">
+                                                        <a href='/EventDetails.aspx?EventID=1271'>
+                                                            
+                                                            
+                                                            <img id="rptrEvents_imgTitle_0" class="img-fluid img-border" src="Events/GetEventTitleImage.aspx?ref=M5/bz0A7SHg=&amp;fref=GI/gcefiV6w=" />
+                                                            
+                                                        </a>
+                                                    </div>
+                                                    <div class="single-item-text" data-aos="fade-left">
+                                                        <div class="event-parent">
+                                                            <div class="title-height">
+                                                                <h4 class="text-left">
+                                                                    <a id="rptrEvents_lblTitle_0" class="fables-main-text-color font-16" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl00$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1271&quot;, false, true))">Department of Management ....</a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="pt-1 department-height">
+                                                                <span id="rptrEvents_lblPublishedBy_0" class="smallest">Department of Management Sciences</span>
+                                                            </div>
+
+                                                            <div class="time pt-1 font-weight-600 ">
+                                                                <i class="zmdi zmdi-calendar"></i>
+                                                                <span class="txtOffWhite">April 16, 2026</span>
+                                                            </div>
+                                                            <div class="description-height">
+                                                                <div class="internal-text">
+                                                                    <p>
+                                                                        <span id="rptrEvents_lblDescription_0" class="font-14">The Department of Management Sciences at the Virtual University of Pakistan successfully conducted an engaging and interactive online orientation session for newly admitt....</span>
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button-bottom">
+                                                            <a id="rptrEvents_lblReadmore_0" class="btn btn-default-News btn-xs" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl00$lblReadmore&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1271&quot;, false, true))">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="single-item" data-aos="fade-left">
+                                                    <div class="single-item-image overlay-effect" data-aos="fade-left">
+                                                        <a href='/EventDetails.aspx?EventID=1265'>
+                                                            
+                                                            
+                                                            <img id="rptrEvents_imgTitle_1" class="img-fluid img-border" src="Events/GetEventTitleImage.aspx?ref=RTL5Gzor1UI=&amp;fref=9qy9+v7zw2c=" />
+                                                            
+                                                        </a>
+                                                    </div>
+                                                    <div class="single-item-text" data-aos="fade-left">
+                                                        <div class="event-parent">
+                                                            <div class="title-height">
+                                                                <h4 class="text-left">
+                                                                    <a id="rptrEvents_lblTitle_1" class="fables-main-text-color font-16" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl01$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1265&quot;, false, true))">Seminar on Access, Equity....</a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="pt-1 department-height">
+                                                                <span id="rptrEvents_lblPublishedBy_1" class="smallest">Department of Education</span>
+                                                            </div>
+
+                                                            <div class="time pt-1 font-weight-600 ">
+                                                                <i class="zmdi zmdi-calendar"></i>
+                                                                <span class="txtOffWhite">January 23, 2026</span>
+                                                            </div>
+                                                            <div class="description-height">
+                                                                <div class="internal-text">
+                                                                    <p>
+                                                                        <span id="rptrEvents_lblDescription_1" class="font-14">Seminar on Access, Equity, and Lifelong Learning in Recognition of the International Day of Education
+
+ 
+
+The Department of Education, Virtual University of Pakistan,....</span>
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button-bottom">
+                                                            <a id="rptrEvents_lblReadmore_1" class="btn btn-default-News btn-xs" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl01$lblReadmore&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1265&quot;, false, true))">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="single-item" data-aos="fade-left">
+                                                    <div class="single-item-image overlay-effect" data-aos="fade-left">
+                                                        <a href='/EventDetails.aspx?EventID=1263'>
+                                                            
+                                                            
+                                                            <img id="rptrEvents_imgTitle_2" class="img-fluid img-border" src="Events/GetEventTitleImage.aspx?ref=+2J8u8ok0pI=&amp;fref=yGQx+RzIVCM=" />
+                                                            
+                                                        </a>
+                                                    </div>
+                                                    <div class="single-item-text" data-aos="fade-left">
+                                                        <div class="event-parent">
+                                                            <div class="title-height">
+                                                                <h4 class="text-left">
+                                                                    <a id="rptrEvents_lblTitle_2" class="fables-main-text-color font-16" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl02$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1263&quot;, false, true))">A Webinar on Emerging Tre....</a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="pt-1 department-height">
+                                                                <span id="rptrEvents_lblPublishedBy_2" class="smallest">Department of Education</span>
+                                                            </div>
+
+                                                            <div class="time pt-1 font-weight-600 ">
+                                                                <i class="zmdi zmdi-calendar"></i>
+                                                                <span class="txtOffWhite">January 20, 2026</span>
+                                                            </div>
+                                                            <div class="description-height">
+                                                                <div class="internal-text">
+                                                                    <p>
+                                                                        <span id="rptrEvents_lblDescription_2" class="font-14">Emerging Trends and Challenges in Social Science Data Analytics
+
+ 
+
+The Department of Education, Virtual University of Pakistan, successfully hosted a webinar titled ....</span>
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button-bottom">
+                                                            <a id="rptrEvents_lblReadmore_2" class="btn btn-default-News btn-xs" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl02$lblReadmore&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1263&quot;, false, true))">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        
+                                            <div class="col-lg-3 col-md-6">
+                                                <div class="single-item" data-aos="fade-left">
+                                                    <div class="single-item-image overlay-effect" data-aos="fade-left">
+                                                        <a href='/EventDetails.aspx?EventID=1262'>
+                                                            
+                                                            
+                                                            <img id="rptrEvents_imgTitle_3" class="img-fluid img-border" src="Events/GetEventTitleImage.aspx?ref=R2oFEaN752s=&amp;fref=gdyZueR8ZHA=" />
+                                                            
+                                                        </a>
+                                                    </div>
+                                                    <div class="single-item-text" data-aos="fade-left">
+                                                        <div class="event-parent">
+                                                            <div class="title-height">
+                                                                <h4 class="text-left">
+                                                                    <a id="rptrEvents_lblTitle_3" class="fables-main-text-color font-16" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl03$lblTitle&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1262&quot;, false, true))">The Department of Economi....</a>
+                                                                </h4>
+                                                            </div>
+
+                                                            <div class="pt-1 department-height">
+                                                                <span id="rptrEvents_lblPublishedBy_3" class="smallest">Department of Economics</span>
+                                                            </div>
+
+                                                            <div class="time pt-1 font-weight-600 ">
+                                                                <i class="zmdi zmdi-calendar"></i>
+                                                                <span class="txtOffWhite">January 16, 2026</span>
+                                                            </div>
+                                                            <div class="description-height">
+                                                                <div class="internal-text">
+                                                                    <p>
+                                                                        <span id="rptrEvents_lblDescription_3" class="font-14">The Department of Economics organized a webinar on Blockchain and Digital Money, attended by more than 100 participants, including students and faculty members. The sessi....</span>
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="button-bottom">
+                                                            <a id="rptrEvents_lblReadmore_3" class="btn btn-default-News btn-xs" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;rptrEvents$ctl03$lblReadmore&quot;, &quot;&quot;, false, &quot;&quot;, &quot;EventDetails.aspx?EventID=1262&quot;, false, true))">Read More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        
+                                    <span id="lblNoEvent" class="pt-3 pb-3"><font color="Red"></font></span>
+
+
+                                    <div class="text-right mt-xl-5 mt-lg-5 mt-md-5 mt-sm-3 mt-xs-3 mr-xl-3 mr-lg-3 mr-md-3 mr-sm-3 mr-xs-3" style="width: 100%;">
+                                        <a class="btn btn-default-News btn-xs" href="Events/eventlist.aspx">View All Events</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="area-of-study">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-bottom-padding-info pt-10">
+                        <div class="section-title-wrapper-AreaofStudy white">
+                            <div class="section-title">
+                                <h3>Areas of study</h3>
+                                <!--<p>There are many variations of passages of Lorem Ipsum</p>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="areastudy">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 single-study-widget" data-aos="fade-right">
+
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Management Sciences">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Accounting.png" />Accounting, Finance & Commerce</a>
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Biological Sciences">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/BioInformatics.png" />BioInformatics & Biotechnology</a>
+                                <a class="color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Management Sciences">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Business.png" />Business & Management Studies </a>
+                                <a href="/AcademicDepartment/Default.aspx?Department=Department of Computer Science" class=" color-white1">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/ComputerSciences.png" />Computer Science & Information Technology</a>
+                                <a class="color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Education">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Education.png" />Education Studies</a>
+
+
+                            </div>
+                            <div class="col-md-6 col-sm-12  single-study-widget" data-aos="fade-left">
+                                <a class="  color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of English">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/English.png" />English Linguistics Studies</a>
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Psychology">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Psychology.png" />Psychology</a>
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Sociology">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Humanities.png" />Humanities & Social Sciences</a>
+
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Mathematics">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/Mathematics.png" />Mathematics</a>
+                                <a class=" color-white1" href="/AcademicDepartment/Default.aspx?Department=Department of Mass Communication">
+                                    <img class="img-responsive AOSimg" src="img/Areaofstudy/MediaStudies.png" />Media Studies</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="event-area section-padding section-padding-top-funfactor  bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title-wrapper-GetinTouch">
+                            <div class="section-title">
+                                <h3 data-aos="zoom-out-down">Stay In Touch</h3>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row w-160 p-0 w-0 mt-30">
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://vulms.vu.edu.pk/" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="../img/services/vulms-link-slider02.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg" data-aos="zoom-out-down" data-aos-delay="300">
+                                            <a href="https://vulms.vu.edu.pk/" target="_blank">
+                                                <h6 class=" text-black">Learning Management System</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://ocw.vu.edu.pk/" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/OCW.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg" data-aos="zoom-out-down" data-aos-delay="300">
+                                            <a href="https://ocw.vu.edu.pk/" target="_blank">
+                                                <h6 class="card-title text-black pl-10">Open CourseWare</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://www.digiskills.pk/#Home " target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img//services/digiskills.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg">
+                                            <a href="https://www.digiskills.pk/#Home " target="_blank">
+                                                <h6 class="card-title text-black pl-10">DigiSkills</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row w-160 p-0 w-0">
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://alumni.vu.edu.pk/" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/VUalumini.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg" data-aos="zoom-out-down" data-aos-delay="300">
+                                            <a href="https://alumni.vu.edu.pk/" target="_blank">
+                                                <h6 class="card-title text-black pl-10">Alumni Association</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="http://societies.vu.edu.pk/pages/Home.aspx" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/society.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg" data-aos="zoom-out-down" data-aos-delay="300">
+                                            <a href="http://societies.vu.edu.pk/pages/Home.aspx" target="_blank">
+                                                <h6 class="card-title text-black pl-10">Life at VU</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://newsletter.vu.edu.pk/webtop/Home.aspx" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/newsletter.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg" data-aos="zoom-out-down" data-aos-delay="300">
+                                            <a href="https://newsletter.vu.edu.pk/webtop/Home.aspx" target="_blank">
+                                                <h6 class="card-title text-black pl-10">NewsLetter</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+                            <div class="row w-160 p-0 w-0">
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://journal.vu.edu.pk/" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/journal.jpg" alt="Card image cap" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg">
+                                            <a href="https://journal.vu.edu.pk/" target="_blank">
+                                                <h6 class="card-title text-black pl-10">Journal</h6>
+
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://www.vu.edu.pk/NewsDetails.aspx?type=&NewsId=3111" target="_PMDC">
+                                                <img class="card-img-top line-separator-index" src="img/services/PMDC.jpg" alt="Pakistan Citizen Portal" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg">
+                                            <a href="https://www.vu.edu.pk/NewsDetails.aspx?type=&NewsId=3111" target="_PMDC">
+                                                <h6 class="card-title text-black pl-10">Pakistan Citizen Portal</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mb-2 pr-xl-3 pr-lg-3 pr-sm-6 pr-xs-6">
+                                    <div class="card card-shadow" data-aos="fade-right" data-aos-delay="300">
+                                        <div class="card-img-top-events">
+                                            <a href="https://www.vu.edu.pk/pages/harassmentProtection.aspx" target="_blank">
+                                                <img class="card-img-top line-separator-index" src="img/services/pastedimage.jpg" alt="Protection Against Harassment Of Women" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body card-body-bg">
+                                            <a href="https://www.vu.edu.pk/pages/harassmentProtection.aspx" target="_blank">
+                                                <h6 class="card-title text-black pl-10">Protection Against Harassment Of Women</h6>
+                                            </a>
+                                            <div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fun-factor-area section-top-padding-events">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-bottom-padding-info ">
+                        <div class="section-title-wrapper-Facts white">
+                            <div class="section-title">
+                                <h3>IMPORTANT FACTS</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="row bg-blur ">
+                    <div class="row col-12">
+                        <div class="IM-DP col-lg-3 colum-6 col-sm-12 pl-xl-3 pl-lg-3  pl-md-3 pl-sm-0 pl-xs-0">
+                            
+                            <div class="row float-left">
+                                <img id="DPimg" class="img-responsive" src="switcher/Default/img/impFacts/DP.png" alt="DP">
+                            </div>
+                            <div id="DP" class="DP-funfactor-new ">
+                                <h2 id="DPH1" data-aos="fade-up-right">
+                                    <span id="lblDPCount" class="counter">100</span>+
+                                </h2>
+                                <h4 id="DPH" data-aos="fade-up-right">Degree Programs</h4>
+                            </div>
+                        </div>
+                        <div class="IM-CA col-lg-3 colum-6 col-sm-12 pl-xl-3 pl-lg-3  pl-md-3 pl-sm-0 pl-xs-0">
+                            
+                            <div class="row float-left">
+                                <img data-aos="fade-up" id="CAimg" class="CA-image-alignement img-responsive" src="App_Themes/Default/img/impFacts/CA.png" alt="Campus">
+                            </div>
+                            <div id="CA" class="CA-funfactor-new ">
+                                <h2 data-aos="fade-up" id="CAH">
+                                    <span id="lblCACount" class="counter">210</span>+
+                                </h2>
+                                <h4 data-aos="fade-up" id="CAH1">Campuses
+                                </h4>
+                            </div>
+
+                        </div>
+
+                        <div class="IM-AS col-lg-3 colum-6 col-sm-12 pl-xl-3 pl-lg-3  pl-md-3 pl-sm-0 pl-xs-0">
+
+                            
+                            <div class="row float-left">
+                                <img id="ASimg" class="img-responsive" src="App_Themes/Default/img/impFacts/AS.png" alt="Campus">
+                            </div>
+                            <div id="AS" class="AS-funfactor-new ">
+                                <h2 data-aos="fade-down" id="ASH1">
+                                    <span id="lblASCount" class="counter">159319</span>+
+                                </h2>
+                                <h4 data-aos="fade-down" id="ASH">Active Students</h4>
+
+                            </div>
+
+                        </div>
+                        <div class="IM-TG col-lg-3 colum-6 col-sm-12 pl-xl-3 pl-lg-3  pl-md-3 pl-sm-0 pl-xs-0">
+
+                            
+                            <div class="row float-left">
+                                <img id="TGimg" class="img-responsive" src="App_Themes/Default/img/impFacts/TG.png" alt="Campus">
+                            </div>
+                            <div id="TG" class="TG-funfactor-new ">
+                                <h2 data-aos="fade-down-left" id="TGH1">
+                                    <span id="lblTGCount" class="counter">175369</span>+
+                                </h2>
+                                <h4 data-aos="fade-down-left" id="TGH">Total Graduates</h4>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="Virtual-campus-area img-responsive section-padding-camp section-padding-top-camp bg-white" data-aos="fade-up-left" data-aos-delay="100">
+            <div class="container">
+                <div class="row col-12">
+                    <div class="section-title-wrapper-Campuses">
+                        <div class="section-title">
+                            <h3 data-aos="fade-right" data-aos-delay="300">Virtual Campuses </h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row p-0 w-0 mt-30">
+                    <div class="col-lg-3 mb-2">
+                        <div class="map-left d-xl-block d-lg-block d-md-block d-sm-block d-xs-none">
+
+                            
+                            <div id="divPakistanDetails" class=" row text-details" style="visibility: visible; height: 0px; overflow: visible;">
+                                <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Pakistan</p>
+                                <table class="row table-content">
+
+                                    <tr>
+
+                                        <td class="map-text-color">Cities</td>
+                                        <td class=" left-icon">
+                                            <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                        </td>
+                                        <td class="number">
+                                            <span id="lblTotalCampusesPakistan">137</span></td>
+                                    </tr>
+
+                                    <tr>
+
+                                        <td class="map-text-color">VU Own Campuses</td>
+                                        <td class=" left-icon">
+                                            <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                        <td class="number">
+                                            <span id="lblOwnCampuses">32</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td class="map-text-color">Private Campuses</td>
+                                        <td class=" left-icon">
+                                            <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                        <td class="number">
+                                            <span id="lblPrivateCampuses">178</span>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="map-text-color">Enrolled Students                                                             
+                                                            <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                        </td>
+                                        <td class=" left-icon">
+                                            <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                        <td class="number">
+                                            <span id="lblTotalEnrolledStudentsPakistan">685,641</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="map-text-color pt-0">Active Students</td>
+                                        <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                            <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                        <td class="number mt-0">
+                                            <span id="lblTotalActiveStudentsPakistan" class="right-align" style="display:inline-block;">186,631</span></td>
+                                    </tr>
+                                </table>
+                                <div class=" row left-line isb-icon">
+                                    <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                    <img class="img-fluid mt-4" src="/img/vucamp/Pakistan-icon.png" alt="isb" />
+                                </div>
+                            </div>
+                            
+
+                            <div class="map-left-hide">
+                                
+                                <div id="divIsbDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Islamabad</p>
+                                    <table class="row  row table-content">
+
+                                        
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesIslamabad">1</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesIslamabad">3</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students                                                            
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsIslamabad">30,024</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsIslamabad" class="right-align" style="display:inline-block;">9,822</span>
+                                            </td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/isb-icon.png" alt="isb" />
+                                    </div>
+
+
+
+                                </div>
+                                
+
+
+                                
+                                <div id="divPunjabDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Punjab</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesPunjab">99</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesPunjab">19</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesPunjab">136</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsPunjab">526,489</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsPunjab" class="right-align" style="display:inline-block;">140,198</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/punjab-icon.png" alt="isb" />
+                                    </div>
+
+
+
+                                </div>
+                                
+
+                                
+                                <div id="divSindhDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Sindh</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesSindh">11</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesSindh">8</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesSindh">15</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsSindh">66,236</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsSindh" class="right-align" style="display:inline-block;">22,602</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/sindh-icon.png" alt="isb" />
+                                    </div>
+
+
+                                </div>
+                                
+
+                                
+                                <div id="divBlochistanDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Balochistan</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesBlochistan">7</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesBlochistan">2</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesBlochistan">5</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsBlochistan">3,780</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsBlochistan" class="right-align" style="display:inline-block;">1,039</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/blochistan-icon.png" alt="isb" />
+                                    </div>
+
+
+                                </div>
+                                
+                                
+                                <div id="divKPKDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Khyber Pakhtunkhwa</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesKyberPakhunkhwa">13</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesKyberPakhunkhwa">2</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesKyberPakhunkhwa">14</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsKyberPakhunkhwa">31,307</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsKyberPakhunkhwa" class="right-align" style="display:inline-block;">7,910</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/KPK-icon.png" alt="isb" />
+                                    </div>
+
+
+                                </div>
+                                
+
+
+                                
+                                <div id="divAJKDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Azad Kashmir</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesAzadKashmir">3</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesAzadKashmir">0</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesAzadKashmir">3</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsAzadKashmir">7,914</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsAzadKashmir" class="right-align" style="display:inline-block;">2,191</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/AJK-icon.png" alt="isb" />
+                                    </div>
+
+
+                                </div>
+                                
+
+                                
+                                <div id="divGBDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Gilgit Baltistan</p>
+                                    <table class="row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Cities</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCitiesGilgitBaltistan">2</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">VU Own Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class=" img-fluid" src="/img/vucamp/vu-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblOwnCampusesGilgitBaltistan">0</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Private Campuses</td>
+                                            <td class=" left-icon">
+                                                <img class="  img-fluid " src="/img/vucamp/private-campus.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblPrivateCampusesGilgitBaltistan">2</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsGilgitBaltistan">1,984</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsGilgitBaltistan" class="right-align" style="display:inline-block;">647</span></td>
+                                        </tr>
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/GB-icon.png" alt="isb" />
+                                    </div>
+
+
+
+                                </div>
+                                
+
+                                
+                                <div id="divOverseasDetails" class=" row text-details" style="visibility: hidden; height: 0px; overflow: hidden;">
+                                    <p style="color: #014D8B; font-weight: 700; font-size: 1.8rem; position: absolute; margin-top: -15px; float: left;">Overseas</p>
+                                    <table class=" row table-content">
+
+                                        <tr>
+
+                                            <td class="map-text-color">Countries</td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/cities.png" alt="location" />
+                                            </td>
+                                            <td class="number">
+                                                <span id="lblCountriesOverseas">135</span></td>
+                                        </tr>
+
+                                        <tr>
+
+                                            <td class="map-text-color">Enrolled Students
+                                                                <div class="HeadingColor font-weight-bold font-13">Since 2002</div>
+                                            </td>
+                                            <td class=" left-icon">
+                                                <img class="img-fluid" src="/img/vucamp/enroll-std.png" alt="location" /></td>
+                                            <td class="number">
+                                                <span id="lblTotalEnrolledStudentsOverseas">17,907</span></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td class="map-text-color pt-0">Active Students</td>
+                                            <td class=" left-icon mt-0" style="padding-top: 0.3rem;">
+                                                <img class=" img-fluid" src="/img/vucamp/active-std.png" alt="location" /></td>
+                                            <td class="number mt-0">
+                                                <span id="lblTotalActiveStudentsOverseas" class="right-align" style="display:inline-block;">2,222</span></td>
+                                        </tr>
+
+
+
+                                    </table>
+                                    <div class=" row left-line isb-icon">
+                                        <img class=" img-fluid" src="/img/vucamp/line.png" />
+                                        <img class="img-fluid" style="margin-top: 20px;" src="/img/vucamp/overseas-icon.png" alt="isb" />
+                                    </div>
+
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-2 setmapwidth">
+                        <a href="PVCs/Default.aspx" target="_PVCs">
+                            <div class="center map-center">
+                                <img id="imgMap" class="img-fluid" src="/img/vucamp/map.png" alt="Pakistan Map" usemap="#image-map" />
+
+                                <map name="image-map">
+                                    <area target="PVC" alt="azadkashmir" title="azadkashmir" href="PVCs/Default.aspx?p=azadkashmir" onmouseover="applyHoverEffect('divCircleAzadKashmir', 'divOvalAzadKashmir' ,'divAJKDetails' , 'AJK-map.png')" onmouseout="removeHoverEffect()" coords="485,154,471,166,455,172,443,176,434,181,423,173,418,172,412,166,397,164,389,167,383,177,379,193,379,203,379,214,382,220,389,224,400,227,403,236,413,237,425,242,434,241,442,246,455,246,469,252,481,250,487,245,489,237,484,229,481,221,477,210,487,209,494,207,499,199,513,190,518,182,518,174,506,164,494,160" shape="poly" />
+                                    <area target="PVC" alt="GB" title="GB" href="PVCs/Default.aspx?p=gilgitbaltistan" onmouseover="applyHoverEffect('divCircleGilgitBaltistan', 'divOvalGilgitBaltistan' ,'divGBDetails' , 'GB-map.png')" onmouseout="removeHoverEffect()" coords="396,112,386,119,378,120,371,126,364,135,361,144,371,141,385,151,389,161,408,164,417,170,426,174,431,178,451,172,471,163,483,152,473,151,459,150,456,141,451,136,444,124,436,116,427,112,418,107,412,111,403,114" shape="poly" />
+                                    <area target="PVC" alt="Blochistan" title="Blochistan" href="PVCs/Default.aspx?p=blochistan" onmouseover="applyHoverEffect('divCircleBlochistan', 'divOvalBlochistan' ,'divBlochistanDetails', 'blochistan-map.png')" onmouseout="removeHoverEffect()" coords="279,251,271,260,267,254,258,254,249,259,237,260,237,267,222,268,213,273,202,284,203,294,196,306,173,312,149,318,124,319,77,310,93,340,105,355,114,355,114,374,118,387,107,391,89,405,83,428,95,444,110,438,140,438,166,438,199,429,215,419,223,408,216,392,215,366,224,359,233,353,247,345,263,342,271,341,279,329,279,320,283,311,285,298,291,289,296,271,291,263,286,254" shape="poly" />
+                                    <area target="PVC" alt="sindh" title="sindh" href="PVCs/Default.aspx?p=sindh" onmouseover="applyHoverEffect('divCircleSindh', 'divOvalSindh', 'divSindhDetails', 'sindh-map.png')" onmouseout="removeHoverEffect()" coords="276,344,286,358,294,367,285,383,276,396,291,402,288,409,287,419,295,416,300,423,306,439,310,456,302,463,291,460,285,463,280,464,269,464,262,464,253,466,245,473,235,476,224,473,218,463,215,454,207,447,198,441,205,433,217,424,219,411,220,399,215,376,222,365,231,359,238,353,247,349,262,343" shape="poly" />
+                                    <area target="PVC" alt="Isb" title="Isb" href="PVCs/Default.aspx?p=islamabad" onmouseover="applyHoverEffect('divCircleIsb', 'divOvalIsb', 'divIsbDetails' , 'isb-map.png' )" onmouseout="removeHoverEffect()" coords="361,221,12" shape="circle" />
+                                    <area target="PVC" alt="punjab" title="punjab" href="PVCs/Default.aspx?p=punjab" onmouseover="applyHoverEffect('divCirclePunjab', 'divOvalPunjab', 'divPunjabDetails', 'punjab-map.png')" onmouseout="removeHoverEffect()" coords="275,340,281,323,287,294,296,278,312,271,322,251,323,228,339,223,345,216,345,203,361,202,375,207,380,212,388,225,400,229,410,239,418,239,424,253,420,260,411,260,408,270,408,282,399,291,390,301,390,308,381,311,373,315,369,332,351,344,342,359,329,369,313,370,305,370,296,367,288,362,284,354" shape="poly" />
+                                    <area target="PVC" alt="KPK" title="KPK" href="PVCs/Default.aspx?p=kyberpakhunkhwa" onmouseover="applyHoverEffect('divCircleKyberPakhunkhwa', 'divOvalKyberPakhunkhwa','divKPKDetails' , 'KPK-map.png')" onmouseout="removeHoverEffect()" coords="391,113,375,114,364,116,347,120,341,131,330,138,339,150,332,168,323,180,320,186,315,194,304,194,292,194,298,207,302,215,286,219,277,231,273,241,277,248,285,249,295,266,299,273,308,268,319,251,322,229,328,221,337,217,348,205,350,196,360,196,373,200,380,202,382,183,393,167,384,152,375,147,366,142,360,139,370,124,382,118" shape="poly" />
+                                </map>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 mb-2">
+                        <div class="map-right">
+
+                            <div class="row" style="margin-left: -170px;">
+
+                                <a href="PVCs/Default.aspx?p=azadkashmir">
+                                    <div class="circle  colorPakistan" id="divCirclePakistan" onmouseover="applyHoverEffect('divCirclePakistan', 'divOvalPakistan' ,'divPakistanDetails' , 'Pakistan-map.png')" onmouseout="removeHoverEffect()">
+                                        <span style="margin-left: -10px;">
+                                            <span id="lblTotalCitiesPakistan">137</span></span>
+                                    </div>
+                                    <div class="ovel colorPakistan" id="divOvalPakistan" onmouseover="applyHoverEffect('divCirclePakistan', 'divOvalPakistan' ,'divPakistanDetails'  , 'Pakistan-map.png')" onmouseout="removeHoverEffect()">
+                                        Pakistan                                        
+                                    </div>
+                                </a>
+
+
+                            </div>
+                            <div class="row" style="margin-left: -100px;">
+
+                                <a href="PVCs/Default.aspx?p=azadkashmir">
+                                    <div class="circle  colorAJK" id="divCircleAzadKashmir" onmouseover="applyHoverEffect('divCircleAzadKashmir', 'divOvalAzadKashmir' ,'divAJKDetails' , 'AJK-map.png')" onmouseout="removeHoverEffect()">
+                                        <span>
+                                            <span id="lblTotalCampusesAzadKashmir">3</span></span>
+                                    </div>
+                                    <div class="ovel colorAJK" id="divOvalAzadKashmir" onmouseover="applyHoverEffect('divCircleAzadKashmir', 'divOvalAzadKashmir' ,'divAJKDetails' , 'AJK-map.png')" onmouseout="removeHoverEffect()">
+                                        Azad Kashmir                                          
+                                    </div>
+                                </a>
+
+
+                            </div>
+
+                            <div class="row" style="margin-left: -60px;">
+
+                                <a href="PVCs/Default.aspx?p=blochistan">
+                                    <div class="circle  colorblochistan" id="divCircleBlochistan" onmouseover="applyHoverEffect('divCircleBlochistan', 'divOvalBlochistan' ,'divBlochistanDetails', 'blochistan-map.png')" onmouseout="removeHoverEffect()">
+                                        <span>
+                                            <span id="lblTotalCampusesBlochistan">7</span></span>
+                                    </div>
+                                    <div class="ovel colorblochistan" id="divOvalBlochistan" onmouseover="applyHoverEffect('divCircleBlochistan', 'divOvalBlochistan' ,'divBlochistanDetails', 'blochistan-map.png')" onmouseout="removeHoverEffect()">
+                                        Balochistan                                                  
+                                    </div>
+                                </a>
+
+
+                            </div>
+
+                            <div class="row" style="margin-left: -20px;">
+
+                                <a href="PVCs/Default.aspx?p=gilgitbaltistan">
+                                    <div class="circle  colorGB" id="divCircleGilgitBaltistan" onmouseover="applyHoverEffect('divCircleGilgitBaltistan', 'divOvalGilgitBaltistan' ,'divGBDetails' , 'GB-map.png')" onmouseout="removeHoverEffect()">
+                                        <span>
+                                            <span id="lblTotalCampusesGilgitBaltistan">2</span></span>
+                                    </div>
+                                    <div class="ovel colorGB" id="divOvalGilgitBaltistan" onmouseover="applyHoverEffect('divCircleGilgitBaltistan', 'divOvalGilgitBaltistan' ,'divGBDetails'  , 'GB-map.png')" onmouseout="removeHoverEffect()">
+                                        Gilgit Baltistan                                                   
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="row" style="margin-left: 0px;">
+                                <a href="PVCs/Default.aspx?p=islamabad">
+                                    <div class="circle colorisb " id="divCircleIsb" onmouseover="applyHoverEffect('divCircleIsb', 'divOvalIsb', 'divIsbDetails' , 'isb-map.png' )" onmouseout="removeHoverEffect()">
+                                        <span>
+                                            <span id="lblTotalCampusesIslamabad">4</span></span>
+                                    </div>
+                                    <div class="ovel colorisb" id="divOvalIsb" onmouseover="applyHoverEffect('divCircleIsb', 'divOvalIsb', 'divIsbDetails', 'isb-map.png' )" onmouseout="removeHoverEffect()">
+                                        Islamabad                                                     
+                                    </div>
+                                </a>
+
+
+
+                            </div>
+                            <div class="row" style="margin-left: -20px;">
+
+                                <a href="PVCs/Default.aspx?p=kyberpakhunkhwa">
+                                    <div class="circle  colorKPK" id="divCircleKyberPakhunkhwa" onmouseover="applyHoverEffect('divCircleKyberPakhunkhwa', 'divOvalKyberPakhunkhwa','divKPKDetails' , 'KPK-map.png')" onmouseout="removeHoverEffect()">
+                                        <span style="margin-left: -5px;">
+                                            <span id="lblTotalCampusesKyberPakhunkhwa">16</span></span>
+                                    </div>
+                                    <div class="ovel colorKPK" id="divOvalKyberPakhunkhwa" onmouseover="applyHoverEffect('divCircleKyberPakhunkhwa', 'divOvalKyberPakhunkhwa' ,'divKPKDetails' , 'KPK-map.png')" onmouseout="removeHoverEffect()">
+                                        Khyber Pakhtunkhwa                       
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="row" style="margin-left: -60px;">
+
+                                <a href="PVCs/Default.aspx?p=overseas">
+                                    <div class="circle  coloroverseas" id="divCircleoverseas" onmouseover="applyHoverEffect('divCircleoverseas', 'divOvaloverseas' ,'divOverseasDetails'  , 'Overseas-map.png')" onmouseout="removeHoverEffect()">
+                                        <span style="margin-left: -5px;">
+                                            <span id="lblTotalCampusesOverseas">135</span></span>
+                                    </div>
+                                    <div class="ovel coloroverseas" id="divOvaloverseas" onmouseover="applyHoverEffect('divCircleoverseas', 'divOvaloverseas','divOverseasDetails'  , 'Overseas-map.png')" onmouseout="removeHoverEffect()">
+                                        Overseas                                               
+                                    </div>
+                                </a>
+
+
+
+                            </div>
+                            <div class="row" style="margin-left: -100px;">
+
+                                <a href="PVCs/Default.aspx?p=punjab">
+                                    <div class="circle  colorpunjab" id="divCirclePunjab" onmouseover="applyHoverEffect('divCirclePunjab', 'divOvalPunjab', 'divPunjabDetails', 'punjab-map.png')" onmouseout="removeHoverEffect()">
+                                        <span style="margin-left: -10px;">
+                                            <span id="lblTotalCampusesPunjab">155</span></span>
+                                    </div>
+                                    <div class="ovel colorpunjab" id="divOvalPunjab" onmouseover="applyHoverEffect('divCirclePunjab', 'divOvalPunjab', 'divPunjabDetails' , 'punjab-map.png')" onmouseout="removeHoverEffect()">
+                                        Punjab                                              
+                                    </div>
+                                </a>
+
+
+                            </div>
+                            <div class="row" style="margin-left: -170px;">
+                                <a href="PVCs/Default.aspx?p=sindh">
+                                    <div class="circle  colorsindh" id="divCircleSindh" onmouseover="applyHoverEffect('divCircleSindh', 'divOvalSindh', 'divSindhDetails', 'sindh-map.png')" onmouseout="removeHoverEffect()">
+                                        <span style="margin-left: -4px;">
+                                            <span id="lblTotalCampusesSindh">23</span></span>
+                                    </div>
+                                    <div class="ovel colorsindh" id="divOvalSindh" onmouseover="applyHoverEffect('divCircleSindh', 'divOvalSindh', 'divSindhDetails', 'sindh-map.png')" onmouseout="removeHoverEffect()">
+                                        Sindh                                                     
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <!--Footer Widget Area Start-->
+
+        
+
+                                                 </div>
+
+                                             </div>
+
+
+                                         </div>
+                                     </div>
+<!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4NVQCFRG5"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'G-Q4NVQCFRG5');</script>
+<div class="footer-widget-area">
+    <div class="container-left">
+
+         <div class="single-logo mb-5">
+                <h2> GET IN TOUCH</h2>
+            </div>
+
+
+
+        <div class="footer-bg-blur p-xl-6 p-lg-6 p-md-6 p-sm-0 p-xs-0 m-xl-5 m-lg-5 m-md-5 m-sm-0 m-xs-0">
+            
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12">
+
+                    <div  class="single-footer-widget pl-xl-3 pl-lg-3 pl-md-3 pl-sm-4 pl-xs-4 pr-sm-4 pr-xs-4">
+                        <h3 class="footer-heading-text mt-xl-0 mt-lg-0 mt-md-5 mt-sm-0 mt-xs-0">Head Office (Islamabad)</h3>
+                        
+                            <a href="tel:009251111880880">
+                                <span>
+                                    <img class="img-responsive  icon-phone" src="/img/footer/phone.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-phone" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">+92 (51) 111 880 880</h2>
+                            </a>
+
+
+
+                        
+                            <a href="tel:00923041110880">
+                                <span>
+                                    <img class="img-responsive icon-mobile" src="/img/footer/mobile.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-mobile" src="/img/footer/line.png" alt="Phone">
+                                </span>
+                                
+                                    <h2 style="margin-top: -36px;" class="text-space">  1288 (For Admissions Related Queries)</h2>
+                                
+                            </a>
+
+                        
+
+
+                        
+                            <a>
+                                <span>
+                                    <img class="img-responsive icon-map" src="/img/footer/map.png" alt="Phone"></span>
+                                <span>
+                                    <img class="img-responsive footer-icon-map" src="/img/footer/line.png" alt="Phone">
+                                </span>
+
+                                <a href="https://maps.app.goo.gl/cvkJdpp2EXnXHWuQ7" target="_blank">
+                                    <h2  class="text-space-map text-space">Sir Syed Memorial Society Building, 19-Ataturk Avenue, G-5/1, Islamabad</h2>
+                                </a>
+                            </a>
+
+                        <a href="mailto:info@vu.edu.pk">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/envelope.png" alt="Phone"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">info@vu.edu.pk</h2>
+                        </a>
+
+                        <a href="https://www.vu.edu.pk/contact" target="_contactus">
+                            <span>
+                                <img class="img-responsive icon-contactus" src="/img/footer/contactus.png" alt="contactus"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="contactus">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Contact Us</h2>
+                        </a>
+
+                          <a href="https://www.vu.edu.pk/SupportSystem/" target="_help">
+                            <span>
+                                <img class="img-responsive icon-email" src="/img/footer/help.png" alt="help"></span>
+                            <span>
+                                <img class="img-responsive footer-icon-email" src="/img/footer/line.png" alt="Phone">
+                            </span>
+                            <h2 style="margin-top: -42px;" class="text-space pt-2">Help</h2>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-12 pr-4">
+                    
+                    <div class=" img-responive footer-logo visible-logo">
+                        
+                            <img class="mr-3" src="/img/footer/logo_govt_of_pakistan.png">
+                        
+                        
+                            <img class="imagedisplay" src="/img/footer/star-VU--white.png" alt="">
+                        
+                    </div>
+                    <div class="follow-us visible-logo">
+                        <h3>Follow Us</h3>
+                    </div>
+
+
+
+                    <div class="img-responive footer-line visible-logo">                        
+                            <img src="/img/footer/footer-line.png" alt="">
+                    </div>
+                
+
+
+
+                    <div class="social-icon-new p-lg-0 pl-sm-5 pl-xs-5 pb-sm-3 pb-xs-3">
+
+                        <a href="https://www.facebook.com/VirtualUniversityOfPakistan" target="_blank">
+                            <img class="img-responsive" src="/img/footer/facebook-square.png" alt="Facebook" />
+                        </a>
+
+                        <a href="https://twitter.com/VUPakistan" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/twitter.png" alt="Phone" />
+                        </a>
+                        <a href="https://www.instagram.com/virtualuniversityofpakistan/?hl=en" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/instagram.png" alt="Phone" />
+                        </a>
+
+                        <a href="https://www.youtube.com/vu" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/youtube.png" alt="Phone" height="33" />
+                        </a>
+
+                        <a href="https://pk.linkedin.com/school/virtual-university-of-pakistan/?trk=public_profile_topcard-school" target="_blank">
+                            <img class="img-responsive pl-2" src="/img/footer/linkedin.png" alt="Phone" />
+                        </a>
+                    </div>
+
+                    
+
+                </div>
+                
+                
+
+            </div>
+            
+            
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--End of Footer Widget Area-->
+<!--Footer Area Start-->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-7 col-12">
+                <div class="content">
+                    © Virtual University of Pakistan <a href="/sitemap.aspx" class="font-13">(Site Map)</a>                   
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-12">
+                <div class="column-right content">                    
+                    <span class="font-13">Designed and Developed by IT Department</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+  </div>
+                             <!--End of Bg White-->
+                          </div> 
+
+
+                                 <!--End of Footer Area-->
+                             
+                             <!--End of Bg White-->
+                         
+                             <!--End of Main Wrapper Area-->
+                             
+                             <!-- jquery
+    ============================================ -->
+                             <script src="/js/vendor/jquery-1.12.4.min.js"></script>
+                            <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+                             <!-- popper JS
+    ============================================ -->
+                             <script src="/js/popper.min.js"></script>
+
+                             <!-- bootstrap JS
+    ============================================ -->
+                             <script src="/js/bootstrap.min.js"></script>
+
+                             <!-- AJax Mail JS
+    ============================================ -->
+                             <script src="/js/ajax-mail.js"></script>
+
+                            
+                             <!-- plugins JS
+    ============================================ -->
+                             <script src="/js/plugins.js"></script>
+                             <script src="/js/main.js"></script>
+                                               </script>                                     </script>
+                           
+<script src="/js/switcher/styleswitch.js"></script>
+
+
+
+
+
+        <!--End of Footer Area-->
+
+        <!--End of Main Wrapper Area-->
+
+        <!-- jquery -->
+
+        <!-- ============================================ -->
+
+
+
+
+        
+
+
+        <!-- main JS
+    ============================================ -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <script type="text/javascript">
+            AOS.init();
+
+        </script>
+
+    </form>
+
+    <script src="js/bxslider/jquery.min.js"></script>
+    <script src="js/bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+
+        $("body").on("mousedown", ".bx-viewport a", function () {
+            if ($(this).attr("href") && $(this).attr("href") != "#") {
+                window.location = $(this).attr("href");
+            }
+        });
+
+
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            /*slideWidth: 1920,*/
+            responsive: true,
+            adaptiveHeight: true,
+            slideWidth: 0,
+            speed: 1000,
+            pause: 6000,
+        });
+
+        function adjustSliderForMobile() {
+            const slider = document.getElementById('bxslider');
+            if (window.innerWidth <= 578) {
+                const translateX = -window.innerWidth * 0.98; // Adjust the multiplier as needed
+                slider.style.transform = `translate3d(${translateX}px, 0px, 0px)`;
+            } else {
+                slider.style.transform = ''; // Resets for larger screens
+            }
+        }
+
+        // Run the function initially and on resize
+        window.addEventListener('resize', adjustSliderForMobile);
+        adjustSliderForMobile();
+
+    </script>
+</body>
+</html>
+

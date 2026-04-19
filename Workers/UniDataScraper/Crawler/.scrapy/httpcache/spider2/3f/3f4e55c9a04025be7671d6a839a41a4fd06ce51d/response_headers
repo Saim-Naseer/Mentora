@@ -1,0 +1,12 @@
+Content-Length: 111
+Date: Fri, 27 Mar 2026 06:05:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Vary: Accept-Encoding
+Link: <https://giki.edu.pk/wp-json/>; rel="https://api.w.org/"
+Link: <https://giki.edu.pk/dv0t>; rel=shortlink
+X-Tec-Api-Version: v1
+X-Tec-Api-Root: https://giki.edu.pk/wp-json/tribe/events/v1/
+X-Tec-Api-Origin: https://giki.edu.pk
+Set-Cookie: __google_un=1; path=/
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8

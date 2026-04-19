@@ -1,0 +1,12 @@
+Content-Length: 146
+X-Powered-By: PHP/8.3.30
+Link: <https://iobm.edu.pk/wp-json/>; rel="https://api.w.org/"
+Content-Type: text/plain; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Sun, 19 Apr 2026 00:00:27 GMT
+Server: LiteSpeed
+Platform: hostinger
+Panel: hpanel
+Content-Security-Policy: upgrade-insecure-requests
+Alt-Svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"

@@ -1,0 +1,13 @@
+Date: Fri, 27 Mar 2026 06:24:55 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+X-Powered-By: PHP/7.4.32
+X-Frame-Options: SAMEORIGIN
+Link: <https://facs.uet.edu.pk/wp-json/>; rel="https://api.w.org/", <https://facs.uet.edu.pk/wp-json/wp/v2/pages/150>; rel="alternate"; title="JSON"; type="application/json", <https://facs.uet.edu.pk/>; rel=shortlink
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=sf7WNdQhiRpXra2kbuZV%2FSjiRRqW%2BSbBTRZFOVQqq9cysg%2FkQ3pNi8HUG38Cm7f98a3jBnfk7h5d3QsADU6GHg3qcaz3lzhwirXTz%2B%2FUXaad6wxKuM7z%2F8ZZZMMkgx2Lq4E%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=864
+Content-Encoding: gzip
+Cf-Ray: 9e2c50984905ff93-SIN

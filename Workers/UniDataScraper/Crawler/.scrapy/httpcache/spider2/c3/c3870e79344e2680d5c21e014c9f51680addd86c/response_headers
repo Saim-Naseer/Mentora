@@ -1,0 +1,10 @@
+Date: Fri, 27 Mar 2026 06:22:40 GMT
+Content-Type: text/html;charset=UTF-8
+Server: cloudflare
+Location: https://fsd.uet.edu.pk/
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=37sUXyDPg3U%2Fq7vQ5wuyW7Tc8Bpj8O7V5AhNsGVPs2nooVYlPuQhXBSlfiTfT1hfarTrFIITPUmzP4%2FROaqAZmdzpN4sJ%2Fy7hmqN%2F3lmifE4CqMP9jzueUsSzygVUIPOmQ%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=9,cfOrigin;dur=203
+Cf-Ray: 9e2c4d5048a7ff87-SIN

@@ -1,0 +1,6 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.14.2 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Referer: https://admissions.iqra.edu.pk/
+Cookie: frontend_lang=en_US; session_id=3487e27de0a079c3426828b2d5100620c3224c9d

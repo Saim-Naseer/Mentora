@@ -1,0 +1,13 @@
+Date: Fri, 27 Mar 2026 06:23:26 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+X-Powered-By: PHP/7.4.32
+X-Frame-Options: SAMEORIGIN
+Link: <https://fsd.uet.edu.pk/wp-json/>; rel="https://api.w.org/", <https://fsd.uet.edu.pk/wp-json/wp/v2/pages/1098>; rel="alternate"; title="JSON"; type="application/json", <https://fsd.uet.edu.pk/>; rel=shortlink
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9DBIBuGw5zxch25rrgSfXuiBSisa389ZV2UfjJrp3HUTnM4Z%2B5PlTu3YExVHMA623yJwx%2FMLf%2FbrOe2J5p4bJQ18WA8UqW%2BTlmya1VWaQOlgQII3wjWqYFVfl3C1umJ6wg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=840
+Content-Encoding: gzip
+Cf-Ray: 9e2c4e6adb95fdfe-SIN

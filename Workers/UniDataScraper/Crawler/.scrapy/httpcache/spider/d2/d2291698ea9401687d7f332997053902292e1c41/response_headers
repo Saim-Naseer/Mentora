@@ -1,0 +1,12 @@
+Date: Fri, 27 Mar 2026 00:49:54 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+X-Powered-By: PHP/7.4.32
+Link: <https://nwl.uet.edu.pk/wp-json/>; rel="https://api.w.org/", <https://nwl.uet.edu.pk/wp-json/wp/v2/pages/60>; rel="alternate"; title="JSON"; type="application/json", <https://nwl.uet.edu.pk/>; rel=shortlink
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Jt9WYBt%2BgvA%2Fq2d0rRM5CYydl9npXMo8pHFmdjWEUGv0IAsukk6O%2BZTPkgl%2BNbO%2F50yeJEW9o%2BvRUR5laUyoOneEEps5IQqWTTVrsI81uKJZGom3nXsqMiQcxLmbEJAAyg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=647
+Content-Encoding: gzip
+Cf-Ray: 9e2a65d8486d09e6-LHE

@@ -1,0 +1,15 @@
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 19 Apr 2026 00:00:38 GMT
+Server: nginx
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Powered-By: PHP/8.3.29
+X-Litespeed-Tag: a98_HTTP.200
+Link: <https://gcuf.edu.pk/wp-json/>; rel="https://api.w.org/"
+Link: <https://gcuf.edu.pk/wp-json/wp/v2/pages/165>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://gcuf.edu.pk/>; rel=shortlink
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
+Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self)

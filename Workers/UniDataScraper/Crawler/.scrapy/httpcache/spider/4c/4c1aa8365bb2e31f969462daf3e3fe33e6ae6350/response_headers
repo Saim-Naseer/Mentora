@@ -1,0 +1,16 @@
+Date: Fri, 27 Mar 2026 00:35:01 GMT
+Content-Type: text/plain; charset=utf-8
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DFA1zy2JcXtulRgJ8b1cDOK1bFv1w92W%2FxTAFff3kXDoaxowV7P7az3qhq%2BPIp7e22MguifA%2Bn%2FJOergJ76%2BViUd9V9vVLnsHzirUokGQezv5FJBupQmMI363C5y"}]}
+Vary: Accept-Encoding
+Server: cloudflare
+Link: <https://nust.edu.pk/wp-json/>; rel="https://api.w.org/"
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Server-Timing: cfCacheStatus;desc="MISS"
+Server-Timing: cfEdge;dur=25,cfOrigin;dur=497
+Last-Modified: Fri, 27 Mar 2026 00:35:01 GMT
+Cache-Control: max-age=14400
+Cf-Cache-Status: MISS
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Content-Encoding: gzip
+Cf-Ray: 9e2a500d3afd997c-LHE

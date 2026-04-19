@@ -1,0 +1,763 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+    <meta name="language" content="English" />
+	<meta name="copyright" content="CITS UoP" />
+				<meta name="author" content="CITS UoP" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     	<title>University of Peshawar</title>
+
+	<meta name="description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+	<meta name="keywords" content="uop, upesh, Peshawar University, university of peshawar, upesh peshawar, univ peshawar, kpk University, khyber pukhtunkhwa university, kpk govt universtiy, government university, public sector university, peshawar, peshawar pakistan, university in pakistan, FATA, FATA Univeristy, KPK" />
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.uop.edu.pk/images/favicon.png">
+      <meta property="og:image" content="
+      http://www.uop.edu.pk/images/img-3.jpg      "/>
+	<meta property="og:title" content="University of Peshawar" />
+	<meta property="og:site_name" content="University of Peshawar" />
+	<meta property="og:description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+    <!--
+    
+  /$$$$$$        /$$$$$$       /$$$$$$$$        /$$$$$$                      /$$   /$$                       /$$$$$$$ 
+ /$$__  $$      |_  $$_/      |__  $$__/       /$$__  $$                    | $$  | $$                      | $$__  $$
+| $$  \__/        | $$           | $$         | $$  \__/                    | $$  | $$        /$$$$$$       | $$  \ $$
+| $$              | $$           | $$         |  $$$$$$        /$$$$$$      | $$  | $$       /$$__  $$      | $$$$$$$/
+| $$              | $$           | $$          \____  $$      |______/      | $$  | $$      | $$  \ $$      | $$____/ 
+| $$    $$        | $$           | $$          /$$  \ $$                    | $$  | $$      | $$  | $$      | $$      
+|  $$$$$$/       /$$$$$$         | $$         |  $$$$$$/                    |  $$$$$$/      |  $$$$$$/      | $$      
+ \______/       |______/         |__/          \______/                      \______/        \______/       |__/      
+                                                                                                                      
+                                                                                                                      
+ Centre for I.T Services, 
+ University of Peshawar, Pakistan                                                                                                                
+    
+    -->
+    
+    
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/prettyPhoto.css" />
+    	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/stylemobile.css" />
+
+	<!-- <link href='../../../../fonts.googleapis.com/css_d229e2d1.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_ea4516fe.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_6d8124a6.css' rel='stylesheet' type='text/css' /> -->
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/mobilenavigation.css" />
+	<script src="http://www.uop.edu.pk/script/modernizr.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.js" type="text/javascript"></script>
+    <script src="http://www.uop.edu.pk/script/jquery-ui.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.retina.js" type="text/javascript"></script>
+        	<script src="http://www.uop.edu.pk/script/scripts.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function (){
+        $(window).scroll(function () {
+            if ($(document).scrollTop() <= 40) {
+                $('#header-full').removeClass('small');
+                $('.tabs-blur').removeClass('no-blur');
+                $('#main-header').removeClass('small');
+            } else {
+                $('#header-full').addClass('small');
+                $('.tabs-blur').addClass('no-blur');
+                $('#main-header').addClass('small');
+            }
+        });
+        
+        $("a[data-rel^='prettyPhoto']").prettyPhoto({
+			default_width: 600,
+			default_height: 420,
+			social_tools: false
+		});
+      /*  $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } }); */
+        $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
+		$('.slider-tabs.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('.slider-partners.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true,
+            itemWidth: 163,
+            itemMargin: 0
+        });
+		$('#slider-news.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('#slider-event.flexslider').flexslider({
+            animation: "fade",
+            pauseOnAction: true
+        });
+		$( ".accordion" ).accordion({
+	        heightStyle: "content"
+        });
+		$('a[data-rel]').each(function() {
+			$(this).attr('rel', $(this).data('rel'));
+		});
+		$('img[data-retina]').retina({checkIfImageExists: true});
+		$(".open-menu").click(function(){
+		    $("body").addClass("no-move");
+		});
+		$(".close-menu, .close-menu-big").click(function(){
+		    $("body").removeClass("no-move");
+		});
+	});
+	</script>
+      <script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#slideshow-tabs").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 8000, true);
+		
+	});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63785890-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+  (function() {
+    var cx = '009134963228199774510:9nseutcvucc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!-- Popup......... start.... -->
+<style type="text/css">
+	/* popup .................*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+
+
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+	</style>
+<script type="text/javascript">
+$(document).ready(function() {    
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.9);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+</script>
+<!-- popup data end... -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<header id="main-header" class="clearfix">
+        <div id="header-full" class="clearfix">
+            <div id="header" class="clearfix">
+                <a href="#nav" class="open-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</a>
+                <a href="http://www.uop.edu.pk/" id="logo"><img src="http://www.uop.edu.pk/images/uop-logo-75-f.png" data-retina="http://www.uop.edu.pk/images/logo.png" alt="University of Peshawar Logo" /></a>
+                <aside id="header-content">
+                   <form method="get" action="http://www.uop.edu.pk/search" id="searchform" />
+                    
+                        <div>
+                            <input type="text" name="q" class="input" id="s" />
+                            <input type="submit"  class="button"  />
+
+                        </div>
+                    </form>
+                   <ul id="nav-header">
+          <!--        <li><a href="http://www.uop.edu.pk/contacts/feedback.php">Grievance Redressal Cell</a></li>    -->   
+
+ <li><a href="https://www.google.com/a/uop.edu.pk/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">Email</a></li>
+                        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li>
+  <li><a href="http://lms.uop.edu.pk/portal/" >UoP-LMS</a></li>
+  <li><a href="http://www.uop.edu.pk/tender/" >Tenders</a></li>
+                        <li><a href="http://www.uop.edu.pk/jobs/" >Jobs</a></li>
+                        
+                <!--        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li> -->
+                        <li><a href="http://www.uop.edu.pk/contacts/" >Contact Us</a></li>
+                      
+                       
+
+                    </ul>
+                     
+                    
+                    <h3 id="slogan">&nbsp;</h3>
+                </aside>
+            </div>
+        </div> 
+
+ <nav id="nav" class="clearfix">
+                    <a href="#" class="close-menu-big">Close</a>
+                    <div id="nav-container">
+                        <a href="#" class="close-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <ul id="nav-main">
+                            <li
+                                                        
+                             ><a href="http://www.uop.edu.pk/">Home</a></li>
+                            <li
+                                                         
+                            ><a href="#">About UOP</a>
+                            <ul>
+                        <li><a href="http://www.uop.edu.pk/about/">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/about/?q=genesis">Genesis</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=vision-mission">Vision & Mission</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=maps-directions">Maps & Directions</a></li>
+                               </ul>
+                            
+                            </li>
+                             <li  ><a href="#">Administration</a>
+                                <ul>
+                                <li><a href="http://www.uop.edu.pk/administration/">Overview</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=statutory-body">Authorities of the University of Peshawar</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=administrative-offices">Administrative Offices</a></li>
+
+
+                                </ul>
+                          </li>
+                            <li   ><a href="#">Admissions</a>
+                                <ul>
+                             <li><a href="http://www.uop.edu.pk/admissions/?q=Overview">Overview</a></li>
+
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Undergraduate">Undergraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Postgraduate">Postgraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Higher-Studies">Higher Studies</a></li>
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid & Scholarships</a></li>
+                                   <!--  <li><a href="http://www.uop.edu.pk/admissions/?q=meritlist">Postgraduate Merit List</a></li> -->
+<!--                                     <li><a href="admissions/?q=FAQs">Frequently Asked Questions</a></li>
+-->                                   <!--  <li><a href="admissions/?q=downloads">Downloads</a></li> -->
+
+                                </ul>
+                      </li>
+                             <li  ><a href="#">Academics</a>
+                                <ul>
+<li> <a href="http://www.uop.edu.pk/departments">Academic Departments</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/">Faculties</a>
+                                    
+                  <!--                   <ul>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Arts-and-Humanities">Arts & Humanities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Islamic-and-Oriental-Studies">Islamic & Oriental Studies</a></li>
+                                     <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Life-and-Environmental-Sciences">Life & Environmental Sciences</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Management-and-Information-Sciences">Management & Information Sciences</a></li>
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Numerical-and-Physical-Sciences">Numerical & Physical Sciences</a></li>
+                                  
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Social-Sciences">Social Sciences</a></li>
+                                     </ul>
+-->
+                                    
+                                    </li>
+                                     <li><a href="#">Research Centres</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/departments/?q=Area-Study-Centre">Area Study Centre</a></li>
+                                    <li><a href="http://nceg.uop.edu.pk/">NCE in Geology</a></li>  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=NCE-in-Physical-Chemistry">NCE in Physical Chemistry</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Pakistan-Study-Centre">Pakistan Study Centre</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Shaykh-Zayed-Islamic-Centre">Shaykh Zayed Islamic Centre</a></li>
+                                     </ul>
+                                    
+                                    </li>
+                                  <li><a href="http://journals.uop.edu.pk/">Research Journals</a></li>
+
+                                     <li><a href="#">Research Labs</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/labs/crl/">Centralized Resource Laboratory</a></li>
+                                      <li><a href="http://www.uop.edu.pk/labs/mrl/">Materials Research Laboratory</a></li></ul></li>
+                                    <li><a href="#">Colleges</a>
+                                    
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=College-of-Home-Economics">College of Home Economics</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Jinnah-College-for-Women">Jinnah College for Women</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Law-College">Law College</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Quaid-e-Azam-College-of-Commerce">Quaid-e-Azam College of Commerce</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-College-for-Boys">University College for Boys</a></li>
+                               </ul>
+                                    
+                                    
+                                    </li>
+                                   <li><a href="#">Schools</a>
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Model-School">University Model School</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Public-School">University Public School</a></li>
+                                  
+                               </ul>
+                                   
+                                   
+                                   </li>
+
+<!-- <li><a href="http://www.uop.edu.pk/affilated-institutes/">Affiliated Institutes</a>
+                              </li> -->
+<li><a href="http://www.uop.edu.pk/dde/">Distance Education</a>
+                              </li> 
+
+ </ul>
+                            
+                             <li  ><a href="#">Examinations</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Overview">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Results">Results</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Private-Examinations">Private Examinations</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Overview&r=Online-Verification-of-Documents">Online Verification</a></li>
+
+  
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Downloads">Downloads</a></li>
+<!--                                     <li><a href="examinations/?q=FAQs">Frequently Asked Questions</a></li>
+-->
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="#">ORIC</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Overview">Overview</a></li>
+                                     <li><a href="http://www.uop.edu.pk/oric/?q=Research-Activities">Research Activities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Industrial-Linkages">Industrial Linkages</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=MOU">MoU</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Funding">Funding</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=downloads">Downloads</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="http://www.uop.edu.pk/qec/">QEC</a>
+                               
+                            </li>
+                   <li  ><a href="http://www.uop.edu.pk/das/">Advanced Studies</a></li>   
+
+<!--<li><a href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></li>  
+
+-->
+      
+                      </ul>
+                      
+                     
+              <!-- <a href="http://www.uop.edu.pk/fro/" id="button-registration">Get Involved</a>  
+<a href="http://www.uop.edu.pk/online/" id="button-registration">Online Learning</a>  -->
+</div> 
+                </nav>
+    </header>
+
+    <div id="content-container">
+        <div id="content" class="clearfix">
+
+            <div id="main-content">
+                            <div style="margin-bottom:12px;"></div>
+                				
+				<article class="static-page">
+				
+				
+				
+				
+                    
+
+
+
+<ul id="list-category-team">
+                        <li class='current-menu-item' >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Economics">Overview</a>
+                        </li>
+                        
+                        <li   >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Economics&r=Teaching-Faculty">Teaching Faculty</a>
+                        </li>
+                        
+                        <li  >
+                       		 <a href="http://www.uop.edu.pk/departments/?q=Department-of-Economics&r=Academic-Programs">Academic Programs</a></li>
+                         
+					 
+					   
+					 
+					 
+					 
+					 
+					 
+                      
+                       
+                        <li  >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Economics&r=Graduates">Successful Graduates</a>
+                        </li>
+                       
+                     
+                     
+                         
+                        <li>
+                        	<a href="http://www.uop.edu.pk/departments/gallery/?q=Department-of-Economics">Gallery</a>
+                        </li>
+                                        </ul>                    <div id="team-container">
+                    
+                       
+<h1 style="margin-top:0px; padding-top:0px;">Department of Economics</h1>
+<h6><strong>Contact No:</strong> +92-91-9216733<br />
+<strong>Email:</strong> economics@uop.edu.pk </h6>
+<div class="separator" > </div>
+	<h2 style="text-align: justify;">
+	<strong font-size:="" new="" style="font-family: " times="">Introduction:</strong></h2>
+<div>
+	With about 700 students, the Department of Economics is one of the largest departments in the University of Peshawar. Founded in 1950 on the principles of intellectual curiosity and scholarly rigor, the Department of Economics aims to nurture the next generation of economists, policymakers, and leaders equipped with the skills and knowledge to address the complex economic challenges facing our society. The Department strives to achieve these goals through a diverse set of academic programs that include a four-year bachelor&rsquo;s degree in Economics (BS Economics), a four-year bachelor&rsquo;s degree in Development Studies (BS Development Studies), an M.Sc. degree in Economics, as well as an MS/M.Phil. and Ph.D. degrees in Economics. The faculty members of the Department of Economics hold doctorates from renowned national and international universities. With a diverse range of expertise spanning macroeconomics, microeconomics, environmental economics, development economics, and more, our faculty members are dedicated to fostering a dynamic learning environment where</div>
+<div>
+	students are encouraged to explore, question, and innovate. In addition to quality teaching, the Department is actively engaged in interdisciplinary</div>
+<div>
+	research that seeks to generate insights and solutions to pressing economic issues at both local and global levels. Through its research, the Department strives to make meaningful contributions to economic policy, development strategies, and sustainable development.</div>
+<h2 style="text-align: justify;">
+	Vision</h2>
+<div>
+	To be a leading center of excellence in economics education, research, and policy analysis, addressing contemporary economic problems, driving positive societal change, and&nbsp;<span style="text-align: justify;">contributing to global economic knowledge through academic empiricism.</span></div>
+<h2 style="text-align: justify;">
+	<strong>Objective</strong></h2>
+<div>
+	The Department of Economics aspires to cultivate a sound learning environment that fosters intellectual curiosity, research and scholarship, critical thinking, and interdisciplinary collaboration, transforming our students into problem solvers equipped with the skills and&nbsp;<span style="text-align: justify;">knowledge to navigate the complexities of national and global economies.</span></div>
+<h2 style="text-align: justify;">
+	Outcomes</h2>
+<div>
+	Graduates of the Department of Economics emerge as skilled individuals equipped with analytical thinking, problem-solving abilities a sound understanding of economic principles and their practical applications. They become productive members of society, making significant contributions across various fields as public servants, economists, advisors,&nbsp;<span style="text-align: justify;">business leaders, and entrepreneurs, among others.</span></div>
+<h2>
+	<strong>Infrastructure:</strong></h2>
+<div>
+	The Department has 11 classrooms, 12 offices for the faculty, and 05 offices for the administrative staff. The department has a computer lab having 40 computers and a library with over 50,000 books. The Department has a 100 KW generator which provides electricity without interruption. The Department has two Common rooms; one each for boys and girls.&nbsp;</div>
+<h3>
+	<strong>Number of Students in Academic Programs:</strong></h3>
+<p>
+	The Department of Economics has a diverse pool of young talent in its various academic programs.</p>
+<h2>
+	<strong>Research Areas:</strong></h2>
+<div>
+	The Department of Economics undertakes empirical research in diverse areas such as microeconomics, macroeconomics, environmental economics, development economics, behavioral economics, human capital, population economics, and more.</div>
+<h2>
+	<strong>Projects:</strong></h2>
+<div>
+	The Department has worked on a World Bank project in collaboration with the Khyber Pakhtunkhwa Revenue Authority to check the Sales tax potential for the Khyber</div>
+<div>
+	Pakhtunkhwa Government. The Department further led and completed the Urban Immovable Property Tax (UIPT) project financed by the German Agency for International Cooperation (GIZ).</div>
+<h1>
+	<strong>Courses At Master Level</strong></h1>
+<h2>
+	<strong>M.Sc. (Previous)</strong></h2>
+<h3>
+	<strong>Micro Economic Theory (Mr. Nadeem Iqbal)</strong></h3>
+<p>
+	Here we study economic problems at smaller, individual level which enables the students to understand the concepts of consumer behavior, production theory, Market Organization, General Equilibrium and Welfare Economics.</p>
+<h3>
+	<strong>Macro Economic Theory (Mr. Shafiqullah)</strong></h3>
+<p>
+	Macroeconomics is the study of the structure and performance of National economies and of the policies that governments use to try to effect economic policies. The issues that macro economists address are also focused.</p>
+<h3>
+	<strong>Mathematics for Economist (Mr. Suleman Amin)</strong></h3>
+<p>
+	In this subject, we study the use of mathematical methods and techniques in an effort to construct rigorous and logical economic theories. The actual tools employed in this pursuit include algebra, calculus, Algebraic methods, set theory and other branches of mathematics relevant to Economics. The use of mathematics to economics enables the students to understand concepts that are otherwise not clearly comprehensible.</p>
+<h3>
+	<strong>Basic Statistics and Research Methodology (Dr. Amjad Amin)</strong></h3>
+<p>
+	In this course, students are given the Basics along with advanced statistical tools and techniques, generally used in analyzing economic data. Economics basically deals with both qualitative and quantitative information. This mass of information can only be better understood if properly analyzed and quantified, which can only be done if the Analyst / Economist has sufficient and sound background of analytic tools and Techniques. This can only be done if proper coaching is done with statistical techniques.</p>
+<h3>
+	<strong>Public Finance and Monetary Economics (Prof. Dr. Zilakat Khan Malik)</strong></h3>
+<p>
+	Public Finance deals with finances of the government. The main branches are public revenue, public expenditure, public debt and fiscal policy. Monetary economics deals mainly with the evolution, function and characteristics of money and its role and impact in the prevailing economic system. Alongside, it also discusses functions and role of commercial and central banks.</p>
+<h2>
+	<strong>M.Sc Final</strong></h2>
+<h3>
+	<strong>Econometrics (Compulsory) (Dr. Amjad Amin)</strong></h3>
+<p>
+	This course deals with estimation and fitting of different regression models to economic data. The course mainly includes the topics of simple/multiple regression analysis, violation of basic assumption, non-linear equation, generalized linear regression model and its applications, formulation and estimation of special models e.g. models with dummy variables simultaneous equation system, identification, ILS and 2SLS method for solution of simultaneous equation system.</p>
+<h2>
+	GROUP I</h2>
+<h3>
+	<strong>Development Economics (Dr. Sajjad Ahmad Jan)</strong></h3>
+<p>
+	The study of economic development is one of the newest and most challenging branches of the broader disciplines of economics and political economy. This is a systematic study of the problems and processes of economic development in Africa, Asia and Latin America. It deals with the economics of contemporary, under developed third world nations, varying ideological orientations, diverse cultural backgrounds and very complex yet similar economic problems that usually demand new ideas and novel approaches.</p>
+<h3>
+	<strong>Managerial Economics (Mr. Shafiqullah)</strong></h3>
+<p>
+	Managerial Economics basically deals with the application of economic theory and the tools of analysis of decision science to examine how an organization can achieve its aims or objectives most efficiently. So, the basic emphasis will be on micro and macro economic theory and the tools of mathematical economics and econometrics.</p>
+<h3>
+	<strong>The Economy of Pakistan (Dr. Naila Nazir)</strong></h3>
+<p>
+	The course covers many sectors of the economy like Agricultural Sector, Industrial Sector, Economic Planning and Policies in Pakistan, its natural resources and geographical position, ideological structure, foreign debts, trade, transport and communication and problems faced by nationalized and privatized sectors.</p>
+<h3>
+	<strong>Agricultural Economics (Ms. Sanam Wagma Khattak)</strong></h3>
+<p>
+	The course being with a system introduction to the basic concepts and issues in economics as they relate to agriculture. The course focuses on gaining an understanding of the economics decisions made by consumers and producers. In part, it also focuses on macroeconomics policy and how agriculture affected by policy responses to business fluctuations.</p>
+<h3>
+	<strong>International Economics (Dr. Zilakat Khan Malik)</strong></h3>
+<p>
+	International Economics deal with international trade theory, international trade policy, the balance of payments, Foreign Exchange Market and open Economy. It highlights the problems arising in the international trade, international capital movement, and the operation of Multi-national Corporation and risk of economics collapse.</p>
+<h2>
+	<strong>Group-II</strong></h2>
+<h3>
+	<strong>Economics Analysis of Project Planning and Management. (Mr. Nadeem Iqbal)</strong></h3>
+<p>
+	If proper investment/programmes are to be carried out the subject of project planning cannot be overlooked. This subject basically tells us about the feasibility of investment projects. Projects are generally carried out both under the condition of certainty and uncertainty. This subject basically deals with different tools/techniques by which the students is enabled to analyse the feasibility of the project i.e. through financial analysis techniques generally used to prepare the feasibilities and pre-feasibilities of an investment project and finally to advise the govt., semi govt., and NGOs that whether a particular study should be undertaken or not.</p>
+<h3>
+	<strong>Human Resource Development (Dr. Danish Alam)</strong></h3>
+<p>
+	Human resource Development encompasses activities and processes which are intended to have impact on organizational and individual learrning. Main emphasis will be on education, training and development, leadership development, better subordinate, superior relation carrier planning and development, various job experiences, development of technology and job enrichment.</p>
+<h3>
+	<strong>Economics System of Islam (Dr. Naila Nazir)</strong></h3>
+<p>
+	This subject covers the main features of an Islamic economic system and comparison with other economic system. As the Islamic economics cover all aspects of human life, including consumption, distribution, wages, rent, interest and production, therefore, it importance is increasing day by day. In this subject, we further study different modes of Islamic banking i.e. Modarabas, Musharika, Monetary and fiscal policies of Islamic system and social system of Islamic society.</p>
+<h3>
+	<strong>Industrial Economics (Mr. Suleman Amin)</strong></h3>
+<p>
+	The major thrust is the demonstration of how micro economic theory applies to industrial markets. The course is aimed at students who are encountering the field of industrial economics for the first time. It focuses on the theoretical and empirical aspects of how structure of the organization and conduct affect economic performance and welfare.</p>
+<h3>
+	<strong>Operation Research and Mathematical Programming. (Mr. Nadeem Iqbal)</strong></h3>
+<p>
+	The subject will basically take into consideration in different types of programming techniques used for solving economics and mathematical problems. Emphasis will be on linear programming, integer programming and non linear programming.</p>    
+    
+
+
+
+                       
+                       
+                       
+                       
+                       
+                    </div>
+                </article>
+					            </div>
+         <div id="sidebar">
+                <!-- Side Navigation Bar --->
+                <!-- End....................... ---->
+                                           
+
+<aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+                        
+				            <h3 class="widget-title">News</h3>
+				                <ul class="menu news-sidebar">			
+								   						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=3832">Provisionally admissions for M.Phil & Ph.D. in Economics for the session 2024-25 fall session</a></h4>
+								       <span class="date-news">20 Sep 2024</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=3038">Admission in BS Economics and BS Development Studies</a></h4>
+								       <span class="date-news">02 Sep 2019</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=3028">Admission in "Bachelor in Development Studies (Bs DS)"</a></h4>
+								       <span class="date-news">21 Aug 2019</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=3019">A seminar on “IMF Extended Fund Facility Arrangement for Pakistan”7th August 2019".</a></h4>
+								       <span class="date-news">31 Jul 2019</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=2987">Seminar on "Salient Features of Pakistan's Federal Budget 2019-20" Guest speaker Prof. Dr. Wasim Shahid Malik "Mr. Mahbubur Raschid Chair", State Bank of Pakistan.</a></h4>
+								       <span class="date-news">20 Jun 2019</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=2888">Public Defense of Miss. Ansa Javed Khan, MS (Economics) Scholar, Department of Economics, University of Peshawar</a></h4>
+								       <span class="date-news">07 Jan 2019</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=2836">Alumni Homecoming 2018</a></h4>
+								       <span class="date-news">15 Nov 2018</span>
+						             </li>
+								     						           <li class="clearfix">
+								       
+								       <h4><a href="http://www.uop.edu.pk/news/?q=2814">Re-Scheduling of Seminar on "Monetary Policy Implementation"</a></h4>
+								       <span class="date-news">15 Nov 2018</span>
+						             </li>
+								     
+								</ul>
+								<a href="http://www.uop.edu.pk/news/?q=Department-of-Economics" class="button-more" style="width:150px;">News Archive </a>
+				        </div>
+				    </aside>
+
+
+                						   
+                    <aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+				            <h3 class="widget-title">Upcoming Events</h3>
+				                <ul class="menu event-sidebar">			
+								                                    </ul><a href="http://www.uop.edu.pk/events/?r=Department-of-Economics" class="button-more" style="width:150px;" >Events Archive </a>
+				        </div>
+				    </aside>
+
+
+            </div>
+                            						   
+        </div>
+    </div>
+    <footer id="main-footer" >
+        <div id="blur-top">
+            <a href="#" id="link-back-top">Back to Top</a>
+        </div>
+        <!--<div id="slogan-footer">
+        style="background:url(images/img-8.jpg) no-repeat 50% 0;"
+           <h4>To love and to serve the entire creation of the Creator</h4>
+        </div>-->
+        <div id="footer-content" class="clearfix">
+            <div id="footer-container">
+                <div id="sidebar-footer-left" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix" >
+                            <h3 class="widget-title" style="color:#fff;">Quick Links</h3>
+                            <ul >
+                            <li><strong><a style="color:#fff;" href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></strong></li>
+ <li><a style="color:#fff;" href="http://www.uop.edu.pk/jobs/"><strong>Jobs</strong></a></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/tender/">Tender</a></strong></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/maingallery/">Picture Gallery</a></strong></li>
+                                <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/LifeOnCampus/">Life on Campus</a></strong></li>
+                                                                <li><strong><a style="color:#fff;" href="https://cpec-centre.pk/">CoE-CPEC</a></strong></li>
+
+
+                               <!-- <li><strong><a href="http://www.uop.edu.pk/pio">Public Information Office</a></strong></li>-->
+
+
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div id="sidebar-footer-middle" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix">
+                            <h3 class="widget-title" style="color:#fff;">Campus Location</h3>		
+                            <article class="text-widget " >
+					           <iframe class="map-area" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d6615.401372220392!2d71.48921630340652!3d34.00022108817633!3m2!1i1024!2i768!4f13.1!2m1!1suniversity+of+peshawar!5e0!3m2!1sen!2s!4v1424811883868"></iframe><br />                                   </article>
+                        </div>
+                    </aside>
+                </div>
+                <article id="footer-address" class="clearfix">
+                    <h3 id="title-footer-address"><span>Contact Us</span></h3>
+                    <p style="color:#000;"><strong>
+                    You can contact us via </strong><br />
+
+                      <strong>Phone #:</strong> +92-91-9216701<br />
+                                            <strong>For admissions:</strong> admissions@uop.edu.pk <br />
+                      <strong>For examinations:</strong> controller@uop.edu.pk <br />
+
+                      <strong>For website:</strong> webmaster@uop.edu.pk <br />
+                  </p>
+                   
+                    <ul id="list-social" class="clearfix">
+                        <li id="icon-facebook"><a href="https://www.facebook.com/UniversityOfPeshawarOfficialPage">Facebook</a></li>
+                        <li id="icon-twitter"><a href="https://twitter.com/upeshpakistan">Twitter</a></li>
+                        <li id="icon-gplus"><a href="http://www.google.com/+UoPEduPkOfficial">Google Plus</a></li>
+                        <li id="icon-linkedin"><a href="#">Linkedin</a></li>
+                        <li id="icon-youtube"><a href="#">Youtube</a></li>
+                        <li id="icon-flickr" class="last"><a href="#">Flickr</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+                <div id="footer-copyright">
+            <div id="footer-copyright-content" class="clearfix">
+               
+                <p id="text-address">University of Peshawar</p>
+               
+                <p id="text-copyright">Copyright &copy; 2024. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

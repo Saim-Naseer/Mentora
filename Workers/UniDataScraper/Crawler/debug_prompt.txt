@@ -1,0 +1,19 @@
+{
+    "links": [
+        "https://usindh.edu.pk/faculty/fcba",
+        "https://usindh.edu.pk/faculty/fss",
+        "https://usindh.edu.pk/faculty/fa",
+        "https://usindh.edu.pk/faculty/fe",
+        "https://usindh.edu.pk/faculty/fis",
+        "https://usindh.edu.pk/faculty/fp",
+        "https://usindh.edu.pk/faculty/flaw",
+        "https://usindh.edu.pk/faculty/fet",
+        "https://usindh.edu.pk/colleges",
+        "https://usindh.edu.pk/page/12",
+        "https://usindh.edu.pk/page/13",
+        "https://usindh.edu.pk/page/16",
+        "https://usindh.edu.pk/page/17",
+        "https://usindh.edu.pk/page/23",
+        "https://usindh.edu.pk/page/24"
+    ]
+}

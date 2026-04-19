@@ -1,0 +1,16 @@
+Date: Sun, 19 Apr 2026 00:00:30 GMT
+Content-Type: text/plain; charset=utf-8
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+X-Robots-Tag: noindex, follow
+Link: <https://www.fccollege.edu.pk/wp-json/>; rel="https://api.w.org/"
+X-Tec-Api-Version: v1
+X-Tec-Api-Root: https://www.fccollege.edu.pk/wp-json/tribe/events/v1/
+X-Tec-Api-Origin: https://www.fccollege.edu.pk
+Cache-Control: private, must-revalidate, max-age=172800
+Expires: Tue, 19 May 2026 00:00:29 GMT
+Vary: Accept-Encoding,User-Agent
+Cf-Cache-Status: BYPASS
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yA7rdQLPTEDcV1yROx6ToIzhKA1C%2BGPQcnS8ZYuyfwkakeLGotJDoXXy6W5Bs5F91K0xRuTFm2lErDe6zhqHI5NfTEG64mB%2FJ9OHrj%2BSsb3PVQv4j7sjXvxfD7mN5yV9gAecHBL1"}]}
+Content-Encoding: gzip
+Cf-Ray: 9ee7a11279b909e6-LHE

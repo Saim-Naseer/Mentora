@@ -1,0 +1,8 @@
+Server: nginx/1.18.0 (Ubuntu)
+Date: Sun, 19 Apr 2026 12:33:35 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: session_id=4973f1d0fb1d94fcc263c4d425248eed567a53af; Expires=Sat, 18-Jul-2026 12:33:35 GMT; Max-Age=7776000; HttpOnly; Path=/
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

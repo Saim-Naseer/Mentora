@@ -1,0 +1,468 @@
+
+
+<!DOCTYPE html>
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.7
+Version: 4.7.5
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+
+<head>
+    <meta charset="utf-8">
+    <title>FAST Center Of Executive Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="FAST - NU" name="university">
+    <meta content="Online Application" name="online">
+    <meta content="apply" name="apply">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all?v=24" rel="stylesheet" type="text/css" />
+    <link href="/CoEE/assets/global/plugins/font-awesome/css/font-awesome.min.css?v=24" rel="stylesheet" type="text/css" />
+    <link href="/CoEE/assets/global/plugins/simple-line-icons/simple-line-icons.min.css?v=24" rel="stylesheet" type="text/css" />
+    <link href="/CoEE/assets/global/plugins/bootstrap/css/bootstrap.min.css?v=24" rel="stylesheet" type="text/css" />
+    <link href="/CoEE/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css?v=24" rel="stylesheet" type="text/css" />
+
+    <link href="/CoEE/assets/global/plugins/bootstrap-sweetalert/sweetalert.css?v=24" rel="stylesheet" type="text/css" />
+
+
+    <link href="/CoEE/assets/global/plugins/select2/css/select2.min.css?v=24" rel="stylesheet" type="text/css" />
+    <link href="/CoEE/assets/global/plugins/select2/css/select2-bootstrap.min.css?v=24" rel="stylesheet" type="text/css" />
+
+    <link href="/CoEE/assets/global/css/components.min.css?v=24" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="/CoEE/assets/global/css/plugins.min.css?v=24" rel="stylesheet" type="text/css" />
+
+
+    <link href="/CoEE/assets/pages/css/login-5.min.css?v=24" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="/CoEE/favicon.ico">
+</head>
+<!-- END HEAD -->
+<style>
+    .container {
+        width: 98%;
+    }
+
+    .header {
+        box-shadow: 0 1px 3px #ddd;
+        background: #fff;
+        border-radius: 0;
+        margin-bottom: 23px;
+        z-index: 999;
+        position: relative;
+    }
+
+    .site-logo {
+        float: left;
+        font-size: 23px;
+        font-weight: 400;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+
+    .padding-bottom-5 {
+        padding-bottom: 5px !important;
+    }
+
+    .padding-top-5 {
+        padding-top: 5px !important;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+        float: left;
+        width: 100%;
+    }
+
+    .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+        position: initial;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .field-validation-error {
+        color: #e73d4a;
+        float: left;
+    }
+</style>
+<body class=" login" style=" font-family: Garamond; font-size:16px;">
+    <div id="header" class="header">
+        <div class="container">
+            <a class="site-logo padding-top-5 padding-bottom-5" href="javascript:void(0);">
+                <img src="/CoEE/assets/layouts/layout/img/logonu.png" alt="logo" class="logo-default" style="height:55px; margin:0px;" />
+            </a>
+            <div class="header-navigation pull-right font-transform-inherit">
+                <img src="/CoEE/Content/Images/Slide 2.jpg" alt="logo" class="logo-default" style="width:250px; margin:0px;" />
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-md-6">
+                <div class="portlet light portlet-fit">
+                    <div class="portlet-title" style="padding: 0px;">
+                        <div class="caption">
+                            <span class="caption-subject font-green sbold uppercase"><strong>Instructions</strong></span>
+                            
+                        </div>
+                    </div>
+                    <div class="portlet-body" style="padding: 0px;">
+                        
+                        <ol>
+
+                            <li>
+                                For more details, visit our website <a href="https://nu.edu.pk/CoEE" target="_blank">https://nu.edu.pk/CoEE</a><br />
+
+                                <label for="cbprivacypolicy"> I permit FAST Center of Executive Education to use my contact information for marketing purposes, for example, to provide me with further information about its programs or send invitations to events. I can decide anytime that I no longer want to be contacted.</label><br>
+                             
+                            </li>
+                            <li style="float: right; list-style-type: none;">
+                                <input type="checkbox" id="cbprivacypolicy" name="cbprivacypolicy" value="1">
+                                <a href="/CoEE/ExecutiveFile/Privacy Policy.pdf" target="_blank" id="privacydeatil" class="forget-password" style="text-decoration-line:underline;">PRIVACY POLICY</a>
+                            </li>
+                         
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 login-container" style="padding-right: 0px;">
+                <div class="login-content" style="margin-top: 0px;">
+<form action="/CoEE/Applicant/RegisterForm" class="register-form" id="RegisterForm" method="post">                        <div class="form-body">
+                            <h3 class="font-green col-md-offset-3" style="font-size:25px; font-weight:800; font-family:Garamond;">Sign Up</h3>
+                            <div class="alert alert-danger RegisterFormAlertDiv">
+                                <button class="close" data-close="alert"></button>
+                                <span class="RegisterFormAlert"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Email <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-6" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-email="Invalid email address." data-val-required="This field is required." id="EMAIL" name="EMAIL" placeholder="Email" style="font-size:16px;" type="text" value="" />
+                                    <span class="field-validation-valid" data-valmsg-for="EMAIL" data-valmsg-replace="true"></span>
+                                    
+                                </div>
+                                <div class="col-md-3" style="padding: 0px;">
+                                    <button type="button" id="register-submit-btn" onclick="ftn_SearchRecord()" style="font-size:14px; font-weight:700" class="btn btn-sm btn-success uppercase pull-right">Search</button>
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_E_first_name" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Name <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-length="Name must be between 3 and 50 characters." data-val-length-max="50" data-val-length-min="3" data-val-regex="First name should contain only letters and spaces." data-val-regex-pattern="^[a-zA-Z\s]*$" data-val-required="This field is required." id="E_first_name" name="NAME" placeholder="First Name" style="font-size:16px;" type="text" value="" />
+                                    <span class="field-validation-valid" data-valmsg-for="NAME" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_mask_mobileno" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">WhatsApp # <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-inputmask="&#39;mask&#39;: &#39;9999-9999999&#39;" data-val="true" data-val-required="This field is required." id="mask_mobileno" name="MOBILE_NO" placeholder="Mobile No." style="font-size:16px;" type="text" value="" />
+                                    <span class="field-validation-valid" data-valmsg-for="MOBILE_NO" data-valmsg-replace="true"></span>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_register_password" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Password <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-length="Password must be at least 6 characters." data-val-length-max="50" data-val-length-min="6" data-val-required="This field is required." id="register_password" name="PASSWORD" placeholder="Password" style="font-size:16px;" type="password" />
+                                    <span class="field-validation-valid" data-valmsg-for="PASSWORD" data-valmsg-replace="true"></span>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_cregister_password" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Re-type Password <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-equalto="Password and Re-type Password do not match." data-val-equalto-other="*.PASSWORD" data-val-length="Password must be at least 6 characters." data-val-length-max="50" data-val-length-min="6" data-val-required="This field is required." id="cregister_password" name="CONFIRMPASSWORD" placeholder="Re-type Your Password" style="font-size:16px;" type="password" />
+                                    <span class="field-validation-valid" data-valmsg-for="CONFIRMPASSWORD" data-valmsg-replace="true"></span>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_E_Address" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Address</label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" id="E_Address" name="ADDRESS" placeholder="Address" style="font-size:16px;" type="text" value="" />
+
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_E_designation" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Designation <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-length="Name must be between 3 and 50 characters." data-val-length-max="50" data-val-length-min="3" data-val-required="This field is required." id="E_designation" name="DESIGNATION" placeholder="Designation" style="font-size:16px;" type="text" value="" />
+                                    <span class="field-validation-valid" data-valmsg-for="DESIGNATION" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                            <div class="form-group" id="div_E_organization" style="display: none;">
+                                <label class="col-md-3 control-label" style="padding: 0px;">Organization <span class="required" aria-required="true">*</span></label>
+                                <div class="col-md-9" style="padding: 0px;">
+                                    <input autocomplete="off" class="form-control input-sm placeholder-no-fix" data-val="true" data-val-length="Name must be between 3 and 50 characters." data-val-length-max="50" data-val-length-min="3" data-val-required="This field is required." id="E_organization" name="ORGANIZATION" placeholder="Organization" style="font-size:16px;" type="text" value="" />
+                                    <span class="field-validation-valid" data-valmsg-for="ORGANIZATION" data-valmsg-replace="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <div class="row" id="btn_enroll_row" style="display: none;">
+                                <div class="col-md-offset-3 col-md-9">
+                                    
+                                    <button type="submit" id="register-submit-btn" style="font-size:14px; font-weight:700" class="btn btn-sm btn-success uppercase pull-right">Enroll</button>
+                                </div>
+                            </div>
+                        </div>
+</form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/CoEE/assets/global/plugins/jquery.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/bootstrap/js/bootstrap.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/js.cookie.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/jquery.blockui.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js?v=24" type="text/javascript"></script>
+
+    <script src="/CoEE/assets/pages/scripts/ui-sweetalert.min.js?v=24" type="text/javascript"></script>
+
+
+    <script src="/CoEE/assets/global/plugins/jquery-validation/js/jquery.validate.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/jquery-validation/js/additional-methods.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/select2/js/select2.full.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/global/plugins/backstretch/jquery.backstretch.min.js?v=24" type="text/javascript"></script>
+
+    <script src="/CoEE/assets/global/scripts/app.min.js?v=24" type="text/javascript"></script>
+
+    <script src="/CoEE/assets/pages/scripts/login.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/pages/scripts/login.js?v=24" type="text/javascript"></script>
+
+
+    <!-- ------------------ mask --------------- -->
+    <script src="/CoEE/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js?v=24" type="text/javascript"></script>
+    <script src="/CoEE/assets/pages/scripts/form-input-mask.min.js?v=24" type="text/javascript"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?v=24" async defer></script>
+
+   
+    <script>
+        $(document).ready(function (e) {
+           // $('.register-form').hide();
+          //  $("#mask_cnic").inputmask();
+            $("#mask_mobileno").inputmask();
+            $(".RegisterFormAlertDiv").hide();
+            $(".ForgotPasswordFormAlertDiv").hide();
+
+
+                $("#RegisterForm").submit(function (e) {
+                    e.preventDefault();
+                    if (!$(this).valid()) {
+                        return false;
+                    }
+                    console.log($("#RegisterForm").serialize());
+
+                    if ($("#cbprivacypolicy").prop('checked') == false) {
+                        alert("Kindly Checked Privacy Policy.");
+                    }
+                    else {
+                        $.ajax({
+                            type: "POST",
+                            url: "/CoEE/Login/SaveApplicatDataForEnrollment",
+                            data: $("#RegisterForm").serialize(),
+                            beforeSend: function () {
+
+                            },
+                            success: function (response) {
+                                debugger;
+                                if (response.success) {
+                                    $('#RegisterForm').find("div").removeClass('has-error');
+                                    $('.field-validation-valid').empty();
+                                    $('.field-validation-error').empty();
+                                    window.location.href = '/CoEE/Applicant';
+                                    /* window.location = "/Applicant/Index";*/
+                                } else {
+                                    // Clear existing error messages
+                                    $('#RegisterForm').find("div").removeClass('has-error');
+                                    $('.field-validation-valid').empty();
+                                    $('.field-validation-error').empty();
+                                    // Display error messages using ValidationMessageFor
+                                    $.each(response.errors, function (index, error) {
+                                        var fieldName = error.FieldName;
+                                        var errorMessage = error.ErrorMessage;
+                                        var validationMessage = $('<span />').addClass('field-validation-error').text(errorMessage);
+                                        $('[name="' + fieldName + '"]').closest('div.form-group').addClass('has-error');
+                                        $('[name="' + fieldName + '"]').closest('div.form-group').find(".field-validation-valid").after(validationMessage);
+                                    });
+
+                                    //$(".RegisterFormAlert").html(response.ExceptionMessage);
+                                    //$(".RegisterFormAlertDiv").show();
+                                }
+                            },
+                            error: function (result) {
+                                $(".RegisterFormAlert").html("ERROR! Please try again");
+                                $(".RegisterFormAlertDiv").show();
+                            }
+                        });
+                    }
+
+                });
+            
+
+        });
+        //================================================================
+        function ftn_SearchRecord() {
+            var email = $('#EMAIL').val();
+            if (email == "" || email==null) {
+                alert("Kindly enter email address");
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: "/CoEE/Login/GetApplicantDeatil",
+                    data: { //Passing data
+                        email: email
+                        //  Courseid: Courseid
+                    },
+                    beforeSend: function () {
+
+                    },
+                    success: function (response) {
+                        debugger;
+                        if (response.success) {
+                            $('#div_E_first_name').show();
+                            $('#E_first_name').val(response.ApplicantData.NAME);
+                            $("#E_first_name").prop("readonly", true);
+
+                            $('#div_mask_mobileno').show();
+                            $('#mask_mobileno').val(response.ApplicantData.MOBILE);
+                            $("#mask_mobileno").prop("readonly", true);
+
+                            if (response.ApplicantData.PASSWORD == null) {
+                                $("#div_register_password").show();
+                                $("#div_cregister_password").show();
+                            }
+                            else {
+                                /*  $(".alert").alert()*/
+                                alert("You have already enrolled.Now you can login application.");
+                                window.location.href = '/CoEE/';
+
+                                
+
+                                
+                                $('#div_register_password').show();
+                                $('#register_password').val(response.ApplicantData.PASSWORD);
+                                $("#register_password").prop("readonly", true);
+
+                                $('#div_cregister_password').show();
+                                $('#cregister_password').val(response.ApplicantData.PASSWORD);
+                                $("#cregister_password").prop("readonly", true);
+                            }
+
+
+                            $('#div_E_Address').show();
+                            $('#E_Address').val(response.ApplicantData.ADDRESS);
+                            $("#E_Address").prop("readonly", true);
+
+                            $('#div_E_designation').show();
+                            $('#E_designation').val(response.ApplicantData.DESIGNATION);
+                            $("#E_designation").prop("readonly", true);
+
+                            $('#div_E_organization').show();
+                            $('#E_organization').val(response.ApplicantData.ORGANIZATION);
+                            $("#E_organization").prop("readonly", true);
+
+                            $('#btn_enroll_row').show();
+
+
+                            //$('#RegisterForm').find("div").removeClass('has-error');
+                            //$('.field-validation-valid').empty();
+                            //$('.field-validation-error').empty();
+
+                        }
+                        else if (!response.success && response.status == "SessionOut") {
+                            alert("SESSION EXPIRE.Please login.");
+                            window.location.href = '/CoEE/';
+                            //swal({
+                            //    title: "SESSION EXPIRE",
+                            //    text: "Please login",
+                            //    type: "info",
+                            //    showCancelButton: false,
+                            //    showConfirmButton: true
+                            //}, function () {
+                            //    window.location = window.location;
+                            //});
+                        }
+                        else {
+
+                            alert("No record found.Kindly fill form for enrollment.");
+                            //swal({
+                            //    title: "ALert",
+                            //    text: "No record found.Kindly fill form for enrollment.",
+                            //    type: "info",
+                            //    showCancelButton: false,
+                            //    showConfirmButton: true
+                            //});
+
+                            $('#div_E_first_name').show();
+                            $("#E_first_name").prop("readonly", false);
+
+                            $('#div_mask_mobileno').show();
+                            $("#mask_mobileno").prop("readonly", false);
+
+                            $("#div_register_password").show();
+                            $("#register_password").prop("readonly", false);
+
+                            $("#div_cregister_password").show();
+                            $("#cregister_password").prop("readonly", false);
+
+                            $('#div_E_Address').show();
+                            $("#E_Address").prop("readonly", false);
+
+                            $('#div_E_designation').show();
+                            $("#E_designation").prop("readonly", false);
+
+                            $('#div_E_organization').show();
+                            $("#E_organization").prop("readonly", false);
+
+                            $('#btn_enroll_row').show();
+
+                            //// Clear existing error messages
+                            //$('#RegisterForm').find("div").removeClass('has-error');
+                            //$('.field-validation-valid').empty();
+                            //$('.field-validation-error').empty();
+                            //// Display error messages using ValidationMessageFor
+                            //$.each(response.errors, function (index, error) {
+                            //    var fieldName = error.FieldName;
+                            //    var errorMessage = error.ErrorMessage;
+                            //    var validationMessage = $('<span />').addClass('field-validation-error').text(errorMessage);
+                            //    $('[name="' + fieldName + '"]').closest('div.form-group').addClass('has-error');
+                            //    $('[name="' + fieldName + '"]').closest('div.form-group').find(".field-validation-valid").after(validationMessage);
+                            //});
+                        }
+                    },
+                    error: function (result) {
+                        $(".RegisterFormAlert").html("ERROR! Please try again");
+                        $(".RegisterFormAlertDiv").show();
+                    }
+                });
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

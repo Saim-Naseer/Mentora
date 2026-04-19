@@ -1,0 +1,666 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Vision, Mission & Core Values. To be among the best learning institutions in Pakistan. To impart quality education in numerous educational fields to students selected on merit irrespective of ethnicity, gender, religion, or financial means. To provide a teaching and learning environment that encourages critical thinking, ethical conduct and effective decision making. To undertake original research that enriches teaching which benefits business, government and civil society.">
+	<meta name="keywords" content="iba, iba karachi, iba university, iba website, institute of business administration, karachi, institute of business administration karachi, iba.edu.pk, institute of business administration, iba university karachi, www.iba.edu.pk, iba pakistan, karachi iba, iba edu pk, iba official website, iba login, iba karachi university, iba khi, vision, mission, core values, discipline, creativity, tolerance, integrity, teamwork">
+	<title>Vision, Mission &amp; Core Values</title>
+	<link rel="stylesheet" href="css/iba-karachi-all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/carousel.css" />
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carouselcycle.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.simpleTicker.js"></script>
+	<script type="text/javascript" src="js/jquery.marquee.js"></script>
+	<script>
+		$(function(){
+		$('#marquee-vertical').marquee();
+		$('#marquee-horizontal').marquee({direction:'horizontal', delay:100, timing:1000});  
+		});
+	</script>
+	<script>
+		$(function(){
+		$.simpleTicker($("#ticker-fade"),{'effectType':'fade'});
+		$.simpleTicker($("#ticker-roll"),{'effectType':'roll'});
+		$.simpleTicker($("#ticker-slide"),{'effectType':'slide'});
+		$.simpleTicker($("#ticker-one-item"),{'effectType':'fade'});
+		});
+	</script>
+	<!-- Google Analytics Starts -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11117631-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-TW6K5Q0JV3');
+	</script>
+<!-- Google Analytics Ends -->
+    <style>
+    #header {position: relative;}
+	#wrapper {margin: 0px;}
+    </style>
+</head>
+<body class="history-page">
+	﻿<head>
+    <link rel="stylesheet" href="nav-css/nav-layout.min.css">
+    <link rel="stylesheet" href="nav-css/nav-core.min.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="nav-css/ie8-core.min.css">
+    <link rel="stylesheet" href="nav-css/ie8-layout.min.css">
+    <script src="nav-js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="nav-js/rem.min.js"></script>
+<style>
+.btn {
+background-color: #ffd200;
+color: #00174f;
+display: inline-block;
+text-decoration: none;
+padding: 13px 30px;
+margin: 30px 0 0 0;
+border-radius: 3px;
+font-weight: bold;
+}
+.btn:hover {
+background-color: #fff;
+}
+.btn--transition {
+-webkit-transition: -webkit-transform 0.2s;
+-webkit-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+:focus {
+outline: none;
+}
+.icons {
+margin: 50px 0;
+}
+.icon {
+border: 0;
+height: 55px;
+width: 79px;
+border-radius: 50%;
+cursor: pointer;
+position: absolute;
+left: -7px;
+top: 80px;
+}
+.icon span {
+display: block;
+height: 3px;
+width: 33px;
+background-color: #ffffff;
+border-radius: 2px;
+position: absolute;
+left: 23px;
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+.icon span:first-child {
+top: 28px;
+}
+.icon span:nth-child(2) {
+top: 37px;
+}
+.icon span:last-child {
+top: 46px;
+}
+.icon--active span:first-child {
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:last-child {
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:nth-child(2) {
+opacity: 0;
+}
+.icon--button {
+border-radius: 10px;
+}
+.icon--square {
+border-radius: 0;
+}
+.icon--transparent {
+background-color: transparent;
+}
+.icon--transparent span {
+background-color: #fff;
+}
+.icon-transition {
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+</style>
+<!-- Meta Pixel Code -->
+
+<script>
+
+!function(f,b,e,v,n,t,s)
+
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];
+
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1432371431016180');
+
+fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+src="https://www.facebook.com/tr?id=1432371431016180&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+</head>
+<div id="header">
+	<div class="holder">
+		<strong class="logo" id="logo"><a href="/">IBA Karachi</a></strong>
+		<a href="/" class="logo-small"><img src="images/logo-iba-70years.png" width="180" height="94" /></a>
+		<div class="header-content">
+			<ul>
+				<!--<li><a href="index.php">Home</a></li>-->
+                <li><a href="faculty.php">Faculty</a></li>
+                <li><a href="students.php">Students</a></li>
+                <li><a href="https://alumni.iba.edu.pk/">Alumni</a></li>
+                <li><a href="staff.php">Staff</a></li>
+                <li><a href="media.php">Media</a></li>
+			 	<li class="search"><a href="#" class="openBtn" onClick="openSearch()"> <i class="fa fa-search"></i> Search</a></li>
+				<!--<li><a href="http://login.microsoftonline.com/" target="_blank">Email</a></li>
+				<li><a href="erpportal.php">ERP/LMS</a></li>
+				<li><a href="e-learning.php">E-Learning</a></li>
+				<li><a href="https://onlinepayment.iba.edu.pk/" target="_blank">Pay Online</a></li>
+				<li><a href="mediacoverage.php">Media Coverage</a></li>
+				<li><a href="contact_us.php">Contact Us</a></li>-->
+			</ul>
+			<!--<form method="GET" action="search-results.php" id="cse-search-box-form-id" class="search-form">
+				<input type="text" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search...':this.value;" value="" placeholder="Search..." name="q" id="cse-search-input-box-id" class="search-text">
+				<input type="submit" value="" class="btn-search">
+			</form>-->
+		</div>
+	</div>
+	<!--<a href="#" class="nav-button"><img src="images/ico-menu.png" width="34" height="24" alt="Menu"></a>-->
+	<button class="icon icon--transparent nav-button" id="icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<nav class="nav" id="main-menu">
+	    <ul>
+		   <li class="nav-submenu"><a href="#">Admissions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+                    <li><a href="undergraduate.php">Undergraduate Programs</a></li>
+                    <li><a href="graduate.php">Graduate Programs</a></li>
+                    <li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+                    <li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+                    <li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/admissions_schedule.php" target="_blank">Admissions Schedule</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/policies-and-details.php" target="_blank">Admissions Policy</a></li>
+                    <li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+			<!--<li><a href="onlineadmission.php">Apply Online</a></li>-->
+                    <li><a href="faqs.php">FAQs </a></li>
+				 <li class="nav-submenu"><a href="#">Others <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="fee-structure.php">Fee Structure</a></li>
+					    <li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+					    <li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+					    <!--<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>-->
+					
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">Academics <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="schools.php">Schools</a></li>
+				 <!--<li class="nav-submenu"><a href="#">Schools <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+							    <li><a href="patrons.php">Patron</a></li>
+							    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul>
+									    <li><a href="patrons.php">Patron</a></li>
+									    <li><a href="ed-profile.php">Executive Director</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									</ul>
+								 </li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							</ul>
+						 </li>
+					</ul>
+				 </li>-->
+				 <li><a href="academic-calendar.php">Academic Calendar 2025-26</a></li>
+				 <!--<li><a href="academic-calendar-2024-25.php">Academic Calendar 2024-25</a></li>-->
+     				<li><a href="registrar.php">Office of the Registrar</a></li>
+				 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+			  </ul>
+		   </li>
+		   <li><a href="research.php">Research</a></li>
+		   <li class="nav-submenu"><a href="#">Life at IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				<li><a href="https://osa.iba.edu.pk/" target="_blank">Office of Student Affairs</a></li>
+				 <!--<li><a href="https://www.iba.edu.pk/studentssocieties" target="_blank">Societies</a></li>-->
+				 <li><a href="student_facilities.php">Facilities</a></li>
+				 <li><a href="lifeoncampus.php">Life on Campus</a></li>
+				 <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+				 <li><a href="https://irc.iba.edu.pk/" target="_blank">International Resource Center</a></li>
+				 <li><a href="index.php#trending">IBA Events</a></li>
+                 <li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				 <li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">About IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="history.php">History &amp; Timeline</a></li>
+				 <li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<!-- <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>-->
+				 <li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+				 <li class="nav-submenu"><a href="#">Management <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="patrons.php">Patron</a></li>
+					    <li><a href="ed-profile.php">Executive Director</a></li>
+					    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+					    <li><a href="deans.php">Deans</a></li>
+					    <li><a href="registrar.php">Registrar</a></li>
+					    <!--<li><a href="program-directors-chairpersons.php">Chairpersons</a></li>-->
+					    <li><a href="faculty-profiles.php">Faculty</a></li>
+					    <li><a href="management-staff.php">Staff</a></li>
+						<!--<li><a href="http://iba/hrnewsite/whistle-blowing.php" target="_blank">Whistleblowing</a></li>-->
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+	    </ul>
+	</nav>
+<a href="#" class="nav-close">Close Menu</a>
+<script src="nav-js/nav.jquery.min.js"></script>
+<script>
+    $('.nav').nav();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11117631-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11117631-1');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TW6K5Q0JV3');
+</script>
+<script>
+var animation = 'rubberBand';
+$('.icon').on('click', function () {
+$(this).toggleClass('icon--active');
+});
+$('.icon').on('click', function () {
+$(this).addClass('animated ' + animation).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+$(this).removeClass('animated ' + animation);
+});
+});
+//# sourceURL=pen.js
+</script>
+	
+	
+			</div>
+		
+			
+		</div>
+	</div>
+</div>	<div id="wrapper">
+		<div id="container">
+			<div class="row">
+				<div id="main">
+					<h2 class="title-content-global">Vision, Mission &amp; Core Values</h2>
+					<!--<div class="banner-container">
+						<img src="images/banner1.jpg" alt="History and Timeline">
+					</div>-->
+                    		<p class="history-txt"><span class="hd3" id="Vision">Vision</span>To be among the best learning institutions in Pakistan.</p>
+                    
+							<p class="history-txt"><span class="hd3" id="Mission">Mission</span>To impart quality education in numerous educational fields to students selected on merit irrespective of ethnicity, gender, religion, or financial means.<br><br>
+							To provide a teaching and learning environment that encourages critical thinking, ethical conduct and effective decision making.<br><br>
+							To undertake original research that enriches teaching which benefits business, government and civil society.</p>
+                    
+							<p class="history-txt"><span class="hd3" id="Core-Values">Core Values</span><strong class="bold-text">Discipline</strong> - Discipline requires self-regulation and adherence to an established code of conduct. Discipline facilitates the smooth functioning of the institute and is essential for an IBA student.<br><br>
+                            
+                            
+                            
+                            
+                            
+                    <strong class="bold-text">Creativity</strong> – Creativity breeds innovation which is critical for an institution to expand its frontiers. IBA students are encouraged to generate new ideas to attain their goals. <br><br>
+                    <strong class="bold-text">Tolerance</strong> – Tolerance represents the ability and willingness to accept and coexist with other opinions and behaviors. Tolerance is an essential characteristic of successful individuals and societies.<br><br>
+                    <strong class="bold-text">Integrity</strong> –  Integrity suggests the quality of being honest and having strong moral principles. Integrity is crucial to the reputation of individual students as well as that of the IBA.<br>
+<br>
+                    <strong class="bold-text">Teamwork</strong> -  Teamwork requires harmonizing individual effort to achieve a common goal. Without teamwork, individual efforts can be wasted and institutions can suffer.<br>
+                    </p>
+				</div>
+			</div>
+			﻿<div id="container" class="footer">
+
+        <div class="row quick-links">
+
+				<div class="three-column">
+
+					<div class="column">
+
+						<h2>Admissions</h2>
+
+						<ul>
+
+				<li><a href="undergraduate.php">Undergraduate Programs</a></li>
+
+				<li><a href="graduate.php">Graduate Programs</a></li>
+
+				<li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+
+				<li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+
+				<li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+
+				<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+
+				<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>
+
+                 		<li><a href="fee-structure.php">Fee Structure</a></li>
+
+				<li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+
+				<li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+
+                         	<!--<li><a href="faqs.php">FAQs </a></li>-->
+
+						</ul><br>
+
+						<h2>Academics</h2>
+
+						<ul>
+
+				 <li><a href="schools.php">Schools</a></li>
+
+				 <li><a href="academic-calendar.php">Academic Calendar</a></li>
+
+				 <li><a href="registrar.php">Office of the Registrar</a></li>
+
+                 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+
+						</ul>
+
+					</div>
+
+					<div class="column">
+
+						<h2>Life at IBA</h2>
+
+						<ul>
+
+				<li><a href="https://osa.iba.edu.pk" target="_blank">Office of Student Affairs</a></li>
+
+				<li><a href="student_facilities.php">Facilities</a></li>
+
+				<li><a href="lifeoncampus.php">Life on Campus</a></li>
+
+				<li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+
+				<li><a href="https://osa.iba.edu.pk/oise/" target="_blank">Office of International Student Exchange</a></li>
+
+				<li><a href="index.php#trending">IBA Events</a></li>
+
+				<li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				<li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+
+				<li><a href="space.php">SP@CE</a></li>
+
+						</ul><br>
+
+						<h2>Research</h2>
+
+						<ul>
+
+							<li><a href="https://oric.iba.edu.pk/" target="_blank">ORIC</a></li>
+
+							<li><a href="https://ir.iba.edu.pk/businessreview/" target="_blank">IBA Business Review</a></li>
+                            <li><a href="https://library.iba.edu.pk/" target="_blank">Library</a></li>
+                            <li><a href="https://cber.iba.edu.pk/" target="_blank">Center for Business and Economic Research</a></li>
+						
+						</ul>
+
+					</div>
+
+					<div class="column footer-about-iba">
+
+						<h2>About IBA</h2>
+
+						<ul>
+
+							<li><a href="history.php">History &amp; Timeline</a></li>
+
+				<li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<li><a href="https://hr.iba.edu.pk/hr-policies.php" target="_blank">HR Policies</a></li>
+
+				<li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+
+				<li><a href="patrons.php">Patron</a></li>
+
+				<li><a href="ed-profile.php">Executive Director</a></li>
+
+				<li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+
+				<li><a href="deans.php">Deans</a></li>
+
+				<li><a href="registrar.php">Registrar</a></li>
+
+				<li><a href="faculty-profiles.php">Faculty</a></li>
+
+				<li><a href="management-staff.php">Staff</a></li>
+				
+
+                <li><a href="finance.php">Finance</a></li>
+
+				<li><a href="tenders_new.php">Tenders</a></li>
+
+						</ul><br>
+
+						
+
+					</div>
+
+				
+
+					<div class="column column-buttons">
+
+						<ul class="footer-buttons">
+								<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply for Admission</a></li>
+                            <li><a href="https://rm.iba.edu.pk/" target="_blank">Give</a></li>
+
+							<li><a href="https://careers.iba.edu.pk/" target="_blank">Careers</a></li>
+							<li><a href="https://hr.iba.edu.pk/whistleblowing.php" target="_blank">Whistleblowing</a></li>
+							<li><a href="iba-phone-directory.php">Contact Us</a></li>
+
+						</ul>
+
+					
+
+					</div>
+
+				</div>
+
+			</div></div><!--middle footer-->
+
+	<div id="footer">
+
+		<div class="footer-top">
+
+			<div class="iba-social-networks">
+
+				<h3>Social Networks</h3>
+
+				<ul>
+
+					<li><a href="https://www.facebook.com/ibakhiofficial/" target="_blank" class="fa fa-facebook"></a></li>
+
+					<li><a href="https://x.com/ibakhiofficial" target="_blank" class="ico-twiiter-x"><img src="images/ico-twitter-x.png" width="15" height="14"></a></li>
+
+
+					<li><a href="https://pk.linkedin.com/school/ibakhiofficial/" target="_blank" class="fa fa-linkedin"></a></li>
+
+					<li><a href="https://www.youtube.com/channel/UCP2jFh53I30goOY4YSjzE3w" target="_blank" class="fa fa-youtube-play"></a></li>
+
+                    <li><a href="https://www.instagram.com/ibakhiofficial/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+					
+					<li><a href="https://www.tiktok.com/@ibakhiofficial" target="_blank" class="ico-tiktok">
+						<img src="images/ico-tiktok.png" width="15" height="14"></a></li>
+
+				</ul>
+
+				<p>&copy; IBA Karachi</p>
+
+				
+
+			</div>
+
+		</div>
+
+		
+
+	</div>
+
+	<div id="myOverlay" class="overlay-search">
+  		<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  		<div class="overlay-content">
+    		<form  method="GET" action="search-results.php" id="cse-search-box-form-id">
+      			<input type="text" placeholder="Search.." onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Search...':this.value;" value="" name="q" id="cse-search-input-box-id">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    		</form>
+  		</div>
+	</div>
+
+
+
+<script>
+
+function openSearch() {
+
+  document.getElementById("myOverlay").style.display = "block";
+
+}
+
+
+
+function closeSearch() {
+
+  document.getElementById("myOverlay").style.display = "none";
+
+}
+
+</script>		<script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="js/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+		});
+	</script>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+			x.className = "topnav";
+			}
+		}
+	</script>
+<script>
+function myFunction1() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>

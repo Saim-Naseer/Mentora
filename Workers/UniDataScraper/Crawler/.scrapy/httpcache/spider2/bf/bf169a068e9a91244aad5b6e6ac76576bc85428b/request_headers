@@ -1,0 +1,6 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.14.2 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Referer: https://admissions.giki.edu.pk/
+Cookie: csrftoken=cB5cENlL3U5EWMw0IeJULlKUVmXcNjUW7gpSRujCX2sTd7nr7fKk675X9gPEya0E

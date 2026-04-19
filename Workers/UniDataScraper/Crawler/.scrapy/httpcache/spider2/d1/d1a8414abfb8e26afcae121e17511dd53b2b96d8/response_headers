@@ -1,0 +1,10 @@
+Date: Fri, 27 Mar 2026 06:11:00 GMT
+Content-Type: text/html;charset=UTF-8
+Server: cloudflare
+Location: https://newcampus.uet.edu.pk/
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nYUB63Tq7xe3PItm%2BryZ%2BEOxAexo0tB8MUMobcTUQbtSgGshj%2FZ9%2BAXbBAjQgOFLje9Pcl8mLaDuAm7MtFBKZXcOJp8z6Hhukt9uUpRx%2B%2FJcI%2BeuSMuhq9pUXbcZW60kkA%3D%3D"}]}
+Cf-Cache-Status: DYNAMIC
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=6,cfOrigin;dur=279
+Cf-Ray: 9e2c3c376eb4fe22-SIN

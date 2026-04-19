@@ -1,0 +1,16 @@
+Content-Length: 900271
+Date: Fri, 27 Mar 2026 00:40:53 GMT
+Content-Type: application/pdf
+Last-Modified: Thu, 12 Jun 2025 06:56:55 GMT
+Accept-Ranges: bytes
+Etag: "2e89312f67dbdb1:0"
+Server: cloudflare
+X-Powered-By: ASP.NET
+Server-Timing: cfCacheStatus;desc="REVALIDATED"
+Server-Timing: cfEdge;dur=106,cfOrigin;dur=398
+Cache-Control: max-age=14400
+Cf-Cache-Status: REVALIDATED
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+Cf-Ray: 9e2a58a3bfd249a0-LHE
+Alt-Svc: h3=":443"; ma=86400

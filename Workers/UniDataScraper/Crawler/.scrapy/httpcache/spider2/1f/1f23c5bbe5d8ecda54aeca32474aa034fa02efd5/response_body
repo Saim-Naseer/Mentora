@@ -1,0 +1,1025 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="The IBA welcomes talented and meritorious students from all social backgrounds to enroll and study at the Institute. At the IBA, we believe that financial limitations should not be a hindrance in accessing quality education.">
+	<meta name="keywords" content="IBA, IBA KARACHI, IBAKARACHI, IBA-KARACHI, IBA-KHI, Institute of Business Administration Karachi, iba university, institute of business administration, karachi, karachi iba, www.iba.edu.pk, iba pakistan, karachi iba, iba edu pk, iba official website, iba institute, iba karachi website, financial aid, scholarship, assistance, financial assistance">
+	<title>Financial Assistance - Institute of Business Administration (IBA) Karachi</title>
+	<link rel="stylesheet" href="dist-ds/jquery.flipster.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easy-ticker.js"></script>
+	<style>
+	/*****************************
+*	horizontal news ticker
+******************************/
+
+.ticker-wrapper-h{
+	display: flex;	
+	position: relative;
+	overflow: hidden;
+	background: #700f1a;
+}
+
+.ticker-wrapper-h .heading{
+	background-color: #1c6547;
+	color: #fff;
+	padding: 5px 10px;
+	flex: 0 0 auto;
+	z-index: 1000;
+}
+.ticker-wrapper-h .heading:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	border-left: 20px solid #1c6547;
+	border-top: 17px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+
+.news-ticker-h{
+	display: flex;
+	margin:0;
+	padding: 0;
+	padding-left: 90%;
+	z-index: 999;
+	
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-name: tic-h;
+	animation-duration: 30s;
+	
+}
+.news-ticker-h:hover { 
+	animation-play-state: paused; 
+}
+
+.news-ticker-h li{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	white-space: nowrap;
+	padding-left: 20px;
+}
+
+.news-ticker-h li a{
+	color: #fff;
+	font-weight: bold;
+}
+#popup {
+	display:none;
+	position:absolute;
+	margin:0 auto;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 50px 2px #000;
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 1000px;
+	text-align: center;
+	z-index: 1000;
+}
+#popup p{ text-align: justify;}
+#popup strong{
+	display:block;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+}
+#popup .btn-primary{
+	font-size: 15px;
+	padding: 5px;
+}
+.myTicker{
+    border: 1px solid red;
+    width: 400px;
+}
+.myTicker ul{
+    padding: 0;
+}
+.myTicker li{
+    list-style: none;
+    border-bottom: 1px solid green;
+    padding: 10px;
+}
+.et-run{
+    background: red;
+}
+.et-item-visible{
+    color: blue !important;
+}
+.t5Wrap{
+    display: none;
+}
+@keyframes tic-h {
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
+}
+		 
+  @media screen and (max-width: 500px) {
+	.carousel-item.active {background: #700f1a;}}
+		
+	#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 75px;
+    right: 21px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgba(112, 15, 26, 0.89);
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 2px;
+}
+	#myBtn:hover {
+    background-color: #555;
+}
+	table tr th {text-align: center!important;font-size: 20px;font-weight: 500;line-height: 50px;color: #fff!important;}	
+	.table-important-dates tr td {text-align: center;font-weight: 700;justify-content: center;text-align: center!important}			
+	.table-important-dates tr td.first {text-align:left!important}	
+	tr.blue {background: #213a77;font-weight: 500px;}	
+		
+	 .caption1{text-align: center;position: absolute;left: 0;top: 27%;
+	z-index:1;width: 100%;}
+.caption1 h1{color: #fcb912;font-size: 37px;text-shadow: 0 0 5px #000;
+	max-width: 800px;border-bottom: 1px solid #f25e28;margin: 0 auto 30px;padding-bottom: 30px;}
+ .caption1 h1 span{
+	display: block;font-size: 50px;font-weight: bold;color: #fff;}
+ .caption1 h1 em{
+	display: block;font-style: normal;font-size: 50px;font-weight: bold;color: #fff;}
+ .caption1 .btn-primary{
+	border: none !important;font-size: 25px;
+}
+ .caption1 .btn-primary a{
+	text-decoration: none;color: #fff;font-size: 16px;padding: 0px 20px;line-height: 40px;
+}		
+
+	
+	</style>
+	
+</head>
+<body class="home-page header-no-margin">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/styles.css?v=2.11??" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.marquee.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BENHQD8WH"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		gtag('config', 'G-9BENHQD8WH');
+	</script>
+	<style>
+	#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 75px;
+    right: 21px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgba(112, 15, 26, 0.89);
+    color: white;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 2px;
+}
+	#myBtn:hover {
+    background-color: #555;
+}
+	
+	</style>
+	<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1432371431016180');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1432371431016180&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<header id="header">
+	<div class="container-fluid">
+		<ul class="top-menu">
+		</ul>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<a href="index.php"><img class="logo" src="images/logo-iba-70years.png" width="210" height="110" alt="IBA Karachi"></a>
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul id="main-menu">
+					<li class="mega-menu-holder"><a href="index.php" id="show">Home <span></span></a></li>
+					<li class="mega-menu-holder life-at-iba-menu"><a href="#" id="show4">Financial Aid<span></span></a>
+						<div class="dropdown-mega-menu life-at-iba-tab" id="megaMENULIFEATIBA">
+						<a href="#" class="btn-close-menu" id="hide4"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-12 col-md-6 col-lg-3">
+										<ul>
+											<li><a href="fee-installment-plan.php" id="show2">Fee Installment<span></span></a></li>
+											<li><a href="qarzehasna.php">Qarz e Hasna<span></span></a></li>
+											<li><a href="needbased.php" id="show4">Need-based Scholarship<span></span></a></li>
+											<!--<li><a href="work-study-appointment-scheme.php" id="show4">Work-study Appointment Scheme<span></span></a></li>-->
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<!--<li class="mega-menu-holder"><a href="fee-installment-plan.php" id="show2">Fee Installment<span></span></a></li>
+					<li><a href="qarzehasna.php">Qarz e Hasna<span></span></a></li>
+					<li class="mega-menu-holder life-at-iba-menu"><a href="needbased.php" id="show4">Need-based Scholarship<span></span></a></li>-->
+					<li class="mega-menu-holder life-at-iba-menu"><a href="#" id="show4">Useful Links<span></span></a>
+						<div class="dropdown-mega-menu life-at-iba-tab" id="megaMENULIFEATIBA">
+						<a href="#" class="btn-close-menu" id="hide4"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-sm-12 col-md-6 col-lg-3">
+										<ul>
+											<li><a href="document-checklist.php">Document Checklist<span></span> </a></li>
+											<li><a href="document-checklist.php#tips">Tips for Completing Application Form<span></span> </a></li>
+											<li><a href="terms-conditions.php">Terms &amp; Conditions<span></span> </a></li>
+											<!--<li><a href="appointment.php">Book an appointment with FAC<span></span> </a></li>-->
+											<li><a href="important-dates.php">Important Dates<span></span> </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="mega-menu-holder"><a href="testimonials.php" id="show3">Testimonials<span></span></a></li>
+					<li class="mega-menu-holder"><a href="videos.php" id="show3">Gallery<span></span></a></li>
+					<li class="mega-menu-holder"><a href="faq.php" id="show3">FAQs<span></span></a></li>
+					<li class="mega-menu-holder"><a href="archive.php" id="show3">Archives<span></span></a></li>
+					<li class="mega-menu-holder"><a href="snpl.php" id="show3">Others<span></span></a></li>
+					<li class="mega-menu-holder"><a href="#contact" id="show3">Contact<span></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<div class="modal fade search-modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header modal-header-search">
+				<h5 class="modal-title" id="staticBackdropLabel">Search</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
+			</div>
+			<div class="modal-body">
+				<form method="GET" action="search-result.php" id="cse-search-box-form-id">
+					<div class="mb-3">
+						<input type="text" class="form-control" id="cse-search-input-box-id"  onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Search...':this.value;" value="" name="q">
+					</div>
+					<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#hide1").click(function(){
+    $("#megaMENUADMISSION").hide();
+  });
+  $("#show").click(function(){
+    $("#megaMENUADMISSION").show();
+  });
+  $("#hide2").click(function(){
+    $("#megaMENUACADEMICS").hide();
+  });
+  $("#show2").click(function(){
+    $("#megaMENUACADEMICS").show();
+  });
+  $("#hide3").click(function(){
+    $("#megaMENUABOUTIBA").hide();
+  });
+  $("#show3").click(function(){
+    $("#megaMENUABOUTIBA").show();
+  });
+  $("#hide4").click(function(){
+    $("#megaMENULIFEATIBA").hide();
+  });
+  $("#show4").click(function(){
+    $("#megaMENULIFEATIBA").show();
+  });
+});
+</script>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+    mybutton.style.display = "block";
+
+  } else {
+
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}		
+</script>	<div id="wrapper">
+		<section id="main-slider">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class="" aria-current="true" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" class="" aria-current="true" aria-label="Slide 3"></button>
+				</div>
+				
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="https://ibaapps.iba.edu.pk/financialassistance/home/index" target="_blank"><img src="images/slide220.jpg" class="d-block w-100" alt="Financial Assistance"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="https://ibaapps.iba.edu.pk/financialassistance/home/index" target="_blank"><img src="images/slide219.jpg" class="d-block w-100" alt="Financial Assistance"></a>
+					</div>
+					<div class="carousel-item">
+						<img src="images/important-dates-banner1.jpg" class="d-block w-100" alt="Financial Assistance">
+					</div>				
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+				
+			</div>
+		</section>
+		
+		
+		<div class="ticker-wrapper-h">
+			<div class="heading">Trending Now</div>	
+				<ul class="news-ticker-h">
+					<li><a href="punjab-educational-endowment-fund2025-26.php">-  <em> Important Notice:  PEEF Scholarships for Undergraduate Students (IBA Karachi – 2025-26) </em></a></li> <li><a href="important-dates.php">  <em></em></a></li>					
+					
+					<li><a href="seef-scholarship-2024-25.php">-  <em>Important Notice: SEEF Scholarship 2024 - 25</em></a></li> <li><a href="important-dates.php">  <em></em></a></li>
+					
+					<li><a href="iba-needbased-financial-assistance-fall2025-spring2026.php">-  <em>Important Notice: IBA Need-Based Financial Assistance Fall 2025-Spring 2026</em></a></li> <li><a href="important-dates.php">-  <em>Important Dates 2025-26</em></a></li>
+				</ul>
+			</div>
+		</div>
+		<section id="block-fa-packages" class="p-5">
+			<div class="bg-overlay"></div>
+			<div class="container-fluid">
+				<div class="container">
+					<div class="row text-center">
+						<h2 class="global-heading mb-5">FINANCIAL ASSISTANCE PACKAGES</h2>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-bg">
+						<div class="overlay">
+							<h3>Installment Plan</h3>
+							<p>The students can apply for 2-3 installments per semester. However, the installments must be paid within the same semester period.</p>
+							<div class="btn-holder">
+								<a href="fee-installment-plan.php"><button class="btn btn-primary">Read More</button></a><a href="https://www.iba.edu.pk/installments-form.php" target="_blank"><button class="btn btn-primary">Apply Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="overlay">
+							<h3>Qarz e Hasna</h3>
+							<p>The IBA facilitates its students in securing interest free loan (Qarz e Hasna) to pay their tuition fee during their study period.</p>
+							<div class="btn-holder">
+								<a href="qarzehasna.php"><button class="btn btn-primary">Read More</button></a><a href="https://portal.ihsantrust.org/" target="_blank"><button class="btn btn-primary">Apply Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="overlay">
+							<h3>Need based Financial Assistance</h3>
+							<p>The IBA encourages aspiring students from diverse social backgrounds to enroll and study at the Institute.</p>
+							<div class="btn-holder">
+								<a href="needbased.php"><button class="btn btn-primary">Read More</button></a><a href="https://ibaapps.iba.edu.pk/financialassistance" target="_blank"><button class="btn btn-primary">Apply Now</button></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-bg">
+						<div class="overlay">
+							<h3>NTHP</h3>
+							<p>The NTHP Program at IBA is a flagship inclusivity and diversity program that aims to bring forth the best talent from the country.</p>
+							<div class="btn-holder">
+								<a href="https://nthp.iba.edu.pk/about_nthp.php#intro" target="_blank"><button class="btn btn-primary">Read More</button></a><a href="https://nthp.iba.edu.pk/application-form.php" target="_blank"><button class="btn btn-primary">Apply Now</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="block-financial-support" class="p-5">
+			<div class="container">
+				<div class="row text-center">
+					<h2 class="global-heading">IBA FINANCIAL SUPPORT</h2>
+					<h4>(All amounts in PKR.)</h4>
+				</div>
+				<div class="ds-banner">
+					<div id="flat">
+						<ul>
+							<li data-flip-title="Red">
+								<h2>1920 <br>Students </h2>
+								<p>Total Students Availing Financial Assistance in the year 2024-25</p>
+							</li>
+							<li data-flip-title="Razzmatazz" data-flip-category="Purples">
+								<h2>41%</h2>
+								<p>of the Students received Financial Assistance  <br>in the year 2024-2025</p>
+							</li>
+							<li data-flip-title="Deep Lilac" data-flip-category="Purples">
+								<h2>972 <br>Million</h2>
+								<p>Total Financial Assistance Disbursed (in Million PKR) <br>in the year 2024-25</p>
+							</li>
+							<li data-flip-title="Daisy Bush" data-flip-category="Purples">
+								<h2>148 <br>Students</h2>
+								<p>Students Benefited from Qarz-e-Hasna Facilities <br> in 2024-2025</p>
+							</li>
+							<li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+								<h2>661 <br>Students</h2>
+								<p>Students Benefited by Installment Plan </p>
+							</li>
+							<li data-flip-title="Cerulean Blue" data-flip-category="Blues">
+								<h2>1,111 <br>Students</h2>
+								<p>Students Awarded IBA Financial Assistance <br>in the year 2024-25</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container-fluid upcoming-scholarships">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<section id="block-faqs">
+						<div class="container">
+							<div class="row text-center">
+								<h2 class="global-heading">FREQUENTLY ASKED QUESTIONS</h2>
+							</div>
+							<div class="row block-faq-content">
+								<div style="background-color: #e9e6e7; border-radius: 5px; min-height: 275px; height:275px; overflow: auto;">
+									
+									<!----Previous-FAQ--->									
+									
+									<p><strong>How many types of FA mechanisms are available at IBA? What are the other options available apart from need-based scholarship?</strong></p>
+									<p>- Fee Installments<br>- Need-based scholarships / IBA Bridge financing<br>- Qarz e Hasna arranged through external donors</p>
+									<p><strong>Does the FA office accept manual applications?</strong></p>
+									<p>The FA office accepts applications submitted electronically. This is needed for efficient processing and to keep proper tracking at both ends.</p>
+									<p><strong>How can I apply online for FA?</strong></p>
+									<p>The FA application can be submitted online by clicking on the link:<a href="https://ibaapps.iba.edu.pk/financialassistance/" target="_blank">https://ibaapps.iba.edu.pk/financialassistance/.</a>Applications are invited through this link only during the specified period as mentioned on the FA webpage:<a href="https://www.iba.edu.pk/financial-assistance.php"> https://www.iba.edu.pk/financial-assistance.php </a></p>
+									<p><strong>Once need-based FA (scholarship) is awarded to me, do I have to reapply for FA every semester? For how many semesters is the scholarship awarded to students at a time?</strong></p>
+									<p>The scholarship award percentage usually remains valid for the remaining semesters in an academic year. For example, if a scholarship is awarded in the Fall semester, it will also remain valid for the following Spring semester. Meeting eligibility criteria is mandatory in all cases. Considering possible changes in need evaluation criteria, which is reviewed annually, as well as yearly changes in the financial condition of the family, students should apply for need-based scholarships at the start of each academic year.</p>
+									<p><strong>Can FA be applied for before securing admission at IBA?</strong></p>
+									<p>No, FA can only be applied for after securing admission at IBA.</p>
+									<p><strong>Which students are eligible to apply for need-based scholarships?</strong></p>
+									<p>Only full-time students enrolled in morning programs, who are facing financial constraints and cannot manage to pay fees through FA options like fee installments and Qarz e Hasna, may apply for need-based scholarships. These students can apply for financial assistance to cover their tuition fees for Fall and Spring semester. Financial assistance will be provided on a course basis up to the 8th semester. The repetition of courses for grade improvement or otherwise, and previously withdrawn courses, are not covered under need-based scholarships.</p>
+								 	<p><strong>What are my chances of getting a scholarship? What is the need assessment process? What is the criteria for awarding scholarships?</strong></p>
+									<p>The need-based scholarship award is determined through a prescribed need evaluation criteria and is concluded by the FA Committee on a comparative need level basis.</p>
+									<p><strong>Is there a waiting list for need-based scholarships?</strong></p>
+									<p>The scholarship awards are concluded by the FAC after following a comprehensive process; hence, there is no waiting list for need-based scholarships. Students who couldn't get the desired percentage of scholarships, or whose cases were declined, can reapply at the prescribed dates as mentioned on the IBA FA webpage.</p>
+								 	<p><strong>Can I get a scholarship for a graduate program?</strong></p>
+									<p>Yes, graduate program students can get scholarships</p>
+									<p><strong>Where can I find scholarship opportunities?</strong></p>
+									<p>The IBA, as well as donor-funded scholarship opportunities, are shared with students through the following channels:</p>
+									<p>- IBA FA Web page<br>- IBA FA Facebook page<br>- IBA Portal and Website</p>
+									<p><strong>Which documents are required with the scholarship application?</strong></p>
+									<p>Standard documents are required along with the scholarship application form. The list of these documents is available on the IBA FA webpage and is also included in the scholarship application form.</p>
+								 	<p><strong>When should I apply for the scholarships?</strong></p>
+									<p>	Applications for need-based scholarships are invited by the IBA FAC during the prescribed period as mentioned on the IBA FA webpage. Students are advised to apply ONLINE during the stated period only.</p>
+									<p><strong>Which types of fees are covered under need-based scholarships? Does the IBA Scholarship cover hostel fees and other charges?</strong></p>
+									<p>The need-based scholarships are awarded to eligible students and are applicable to tuition fees only. Other forms of fees are not covered under need-based scholarships. NTHP scholars are dealt with as per the applicable policy.
+									<p><strong>Can I get more than one donor-funded scholarship?</strong></p>
+									<p>Students can apply for more than one donor-funded scholarship, but only one donor-funded scholarship can be availed at a time.</p>
+									<p><strong>I want to apply for other need-based scholarships like SEEF, HEC Ehsaas, CMEEF, BEEF, etc. Do I need to submit another application form?</strong></p>
+									<p>	Yes, some donor-funded scholarships require filling out their prescribed scholarship forms, which are then shared with the donor for review, evaluation of need, and award of the scholarship.</p>
+									<p><strong>Which programs are covered under need-based scholarships?</strong></p>
+									<p>	Only full-time students enrolled in morning programs may apply for need-based scholarships.</p>
+									<p><strong>What is IBA Bridge Financing?</strong></p>
+									<p>IBA Bridge Financing is a Short-term financial assistance mechanism designed to support students until external donor funding is secured. Under this arrangement, IBA provides interim funding to cover tuition fees, ensuring students can continue their studies without disruption. Once a donor scholarship is awarded, IBA reverses the bridge financing, transferring the financial responsibility to the donor program.</p>
+
+									<p><strong> Undergraduate Students  </strong><br>								
+
+									<strong>For how long is Financial Assistance provided to undergraduate students?</strong></p>
+									<p>Financial Assistance is provided on a course basis for up to eight consecutive semesters, starting from the date of admission into the student’s first undergraduate program.</p>
+
+									<p><strong>Are repeated, withdrawn, deficiency, or remedial courses covered under Financial Assistance?</strong></p>
+									<p>No. Courses that are repeated for grade improvement or any other reason, previously withdrawn, or taken as deficiency or remedial courses are not covered under need-based Financial Assistance or scholarships.</p>
+
+									<p><strong>What happens if I exceed eight semesters?</strong></p>
+									<p>Financial Assistance will not be extended beyond eight consecutive semesters, even if the degree requirements have not been completed.</p>
+
+									<p><strong>Does Financial Assistance restart if I change my program or take extra courses?</strong></p>
+									<p>No. The eight-semester limit is calculated from the initial date of admission into the first undergraduate program.</p>
+
+									<p><strong>What is the minimum CGPA requirement to maintain Financial Assistance?</strong></p>
+									<p>Students must maintain a minimum CGPA of 2.5. If a student’s CGPA falls below 2.5, Financial Assistance will be placed on probation, and failure to improve the CGPA may result in discontinuation of Financial Assistance.</p>
+
+									
+									<p><strong>What happens if I miss the Financial Assistance application deadline?</strong></p>
+									<p>If a student misses the deadline for submitting the need-based scholarship form (fresh or exisiting), Financial Assistance will not be extended, and the student must reapply in the next year.</p>
+									
+								
+
+
+
+									<p><strong>For graduate students, how long is Financial Assistance provided to graduate students?</strong></p>
+									<p>Financial Assistance is provided for the duration of the program as specified in the official Program Announcement. <em>This does not apply to the EMBA & MSJ program.</em></p>
+
+									<p><strong>Do graduate students need to take a full course load to remain eligible?</strong></p>
+									<p>Yes. Graduate students must maintain a full course load throughout their studies to remain eligible for Financial Assistance.</p>
+
+									<p><strong>Can graduate students freeze a semester while on Financial Assistance?</strong></p>
+									<p>No. Freezing or deferring any semester is not permitted for students receiving Financial Assistance.</p>
+
+									<p><strong>Are repeated or withdrawn courses covered for graduate students?</strong></p>
+									<p>No. Courses repeated for grade improvement or previously withdrawn courses are not covered under need-based scholarships.</p>
+
+									<p><strong>What is an externally funded scholarship?</strong></p>
+									<p>An externally funded scholarship is a financial assistance opportunity supported by external donors (Government, Private, or Zakat) and facilitated by IBA.</p>
+
+									<p><strong>When am I required to apply for externally funded scholarships?</strong></p>
+									<p>Students are required to apply for externally funded scholarships arranged by IBA until they are successfully placed with a donor. The Financial Assistance Department will notify students via email whenever a donor-funded scholarship opportunity is announced. Students must wait for this communication and, once notified, apply promptly, completing all required forms and interviews if applicable.</p>
+
+									<p><strong>How will I know about available externally funded scholarships?</strong></p>
+									<p>Students should regularly check the IBA Financial Assistance webpage and their email accounts for announcements and application instructions regarding donor-funded scholarships.</p>
+
+									<p><strong>What happens if I do not apply for an externally funded scholarship?</strong></p>
+									<p>Failure to apply for externally funded scholarships arranged by IBA will result in the discontinuation of bridge financing, at the discretion of the Financial Assistance Committee.</p>
+
+
+									
+									
+									
+									
+								</div>
+								<div class="container text-center p-4">
+									<a href="faq.php"><button class="btn btn-primary">Read More</button></a>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<section id="block-faqs">
+						<div class="container">
+							<div class="row text-center row-ticker">
+								<h2 class="global-heading">UPCOMING SCHOLARSHIPS</h2>
+								<div class="myTicker3">
+									<ul>
+										
+										
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 1 Admission Test (February) - BBA, BSACF</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Monday, 2 March 2026</div>
+													<div><strong>Application Deadline</strong>Monday, 30 March 2026</div>
+													<div><strong>Decision Date</strong>Tuesday, 12 May 2026</div>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 1 Admission Test (February / March) - BS (CS / Math)</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 25 March 2026</div>
+													<div><strong>Application Deadline</strong>Thursday, 16 April 2026</div>
+													<div><strong>Decision Date</strong>Tuesday, 12 May 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">Need-Based Financial Assistance(Existing Students) - Fall 2026- Spring 2027 Cycle</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 1 April 2026</div>
+													<div><strong>Application Deadline</strong>Monday, 4 May 2026</div>
+													<div><strong>Decision Date</strong>Monday, 31 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 1 Admission Test (March / April) - BSECO, BSEM, &amp; BSSS</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 15 April 2026</div>
+													<div><strong>Application Deadline</strong>Tuesday, 5 May 2026</div>
+													<div><strong>Decision Date</strong>Monday, 25 May 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 1 Admission Test (March / April) MS [Management (Full time)], Marketing, Finance, Islamic Banking &amp; Finance, Economics (Eco-Stream), Development Studies</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Friday, 24 April 2026</div>
+													<div><strong>Application Deadline</strong>Monday, 11 May 2026</div>
+													<div><strong>Decision Date</strong>Monday, 25 May 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake - MBA - Round 1</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Saturday, 16 May 2026</div>
+													<div><strong>Application Deadline</strong>Wednesday, 27 May 2026</div>
+													<div><strong>Decision Date</strong>Wednesday, 10 June 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">NTHP New Intake Fall 2026 (Orientation)</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Monday, 9 February 2026</div>
+													<div><strong>Application Deadline</strong>Monday, 9 March 2026</div>
+													<div><strong>Decision Date</strong>Monday, 3 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 2 Admission Test (June) - BBA, BSACF</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Monday, 6 July 2026</div>
+													<div><strong>Application Deadline</strong>Sunday, 19 July 2026</div>
+													<div><strong>Decision Date</strong>Monday, 17 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 2 Admission Test (July) - BS (CS / Math)</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 1 July 2026</div>
+													<div><strong>Application Deadline</strong>Tuesday, 14 July 2026</div>
+													<div><strong>Decision Date</strong>Monday, 17 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake Round - 2 Admission Test (July) - BSECO, BSEM, &amp; BSSS, BSEDS</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 1 July 2026</div>
+													<div><strong>Application Deadline</strong>Tuesday, 14 July 2026</div>
+													<div><strong>Decision Date</strong>Monday, 17 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake – MS Program (Management (Full time)], Marketing, Finance, Islamic Banking &amp; Finance) Round 2</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 29 July 2026</div>
+													<div><strong>Application Deadline</strong>Wednesday, 5 August 2026</div>
+													<div><strong>Decision Date</strong>Thursday, 20 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake – MS Program (Computer Science, Data Science (Non-CS Stream), Mathematics) Round 2</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 29 July 2026</div>
+													<div><strong>Application Deadline</strong>Wednesday, 5 August 2026</div>
+													<div><strong>Decision Date</strong>Thursday, 20 August 2026</div>
+												</div>
+											</div>
+										</li>
+
+										<li>
+											<div class="wrap">
+												<strong class="caption"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">New Intake – MS Program (Economics (Non-Eco Stream), Development Studies] Round 2</a></strong>
+												<div class="scholarship-dates">
+													<div><strong>Application Open</strong>Wednesday, 29 July 2026</div>
+													<div><strong>Application Deadline</strong>Wednesday, 5 August 2026</div>
+													<div><strong>Decision Date</strong>Thursday, 20 August 2026</div>
+												</div>
+											</div>
+										</li>
+										
+										
+									</ul>
+								</div>
+								<button class="btn btn-primary down3"><i class="fa fa-arrow-down" aria-hidden="true"></i></button> <button class="btn btn-primary up3"><i class="fa fa-arrow-up" aria-hidden="true"></i></button> <button class="btn btn-primary btn-apply-now" style="width: 25% !important;"><a href="https://www.iba.edu.pk/financialassistance/important-dates.php" target="_blank">
+								View Full Timeline <!--Apply Now--></a></button>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<section id="block-introduction" class="p-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6" style="background-color: #f4f7fc; ">
+						<h2 class="global-heading">Message from Director Finance</h2>
+						<p>Welcome to the Office of Student Financial Assistance (OSFA) at IBA Karachi. At OSFA, we are committed to providing a high level of customer service to support our diverse population of students in achieving their academic goals by helping to remove the financial barriers to IBA full-time morning programs students.</p>
+						<p>We have varied Financial Assistance programs suited to the needs of students from different financial backgrounds, stretching from Fee Instalments to Full Financial Assistance. we believe that financial limitations should not be a hindrance to accessing quality education.</p>
+						<p>&nbsp;</p>
+						<img src="images/moied-sultan-img.jpg" width="150" height="150" alt="Moeid Sultan" style="float: left; margin-right: 10px; margin-bottom: 10px;"><br>
+						<p><strong>Moeid Sultan</strong><br>Director Finance</p>
+					</div>
+					<div class="col-lg-6">
+						<h2 class="global-heading">Message from the Chairperson SFAC </h2>
+						<p>The Institute of Business Administration believes that financial constraints should not deny any student the opportunity to attend IBA and successfully pursue their degree objectives. IBA offers many financial aid options to help students. <strong><em>In the academic year 2024-25, approximately 41%</em></strong> of the student body at IBA benefited from the generous financial aid structure at IBA. The Financial Assistance Committee recognizes that each student's financial situation is unique and makes every effort to develop policies and procedures that treat each student fairly and equitably while taking into account unusual circumstances. Applicants are encouraged to explore our website.</p>
+						<p>&nbsp;</p>
+						<img src="images/dr-khadija-bari.jpg" width="150" height="150" alt="Dr. Khadija Bari" style="float: left; margin-right: 10px;">
+						<p><strong>Dr. Khadija Malik Bari</strong><br>Associate Professor, Department of Economics and Social Sciences, Chairperson Strategic Financial Assistance Committee </p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container block-messages">
+				<div class="row">
+					<div class="col-lg-3">
+						<strong>Message from <br>Executive Director, IBA</strong>
+						<video controls="" poster="images/thumb-video.jpg" width="100%" height="100%">
+							<source src="videos/ed.mp4" type="video/mp4">
+							<source src="videos/mov_bbb.ogg" type="video/ogg">
+							Your browser does not support HTML video.
+						</video>
+						
+					</div>
+					<div class="col-lg-3">
+						<strong>Message from Chairperson Strategic Financial Assistance Committee</strong>
+						<video controls="" poster="images/thumb-khadija-bari.jpg" width="100%" height="100%">
+							<source src="videos/dr-khadija-bari-release.mp4" type="video/mp4">
+							<source src="videos/mov_bbb.ogg" type="video/ogg">
+							Your browser does not support HTML video.
+						</video>
+					</div>
+					<div class="col-lg-3">
+						<strong>Message from <br>Director Finance</strong>
+						<video controls="" poster="images/thumb-moed-sultan.jpg" width="100%" height="100%">
+							<source src="videos/moid-sultan.mp4" type="video/mp4">
+							<source src="videos/mov_bbb.ogg" type="video/ogg">
+							Your browser does not support HTML video.
+						</video>
+					</div>
+					<div class="col-lg-3">
+						<strong>Success Story</strong><br><br>
+						<video controls="" poster="images/muhaddisa-abbas.jpg" width="100%" height="100%">
+							<source src="videos/muhaddisa-abbas.mp4" type="video/mp4">
+							<source src="videos/mov_bbb.ogg" type="video/ogg">
+							Your browser does not support HTML video.
+						</video>
+					</div>
+				</div>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<!--<div class="container text-center">
+					<a href="appointment.php"><button class="btn btn-primary"  style="background-color: #700f1a !important; border-color: #700f1a; font-size: 30px;">Book an appointment with FAC</button></a>
+				</div>-->
+			</div>
+		</section>	
+		<!--<div id="popup" class="popup panel panel-primary">
+			<a  href="https://form-seef.com/" target="_blank">
+			 <img src="images/popup-04072025.jpg" alt="Importan Notice" class="d-block w-100"></a>
+			<div class="panel-footer">
+				<button id="close" class="btn btn-lg btn-primary">Close</button>
+			</div>
+		</div>-->
+		<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-sm-12 col-lg-8">
+				<div class="row">
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Useful Links</h3>
+						<ul>
+							<li><a href="document-checklist.php">Document Checklist</a></li>
+							<li><a href="document-checklist.php#tips">Tips for Completing Application Form</a></li>
+							<li><a href="terms-conditions.php">Terms &amp; Conditions</a></li>
+							<!--<li><a href="appointment.php">Book an appointment with FAC</a></li>-->
+							<!--<li><a href="committee.php">Financial Assistance Committee</a></li>-->
+						</ul>
+					</div>
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Life at IBA</h3>
+						<ul>
+							<li><a href="https://www.iba.edu.pk/student_facilities.php">Facilities</a></li>
+							<li><a href="https://www.iba.edu.pk/lifeoncampus.php">Life on Campus</a></li>
+							<li><a href="https://www.iba.edu.pk/studentssocieties/" target="_blank">Students' Societies</a></li>
+							<li><a href="https://www.iba.edu.pk/index.php#latest-news" target="_blank">IBA Events</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Admissions</h3>
+						<ul>
+							<li><a href="https://www.iba.edu.pk/undergraduate.php" target="_blank">Undergraduate programs</a></li>
+							<li><a href="https://www.iba.edu.pk/graduate.php" target="_blank">Graduate programs</a></li>
+							<li><a href="https://www.iba.edu.pk/postgraduate-programs.php" target="_blank">Postgraduate programs</a></li>
+							<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+							<li><a href="https://www.iba.edu.pk/financial-assistance.php" target="_blank">Financial Assistance</a></li>
+							<li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+						</ul>
+					</div>
+					<div class="colo-sm-12 col-lg-6">
+						<h3>Financial Aid</h3>
+						<ul>
+							<li><a href="fee-installment-plan.php">Installment Plan</a></li>
+							<li><a href="qarzehasna.php">Qarz e Hasna</a></li>
+							<li><a href="needbased.php">Need based Financial Assistance</a></li>
+							<li><a href="https://nthp.iba.edu.pk/about_nthp.php#intro" target="_blank">National Talent Hunt Program (NTHP)</a></li>
+							<!--<li><a href="work-study-appointment-scheme.php">Work-study Appointment Scheme</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-lg-4">
+				<h3><a id="contact"></a>Contact Us</h3>
+				<p><strong>Financial Assistance Department<br><i class="fa fa-map-marker" aria-hidden="true"></i> Address:</strong>Room# 16, 1st floor, NBP building, <br />IBA Main Campus<br />University Road, University of Karachi</p>
+				<p><strong><i class="fa fa-phone" aria-hidden="true"></i> Phone:</strong> +92-(213) 810-4700 / 701 
+					<br>Ext : 1301, 2329, 2310 , 2331 , 2323
+					
+					<!--Ext: 2310--></p>
+				<p><strong><i class="fa fa-envelope" aria-hidden="true"></i> Email:</strong> <a href="mailto:financial-aid@iba.edu.pk">financial-aid@iba.edu.pk</a></p>
+				<!--<p><strong>Follow Us<br><a href="https://www.facebook.com/ibakhipk" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> <a href="https://www.instagram.com/ibakarachi_official/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> <a href="https://twitter.com/ibakarachi" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCP2jFh53I30goOY4YSjzE3w" target="_blank">
+					<i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+					
+				<a class="tiktok" href="https://www.tiktok.com/@ibakhiofficial" target="_blank">
+					<img src="images/ico-tiktok.png" width="auto" height="auto">
+					</a>	
+					
+					</strong></p>-->
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="container p-0">
+	<p> &copy; Institute of Business Administration (IBA) Karachi. All Rights Reserved.</p>
+</div>	</div>
+	    <script src="dist-ds/jquery.flipster.min.js"></script>
+<script>
+    var coverflow = $("#coverflow").flipster();
+        var carousel = $("#carousel").flipster({
+        style: 'carousel',
+        spacing: -0.5,
+        nav: true,
+        buttons:   true,
+    });
+    var wheel = $("#wheel").flipster({
+        style: 'wheel',
+        spacing: 0
+    });
+    var flat = $("#flat").flipster({
+        style: 'flat',
+        spacing: -0.25
+    });
+</script>
+<script>
+	$(document).ready(function () {
+    //select the POPUP FRAME and show it
+    $("#popup").hide().fadeIn(1000);
+
+    //close the POPUP if the button with id="close" is clicked
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+	</script>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+var mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+    mybutton.style.display = "block";
+
+  } else {
+
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}		
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+    var myET = $('.myTicker').easyTicker({
+        direction: 'up',
+        easing: 'swing',
+        speed: 'slow',
+        interval: 15000,
+        height: 'auto',
+        visible: 1,
+        mousePause: true,
+        autoplay: true,
+        controls: {
+            up: '.up',
+            down: '.down',
+            toggle: '.toggle',
+            stopText: 'Stop !!!'
+        },
+        callbacks: {
+            before: function(ul, li){
+                console.log('before', this, ul, li);
+                $(li).css('color', 'red');
+            },
+            after: function(ul, li){
+                console.log('after', this, ul, li);
+            },
+            finish: function(a){
+                console.log('finish', this, a);
+            }
+        }
+    }).data('easyTicker');
+    
+    cc = 1;
+    $('.add').click(function(){
+        $('.myTicker ul').append('<li>' + cc + ' Triangles can be made easily using CSS also without any images. This trick requires only div tags and some</li>');
+        cc++;
+    });
+    
+    $('.visible-3').click(function(){
+        myET.options['visible'] = 3;
+        
+    });
+    
+    $('.visible-all').click(function(){
+        myET.stop();
+        myET.options['visible'] = 0 ;
+        myET.start();
+    });
+
+    var ticker3 = $('.myTicker3').easyTicker().data('easyTicker');
+    $('.up3').click(function(){
+        ticker3.up();
+    });
+
+    $('.down3').click(function(){
+        ticker3.down();
+    });
+
+    $('.t5Btn').click(function(){
+        $('.t5Wrap').fadeToggle();
+    });
+});
+</script>
+</body>
+</html>

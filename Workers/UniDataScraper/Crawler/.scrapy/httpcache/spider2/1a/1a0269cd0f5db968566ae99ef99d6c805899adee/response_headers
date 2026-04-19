@@ -1,0 +1,11 @@
+Server: nginx/1.14.1
+Date: Fri, 27 Mar 2026 06:06:28 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Cache: HIT from Backend
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Encoding: gzip

@@ -1,0 +1,133 @@
+{
+  "university": {
+    "name": {
+      "val": "",
+      "link": "",
+      "confidence": 0.0
+    },
+    "short_description": {
+      "val": "",
+      "link": "",
+      "confidence": 0.0
+    },
+    "established_year": {
+      "val": null,
+      "link": "",
+      "confidence": 0.0
+    },
+    "type": {
+      "val": "",
+      "link": "",
+      "confidence": 0.0
+    },
+    "ranking": []
+  },
+  "campuses": [
+    {
+      "name": {
+        "val": "",
+        "link": "",
+        "confidence": 0.0
+      },
+      "is_main": {
+        "val": false,
+        "link": "",
+        "confidence": 0.0
+      },
+      "location": {
+        "address": {
+          "val": "",
+          "link": "",
+          "confidence": 0.0
+        },
+        "city": {
+          "val": "",
+          "link": "",
+          "confidence": 0.0
+        },
+        "region": {
+          "val": "",
+          "link": "",
+          "confidence": 0.0
+        },
+        "country": {
+          "val": "",
+          "link": "",
+          "confidence": 0.0
+        }
+      },
+      "contacts_notes": [],
+
+      "facilities_notes": []
+    }
+  ],
+
+  "programs": [
+    {
+      "name": {
+        "val": "",
+        "link": "",
+        "confidence": 0.0
+      },
+      "department": {
+        "val": "",
+        "link": "",
+        "confidence": 0.0
+      },
+      "campuses": [],
+      "duration": {
+        "value": null,
+        "units": "months|years|semesters",
+        "link": "",
+        "confidence": 0.0
+      },
+      "credits": {
+        "val": null,
+        "link": "",
+        "confidence": 0.0
+      },
+      "tuition_notes": [],
+      "admission_requirement_for_new_student": [],
+      "passing_requirement_for_enrolled_student": [],
+      "curriculum_notes": [],
+      "careers_info_notes": []
+    }
+  ],
+
+  "General Admission Steps": [],
+
+  "General Admission Notes": [],
+
+  "Scholarship_notes": [],
+
+  "research_and_faculty_notes": [],
+
+  "student_life": {
+    "clubs": [],
+    "sports": [],
+    "health_services": [],
+    "disability_support": []
+  },
+
+  "statistics": {
+    "acceptance_rate": { "val": null, "link": "", "confidence": 0.0 },
+    "enrollment_total": { "val": null, "link": "", "confidence": 0.0 },
+    "international_percentage": { "val": null, "link": "", "confidence": 0.0 },
+    "faculty_to_student_ratio": { "val": null, "link": "", "confidence": 0.0 }
+  },
+
+  "policies": {
+    "deferral_policy": [],
+    "transfer_credits_policy": [],
+    "grading_scale": []
+  },
+
+  "extraction": {
+    "last_updated": "",
+    "updated_fields": [],
+    "per_field_confidence": {}
+  },
+
+  "overall_confidence": 0.0,
+  "notes": []
+}

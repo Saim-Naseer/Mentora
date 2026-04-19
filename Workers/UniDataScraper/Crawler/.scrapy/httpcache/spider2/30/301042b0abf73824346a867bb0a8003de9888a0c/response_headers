@@ -1,0 +1,13 @@
+Content-Length: 340
+Date: Fri, 27 Mar 2026 05:53:23 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Feature-Policy: geolocation 'self'; vibrate 'none'
+Permissions-Policy: geolocation=self
+Content-Type: text/html; charset=UTF-8

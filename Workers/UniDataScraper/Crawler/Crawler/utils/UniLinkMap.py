@@ -1,0 +1,17 @@
+UniLinkMap = {
+    "https://usa.edu.pk/" : "USA",
+    "https://bzu.edu.pk/" : "BZU",
+    "https://www.lahoreschoolofeconomics.edu.pk/" : "LSE",
+    "https://wum.edu.pk/" : "WUM",
+    "https://numl.edu.pk/" : "NUML",
+    "https://iqra.edu.pk/" : "IQRA",
+    "http://www.uop.edu.pk/" : "UOP",
+    "https://www.vu.edu.pk/" : "VU",
+    "https://szabist.edu.pk/" : "SZABIST",
+    "https://su.edu.pk/" : "SU",
+    "https://uswat.edu.pk/" : "USWAT",
+    "https://gcuf.edu.pk/" : "GCUF",
+    "https://iobm.edu.pk/" : "IOBM",
+    "https://www.iub.edu.pk/" : "IUB",
+    "https://usindh.edu.pk/" : "USINDH",
+}

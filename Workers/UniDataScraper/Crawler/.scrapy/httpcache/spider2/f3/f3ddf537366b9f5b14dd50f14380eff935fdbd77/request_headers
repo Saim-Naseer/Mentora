@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.14.2 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Cookie: botble_session=eyJpdiI6IlduOStybnljVklpS3V0MlZQMTNmdGc9PSIsInZhbHVlIjoiSlpwK3l1T2pPaEg5dkxkMmJJYXBwam1CaldFaGQyTTE4ZkEzZmZzYVhaOVFUNHBZYWNCaGt1c3RrYld4aE1WaSIsIm1hYyI6IjBmMTFmZjc3ODJkNDhiZWIyM2RlMjhjYTNjYjQ0NWM0MGJjM2Y4NmMzNmM2M2E4NTkzMGEwNWIzNjgyZGY4NTcifQ%3D%3D; XSRF-TOKEN=eyJpdiI6ImZoSWl2ZFBwNjF3YmRGZ2o3YUUzUFE9PSIsInZhbHVlIjoiU0RCV0o3WUlXN040aFZsYXhsNXZQVUFxSmxOODZzcDlpVVhDK0JBTVZGMjVWeXVCZUs3S0tkQXIyZVRWc3B3eSIsIm1hYyI6IjAxYmYxYjE0MDhiMGUxZDA5Y2ZiZDJmNWQ2NzliZGI3ZTI2MWYxMzYxMzIxZmJjMjhkZjNjN2VlMzM4OWY4Y2QifQ%3D%3D

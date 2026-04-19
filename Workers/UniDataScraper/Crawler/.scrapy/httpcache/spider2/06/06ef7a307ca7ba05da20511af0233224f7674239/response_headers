@@ -1,0 +1,21 @@
+Content-Length: 13482891
+Date: Fri, 27 Mar 2026 06:05:13 GMT
+Content-Type: application/pdf
+Cache-Control: public, max-age=2592000
+Last-Modified: Wed, 07 Sep 2022 09:33:49 GMT
+Accept-Ranges: bytes
+Etag: "7a4492ef9cc2d81:0"
+Server: cloudflare
+Access-Control-Allow-Origin: *
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'self' https://*.umt.edu.pk;        script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.umt.edu.pk https://www.google.com https://www.gstatic.com https:;        style-src 'self' 'unsafe-inline' https://*.umt.edu.pk https:;        img-src 'self' data: https://*.umt.edu.pk https:;        font-src 'self' https://*.umt.edu.pk https: data:;        connect-src 'self' https://*.umt.edu.pk https:;        frame-src 'self' https://*.umt.edu.pk https://www.google.com https://www.recaptcha.net;        object-src 'self';        base-uri 'self';
+Age: 133297
+Cf-Cache-Status: HIT
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server-Timing: cfCacheStatus;desc="HIT"
+Server-Timing: cfEdge;dur=9,cfOrigin;dur=0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=a8uJb5bcvgAlHCEHS9hdT%2B76SlAqtz%2B5U6AYaohomsHirO0%2FMXuYmE3%2BgCcpRV3DEwashuFYMc1gecAcnoofc8Kocc2wU8eNnu5wymWDqastlIOxURTPeQx3BkvOFvGFQQc%3D"}]}
+Cf-Ray: 9e2c33c20954fde0-SIN
+Alt-Svc: h3=":443"; ma=86400

@@ -1,0 +1,648 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+    <meta name="language" content="English" />
+	<meta name="copyright" content="CITS UoP" />
+				<meta name="author" content="CITS UoP" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+     	<title>University of Peshawar</title>
+
+	<meta name="description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+	<meta name="keywords" content="uop, upesh, Peshawar University, university of peshawar, upesh peshawar, univ peshawar, kpk University, khyber pukhtunkhwa university, kpk govt universtiy, government university, public sector university, peshawar, peshawar pakistan, university in pakistan, FATA, FATA Univeristy, KPK" />
+    <link rel="icon" 
+      type="image/png" 
+      href="http://www.uop.edu.pk/images/favicon.png">
+      <meta property="og:image" content="
+      http://www.uop.edu.pk/images/img-3.jpg      "/>
+	<meta property="og:title" content="University of Peshawar" />
+	<meta property="og:site_name" content="University of Peshawar" />
+	<meta property="og:description" content="The University of Peshawar, a future-oriented and unique institution is committed to achieving excellence
+in the undergraduate and graduate education, research and public service. The University provides
+superior and comprehensive education opportunities at the baccalaureate through doctoral and special
+professional educational levels." />
+    <!--
+    
+  /$$$$$$        /$$$$$$       /$$$$$$$$        /$$$$$$                      /$$   /$$                       /$$$$$$$ 
+ /$$__  $$      |_  $$_/      |__  $$__/       /$$__  $$                    | $$  | $$                      | $$__  $$
+| $$  \__/        | $$           | $$         | $$  \__/                    | $$  | $$        /$$$$$$       | $$  \ $$
+| $$              | $$           | $$         |  $$$$$$        /$$$$$$      | $$  | $$       /$$__  $$      | $$$$$$$/
+| $$              | $$           | $$          \____  $$      |______/      | $$  | $$      | $$  \ $$      | $$____/ 
+| $$    $$        | $$           | $$          /$$  \ $$                    | $$  | $$      | $$  | $$      | $$      
+|  $$$$$$/       /$$$$$$         | $$         |  $$$$$$/                    |  $$$$$$/      |  $$$$$$/      | $$      
+ \______/       |______/         |__/          \______/                      \______/        \______/       |__/      
+                                                                                                                      
+                                                                                                                      
+ Centre for I.T Services, 
+ University of Peshawar, Pakistan                                                                                                                
+    
+    -->
+    
+    
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/style.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/prettyPhoto.css" />
+    	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/stylemobile.css" />
+
+	<!-- <link href='../../../../fonts.googleapis.com/css_d229e2d1.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_ea4516fe.css' rel='stylesheet' type='text/css' />
+    <link href='../../../../fonts.googleapis.com/css_6d8124a6.css' rel='stylesheet' type='text/css' /> -->
+	<link rel="stylesheet" type="text/css" media="all" href="http://www.uop.edu.pk/style/mobilenavigation.css" />
+	<script src="http://www.uop.edu.pk/script/modernizr.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.js" type="text/javascript"></script>
+    <script src="http://www.uop.edu.pk/script/jquery-ui.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="http://www.uop.edu.pk/script/jquery.retina.js" type="text/javascript"></script>
+        	<script src="http://www.uop.edu.pk/script/scripts.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function (){
+        $(window).scroll(function () {
+            if ($(document).scrollTop() <= 40) {
+                $('#header-full').removeClass('small');
+                $('.tabs-blur').removeClass('no-blur');
+                $('#main-header').removeClass('small');
+            } else {
+                $('#header-full').addClass('small');
+                $('.tabs-blur').addClass('no-blur');
+                $('#main-header').addClass('small');
+            }
+        });
+        
+        $("a[data-rel^='prettyPhoto']").prettyPhoto({
+			default_width: 600,
+			default_height: 420,
+			social_tools: false
+		});
+      /*  $('#slideshow-tabs').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } }); */
+        $('#tabs-content-bottom').tabs({ show: { effect: "fade", duration: 200 }, hide: { effect: "fade", duration: 300 } });
+		$('.slider-tabs.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('.slider-partners.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true,
+            itemWidth: 163,
+            itemMargin: 0
+        });
+		$('#slider-news.flexslider').flexslider({
+            animation: "slide",
+            pauseOnAction: true
+        });
+		$('#slider-event.flexslider').flexslider({
+            animation: "fade",
+            pauseOnAction: true
+        });
+		$( ".accordion" ).accordion({
+	        heightStyle: "content"
+        });
+		$('a[data-rel]').each(function() {
+			$(this).attr('rel', $(this).data('rel'));
+		});
+		$('img[data-retina]').retina({checkIfImageExists: true});
+		$(".open-menu").click(function(){
+		    $("body").addClass("no-move");
+		});
+		$(".close-menu, .close-menu-big").click(function(){
+		    $("body").removeClass("no-move");
+		});
+	});
+	</script>
+      <script type="text/javascript">
+	$(document).ready(function(){
+		
+		$("#slideshow-tabs").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 8000, true);
+		
+	});
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63785890-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+  (function() {
+    var cx = '009134963228199774510:9nseutcvucc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<!-- Popup......... start.... -->
+<style type="text/css">
+	/* popup .................*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxes #dialog {
+  width:450px; 
+  height:auto;
+  padding:10px;
+  background-color:#ffffff;
+  font-family: 'Segoe UI Light', sans-serif;
+  font-size: 15pt;
+}
+
+
+
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}
+
+	</style>
+<script type="text/javascript">
+$(document).ready(function() {    
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.9);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+</script>
+<!-- popup data end... -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<header id="main-header" class="clearfix">
+        <div id="header-full" class="clearfix">
+            <div id="header" class="clearfix">
+                <a href="#nav" class="open-menu">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</a>
+                <a href="http://www.uop.edu.pk/" id="logo"><img src="http://www.uop.edu.pk/images/uop-logo-75-f.png" data-retina="http://www.uop.edu.pk/images/logo.png" alt="University of Peshawar Logo" /></a>
+                <aside id="header-content">
+                   <form method="get" action="http://www.uop.edu.pk/search" id="searchform" />
+                    
+                        <div>
+                            <input type="text" name="q" class="input" id="s" />
+                            <input type="submit"  class="button"  />
+
+                        </div>
+                    </form>
+                   <ul id="nav-header">
+          <!--        <li><a href="http://www.uop.edu.pk/contacts/feedback.php">Grievance Redressal Cell</a></li>    -->   
+
+ <li><a href="https://www.google.com/a/uop.edu.pk/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">Email</a></li>
+                        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li>
+  <li><a href="http://lms.uop.edu.pk/portal/" >UoP-LMS</a></li>
+  <li><a href="http://www.uop.edu.pk/tender/" >Tenders</a></li>
+                        <li><a href="http://www.uop.edu.pk/jobs/" >Jobs</a></li>
+                        
+                <!--        <li><a href="http://www.uop.edu.pk/downloads/" >Downloads</a></li> -->
+                        <li><a href="http://www.uop.edu.pk/contacts/" >Contact Us</a></li>
+                      
+                       
+
+                    </ul>
+                     
+                    
+                    <h3 id="slogan">&nbsp;</h3>
+                </aside>
+            </div>
+        </div> 
+
+ <nav id="nav" class="clearfix">
+                    <a href="#" class="close-menu-big">Close</a>
+                    <div id="nav-container">
+                        <a href="#" class="close-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <ul id="nav-main">
+                            <li
+                                                        
+                             ><a href="http://www.uop.edu.pk/">Home</a></li>
+                            <li
+                                                         
+                            ><a href="#">About UOP</a>
+                            <ul>
+                        <li><a href="http://www.uop.edu.pk/about/">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/about/?q=genesis">Genesis</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=vision-mission">Vision & Mission</a></li>
+                                   <li><a href="http://www.uop.edu.pk/about/?q=maps-directions">Maps & Directions</a></li>
+                               </ul>
+                            
+                            </li>
+                             <li  ><a href="#">Administration</a>
+                                <ul>
+                                <li><a href="http://www.uop.edu.pk/administration/">Overview</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=statutory-body">Authorities of the University of Peshawar</a></li>
+                                   <li><a href="http://www.uop.edu.pk/administration/?q=administrative-offices">Administrative Offices</a></li>
+
+
+                                </ul>
+                          </li>
+                            <li   ><a href="#">Admissions</a>
+                                <ul>
+                             <li><a href="http://www.uop.edu.pk/admissions/?q=Overview">Overview</a></li>
+
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Undergraduate">Undergraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Postgraduate">Postgraduate</a></li>
+                                   <li><a href="http://www.uop.edu.pk/admissions/?q=Higher-Studies">Higher Studies</a></li>
+                                    <li><a href="http://www.uop.edu.pk/admissions/?q=Scholarships">Aid & Scholarships</a></li>
+                                   <!--  <li><a href="http://www.uop.edu.pk/admissions/?q=meritlist">Postgraduate Merit List</a></li> -->
+<!--                                     <li><a href="admissions/?q=FAQs">Frequently Asked Questions</a></li>
+-->                                   <!--  <li><a href="admissions/?q=downloads">Downloads</a></li> -->
+
+                                </ul>
+                      </li>
+                             <li  ><a href="#">Academics</a>
+                                <ul>
+<li> <a href="http://www.uop.edu.pk/departments">Academic Departments</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/">Faculties</a>
+                                    
+                  <!--                   <ul>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Arts-and-Humanities">Arts & Humanities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Islamic-and-Oriental-Studies">Islamic & Oriental Studies</a></li>
+                                     <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Life-and-Environmental-Sciences">Life & Environmental Sciences</a></li>
+                                    <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Management-and-Information-Sciences">Management & Information Sciences</a></li>
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Numerical-and-Physical-Sciences">Numerical & Physical Sciences</a></li>
+                                  
+                                   <li><a href="http://www.uop.edu.pk/faculties/?q=Faculty-of-Social-Sciences">Social Sciences</a></li>
+                                     </ul>
+-->
+                                    
+                                    </li>
+                                     <li><a href="#">Research Centres</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/departments/?q=Area-Study-Centre">Area Study Centre</a></li>
+                                    <li><a href="http://nceg.uop.edu.pk/">NCE in Geology</a></li>  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=NCE-in-Physical-Chemistry">NCE in Physical Chemistry</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Pakistan-Study-Centre">Pakistan Study Centre</a></li>
+                                  
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Shaykh-Zayed-Islamic-Centre">Shaykh Zayed Islamic Centre</a></li>
+                                     </ul>
+                                    
+                                    </li>
+                                  <li><a href="http://journals.uop.edu.pk/">Research Journals</a></li>
+
+                                     <li><a href="#">Research Labs</a>
+                                    
+                                     <ul>
+                                      <li><a href="http://www.uop.edu.pk/labs/crl/">Centralized Resource Laboratory</a></li>
+                                      <li><a href="http://www.uop.edu.pk/labs/mrl/">Materials Research Laboratory</a></li></ul></li>
+                                    <li><a href="#">Colleges</a>
+                                    
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=College-of-Home-Economics">College of Home Economics</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=Jinnah-College-for-Women">Jinnah College for Women</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Law-College">Law College</a></li>
+                                   <li><a href="http://www.uop.edu.pk/departments/?q=Quaid-e-Azam-College-of-Commerce">Quaid-e-Azam College of Commerce</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-College-for-Boys">University College for Boys</a></li>
+                               </ul>
+                                    
+                                    
+                                    </li>
+                                   <li><a href="#">Schools</a>
+                                     <ul>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Model-School">University Model School</a></li>
+                                    <li><a href="http://www.uop.edu.pk/departments/?q=University-Public-School">University Public School</a></li>
+                                  
+                               </ul>
+                                   
+                                   
+                                   </li>
+
+<!-- <li><a href="http://www.uop.edu.pk/affilated-institutes/">Affiliated Institutes</a>
+                              </li> -->
+<li><a href="http://www.uop.edu.pk/dde/">Distance Education</a>
+                              </li> 
+
+ </ul>
+                            
+                             <li  ><a href="#">Examinations</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Overview">Overview</a></li>
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Results">Results</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Private-Examinations">Private Examinations</a></li>
+                                   <li><a href="http://www.uop.edu.pk/examinations/?q=Overview&r=Online-Verification-of-Documents">Online Verification</a></li>
+
+  
+                                    <li><a href="http://www.uop.edu.pk/examinations/?q=Downloads">Downloads</a></li>
+<!--                                     <li><a href="examinations/?q=FAQs">Frequently Asked Questions</a></li>
+-->
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="#">ORIC</a>
+                                <ul>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Overview">Overview</a></li>
+                                     <li><a href="http://www.uop.edu.pk/oric/?q=Research-Activities">Research Activities</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Industrial-Linkages">Industrial Linkages</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=MOU">MoU</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=Funding">Funding</a></li>
+                                    <li><a href="http://www.uop.edu.pk/oric/?q=downloads">Downloads</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li  ><a href="http://www.uop.edu.pk/qec/">QEC</a>
+                               
+                            </li>
+                   <li  ><a href="http://www.uop.edu.pk/das/">Advanced Studies</a></li>   
+
+<!--<li><a href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></li>  
+
+-->
+      
+                      </ul>
+                      
+                     
+              <!-- <a href="http://www.uop.edu.pk/fro/" id="button-registration">Get Involved</a>  
+<a href="http://www.uop.edu.pk/online/" id="button-registration">Online Learning</a>  -->
+</div> 
+                </nav>
+    </header>
+
+    <div id="content-container">
+        <div id="content" class="clearfix">
+
+            <div id="main-content">
+                            <div style="margin-bottom:12px;"></div>
+                				
+				<article class="static-page">
+				
+				
+				
+				
+                    
+
+
+
+<ul id="list-category-team">
+                        <li class='current-menu-item' >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology">Overview</a>
+                        </li>
+                        
+                        <li   >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology&r=Teaching-Faculty">Teaching Faculty</a>
+                        </li>
+                        
+                        <li  >
+                       		 <a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology&r=Academic-Programs">Academic Programs</a></li>
+                        
+                       
+                        <li  >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology&r=Publications">Publications</a>
+                        </li>
+                       
+					 
+					   
+					 
+					 
+					 
+					 
+					 
+                      
+                       
+                        <li  >
+                        	<a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology&r=Graduates">Successful Graduates</a>
+                        </li>
+                       
+                     
+                     
+                         
+                        <li>
+                        	<a href="http://www.uop.edu.pk/departments/gallery/?q=Department-of-Psychology">Gallery</a>
+                        </li>
+                       
+					                         <li   ><a href="http://www.uop.edu.pk/departments/?q=Department-of-Psychology&r=Downloads">Downloads</a></li>
+                    
+                                        </ul>                    <div id="team-container">
+                    
+                       
+<h1 style="margin-top:0px; padding-top:0px;">Department of Psychology</h1>
+<h6><strong>Contact No:</strong> +92 91 921 6689
++92 91 921 6701 Extn. 3065<br />
+<strong>Email:</strong> psyche@uop.edu.pk </h6>
+<div class="separator" > </div>
+	<h2 style="text-align: justify;">
+	Introduction</h2>
+<p style="text-align: justify;">
+	The Department of Psychology came into existence in 1964. Professor Dr. Shahabuddin Muhammad Mughni laid down its foundation as its first Professor and Chairman. The Department moved into the present building in 1973, started PhD programme, and expanded in terms of faculty members, Seminar Library, Laboratory Equipment, and Psychological Tests etc. Under Dr. Jahanzeb's leadership in 2009 a nearby block was occupied by the Department to shift its clinical programme to it. In 2010 Professor Muhammad Jahanzeb Khan won a development project for the department from the HEC and a new academic block was constructed to accommodate Assessment and Counselling Clinic and BS students. The block was inaugurated in April 2016. Dr. Erum remained PD of the project.</p>
+<h2 style="text-align: justify;">
+	Motto</h2>
+<p style="text-align: justify;">
+	<strong><em>Altering Minds, Changing attitudes</em></strong></p>
+<h2 style="text-align: justify;">
+	Vision</h2>
+<p style="text-align: justify;">
+	To achieve the highest standards of excellence in teaching, learning, research, and professional expertise for our students and faculty and to provide expert professional services to both the on-campus students&rsquo; community and the common people in the larger community.</p>
+<h2 style="text-align: justify;">
+	Mission</h2>
+<p style="text-align: justify;">
+	To provide academically sound courses that promote knowledge of psychological concepts, issues, methods, theories, applications, services, and critical thinking. To commit to excellent teaching, nationally and internationally recognized research, and providing outstanding professional services to ensure the mental health, positive growth and safety, and security of our people.</p>
+<h2 style="text-align: justify;">
+	Labs/ Clinics</h2>
+<p style="text-align: justify;">
+	Besides the Experimental Laboratory (established in 1973) a Computer Section was established by Professor Dr. Muhammad Jahanzeb Khan in 1998. Presently, the Department has a fully equipped Library, Laboratory for experimentation, and two Computer Laboratories. In 2010 Assessment and Counseling Clinic was also established by Professor Dr. Muhammad Jahanzeb Khan. A Psychology Clinic was established in his tenure too (2010). The Psychology Clinic provides psychotherapeutic services to students, faculty and the general population. In 2012 a Speech Therapy Unit was established by Professor Dr. Erum Irshad.</p>
+<p style="text-align: justify;">
+	Another mile-stone was Establishment of the &ldquo;Competence and Trauma Center for Journalists (CTCJ&rdquo;). This project was a joint venture of the Department of Journalism and Mass Communication and the Department of Psychology, and was sponsored by the Deutsche Welle (DW) Academy, Germany. It provided assistance and psychological help to journalists and media personnel in 2015.</p>
+<p style="text-align: justify;">
+	A <strong><span style="color:#800000;"><span style="font-size:14px;">Centre for Metaphysics and Parapsychalogy</span></span></strong> has been recently established by Professor Muhammad Jahanzeb Khan.</p>
+<p style="text-align: justify;">
+	The Department is all set to become <span style="color:#008000;"><span style="font-size:16px;"><span style="font-family:comic sans ms,cursive;"><strong>Institute of Psychological Sciences</strong></span></span></span></p>
+<p style="text-align: justify;">
+	The Department is open to any national and international collaboration.</p>    
+    
+
+
+
+                       
+                       
+                       
+                       
+                       
+                    </div>
+                </article>
+					            </div>
+         <div id="sidebar">
+                <!-- Side Navigation Bar --->
+                <!-- End....................... ---->
+                                           
+
+<aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+                        
+				            <h3 class="widget-title">News</h3>
+				                <ul class="menu news-sidebar">			
+								   
+								</ul>
+								<a href="http://www.uop.edu.pk/news/?q=Department-of-Psychology" class="button-more" style="width:150px;">News Archive </a>
+				        </div>
+				    </aside>
+
+
+                						   
+                    <aside class="widget-container">
+				        <div class="widget-wrapper clearfix">
+				            <h3 class="widget-title">Upcoming Events</h3>
+				                <ul class="menu event-sidebar">			
+								                                    </ul><a href="http://www.uop.edu.pk/events/?r=Department-of-Psychology" class="button-more" style="width:150px;" >Events Archive </a>
+				        </div>
+				    </aside>
+
+
+            </div>
+                            						   
+        </div>
+    </div>
+    <footer id="main-footer" >
+        <div id="blur-top">
+            <a href="#" id="link-back-top">Back to Top</a>
+        </div>
+        <!--<div id="slogan-footer">
+        style="background:url(images/img-8.jpg) no-repeat 50% 0;"
+           <h4>To love and to serve the entire creation of the Creator</h4>
+        </div>-->
+        <div id="footer-content" class="clearfix">
+            <div id="footer-container">
+                <div id="sidebar-footer-left" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix" >
+                            <h3 class="widget-title" style="color:#fff;">Quick Links</h3>
+                            <ul >
+                            <li><strong><a style="color:#fff;" href="http://cdc.uop.edu.pk/index.php/alumni/">Alumni</a></strong></li>
+ <li><a style="color:#fff;" href="http://www.uop.edu.pk/jobs/"><strong>Jobs</strong></a></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/tender/">Tender</a></strong></li>
+                        <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/maingallery/">Picture Gallery</a></strong></li>
+                                <li><strong><a style="color:#fff;" href="http://www.uop.edu.pk/LifeOnCampus/">Life on Campus</a></strong></li>
+                                                                <li><strong><a style="color:#fff;" href="https://cpec-centre.pk/">CoE-CPEC</a></strong></li>
+
+
+                               <!-- <li><strong><a href="http://www.uop.edu.pk/pio">Public Information Office</a></strong></li>-->
+
+
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div id="sidebar-footer-middle" class="sidebar-footer">
+                    <aside class="widget-container">
+                        <div class="widget-wrapper clearfix">
+                            <h3 class="widget-title" style="color:#fff;">Campus Location</h3>		
+                            <article class="text-widget " >
+					           <iframe class="map-area" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d6615.401372220392!2d71.48921630340652!3d34.00022108817633!3m2!1i1024!2i768!4f13.1!2m1!1suniversity+of+peshawar!5e0!3m2!1sen!2s!4v1424811883868"></iframe><br />                                   </article>
+                        </div>
+                    </aside>
+                </div>
+                <article id="footer-address" class="clearfix">
+                    <h3 id="title-footer-address"><span>Contact Us</span></h3>
+                    <p style="color:#000;"><strong>
+                    You can contact us via </strong><br />
+
+                      <strong>Phone #:</strong> +92-91-9216701<br />
+                                            <strong>For admissions:</strong> admissions@uop.edu.pk <br />
+                      <strong>For examinations:</strong> controller@uop.edu.pk <br />
+
+                      <strong>For website:</strong> webmaster@uop.edu.pk <br />
+                  </p>
+                   
+                    <ul id="list-social" class="clearfix">
+                        <li id="icon-facebook"><a href="https://www.facebook.com/UniversityOfPeshawarOfficialPage">Facebook</a></li>
+                        <li id="icon-twitter"><a href="https://twitter.com/upeshpakistan">Twitter</a></li>
+                        <li id="icon-gplus"><a href="http://www.google.com/+UoPEduPkOfficial">Google Plus</a></li>
+                        <li id="icon-linkedin"><a href="#">Linkedin</a></li>
+                        <li id="icon-youtube"><a href="#">Youtube</a></li>
+                        <li id="icon-flickr" class="last"><a href="#">Flickr</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+                <div id="footer-copyright">
+            <div id="footer-copyright-content" class="clearfix">
+               
+                <p id="text-address">University of Peshawar</p>
+               
+                <p id="text-copyright">Copyright &copy; 2024. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

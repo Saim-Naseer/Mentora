@@ -1,0 +1,1172 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Fee Structure Spring 2023 (On-Going), Undergraduate Program, MBA Program, MS Program Full-Time Part-Time, Transport fee per semester,Hostel fee (per semester),BBA,BS-Accounting & Finance,BS-Economics,BS-Economics & Mathematics,BS-Computer Science,BS-Social Sciences, Admission fee of PKR. 65,000/- will be charged to all fresh intake students,Fee is subject to tax as per the policy of Government of Pakistan.,The tuition fee will be charged on actual credit hour basis.,MBA-Morning,MBA-Evening,MBA-Executive,MS-Computer Science,MS-Management,MS-Development Science,MS-Mathematics & Economics,MS-Data Science,MS-Finance & Journalism,MS-Islamic Banking & Finance, Single occupancy - without AC,Double occupancy - without AC,Triple occupancy - without AC,Admission fee of PKR. 65,000/- will be charge to all fresh intake students.Fee is subject to tax as per the policy of Government of Pakistan.The tuition fee will be charged on actual credit hour basis.Student activity charges will be charged to MS Full Time program only.">
+	<meta name="keywords" content="iba,iba karachi,iba university,iba website,Fee Structure Spring 2023 (On-Going), Undergraduate Program, MBA Program, MS Program Full-Time Part-Time, Transport fee per semester,Hostel fee (per semester),BBA,BS-Accounting & Finance,BS-Economics,BS-Economics & Mathematics,BS-Computer Science,BS-Social Sciences, Admission fee of PKR. 65,000/- will be charged to all fresh intake students,Fee is subject to tax as per the policy of Government of Pakistan.,The tuition fee will be charged on actual credit hour basis.,MBA-Morning,MBA-Evening,MBA-Executive,MS-Computer Science,MS-Management,MS-Development Science,MS-Mathematics & Economics,MS-Data Science,MS-Finance & Journalism,MS-Islamic Banking & Finance, Single occupancy - without AC,Double occupancy - without AC,Triple occupancy - without AC,Admission fee of PKR. 65,000/- will be charge to all fresh intake students.Fee is subject to tax as per the policy of Government of Pakistan.The tuition fee will be charged on actual credit hour basis.Student activity charges will be charged to MS Full Time program only.">
+	<title>Fee Structure for 2025-26 (Fall 2025 Admission)</title>
+	<link rel="stylesheet" href="css/iba-karachi-all.css?v=1.1?">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.carouselcycle.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.simpleTicker.js"></script>
+	<script type="text/javascript" src="js/jquery.marquee.js"></script>
+	<script>
+		$(function(){
+		$('#marquee-vertical').marquee();
+		$('#marquee-horizontal').marquee({direction:'horizontal', delay:100, timing:1000});  
+		});
+	</script>
+	<script>
+		$(function(){
+		$.simpleTicker($("#ticker-fade"),{'effectType':'fade'});
+		$.simpleTicker($("#ticker-roll"),{'effectType':'roll'});
+		$.simpleTicker($("#ticker-slide"),{'effectType':'slide'});
+		$.simpleTicker($("#ticker-one-item"),{'effectType':'fade'});
+		});
+	</script>
+	<!-- Google Analytics Starts -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11117631-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-TW6K5Q0JV3');
+	</script>
+<!-- Google Analytics Ends -->
+	<style>
+		.tab {margin-bottom: -1px;float: left;margin-left: 13px;}	
+		.tab button {padding: 0px;font-size: 17px;width: 219px;height: 50px;}
+		.tabcontent {border: 0px;}	   		
+		.active {background: #cccccccc!important;color: #000000!important;}
+		@media screen and (max-width: 1400px) {
+			.tab button{
+				padding: 15px 35px;
+				font-size: 17px;
+				width: auto;
+				height: auto;
+			}
+		}
+		@media screen and (max-width: 1300px) {
+			.tab button{
+				padding: 15px 30px;
+			}
+		}
+		@media screen and (max-width: 1240px) {
+			.tab button{
+				padding: 15px 25px;
+			}
+		}
+		@media screen and (max-width: 1180px) {
+			.tab button{
+				padding: 15px 20px;
+			}
+		}
+		@media screen and (max-width: 1110px) {
+			.tab button{
+				padding: 15px;
+			}
+		}
+		@media screen and (max-width: 1060px) {
+			.tab button{
+				padding: 8px;
+			}
+		}
+		@media screen and (max-width: 980px) {
+			.tab button{
+				padding: 10px;
+				width: 45%;
+				margin: 1px auto;
+				display: inline-block;
+			}
+		}
+	</style>
+</head>
+<body class="memoriam">
+
+	﻿<head>
+    <link rel="stylesheet" href="nav-css/nav-layout.min.css">
+    <link rel="stylesheet" href="nav-css/nav-core.min.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="nav-css/ie8-core.min.css">
+    <link rel="stylesheet" href="nav-css/ie8-layout.min.css">
+    <script src="nav-js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="nav-js/rem.min.js"></script>
+<style>
+.btn {
+background-color: #ffd200;
+color: #00174f;
+display: inline-block;
+text-decoration: none;
+padding: 13px 30px;
+margin: 30px 0 0 0;
+border-radius: 3px;
+font-weight: bold;
+}
+.btn:hover {
+background-color: #fff;
+}
+.btn--transition {
+-webkit-transition: -webkit-transform 0.2s;
+-webkit-transition: all 200ms ease-in-out;
+transition: all 200ms ease-in-out;
+}
+:focus {
+outline: none;
+}
+.icons {
+margin: 50px 0;
+}
+.icon {
+border: 0;
+height: 55px;
+width: 79px;
+border-radius: 50%;
+cursor: pointer;
+position: absolute;
+left: -7px;
+top: 80px;
+}
+.icon span {
+display: block;
+height: 3px;
+width: 33px;
+background-color: #ffffff;
+border-radius: 2px;
+position: absolute;
+left: 23px;
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+.icon span:first-child {
+top: 28px;
+}
+.icon span:nth-child(2) {
+top: 37px;
+}
+.icon span:last-child {
+top: 46px;
+}
+.icon--active span:first-child {
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:last-child {
+-webkit-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+position: absolute;
+top: 37px;
+}
+.icon--active span:nth-child(2) {
+opacity: 0;
+}
+.icon--button {
+border-radius: 10px;
+}
+.icon--square {
+border-radius: 0;
+}
+.icon--transparent {
+background-color: transparent;
+}
+.icon--transparent span {
+background-color: #fff;
+}
+.icon-transition {
+-webkit-transition: -webkit-transform 0.3s;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+</style>
+<!-- Meta Pixel Code -->
+
+<script>
+
+!function(f,b,e,v,n,t,s)
+
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];
+
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1432371431016180');
+
+fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+src="https://www.facebook.com/tr?id=1432371431016180&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+</head>
+<div id="header">
+	<div class="holder">
+		<strong class="logo" id="logo"><a href="/">IBA Karachi</a></strong>
+		<a href="/" class="logo-small"><img src="images/logo-iba-70years.png" width="180" height="94" /></a>
+		<div class="header-content">
+			<ul>
+				<!--<li><a href="index.php">Home</a></li>-->
+                <li><a href="faculty.php">Faculty</a></li>
+                <li><a href="students.php">Students</a></li>
+                <li><a href="https://alumni.iba.edu.pk/">Alumni</a></li>
+                <li><a href="staff.php">Staff</a></li>
+                <li><a href="media.php">Media</a></li>
+			 	<li class="search"><a href="#" class="openBtn" onClick="openSearch()"> <i class="fa fa-search"></i> Search</a></li>
+				<!--<li><a href="http://login.microsoftonline.com/" target="_blank">Email</a></li>
+				<li><a href="erpportal.php">ERP/LMS</a></li>
+				<li><a href="e-learning.php">E-Learning</a></li>
+				<li><a href="https://onlinepayment.iba.edu.pk/" target="_blank">Pay Online</a></li>
+				<li><a href="mediacoverage.php">Media Coverage</a></li>
+				<li><a href="contact_us.php">Contact Us</a></li>-->
+			</ul>
+			<!--<form method="GET" action="search-results.php" id="cse-search-box-form-id" class="search-form">
+				<input type="text" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search...':this.value;" value="" placeholder="Search..." name="q" id="cse-search-input-box-id" class="search-text">
+				<input type="submit" value="" class="btn-search">
+			</form>-->
+		</div>
+	</div>
+	<!--<a href="#" class="nav-button"><img src="images/ico-menu.png" width="34" height="24" alt="Menu"></a>-->
+	<button class="icon icon--transparent nav-button" id="icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<nav class="nav" id="main-menu">
+	    <ul>
+		   <li class="nav-submenu"><a href="#">Admissions <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+                    <li><a href="undergraduate.php">Undergraduate Programs</a></li>
+                    <li><a href="graduate.php">Graduate Programs</a></li>
+                    <li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+                    <li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+                    <li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/admissions_schedule.php" target="_blank">Admissions Schedule</a></li>
+                    <li><a href="https://admissions.iba.edu.pk/policies-and-details.php" target="_blank">Admissions Policy</a></li>
+                    <li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+			<!--<li><a href="onlineadmission.php">Apply Online</a></li>-->
+                    <li><a href="faqs.php">FAQs </a></li>
+				 <li class="nav-submenu"><a href="#">Others <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="fee-structure.php">Fee Structure</a></li>
+					    <li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+					    <li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+					    <!--<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>-->
+					
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">Academics <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="schools.php">Schools</a></li>
+				 <!--<li class="nav-submenu"><a href="#">Schools <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							<ul>
+							    <li><a href="patrons.php">Patron</a></li>
+							    <li class="nav-submenu"><a href="#">Business Studies <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<ul>
+									    <li><a href="patrons.php">Patron</a></li>
+									    <li><a href="ed-profile.php">Executive Director</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+									</ul>
+								 </li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+							</ul>
+						 </li>
+					</ul>
+				 </li>-->
+				 <li><a href="academic-calendar.php">Academic Calendar 2025-26</a></li>
+				 <!--<li><a href="academic-calendar-2024-25.php">Academic Calendar 2024-25</a></li>-->
+     				<li><a href="registrar.php">Office of the Registrar</a></li>
+				 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+			  </ul>
+		   </li>
+		   <li><a href="research.php">Research</a></li>
+		   <li class="nav-submenu"><a href="#">Life at IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				<li><a href="https://osa.iba.edu.pk/" target="_blank">Office of Student Affairs</a></li>
+				 <!--<li><a href="https://www.iba.edu.pk/studentssocieties" target="_blank">Societies</a></li>-->
+				 <li><a href="student_facilities.php">Facilities</a></li>
+				 <li><a href="lifeoncampus.php">Life on Campus</a></li>
+				 <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+				 <li><a href="https://irc.iba.edu.pk/" target="_blank">International Resource Center</a></li>
+				 <li><a href="index.php#trending">IBA Events</a></li>
+                 <li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				 <li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+			  </ul>
+		   </li>
+		   <li class="nav-submenu"><a href="#">About IBA <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+			  <ul>
+				 <li><a href="history.php">History &amp; Timeline</a></li>
+				 <li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<!-- <li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>-->
+				 <li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+				 <li class="nav-submenu"><a href="#">Management <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+					<ul>
+					    <li><a href="patrons.php">Patron</a></li>
+					    <li><a href="ed-profile.php">Executive Director</a></li>
+					    <li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+					    <li><a href="deans.php">Deans</a></li>
+					    <li><a href="registrar.php">Registrar</a></li>
+					    <!--<li><a href="program-directors-chairpersons.php">Chairpersons</a></li>-->
+					    <li><a href="faculty-profiles.php">Faculty</a></li>
+					    <li><a href="management-staff.php">Staff</a></li>
+						<!--<li><a href="http://iba/hrnewsite/whistle-blowing.php" target="_blank">Whistleblowing</a></li>-->
+					</ul>
+				 </li>
+			  </ul>
+		   </li>
+	    </ul>
+	</nav>
+<a href="#" class="nav-close">Close Menu</a>
+<script src="nav-js/nav.jquery.min.js"></script>
+<script>
+    $('.nav').nav();
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11117631-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-11117631-1');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW6K5Q0JV3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TW6K5Q0JV3');
+</script>
+<script>
+var animation = 'rubberBand';
+$('.icon').on('click', function () {
+$(this).toggleClass('icon--active');
+});
+$('.icon').on('click', function () {
+$(this).addClass('animated ' + animation).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+$(this).removeClass('animated ' + animation);
+});
+});
+//# sourceURL=pen.js
+</script>
+	
+	
+			</div>
+		
+			
+		</div>
+	</div>
+</div>	<div id="wrapper">
+		<div id="container">
+			<div class="row">
+				<div id="main">
+							
+					<h2 class="title-content-global">Fee Structure for 2025-26 (Fall 2025 Admission) </h2>
+						<div class="block-fee-structure-buttons">
+							<div class="box">
+								<span>View other fee structures:</span><a href="fee-structure-between-fall-2022-till-spring-2025.php" class="btn-apply-online">Admitted Between Fall 2022 till Spring 2025</a>  <a href="fee-structure-graduating-program-fall-2024.php" class="btn-apply-online">Graduating Program fee for Fall 2024 Admission</a> <a href="fee-structure-before-fall-2022.php" class="btn-apply-online">Admitted Before Fall 2022</a>
+							</div>
+						</div>
+						<div class="block-write-up">
+							<div class="tab">
+								 <button class="tablinks" onclick="openCity(event, 'Undergraduate')" id="defaultOpen">Undergraduate Program </button>
+								 <button class="tablinks" onclick="openCity(event, 'MBA-Program')">MBA Program </button>
+								 <button class="tablinks" onclick="openCity(event, 'MSProgram-Full-Time')">MS Program</button>
+								 <button class="tablinks" onclick="openCity(event, 'onetimecharges')">One-time Charges</button>
+								 <button class="tablinks" onclick="openCity(event, 'Transport-Fee')">Transport Fee </button>
+								 <button class="tablinks" onclick="openCity(event, 'Hostel-Fee')">Hostel Fee </button>
+							</div>
+						<div id="Undergraduate" class="tabcontent">
+						  <span onclick="this.parentElement.style.display='none'" class="topright">&times </span>
+								<div align="left" style="color: #000;">
+									<table class="global-table">
+										<tbody>
+										<tr>
+										<td colspan="3" width="623" style="background: #0e4747;">
+										<p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>Undergraduate Program<br /><br /></strong></p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: center;"><strong>Programs</strong></p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;"><strong>Fee Per Credit Hour</strong></p>
+										</td>
+										<td width="213">
+										<p style="text-align: center;"><strong>Student Activity Charges</strong></p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BBA</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										<td rowspan="9" width="213" style="vertical-align: middle">
+										<p style="text-align: center;">7,000</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS-Accounting &amp; Finance </p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS-Computer Sciences</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS-Economics</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS-Economics &amp; Mathematics</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">
+										BS-Mathematics</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS-Social 
+										Sciences &amp; Liberal Arts</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BSBA</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">BS - Economics & Data Science</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">29,400</p>
+										</td>
+										</tr>
+										</tbody>
+										</table>
+								 </div>
+						</div>
+
+
+								<div id="MBA-Program" class="tabcontent">
+						  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+								<div align="left" style="color: #000;">
+									<table class="global-table">
+										<tbody>
+
+										<tr>
+										<td colspan="3" width="623" style="background: #0e4747;">
+										<p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>
+										MBA Program<br /><br /></strong></p>
+										</td>
+										</tr>	
+
+										<tr>
+										<td width="187">
+										<p style="text-align: center;"><strong>
+										Programs</strong></p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;"><strong>
+										Fee Per Credit Hour</strong></p>
+										</td>
+										<td width="213">
+										<p style="text-align: center;"><strong>
+										Student Activity Charges</strong></p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">MBA-Morning</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">36,750</p>
+										</td>
+										<td width="213">
+										<p style="text-align: center;">7,000</p>
+										</td>
+										</tr>
+										<tr>
+										<td width="187">
+										<p style="text-align: left;">Executive MBA</p>
+										</td>
+										<td width="223">
+										<p style="text-align: center;">EMBA Program Fee<br>4,000,000</p>
+										</td>
+										<td width="213">
+										<p style="text-align: center;"><srong>Note: </strong>A new Executive MBA program has been introduced. Under the fee structure, students are required to pay 30% of the tuition fee within two weeks of receiving the admission offer, 30% within the first six months of enrollment, and the remaining 40% at the beginning of the second year.</p>
+										</td>
+										</tr>
+										</tbody>
+										</table>
+										<!--<p style="font-weight: bold;"><strong>One-time charges:</strong></p>
+										<ul class="global-list">
+										<li>  Admission fee of PKR. 65,000/- will be charged to all fresh intake students.</li>
+										<li>  Orientation course fee of PKR. 35,000/- will be applicable on MBA Morning/Evening candidates only. </li>
+									    </ul>
+									
+									<p style="font-weight: bold;"><strong>Note:</strong></p>
+										<ul class="global-list">
+										<li>  Fee is subject to tax as per the policy of Government of Pakistan.</li>										
+										<li>  The tuition fee will be charged on credit hour basis, considering the standard course load in a semester of the program.</li>
+									    </ul>-->
+								 </div>
+						</div>
+
+
+
+								<div id="MSProgram-Full-Time" class="tabcontent">
+								<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+								<div align="left" style="color: #000;">
+										<table class="global-table">
+											<tbody>
+											<tr>
+											<td colspan="3" width="623" style="background: #0e4747;">
+											<p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>MS Program Full-Time<br /><br /></strong></p>
+											</td>
+											</tr>
+											<tr>
+											<td width="187">
+											<p style="text-align: center;"><strong>Programs</strong></p>
+											</td>
+											<td width="223">
+											<p style="text-align: center;"><strong>Fee Per Credit Hour</strong></p>
+											</td>
+											<td width="213">
+											<p style="text-align: center;"><strong>Student Activity Charges<br>Full Time Programs Only</strong></p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS 
+											Computer Science</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											<td rowspan="11" width="210" style="vertical-align: middle">
+											<p style="text-align: center;">7,000</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS-Management</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS-Development Studies</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">24,800</p>
+											</td>
+											</tr>
+												
+																							
+												
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS- Journalism</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">24,800</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS-Mathematics & Economics</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS-Data Science</p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">
+											<p style="text-align: left;">MS-Artificial Intelligence </p>
+											</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>	
+												
+											<tr>
+											<td width="192">MS-Finance</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">MS Islamic Banking & Finance</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">MS Marketing</td>
+											<td width="221">
+											<p style="text-align: center;">32,550</p>
+											</td>
+											</tr>
+											<tr>
+											<td width="192">MS General Psychology </td>
+											<td width="221">
+											<p style="text-align: center;">24,800</p>
+											</td>
+											</tr>
+											</tbody>
+											</table>
+											
+											
+								 </div>
+								</div>
+								
+								<div id="onetimecharges" class="tabcontent">
+								<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+								<div align="left" style="color: #000;">
+										
+											
+											<table class="global-table">
+												<tr>
+													<td colspan="2" style="background: #0e4747;"><p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>One-time Charges</strong></p></td>
+												</tr>
+												<tr>
+													<td></td>
+													<td>Amount in PKR</td>
+												</tr>
+												<tr>
+													<td>Admission Charges</td>
+													<td>115,000</td>
+												</tr>
+												<tr>
+													<td>BOP / AIM</td>
+													<td>50,000 for Graduate Programs</td>
+												</tr>
+											</table>
+
+								 </div>
+								</div>
+								<div id="Transport-Fee" class="tabcontent">
+								<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+								<div align="left" style="color: #000;">
+										<table class="global-table">
+										<tbody>
+											<tr>
+											<td colspan="3" width="623" style="background: #0e4747;">
+											<p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>	Transport Fee  <br><br></strong></p>
+											</td>
+											</tr>
+											<tr>
+												<td></td>
+												<td><strong>Amount in PKR</strong></td>
+											</tr>
+											<tr>
+												<td rowspan="2">Amount in PKR</td>
+												<td>45,000 (0 - 20 km)</td>
+											</tr>
+											<tr>
+												<td>65,000 (21 - onwards)</td>
+											</tr>
+											
+											
+											
+											
+											
+											</tbody>
+											</table>
+										
+										<!--<p>Note: The change in transport fee structure is subject to the rising trend in the fuel prices</p>-->
+
+
+								 </div>
+								</div>
+
+								<div id="Hostel-Fee" class="tabcontent">
+								<span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+								<div align="left" style="color: #000;">
+											
+										<table class="global-table">
+										<tbody>
+											<tr>
+											<td colspan="2" width="623" style="background: #0e4747;">
+											<p style="color: #fff;line-height: 0px;padding-top: 14px;"><strong>	Hostel fee (per semester) <br /><br /></strong></p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: center;"><strong>Room Type</strong></p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;"><strong> Amount in PKR </strong> </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">Single 
+											Occupancy - Without AC</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;"> 121,440 </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">Double 
+											Occupancy - Without AC</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;"> 116,886 </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">Three 
+											or more Occupancy - Without AC</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;">
+											 114,840 </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">AC Room 
+											- Single Occupancy</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;">
+											 133,584 </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">AC Room 
+											- Double Occupancy</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;">
+											 129,030 </p>
+											</td>
+											</tr>
+											<tr>
+											<td width="312">
+											<p style="text-align: left;">AC room – More than 3 occupancies</p>
+											</td>
+											<td width="312">
+											<p style="text-align: center;">
+											 125,235 </p>
+											</td>
+											</tr>
+											</tbody>
+											</table>
+											
+											<!--<p><em class="italic-global">Note: Utility Charges For A/C Room will be applied separately at actual basis and on prorata basis.</em></p>-->
+									
+											<p><em class="italic-global">Note: <br>
+											1. The fees for the Summer Semester for Hostel residents who wish to stay during the summer for various reasons will be charged on prorate basis.<br>
+2. Utility Charges For A/C Room will be applied separately at actual basis and on prorata basis.		
+</em></p>							
+									
+									
+									
+									
+											
+								 </div>
+								</div>
+
+
+
+							</div>
+
+			
+					</div>
+				</div>
+			</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+            
+            
+			﻿<div id="container" class="footer">
+
+        <div class="row quick-links">
+
+				<div class="three-column">
+
+					<div class="column">
+
+						<h2>Admissions</h2>
+
+						<ul>
+
+				<li><a href="undergraduate.php">Undergraduate Programs</a></li>
+
+				<li><a href="graduate.php">Graduate Programs</a></li>
+
+				<li><a href="postgraduate-programs.php">Postgraduate Programs</a></li>
+
+				<li><a href="pgd-programs.php">Postgraduate Diploma Programs</a></li>
+
+				<li><a href="centers-of-excellence.php">Centers of Excellence</a></li>
+
+				<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply Online</a></li>
+
+				<li><a href="News/iba-advantage-fall2022.pdf" target="_blank">Program Planning Guide</a></li>
+
+                 		<li><a href="fee-structure.php">Fee Structure</a></li>
+
+				<li><a href="https://www.iba.edu.pk/financialassistance/" target="_blank">Financial Assistance</a></li>
+
+				<li><a href="https://admissions.iba.edu.pk/pastpapers.php" target="_blank">Aptitude Tests Samples</a></li>
+
+                         	<!--<li><a href="faqs.php">FAQs </a></li>-->
+
+						</ul><br>
+
+						<h2>Academics</h2>
+
+						<ul>
+
+				 <li><a href="schools.php">Schools</a></li>
+
+				 <li><a href="academic-calendar.php">Academic Calendar</a></li>
+
+				 <li><a href="registrar.php">Office of the Registrar</a></li>
+
+                 <li><a href="https://qec.iba.edu.pk/" target="_blank">QEC</a></li>
+
+						</ul>
+
+					</div>
+
+					<div class="column">
+
+						<h2>Life at IBA</h2>
+
+						<ul>
+
+				<li><a href="https://osa.iba.edu.pk" target="_blank">Office of Student Affairs</a></li>
+
+				<li><a href="student_facilities.php">Facilities</a></li>
+
+				<li><a href="lifeoncampus.php">Life on Campus</a></li>
+
+				<li><a href="https://www.iba.edu.pk/visitiba/" target="_blank">Virtual Tour</a></li>
+
+				<li><a href="https://osa.iba.edu.pk/oise/" target="_blank">Office of International Student Exchange</a></li>
+
+				<li><a href="index.php#trending">IBA Events</a></li>
+
+				<li><a href="News/iba-experience.pdf" target="_blank">IBA Experience</a></li>
+				<li><a href="https://summerschool.iba.edu.pk/" target="_blank">IBA Summer School</a></li>
+
+				<li><a href="space.php">SP@CE</a></li>
+
+						</ul><br>
+
+						<h2>Research</h2>
+
+						<ul>
+
+							<li><a href="https://oric.iba.edu.pk/" target="_blank">ORIC</a></li>
+
+							<li><a href="https://ir.iba.edu.pk/businessreview/" target="_blank">IBA Business Review</a></li>
+                            <li><a href="https://library.iba.edu.pk/" target="_blank">Library</a></li>
+                            <li><a href="https://cber.iba.edu.pk/" target="_blank">Center for Business and Economic Research</a></li>
+						
+						</ul>
+
+					</div>
+
+					<div class="column footer-about-iba">
+
+						<h2>About IBA</h2>
+
+						<ul>
+
+							<li><a href="history.php">History &amp; Timeline</a></li>
+
+				<li><a href="vision-mission-core-values.php">Vision, Mission &amp; Core Values</a></li>
+				<li><a href="https://hr.iba.edu.pk/hr-policies.php" target="_blank">HR Policies</a></li>
+
+				<li><a href="https://irc.iba.edu.pk/international-linkages.php" target="_blank">International Linkages</a></li>
+
+				<li><a href="patrons.php">Patron</a></li>
+
+				<li><a href="ed-profile.php">Executive Director</a></li>
+
+				<li><a href="patrons.php#board_of_governors">Board of Governors</a></li>
+
+				<li><a href="deans.php">Deans</a></li>
+
+				<li><a href="registrar.php">Registrar</a></li>
+
+				<li><a href="faculty-profiles.php">Faculty</a></li>
+
+				<li><a href="management-staff.php">Staff</a></li>
+				
+
+                <li><a href="finance.php">Finance</a></li>
+
+				<li><a href="tenders_new.php">Tenders</a></li>
+
+						</ul><br>
+
+						
+
+					</div>
+
+				
+
+					<div class="column column-buttons">
+
+						<ul class="footer-buttons">
+								<li><a href="https://onlineadmission.iba.edu.pk/" target="_blank">Apply for Admission</a></li>
+                            <li><a href="https://rm.iba.edu.pk/" target="_blank">Give</a></li>
+
+							<li><a href="https://careers.iba.edu.pk/" target="_blank">Careers</a></li>
+							<li><a href="https://hr.iba.edu.pk/whistleblowing.php" target="_blank">Whistleblowing</a></li>
+							<li><a href="iba-phone-directory.php">Contact Us</a></li>
+
+						</ul>
+
+					
+
+					</div>
+
+				</div>
+
+			</div></div><!--middle footer-->
+
+	<div id="footer">
+
+		<div class="footer-top">
+
+			<div class="iba-social-networks">
+
+				<h3>Social Networks</h3>
+
+				<ul>
+
+					<li><a href="https://www.facebook.com/ibakhiofficial/" target="_blank" class="fa fa-facebook"></a></li>
+
+					<li><a href="https://x.com/ibakhiofficial" target="_blank" class="ico-twiiter-x"><img src="images/ico-twitter-x.png" width="15" height="14"></a></li>
+
+
+					<li><a href="https://pk.linkedin.com/school/ibakhiofficial/" target="_blank" class="fa fa-linkedin"></a></li>
+
+					<li><a href="https://www.youtube.com/channel/UCP2jFh53I30goOY4YSjzE3w" target="_blank" class="fa fa-youtube-play"></a></li>
+
+                    <li><a href="https://www.instagram.com/ibakhiofficial/?hl=en" target="_blank" class="fa fa-instagram"></a></li>
+					
+					<li><a href="https://www.tiktok.com/@ibakhiofficial" target="_blank" class="ico-tiktok">
+						<img src="images/ico-tiktok.png" width="15" height="14"></a></li>
+
+				</ul>
+
+				<p>&copy; IBA Karachi</p>
+
+				
+
+			</div>
+
+		</div>
+
+		
+
+	</div>
+
+	<div id="myOverlay" class="overlay-search">
+  		<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+  		<div class="overlay-content">
+    		<form  method="GET" action="search-results.php" id="cse-search-box-form-id">
+      			<input type="text" placeholder="Search.." onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Search...':this.value;" value="" name="q" id="cse-search-input-box-id">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    		</form>
+  		</div>
+	</div>
+
+
+
+<script>
+
+function openSearch() {
+
+  document.getElementById("myOverlay").style.display = "block";
+
+}
+
+
+
+function closeSearch() {
+
+  document.getElementById("myOverlay").style.display = "none";
+
+}
+
+</script>		<script src="js/jquery.imagesloaded.min.js"></script>
+		<script src="js/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+		});
+	</script>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+			x.className = "topnav";
+			}
+		}
+	</script>
+<script>
+function myFunction1() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

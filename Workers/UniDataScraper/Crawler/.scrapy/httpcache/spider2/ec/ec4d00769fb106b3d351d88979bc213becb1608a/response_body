@@ -1,0 +1,2058 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.buttone{
+width: auto;
+    background: #fff;
+    border: 0px solid #1e728c;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset;
+    color: #fff;
+   
+    display: inline-block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+	cursor:auto;
+    outline: none;
+    padding: 10px 20px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    -moz-transition: background-color 0.15s ease-in-out;
+    -o-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+	}
+	
+</style>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://results.pu.edu.pk/old/new/token/src/jquery.tokeninput.js"></script>
+
+    <link rel="stylesheet" href="https://results.pu.edu.pk/old/new/token/styles/token-input.css" type="text/css" />
+    <link rel="stylesheet" href="https://results.pu.edu.pk/old/new/token/styles/token-input-facebook.css" type="text/css" />
+
+    <script type="text/javascript">
+	function validate(field){
+  var rRes = "";
+	for(i = 0; i < field.length; i++) {
+		if(field.charAt(i) != ' ') {
+			rRes = rRes + field.charAt(i);
+		}
+	 }
+	if (rRes != ""){
+	 	
+	
+	if(!isNaN(field)){
+		return (true);	
+	
+	}else{
+	return (false);
+
+	}
+}
+	}
+   $(document).ready(function() {
+$('input[type=radio][name=selecttype]').change(function(){
+var value = $( 'input[name=selecttype]:checked' ).val();
+
+});
+
+
+
+	   
+	  $('input[type=radio][name=selecttype]').change(function() {
+ 
+  if ($( 'input[name=selecttype]:checked' ).val()=='mamsc'){
+$( 'input[name=selecttype]:checked' ).css("background", "red");
+  $('#inter').hide();
+  $('#babsc').show();
+
+  }else{
+	  
+	  $('#inter').show();
+  $('#babsc').hide();
+  }
+  
+});
+
+
+		
+        $("input[type=button]").click(function (e) {
+			
+			if ($( 'input[name=selecttype]:checked' ).val()=='mamsc'){
+			
+			 
+			 if (!validate($('#matricr').val())) {
+		$('#matricr').css('background-color', 'red');
+		alert("Please enter number only.");
+		
+		$('#matricr').focus();
+		return false;
+		}else  if (!validate($('#matrict').val())) {
+			$('#matrict').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#matrict').focus();
+		return false;
+		}
+		else  if (!validate($('#interr').val())) {
+			$('#interr').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#interr').focus();
+		return false;
+		}  		
+		else  if (!validate($('#intert').val())) {
+			$('#intert').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#intert').focus();
+		return false;
+		}
+		else  if (!validate($('#bscr').val())) {
+			$('#bscr').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#bscr').focus();
+		return false;
+		}
+		else  if (!validate($('#bsct').val())) {
+			$('#bsct').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#bsct').focus();
+		return false;
+		}
+		else  if (!validate($('#add').val())) {
+			$('#add').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#add').focus();
+		return false;
+		}
+		$('input[type=text]').css('background-color', 'white');
+		var r = (($('#matricr').val()/4) + ($('#interr').val()/5) + ($('#bscr').val()/1) +($('#add').val()/1) ) / (($('#matrict').val()/4) + ($('#intert').val()/5) + ($('#bsct').val()/1))*100;
+		
+$('#result').val(r.toFixed(2));		
+		
+			}else 
+			{
+			if (!validate($('#entryobt').val())) {
+				 $('#entryobt').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#entryobt').focus();
+		return false;
+		}else if (!validate($('#entrytotal').val())) {
+				 $('#entrytotal').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#entrytotal').focus();
+		return false;
+		}else  if (!validate($('#intermatricr').val())) {
+				 $('#intermatricr').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#intermatricr').focus();
+		return false;
+		}else  if (!validate($('#intermatrict').val())) {
+			$('#intermatrict').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#intermatrict').focus();
+		return false;
+		}
+		else  if (!validate($('#interinterr').val())) {
+			$('#interinterr').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#interinterr').focus();
+		return false;
+		}  		
+		else  if (!validate($('#interintert').val())) {
+			$('#interintert').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#interintert').focus();
+		return false;
+		}
+		else  if (!validate($('#interadd').val())) {
+			$('#interadd').css('background-color', 'red');
+		alert("Please enter number only.");
+		$('#interadd').focus();
+		return false;
+		}
+		
+			var r = ((($('#intermatricr').val()/4) + ($('#interinterr').val()/1) + ($('#interadd').val()/1) ) / (($('#intermatrict').val()/4) + ($('#interintert').val()/1))*75)+(($('#entryobt').val()/$('#entrytotal').val())*25);
+		
+$('#result').val(r.toFixed(2));		
+	
+	
+			}
+	
+            //alert("Would submit: " + $(this).siblings("input[type=text]").val());
+			
+        });
+    });
+    </script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>- Basic Criteria Calculator Form - University of the Punjab </title>
+ <link rel="stylesheet" href="https://results.pu.edu.pk/old/js/resp/stylesheets/foundation.min.css">
+   <link rel="stylesheet" href="https://results.pu.edu.pk/old/js/resp/tesa/style.css">
+    <script src="https://results.pu.edu.pk/old/js/resp/tesa/script.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24781686-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <link rel="stylesheet" href="https://results.pu.edu.pk/old/js/resp/stylesheets/main.css" >
+
+
+
+ 
+  
+  <link rel="stylesheet" href="https://results.pu.edu.pk/old/js/resp/ligature.css">
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+
+		<link rel="stylesheet" type="text/css" href="https://results.pu.edu.pk/old/css/search/css/component.css" />
+        <script src="https://results.pu.edu.pk/old/css/search/js/modernizr.custom.js"></script></head>
+
+<body>
+
+	<!-- Wrapper Start -->
+	<div id="wrapper">
+    	<!-- Header Start -->
+    	 <header>
+<div class="row">
+<div class="twelve columns">
+ 
+<div >
+        	<!-- Logo Block Start -->
+           <span id="google_translate_element" style="display:none;"></span>
+ 
+            
+         
+                        
+                      
+            
+            
+             <l>
+             <div class="left five columns logo-block  " style=" padding-top:5px">
+            	   <div style="float:left" class="show-for-small"> <span style="float:left; margin-top:-12px;" ><a title="Go to PU Home" href="https://results.pu.edu.pk/old/">
+                        <img src="https://results.pu.edu.pk/old/images/logopu.png" width="23" height="90"  align="left" /><br><p style="font-size:12px; font-weight:bold; color:#FFFFFF;  margin-bottom:5px; clear:both ">University of the Punjab</p></a>  </span>              </div><div id="navcontainer" class=" twelve show-for-small" > 
+                        
+
+  
+<ul style="float:right;  background:none !important; margin-top:-12px;">
+    <li>
+					<div id="sb-search2" class="sb-search col2" style=" margin-top:-5px;" >
+						<form action="https://results.pu.edu.pk/old/home/search/" method="post">
+							<input class="sb-search-input" placeholder="Enter your search term..." value="" style="width:120px; top:0px !important;" type="text"  name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					
+				
+                </div></li>
+                        	                
+                	<li class="last" style="font-size:11px;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-large' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                        
+                         
+                	<li class="last" style="font-size:11px;"><a href="https://pu.edu.pk/home/allstaff">Staff A - Z</a></li>
+                        
+                  
+     
+        <li style="margin-top:-5px; ">  <a href="https://results.pu.edu.pk/old/home/dec" rel="https://results.pu.edu.pk/old/js/resp/stylesheets/main.css" id="decfont"><img src="https://results.pu.edu.pk/old/images/banner/ZOOM-.jpg" width="20px;" /></a>&nbsp;<a href="https://results.pu.edu.pk/old/home/inc" rel="https://results.pu.edu.pk/old/css/styles3.css" id="incfont"><img width="20px;" src="https://results.pu.edu.pk/old/images/banner/ZOOM+.jpg" /></a></li>
+
+    
+                    </ul></div>
+                        
+                <span style="float:left;" class="hide-for-small"><a title="Go to PU Home" href="https://results.pu.edu.pk/old/">
+                        <img src="https://results.pu.edu.pk/old/images/logopu.png" width="67" height="90" align="left" /><br><p style="font-size:10px; color:#FFFFFF; padding-left:10px; margin-bottom:-20px; clear:both ">Estb. 1882</p></a>  </span>              <span style="float:left; padding-top:70px;letter-spacing: -1px;" class="post-logo-txt logoo hide-for-small"> University of the Punjab</span>
+                        
+                
+             </div>
+             </l>
+             <l><div class="right seven columns" style="background-color:#25525E">
+             <div id="navcontainer" class=" twelve  hide-for-small" > 
+<ul style="float:right;  background:none !important;">
+
+
+                        	                
+                	<li  style="font-size:10px; color:#000000 !important;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-large' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                    
+                    
+                        
+                         
+                	<li  style="font-size:10px; color:#000000 !important;"><a href="https://pu.edu.pk/home/allstaff">Staff A - Z</a></li>
+                    
+                    
+                        
+                                  	
+                                              
+                                          
+                                                
+     
+        <li style="margin-top:-5px; ">  <a href="https://results.pu.edu.pk/old/home/dec" rel="https://results.pu.edu.pk/old/js/resp/stylesheets/main.css" id="decfont"><img src="https://results.pu.edu.pk/old/images/banner/ZOOM-.jpg" width="12px;" /></a>&nbsp;<a href="https://results.pu.edu.pk/old/home/inc" rel="https://results.pu.edu.pk/old/css/styles3.css" id="incfont"><img width="12px;" src="https://results.pu.edu.pk/old/images/banner/ZOOM+.jpg" /></a></li>
+     <li class="last" style="font-size:12px; size:20px">
+     
+         <g class="notranslate">
+     <select onchange="if (this.value) window.location.href=this.value" style="font-size:10px; width:50px;" id="dynamic_select">
+<option>Language</option>
+    <g class="notranslate"><option value="https://results.pu.edu.pk/old/home/tran/en"><g class="notranslate">en</g></option></g>
+    <option value="https://results.pu.edu.pk/old/home/tran/ur">ur</option>
+
+</select></g>
+
+</li>
+
+                    </ul><br><br><br></div>
+                   
+                    
+             <div class="row2 hide-for-small">
+               <div ><div class="row2 " style="border:0px;">
+              
+            
+           
+           <div style="width:150px; float:right; top:0px !important; margin-top:-10px; padding-bottom:10px;">
+					<div id="sb-search" class="sb-search col2">
+						<form action="https://results.pu.edu.pk/old/home/search/" method="post">
+							<input class="sb-search-input" placeholder="Enter your search term..." value="" style="width:120px; top:0px !important;" type="text"  name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+				</div>
+                
+                
+             </div></div>
+            
+            
+            
+
+             
+             <div class="right hide-for-small" id="navcontainer" style="padding-top:1px; clear:both" ><ul>
+           	                
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/more/6">Quick Links</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/infodesk.html">Info Desk</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/sitemap">Site Map</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/careers/">Careers</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/faq"><font color=#FF9933>FAQs</font></a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/contact-us.html">Contact Us</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-small' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                        
+               
+                    </ul>
+             </div>
+            </div> 
+             </div></l>
+             
+             
+             
+             
+             
+             <h><div class="left seven columns hide-for-small" style="background-color:#25525E">
+             <div id="navcontainer" class=" twelve  hide-for-small" > 
+<ul style="float:left;  background:none !important;">
+<li class="last hide-for-small" >
+<span id="google_translate_element" style="display:none;"></span></li>
+                        	                
+                	<li class="last" style="font-size:10px; color:#000000 !important;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-large' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                    
+                    
+                        
+                         
+                	<li class="last" style="font-size:10px; color:#000000 !important;"><a href="https://pu.edu.pk/home/allstaff">Staff A - Z</a></li>
+                    
+                    
+                        
+                                  	
+                                              
+                                                
+                                                
+     
+        <li style="margin-top:-5px; ">  <a href="https://results.pu.edu.pk/old/home/dec" rel="https://results.pu.edu.pk/old/js/resp/stylesheets/main.css" id="decfont"><img src="https://results.pu.edu.pk/old/images/banner/ZOOM-.jpg" width="12px;" /></a>&nbsp;<a href="https://results.pu.edu.pk/old/home/inc" rel="https://results.pu.edu.pk/old/css/styles3.css" id="incfont"><img width="12px;" src="https://results.pu.edu.pk/old/images/banner/ZOOM+.jpg" /></a></li>
+     <li class="last" style="font-size:12px; size:20px">
+     
+         <g class="notranslate ">
+     <select onchange="if (this.value) window.location.href=this.value" style="font-size:10px; width:50px;" id="dynamic_select">
+<option>Language</option>
+    <g class="notranslate"><option value="https://results.pu.edu.pk/old/home/tran/en"><g class="notranslate">en</g></option></g>
+    <option value="https://results.pu.edu.pk/old/home/tran/ur">ur</option>
+
+</select></g>
+
+</li>
+                    </ul><br><br><br></div>
+                   
+                    
+             <div class="row2  hide-for-small">
+               <div ><div class="row2" style="border:0px; float:left;">
+               <div style="width:150px; float:right; top:0px !important; margin-top:0px;">
+					<div id="sb-search" class="sb-search col2">
+						
+					</div>
+				</div>
+				
+				
+				
+				
+				
+				
+             </div></div>
+             </div>
+             <div class="row2 hide-for-small">
+               <div class="search">&nbsp;</div>
+             </div>
+             <div class="row2" style="padding-bottom:7px;">
+               <div class="search">&nbsp;</div>
+             </div>
+             
+
+             
+             <div class="left hide-for-small" id="navcontainer" style="padding-top:1px; clear:both" ><ul>
+           	                
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/more/6">Quick Links</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/infodesk.html">Info Desk</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/sitemap">Site Map</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/careers/">Careers</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/faq"><font color=#FF9933>FAQs</font></a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/contact-us.html">Contact Us</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-small' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                        
+               
+                    </ul>
+             </div>
+             
+             </div></h>
+             
+             
+             <h>
+             <div class="left five columns logo-block logotop hide-for-small" style=" padding-top:5px">
+            	   
+                        
+                <span style="float:right;" class="hide-for-small"><a title="Go to PU Home" href="https://results.pu.edu.pk/old/">
+                        <img src="https://results.pu.edu.pk/old/images/logopu.png" width="67" height="90" align="left" /><br><p style="font-size:10px; color:#FFFFFF; padding-left:10px; margin-bottom:-20px; clear:both ">Estb. 1882</p></a>  </span>              <span style="float:right; padding-top:70px" class="post-logo-txt logoo hide-for-small"> University of the Punjab</span>
+                        
+                
+             </div>
+             </h>
+           
+            <!-- Logo Block End -->
+            <!-- Navigation Block Start -->
+           
+            <!-- Navigation Block End -->
+	  </div>
+        
+ <style>
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  line-height: 1;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-bottom: 1px #ffffff solid;
+  border-top: 1px #ffffff solid;
+ 
+ 
+  width: auto;
+  padding-left:20px;
+   z-index: -10000;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  
+  color: #ffffff;
+  display: block;
+  font-size:10px;
+
+  padding: 1px 5px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: #ffffff;
+  font-size: 12px;
+
+  
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #0fa1e0;
+  margin-left: -10px;
+  
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: #ffffff;
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #070707;
+  background: -moz-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -o-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #262626 0%, #070707 100%);
+  background: linear-gradient(to bottom, #262626 0%, #070707 100%);
+}
+#cssmenu .has-sub {
+  z-index: 10000;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #25525E;
+  border-bottom: 1px dotted #31b7f1;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #006666;
+}
+#cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #006666;
+  border-bottom: 1px dotted #006666;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #006666;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0;
+}
+
+</style>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="row"   >
+     <div class="twelve columns " style="font-size:10px; padding:none !important; text-align:center " >
+    
+     
+      <div id='cssmenu' class="show-for-small" style="padding-top:1px; clear:both; margin-top:-7px;">
+<ul>
+
+    <li style="padding-right:15px" class='has-sub'><a  href="https://pu.edu.pk/home/index">Main Page</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page" rel="a0">About Us
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/historyandpride.html" rel="a0">Our History Our Pride
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/Admin_structure/" rel="a0">Administration
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Campuses.html" rel="a0">Campuses
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/help/gallery/" rel="a0">Picture Gallery
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Chancellor-Message.html" rel="a0">Chancellor's Message
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/vc-message.html" rel="a0">Vice Chancellor's Message
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" class='has-sub'><a  href="">Academics</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/faculties" rel="a1">Faculties
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/departments/" rel="a1">Departments
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/Independent" rel="a1">Independent Centre
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program" rel="a1">Programs
+
+<p style="float:right;color:white;">&#8594;</p></a>
+	<ul style="margin:0px;">
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Ph.%20D" rel="a1" >Ph.D Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/masters" rel="a1" >Masters Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Graduate" rel="a1" >Undergraduate Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Diploma" rel="a1" >Diploma </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Certificates" rel="a1" >Certificates </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program" rel="a1" >All Programs </a>
+    				</ul>
+	
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://scholarships.pu.edu.pk/" rel="a1">Scholarships
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/detail/HEC-Approved-Supervisors.html" rel="a1">HEC Approved Supervisors
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/contents/Student-Information.html" rel="a1">Student Information
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/affiliation" rel="a1">Affiliated Colleges
+
+<p style="float:right;color:white;">&#8594;</p></a>
+	<ul style="margin:0px;">
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Semester-System.html" rel="a1" >Semester System </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Annual-System.html" rel="a1" >Annual System </a>
+    				</ul>
+	
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+<li class="">
+<a  href="https://pu.edu.pk/page/facility/campuslife.html" ><span>Campus Life</a></span></li>
+
+
+
+    <li style="padding-right:15px" class='has-sub'><a  href="https://pu.edu.pk/careers/">Careers</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://jobs.pu.edu.pk/" rel="a3">Apply Online
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/careers/" rel="a3">Available Jobs
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" class='has-sub'><a  href="https://pu.edu.pk/page/show/research-publications.html">Research</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/oric" rel="a4">ORIC
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/hecdatabase.htm" rel="a4">Online Databases
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://pulibrary.edu.pk/" rel="a4">Library
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/pub" rel="a4">Publications
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/journals" rel="a4">Journals
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/books/" rel="a4">Books
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/dpcc/" rel="a4">Doctoral Programme Coordination Committee
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/vconf" rel="a4">Video conferencing
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/downloads/Research_websites_and_free_resources.docx" rel="a4">Research websites and free resources
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/conferences" rel="a4">Conferences
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" class='has-sub'><a  href="https://pu.edu.pk/home/more/4">Admission</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://111.68.103.22/admissions/" rel="a5">Apply Online (On-Campus Programs)
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/admission_notices" rel="a5">Notices 
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/" rel="a5">Regulations
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/contents/language-proficiency.html" rel="a5">Language Proficiency
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://journals.pu.edu.pk/old/fee/basicadmission/calculator/" rel="a5">Merit Calculator
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/downloads/Merit-of-Last-Year-2023.pdf" rel="a5">Merit of Last Year 2023 <img src="http://pu.edu.pk/images/News/a-new.gif" width="18" height="7">
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://admissions.pu.edu.pk/admissions/applicant/meritlist" rel="a5">Merit Lists <img src="http://pu.edu.pk/images/News/a-new.gif" width="18" height="7">
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" class='has-sub'><a  href="https://pu.edu.pk/home/more/2">Examination</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://116.58.20.164/exams/" rel="a6">Online Form Submission<br><font size="1">(Private / Regular & Late College (Affiliated Colleges)</font>
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/schedules" rel="a6">Schedules
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/datesheets/" rel="a6">Date Sheets
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/splash/allied" rel="a6">Download Roll No. Slip
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/results/" rel="a6">Results
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/splash/resultcard" rel="a6">Download Result Card
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Gazettes.html" rel="a6">Statistical Analysis / Gazettes
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/exam_news" rel="a6">Examination News
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+<li class="">
+<a  href="https://pu.edu.pk/page/downloads" ><span>Downloads</a></span></li>
+
+
+
+<li class="">
+<a  href="https://pu.edu.pk/page/show/rti.html" ><span>RTI</a></span></li>
+
+
+
+
+
+
+
+
+
+  
+</ul>
+</div>
+      
+
+
+
+<ul class="nave" style="padding-left:0px;">
+    <li style="padding-right:15px" ><a  href="https://pu.edu.pk/home/index">Main Page</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page" rel="a0">About Us
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/historyandpride.html" rel="a0">Our History Our Pride
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/Admin_structure/" rel="a0">Administration
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Campuses.html" rel="a0">Campuses
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/help/gallery/" rel="a0">Picture Gallery
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Chancellor-Message.html" rel="a0">Chancellor's Message
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/vc-message.html" rel="a0">Vice Chancellor's Message
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" ><a  href="">Academics</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/faculties" rel="a1">Faculties
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/departments/" rel="a1">Departments
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/Independent" rel="a1">Independent Centre
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program" rel="a1">Programs
+
+<p style="float:right;color:white;">&#8594;</p></a>
+	<ul style="margin:0px;">
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Ph.%20D" rel="a1" >Ph.D Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/masters" rel="a1" >Masters Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Graduate" rel="a1" >Undergraduate Programs </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Diploma" rel="a1" >Diploma </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program/index/Certificates" rel="a1" >Certificates </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/program" rel="a1" >All Programs </a>
+    				</ul>
+	
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://scholarships.pu.edu.pk/" rel="a1">Scholarships
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/detail/HEC-Approved-Supervisors.html" rel="a1">HEC Approved Supervisors
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/contents/Student-Information.html" rel="a1">Student Information
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/affiliation" rel="a1">Affiliated Colleges
+
+<p style="float:right;color:white;">&#8594;</p></a>
+	<ul style="margin:0px;">
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Semester-System.html" rel="a1" >Semester System </a>
+    <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Annual-System.html" rel="a1" >Annual System </a>
+    				</ul>
+	
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+<li class="">
+<a  href="https://pu.edu.pk/page/facility/campuslife.html" >Campus Life</a></li>
+
+    <li style="padding-right:15px" ><a  href="https://pu.edu.pk/careers/">Careers</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://jobs.pu.edu.pk/" rel="a3">Apply Online
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/careers/" rel="a3">Available Jobs
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" ><a  href="https://pu.edu.pk/page/show/research-publications.html">Research</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/oric" rel="a4">ORIC
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/hecdatabase.htm" rel="a4">Online Databases
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://pulibrary.edu.pk/" rel="a4">Library
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/pub" rel="a4">Publications
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/journals" rel="a4">Journals
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/books/" rel="a4">Books
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/dpcc/" rel="a4">Doctoral Programme Coordination Committee
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/vconf" rel="a4">Video conferencing
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/downloads/Research_websites_and_free_resources.docx" rel="a4">Research websites and free resources
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/conferences" rel="a4">Conferences
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" ><a  href="https://pu.edu.pk/home/more/4">Admission</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://111.68.103.22/admissions/" rel="a5">Apply Online (On-Campus Programs)
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/admission_notices" rel="a5">Notices 
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/" rel="a5">Regulations
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/regulations/contents/language-proficiency.html" rel="a5">Language Proficiency
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://journals.pu.edu.pk/old/fee/basicadmission/calculator/" rel="a5">Merit Calculator
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/downloads/Merit-of-Last-Year-2023.pdf" rel="a5">Merit of Last Year 2023 <img src="http://pu.edu.pk/images/News/a-new.gif" width="18" height="7">
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="http://admissions.pu.edu.pk/admissions/applicant/meritlist" rel="a5">Merit Lists <img src="http://pu.edu.pk/images/News/a-new.gif" width="18" height="7">
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+    <li style="padding-right:15px" ><a  href="https://pu.edu.pk/home/more/2">Examination</a>
+ <ul >
+
+<li style="margin:0px !important; padding:0px;" ><a  href="http://116.58.20.164/exams/" rel="a6">Online Form Submission<br><font size="1">(Private / Regular & Late College (Affiliated Colleges)</font>
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/schedules" rel="a6">Schedules
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/datesheets/" rel="a6">Date Sheets
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/splash/allied" rel="a6">Download Roll No. Slip
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/results/" rel="a6">Results
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/splash/resultcard" rel="a6">Download Result Card
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/page/show/Gazettes.html" rel="a6">Statistical Analysis / Gazettes
+
+</a>
+
+</li>
+					
+ 
+					 <li style="margin:0px !important; padding:0px;" ><a  href="https://pu.edu.pk/home/exam_news" rel="a6">Examination News
+
+</a>
+
+</li>
+					
+ 
+					   
+
+
+</ul>
+</li>
+
+<li class="">
+<a  href="https://pu.edu.pk/page/downloads" >Downloads</a></li>
+
+<li class="">
+<a  href="https://pu.edu.pk/page/show/rti.html" >RTI</a></li>
+
+  </ul>
+        
+      </div>  
+      </div>
+
+    <script src="https://results.pu.edu.pk/old/js/resp/tesa/script.js"></script>
+
+      
+
+</div>
+
+</div>
+</header>
+        <!-- Header End -->
+        <!-- Contents Start -->
+        <div id="content-area">
+       <div class="row">  <div class="twelve columns"> 	 
+          <a href="https://results.pu.edu.pk/old/" class="news">Main Page</a> </div></div>
+            
+            
+            <!-- Right Boxes Start -->
+            
+            <!-- Right Boxes End -->
+            <div id="news-blocks">
+            
+            <section class="section_light">
+   <div class="row">  <div class="three columns" style="text-align:left;" align="left">
+            	<div class="leftpagecontents">
+                	
+                    <div class="left-pics-inner"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+	 <h1 style="padding-bottom:10px"><span >Important Links</span></h1>					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/detail/Syndicate-Election-2024.html" class="news_menu_page">Syndicate Election 2024 <img src="https://pu.edu.pk/images/News/a-new.gif"></a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/allpress/14487" class="news_menu_page">Nomination of Focal Person for Drug and Tobacco Abuse</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/exam/6111" class="news_menu_page">Policies Related to Research & Development Programs of HEC</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/Online-Crowd-Funding-Platform.html" class="news_menu_page">Online Crowd Funding Platform</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/puvideos/detail/" class="news_menu_page">PU Videos</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/alumni-reunion.html" class="news_menu_page">Proceedings of Alumni Reunion Function</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://www.youtube.com/watch?v=ubdvgWZv0f8" class="news_menu_page">PU Documentary</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/detail/Foreign-Faculty-Members.html" class="news_menu_page">Foreign Faculty Members</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/Official-Social-Media-Accounts-Pages.html" class="news_menu_page">Official Social Media Accounts/Pages</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/PhD-Produced.html" class="news_menu_page">Ph.D. Produced</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/downloads/Aspire-Leader-Program-HEC.pdf" class="news_menu_page">Aspire Leader Program - HEC</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/allpress/14027" class="news_menu_page">Policy on Protection Against Sexual Harassment HEIs - HEC</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/downloads/Awareness%20Material%20regarding%20Rules%20and%20Functions%20of%20FPSC.pdf" class="news_menu_page">Awareness Material regarding Rules and Functions of FPSC</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/allpress/14352" class="news_menu_page">Disability Coordinators for Students with Disabilities</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/downloads/Top-Talent-Pass-Scheme-TTPS-in-Hong-Kong.pdf" class="news_menu_page">Top Talent Pass Scheme (TTPS) in Hong Kong</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="http://111.68.103.26/home/enquiry" class="news_menu_page">Enquiry</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/downloads/List-of-Teachers.xls" class="news_menu_page">List of Teachers</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/Kashmir-Messages.html" class="news_menu_page">Kashmir Messages</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/exam/13137" class="news_menu_page">ORIC Research Policy</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/academic-council-elections-and-senate-elections.html" class="news_menu_page">Academic Council and Senate Election</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/section/news_events/92" class="news_menu_page">Resolution Passed in VCs Committee Meeting</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/books/" class="news_menu_page">PU Books</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/downloads/E-Brochure.pdf" class="news_menu_page">E-Brochure</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="http://www.facebook.com/pages/Pakistan-Youth-Congress-PYC/200017820012226" class="news_menu_page">Pakistan Youth Congress</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="http://111.68.103.26/conference/ " class="news_menu_page">PU online conference portal</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/home/minutesofmeeting" class="news_menu_page">Minutes of Important Meetings</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/patentlist.html" class="news_menu_page">PU Patent List</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/show/MoU-Policy.html" class="news_menu_page">MoU Policy</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://cpec-centre.pk/" class="news_menu_page">CoE-CPEC</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/downloads" class="news_menu_page">Downloads</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="https://pu.edu.pk/page/facility/campuslife.html" class="news_menu_page">Facilities</a></div></td>
+
+  </tr>
+					
+					 <tr>
+    <td width="15" style="height:20px;"></td>
+    <td width="15" style="height:25px;" valign="top"><div style="padding-top:5px"><img src="https://results.pu.edu.pk/old/images/small_bullet.gif" alt="small bullet" /></div></td>
+    <td width="290" valign="top"><div style="padding-bottom:5px"><a href="http://punjabhec.gov.pk/complaint_cell" class="news_menu_page">Complaint Cell - Minister for Higher Education</a></div></td>
+
+  </tr>
+					
+  </table>
+             </p>       
+               </div>     <p>
+                          </p>
+                </div></div> <div class="nine columns" style="text-align:left;" align="center">
+				
+				
+                <div class="pagecontents">
+                	
+					
+			<style>
+input[type="radio"] {
+  opacity: 0;
+  width: 2rem;
+  height: 10em;
+  background-color: #fff;
+  position: absolute;
+font-weight:bolder;
+size:20px;
+
+}
+#label1{
+ border: 1px solid black;
+        
+        color: black;
+        padding: 15px;
+        
+}
+
+input[type="radio"]:checked+label {
+  background-color: hsl(172, 67%, 45%);
+padding:20px;
+border: 1px solid black;
+        background-color: red;
+        color: white;
+        padding: 15px;
+}
+</style>		
+                     
+
+   <h1>Basic Criteria Merit Calculator</h1>
+<table><tr>
+<td><input type = "radio" id = "email" name = "selecttype" value = "mamsc" checked>
+<label id="label1" for = "email"> Basic Criteria for  BS 5th Semester or Equivalent </label>
+</td>
+<td>
+<input type = "radio" id = "user" name = "selecttype" value = "b">
+<label id="label1" for = "user">Basic Criteria for 1st Semester BS (4-Yrs) Program
+
+</td>
+</tr></table>
+ </label>
+
+
+</form>
+
+<span style="color:red">   <b>Note:</b>Please note that this is just a basic merit calculator other than Engineering Department admission. The exact merit will be calculated by the concerned department after certain additions/subtractions before display of merit lists.</span><br><br>
+   <div id="babsc">
+    <div class="row collapse">
+   
+ <div class="six columns" style="padding-right:10px;">
+   <div class="row collapse">
+   <label class="button" style="width:100%; background:#ccc;color:#000;">Matric/SSC/O-Level etc. Marks Detail</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:10px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="matricr" id="matricr" placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text" name="matrict"  id="matrict"  placeholder="Total Marks" />
+  </div>
+</div>
+  </div>
+  <div class="six columns">
+   <div class="row collapse">
+   <label class="button" style="width:100%; background:#ccc;color:#000;">Inter/A Level etc.Marks Detail</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:10px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="interr" id="interr"  placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text"  name="intert" id="intert"  placeholder="Total Marks" />
+  </div>
+</div>
+</div>
+</div>
+
+ <div class="row collapse">
+   
+ <div class="six columns" style="padding-right:10px;">
+   <div class="row collapse">
+   <label class="button" style="width:100%; background:#ccc;color:#000;">BA/Bsc</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:10px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="bscr" id="bscr"  placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text" name="bsct" id="bsct"  placeholder="Total Marks" />
+  </div>
+</div>
+  </div>
+  <div class="six columns">
+   <div class="row collapse">
+   <label class="button" style="width:100%; background:#ccc;color:#000;">Other/Additional marks</label>
+   <label>&nbsp;</label>
+ <div class="six columns">
+  <label>Additional Marks<span style="clear:both;width:100%; color:red;">*</span>:</label>
+    <input type="text" name="add" id="add"  placeholder="Additional Marks" />
+  </div>
+ <label  style="clear:both;width:100%;font-size:11px; color:#000;">* Please check Admission Regulations to calculate Additional Marks.<a href="http://pu.edu.pk/downloads/Admission-Regulations-Book.pdf">Click here to download Admission Regulations</a></label>
+ 
+  
+  
+  
+  
+</div>
+</div>
+</div>
+</div>
+
+
+   <div id="inter" style="display:none;">
+   
+   <div class="row collapse">
+   
+ 
+  <div class="six columns">
+   <div class="row collapse">
+   <label class="buttone" style="width:100%; background:#ccc;color:#000;">Entry Test marks</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:10px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="entryobt" id="entryobt" placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text" name="entrytotal"  id="entrytotal"  placeholder="Total Marks" />
+  </div>
+  
+    
+  
+ 
+</div>
+</div>
+</div>
+
+
+
+    <div class="row collapse">
+   
+ <div class="six columns" style="padding-right:10px;">
+ 
+   <div class="row collapse">
+   <label class="buttone" style="width:100%; background:#ccc;color:#000;">Matric/SSC/O-Level etc. Marks Detail</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:10px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="intermatricr" id="intermatricr" placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text" name="intermatrict"  id="intermatrict"  placeholder="Total Marks" />
+  </div>
+</div>
+  </div>
+  <div class="six columns">
+   <div class="row collapse">
+   <label class="buttone" style="width:100%; background:#ccc;color:#000;">Inter/A Level etc.Marks Detail</label>
+   <label>&nbsp;</label>
+ <div class="six columns" style="padding-right:20px;">
+  <label>Marks Obtained:</label>
+    <input type="text" name="interinterr" id="interinterr"  placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  <label>Total Marks:</label>
+    <input type="text"  name="interintert" id="interintert"  placeholder="Total Marks" />
+  </div>
+</div>
+</div>
+</div>
+
+ <div class="row collapse">
+   
+ 
+  <div class="six columns">
+   <div class="row collapse">
+   <label class="buttone" style="width:100%; background:#ccc;color:#000;">Other/Additional marks</label>
+   <label>&nbsp;</label>
+ <div class="four columns">
+  <label>Additional Marks<spand style="clear:both;width:100%; color:red;">*</span>:</label>
+    <input type="text" name="interadd" id="interadd"  placeholder="Additional Marks" />
+  </div>
+  <label  style="clear:both;width:100%;font-size:11px; color:#000;">* Please check Admission Regulations to calculate Additional Marks. <a href="http://pu.edu.pk/downloads/Admission-Regulations-Book.pdf">Click here to download Admission Regulations </a></label>
+  
+    
+  
+ 
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+<div class="row collapse"><input type="button" class="button" value="Calculate"></div>
+<br><br>
+
+ <div class="row collapse">
+   <label class="buttone" style="width:100%; background:#ccc;color:#000;">Merit Marks Calculated</label>
+   <label>&nbsp;</label>
+ <div class="six columns">
+  
+    <input type="text" name="bscr" id="bscr" value="Merit Marks (%):" class="button"  placeholder="Marks Obtained" />
+  </div>
+  <div class="six columns">
+  
+    <input type="button" name="result" id="result" class="button" value="0.0" style="width:100%"  placeholder="Total Marks" />
+  </div>
+</div>
+
+                   
+                </div></div></div></section>
+               
+            </div>
+            <!-- News Blocks Start -->
+            
+            <!-- News Blocks End -->
+            <!-- News Blocks Start -->
+          
+       <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("leftpagecontents");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+        </div>
+        <!-- Contents End -->
+    </div>
+    <!-- Wrapper End --> 
+    <!-- Footer Start -->
+   <section class="section_light"  style="">
+   <div class="row">
+   <div  style="text-align:center;" align="center">
+            <div id="news-events-blocks" style="padding-left:0px;">
+            <div class="center" >
+
+            
+            <div class="social-media"><span style=" padding-right:10px;"><a target="_blank" href="http://pucit.edu.pk/"><img border="0" src="https://results.pu.edu.pk/old/images/web/PUCIT.png" width="50"  height="48" alt="PUCIT" /></a></span><span style=" padding-right:10px;"><a target="_blank" href="http://ccpc.pu.edu.pk/"><img border="0" src="https://results.pu.edu.pk/old/images/web/btm-icon_03.png" width="50"  height="48" alt="PU CCPC" /></a></span><span style=" padding-right:10px;"><a href="http://oricpu.com/wordpress/"><img border="0" src="https://results.pu.edu.pk/old/images/web/small-oric.png" width="50px" height="48" align="PU Online Resources" /></a></span> <span style=" padding-right:10px;"><a href="https://results.pu.edu.pk/old//page/show/mail.htm" target="_blank"><img border="0" src="https://results.pu.edu.pk/old/images/web/btm-icon_07.png"  width="50" height="48" alt="PU Web Mail" /></a></span> <span style=" padding-right:10px;"><a href="https://results.pu.edu.pk/old//home/allpress" target="_blank"><img border="0" src="https://results.pu.edu.pk/old/images/web/btm-icon_09.png" width="48" height="48"  alt="PU Press Release" /></a></span> <span style=" padding-right:10px;"><a href="http://www.pu.edu.pk/sgcc/" target="_blank"><img border="0" src="https://results.pu.edu.pk/old/images/web/btm-icon_11.png" width="50" height="48"  alt="PU SGCC" /></a></span><span style=" padding-right:10px;"><a href="http://pu.edu.pk/del/" target="_blank"><img border="0" src="https://results.pu.edu.pk/old/images/web/btm-icon_13.png" width="50" height="48"  alt="PU Director External Linkages" /></a></span><span style=" padding-right:10px;"><a href="http://pu.edu.pk/dpcc/" target="_blank"><img border="0" src="https://results.pu.edu.pk/old/images/banner/dpcc.png" width="75px" height="72px" alt="PU DPCC" /></a></span><span  style=" padding-right:10px;"><a href="https://results.pu.edu.pk/old//page/show/alumni.html" target="_blank"><img border="0" width="130px" height="48" src="https://results.pu.edu.pk/old/images/web/btm-icon_16.png" alt="PU Alumni" /></a></span><span class="col1" style=" padding-right:10px;"><a href="https://www.facebook.com/UniversityOfThePunjab.Official"><img src="https://results.pu.edu.pk/old/images/web/btm-icon_21.png" alt="Facebook" /></a></span>
+              <span class="col1" style=" padding-right:10px;"><a href="https://twitter.com/pu_lhr_official"><img src="https://results.pu.edu.pk/old/images/web/btm-icon_19.png" alt="Facebook" /></a></span></div>
+            
+            
+            
+            
+            
+            </div>
+            
+            </div>
+           
+            </div>
+            
+   
+   </div></div>
+   </section>
+
+
+<div class="row show-for-small">
+      
+          <div class="twelve columns" >
+            
+<div class="right " id="navcontainer" style="padding-top:1px; clear:both" ><ul>
+           	                
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/more/6">Quick Links</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/infodesk.html">Info Desk</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/home/sitemap">Site Map</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/careers/">Careers</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/faq"><font color=#FF9933>FAQs</font></a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://pu.edu.pk/page/show/contact-us.html">Contact Us</a></li>
+                        
+                         
+                	<li style="font-size:10px;"><a href="https://alumni.pu.edu.pk/home/news/910/"><b class='hide-for-small' style="color:white;font-size:12px;background:#eb9212;padding:5px;border-radius: 15px;">Donate</b></a></li>
+                        
+               
+                    </ul>
+             </div>
+          </div>
+          
+      </div>
+<section class="footer">
+
+
+
+
+      
+
+
+
+
+      <div class="row">
+      
+          <div class="twelve columns" >
+            Copyright &copy; 2018 
+            <strong>University of the Punjab</strong>. All rights reserved
+          </div>
+          
+      </div>
+
+</section>
+        
+        
+
+    <!-- Initialize JS Plugins -->
+     <script src="https://results.pu.edu.pk/old/js/resp/javascripts/app.js" type="text/javascript"></script>
+     
+     
+
+
+
+<script src="https://results.pu.edu.pk/old/css/search/js/classie.js"></script>
+		<script src="https://results.pu.edu.pk/old/css/search/js/uisearch.js"></script>
+		<script>
+			new UISearch( document.getElementById( 'sb-search' ) );
+			new UISearch( document.getElementById( 'sb-search2' ) );
+		</script>
+        
+
+    
+    <!-- Footer End --> 
+</body>
+</html>

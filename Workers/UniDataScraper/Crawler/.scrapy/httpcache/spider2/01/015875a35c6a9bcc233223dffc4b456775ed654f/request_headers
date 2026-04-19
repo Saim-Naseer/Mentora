@@ -1,0 +1,5 @@
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Scrapy/2.14.2 (+https://scrapy.org)
+Accept-Encoding: gzip, deflate
+Cookie: PHPSESSID=9j234h3oob44tgjgtatk911l0b; __wpdm_client=d5357e2e3456d0f6291270365d5c9f2f

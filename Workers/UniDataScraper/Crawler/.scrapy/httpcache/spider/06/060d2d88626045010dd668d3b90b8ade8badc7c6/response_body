@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title> NUML  | Lahore Campus</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="https://numl.edu.pk/templates/template10/images/favicon.ico">  
+    	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.css" media="screen">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/plugins/bootstrap/css/bootstrap.min.css">   
+       <link href="https://numl.edu.pk/templates/template10/css/bootstrap.css" rel="stylesheet" />
+    <!-- Plugins CSS -->    
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/plugins/pretty-photo/css/prettyPhoto.css"> 
+    <!-- Theme CSS -->
+
+    <link id="theme-style" rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/css/styles-medium.css">
+
+    <link id="common-style" rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/css/commonStyle.css">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://numl.edu.pk/templates/template10/campus/assets/css/new-customstyle.css">
+</head> 
+
+
+<style>
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #092A4B; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff !important; 
+}
+
+
+
+</style>
+
+<body class="home-page">
+    <div class="wrapper">
+		<!-- HEADER -->
+<head>
+  <style>
+
+    .header {
+      margin: 0;
+      height: 30px; /* fixed height */
+      background: black; /* solid header background */
+    font-size: ;
+    }
+
+    .header .navbar {
+      margin: 0;
+      border: none;
+      height: 30px;
+      min-height: 30px;
+      padding: 0 20px; /* some horizontal breathing room */
+      display: flex;
+      justify-content: flex-end; /* push all content to right edge */
+      align-items: center; /* vertically center links */
+      background: black !important;
+    }
+
+    .header .nav {
+      display: flex;
+      align-items: center;
+      gap: 20px; /* spacing between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .header .nav li {
+      list-style: none;
+    }
+
+    .header .nav li a {
+      color: white;
+      font-size: clamp(11px, 2vw, 13px);
+      text-decoration: none;
+      line-height: 30px;
+      padding: 0 5px;
+      transition: color 0.2s ease;
+    }
+
+    .header .nav li a:hover {
+      color: #c19100;
+    }
+
+    .header .nav li:first-child a {
+      border: 1px solid white;
+      border-radius: 3px;
+      padding: 0 8px;
+    }
+
+
+    @media (max-width: 768px) {
+      .header .nav {
+        gap: 10px;
+      }
+
+        }
+
+    @media (max-width: 414px){
+      .mainsitelink {
+    position: relative;
+    color: transparent !important; /* hide original text */
+  }
+
+  .mainsitelink::after {
+    content: "Main Site";
+    font-size: 7px;
+    padding-top: 15px;
+    padding-left: 8px;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+
+
+    }
+
+@media (max-width: 360px) {
+
+  /* Remove the overlay text */
+  .mainsitelink::after {
+    content: none;
+  }
+
+  /* Restore original text color */
+  .mainsitelink {
+    color: white !important;
+  }
+
+  /* Apply your small font */
+  .header .nav li a {
+    font-size: 7px;
+  }
+}
+
+  </style>
+</head>
+
+<header class="header">
+  <nav class="navbar">
+    <ul class="nav">
+      <li><a class="mainsitelink" href="https://numl.edu.pk">Main Site</a></li>
+      <li><a href="https://numl.edu.pk/lahore/campus/gallery">Gallery</a></li>
+      <li><a href="https://numl.edu.pk/lahore/campus/scholarships">Scholarships</a></li>
+      <li><a href="https://numl.edu.pk/lahore/campus/tenders">Tenders</a></li>
+      <li><a href="https://numl.edu.pk/lahore/campus/jobs">Jobs</a></li>
+      <li><a href="https://numl.edu.pk/lahore/campus/contacts">Contact</a></li>
+          </ul>
+  </nav>
+</header>
+		<!-- Submenu Toggle for Mobile -->
+<script>
+  $(document).ready(function() {
+    $('.dropdown-submenu > a').on("click", function(e) {
+      if($(this).next('ul').length){
+        $(this).next('ul').toggle();
+      }
+    });
+  });
+</script>
+
+<style>
+
+.navbar-inverse {
+  background-color: #092a4b;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+.navbar {
+  min-height: 96px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-header {
+  float: left;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background: none;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 90px;
+  height: 90px;
+  display: inline;
+}
+
+.navbar-brand span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 8px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  
+  color: #c19100;
+}
+
+
+.dropdown-menu {
+  background-color: #004080;
+  border: none;
+  width: fit-content
+}
+
+.dropdown-menu li a {
+  color: #fff !important;
+  padding: 10px 20px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #0059b3;
+  color: #fff !important;
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+  border-radius: 0 6px 6px 6px;
+  display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Scrollable Dropdown */
+/* Force-disable scrollbar buttons in WebKit browsers */
+.scrollable-dropdown::-webkit-scrollbar-button:start:decrement,
+.scrollable-dropdown::-webkit-scrollbar-button:end:increment {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.scrollable-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+      scrollbar-width: thin;
+    scrollbar-color: #ffffff #003e7d;
+}
+
+/* Custom WebKit scrollbar */
+.scrollable-dropdown::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-dropdown::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+
+.scrollable-dropdown::-webkit-scrollbar-button {
+    display: none;
+}
+
+
+
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #004080;
+}
+
+.second-nav{
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+   
+  }
+
+  .navbar-header {
+   width: 100%;
+  }
+
+  .navbar-brand img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-brand span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1437px) and (min-width: 767px) {
+  .navbar-brand {
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
+
+</style>
+
+
+<nav class="navbar navbar-inverse navbar-static-top p-t-20" role="navigation">
+  <div class="container-fluid">
+    
+    <div class="navbar-header col-lg-2 col-md-2 col-sm-3">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://numl.edu.pk/lahore">
+        <img src="https://numl.edu.pk/images/logo/logo.png" alt="NUML-logo">
+        <span>Lahore<br>Campus</span>
+      </a>
+    </div>
+
+    <!-- Collapsible Navbar Content -->
+    <div class="second-nav collapse navbar-collapse col-lg-10 col-md-10 col-sm-12 col-xs-12" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://numl.edu.pk/lahore">Home</a></li>
+
+        <!-- Campuses Dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Campuses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                                          <li><a href="https://numl.edu.pk/faisalabad">Faisalabad</a></li>
+                                                        <li><a href="https://numl.edu.pk/hyderabad">Hyderabad</a></li>
+                                                        <li><a href="https://numl.edu.pk/karachi">Karachi</a></li>
+                                                        <li><a href="https://numl.edu.pk/lahore">Lahore</a></li>
+                                                        <li><a href="https://numl.edu.pk/mirpurAJK">Mirpur (Azad Kashmir)</a></li>
+                                                        <li><a href="https://numl.edu.pk/multan">Multan</a></li>
+                                                        <li><a href="https://numl.edu.pk/peshawar">Peshawar</a></li>
+                                                        <li><a href="https://numl.edu.pk/quetta">Quetta</a></li>
+                                                        <li><a href="http://numlrwp.numl.edu.pk">Rawalpindi</a></li>
+                                    </ul>
+        </li>
+
+        <!-- About Dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://numl.edu.pk/lahore/campus/rector">Rector Message</a></li>
+            <li><a href="https://numl.edu.pk/lahore/campus/director-general">Director General</a></li>
+            <li>
+              <a href="https://numl.edu.pk/lahore/campus/director">
+                Regional Director
+              </a>
+            </li>
+            <li><a href="https://numl.edu.pk/lahore/campus/vision-mission">Vision & Mission</a></li>
+          </ul>
+        </li>
+
+        <!-- Admissions Dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admissions <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://numl.edu.pk/lahore/campus/admission">Admission</a></li>
+            <li><a href="https://numl.edu.pk/lahore/campus/programs">Programs</a></li>
+            <li><a href="https://numl.edu.pk/lahore/campus/structure">Fee Structure</a></li>
+            <li><a href="https://numl.edu.pk/lahore/campus/faqs">FAQs</a></li>
+          </ul>
+        </li>
+
+        <!-- Faculties Multi-Level Dropdown -->
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Faculties <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/144">Faculty of Management Sciences</a>
+                            <ul class="dropdown-menu">
+                                                                                                                          <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/226">
+                        Management Sciences
+                      </a>
+                    </li>
+                                                </ul>
+                          </li>
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/145">Faculty of Arts and Humanities</a>
+                            <ul class="dropdown-menu">
+                                                      <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/338">
+                        English (UGS)
+                      </a>
+                    </li>
+                                                </ul>
+                          </li>
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/147">Faculty of Languages</a>
+                            <ul class="dropdown-menu">
+                                                      <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/230">
+                        English (ELT)
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/231">
+                        Foreign Languages
+                      </a>
+                    </li>
+                                                </ul>
+                          </li>
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/163">Administration</a>
+                            <ul class="dropdown-menu">
+                                                      <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/263">
+                        Admin Office
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/266">
+                        Admission
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/264">
+                        Examination
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/265">
+                        Finance
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/349">
+                        ICT Lahore Campus
+                      </a>
+                    </li>
+                                                </ul>
+                          </li>
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/174">Faculty of Social Sciences</a>
+                            <ul class="dropdown-menu">
+                                                      <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/377">
+                        Department of Islamic Thought &amp; Culture
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/232">
+                        Department of Psychology
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/229">
+                        Media And Communication Studies
+                      </a>
+                    </li>
+                                                                                  </ul>
+                          </li>
+                        <li class="dropdown-submenu">
+              <a href="https://numl.edu.pk/lahore/campus/faculties/175">Faculty of Engineering &amp; Computing</a>
+                            <ul class="dropdown-menu">
+                                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/350">
+                        Department of Computer Science
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/379">
+                        Department of Mathematics
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/378">
+                        Department of Software Engineering
+                      </a>
+                    </li>
+                                                                        <li>
+                      <a href="https://numl.edu.pk/lahore/campus/department/306">
+                        Mathematics
+                      </a>
+                    </li>
+                                                </ul>
+                          </li>
+                      </ul>
+        </li>
+        
+        <!-- Offices Dropdown -->
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Offices <span class="caret"></span></a>
+          <ul class="dropdown-menu scrollable-dropdown">
+                          <li><a href="https://numl.edu.pk/offices/Rector Office">Rector Office</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Director General Office">Director General Office</a></li>
+                          <li><a href="https://numl.edu.pk/offices/RSI Research &amp; Strategic Initiatives">RSI Research &amp; Strategic Initiatives</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Registrar Office">Registrar Office</a></li>
+                          <li><a href="https://numl.edu.pk/offices/National and International Linkages Office (NILO)">National and International Linkages Office (NILO)</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Bureau of Translation and Interpretation Office">Bureau of Translation and Interpretation Office</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Administration Branch">Administration Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/HR Branch">HR Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Academics Branch">Academics Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Directorate of Advanced Studies and Research">Directorate of Advanced Studies and Research</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Regional Services">Regional Services</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Finance Branch">Finance Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/P&amp;C Branch">P&amp;C Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Examination Branch">Examination Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/ICT Office">ICT Office</a></li>
+                          <li><a href="https://numl.edu.pk/offices/BICON">BICON</a></li>
+                          <li><a href="https://numl.edu.pk/offices/QEC">QEC</a></li>
+                          <li><a href="https://numl.edu.pk/offices/ITCON">ITCON</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Publication Branch">Publication Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Student Affairs Branch - Male">Student Affairs Branch - Male</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Student Affairs Branch - Female">Student Affairs Branch - Female</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Sir Syed Library">Sir Syed Library</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Technical Branch">Technical Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/Sports Branch">Sports Branch</a></li>
+                          <li><a href="https://numl.edu.pk/offices/NUML Information &amp; Facilitation Centre (NIFC)">NUML Information &amp; Facilitation Centre (NIFC)</a></li>
+                      </ul>
+        </li>
+        
+        
+
+        <!-- Other Links -->
+        <li><a href="https://numl.edu.pk/lahore/campus/downloads">Downloads</a></li>
+        <li><a href="https://numl.edu.pk/offices/RSI%20Research%20&amp;%20Strategic%20Initiatives">Research & SI</a></li>
+        <li><a href="https://numl.edu.pk/offices/QEC">QEC</a></li>
+        <li><a href="https://numl.edu.pk/lahore/campus/facultyfinder">Faculty Finder</a></li>
+
+      </ul>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+                    <div class="contentFull w-full" >
+            <div  class="slider flexslider bg_color_drakBlue">
+                <ul class="slides">
+                    <li><img src="https://numl.edu.pk/templates/template10/images/Numl_Alternate_Slide.png" class="auto-height"alt="Default Image" /></li>
+                </ul>
+            </div>
+        </div>
+    
+    <section id="quickBtnSection" class="bg_color_drakBlue" >
+        <div class="container">
+            <div class="row text-center text-white py-3 quick-links" >
+                <div class="col-3 p-t-10">
+                    <a href="https://numl.edu.pk" class="text-white text-decoration-none">
+                        <i class="fas fa-home fa-2x p-b-10"></i>
+                        <p class="text-white">Main</p>
+                    </a>
+                </div>
+                <div class="col-3 p-t-10">
+                    <a href="https://numl.edu.pk/admission" class="text-white text-decoration-none">
+                        <i class="fas fa-link fa-2x p-b-10"></i>
+                        <p class="text-white">Admission</p>
+                    </a>
+                </div>
+                <div class="col-3 p-t-10">
+                    <a href="https://lms3.numl.edu.pk/" class="text-white text-decoration-none">
+                        <i class="fas fa-book fa-2x p-b-10"></i>
+                        <p class="text-white">LMS</p>
+                    </a>
+                </div>
+                <div class="col-3 p-t-10">
+                    <a href="https://numl.edu.pk/lahore/campus/events" class="text-white text-decoration-none">
+                        <i class="fas fa-calendar-alt fa-2x p-b-10"></i>
+                        <p class="text-white">Events</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="welcomeMsgCampus" class="bg-e8">
+        <div class="container mt-10 mb-10">
+            <div class="row clearfix text-center">
+                <div class="col-12">
+                    <h1 class="section-heading font-italic .animat-slideUp" >Welcome to NUML Lahore  Campus </h1>
+                    <div class="aboutCampus text-center">Housed in one of the prestigious heritage building Aiwan-e-Iqbal, we are known for high standard of education and central location with rich history spread over two decades.</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row clearfix text-center" style="border-top: 1px solid red;">
+            <div class="col-12 welcom-divs" >
+                <div class="welcome-message">
+                    <h1 class="section-heading">Welcome to NUML Lahore  Campus </h1>
+                    <div class="aboutCampus"><p style="text-align:justify"><span style="font-size:20px">Housed in one of the prestigious heritage building Aiwan-e-Iqbal, we are known for high standard of education and central location with rich history spread over two decades.</span></p></div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <section id="msgRD" class="default-dir-bg">
+        <div class="container">
+            <div class="row clearfix mt-5 mb-5 p-t-50 p-b-50 bg_color_white borderradius-10" >
+               
+                <div class="col-lg-7 col-md-8 col-offset-1 col-sm-9 text-left message-director">
+                    <h2>Message from  Director </h2>
+                                     <i class="fa fa-quote-left" ></i>
+                    <p class="text-justify font-16">
+                        At our campus, everyone can speak their mind, and the tone is tolerant and inclusive. You should be extremely proud of belonging to the family of a university counted among best of the best. Remember! pursuit of your dream to obtain degree is going to be long and demanding journey; full of learning, life experiences and unforgettable memories. If truth does not prevail, foundation of our society will be shaken. Do not lose faith that truth exists, and that it is possible to change something for better. We need such an attitude if we are to succ...
+                        <a href="https://numl.edu.pk/lahore/campus/director" class="read-more m-t-10 p-t-10 p-b-10 p-r-10 p-l-10 d-inline" >Read More</a>
+                    </p>
+                    <b><cite> - Dr. Muhammad Imad-ud-Din Akbar</cite></b>
+                    <br>
+                    <i class="fa fa-quote-right"></i>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-12">
+                                        <img src="https://numl.edu.pk/campus/rd/8450db857edbc86.jpeg" class="img-responsive director-image borderradius-5 custom-image-margin" alt="Dr. Muhammad Imad-ud-Din Akbar" >    
+                                                    </div>
+        </div>
+    </section>
+
+    <section id="programsSection" class="p-t-30 p-b-100 bg-biege">
+        <div class="container-fluid">
+            <h3 class="text-center oblique-bold m-t-60 m-b-60">Our Programs</h3>
+            <div class="row">
+                <div class=" col-10 col-offset-1">
+                    <div class="row">
+                        <div class="Undergraduate col-lg-3 col-md-3 col-sm-6 col-xs-6 m-t-20">
+                            <a href="https://numl.edu.pk/lahore/campus/programs/BS" class="color-white font-16">
+                                <div class="pt-25 pb-25  text-center programs-div program-0" >
+                                    <h4 class="program-heading"> Undergraduate </h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="Graduate col-lg-3 col-md-3 col-sm-6 col-xs-6 m-t-20">
+                            <a href="https://numl.edu.pk/lahore/campus/programs/MS" class="color-white font-16">
+                                <div class="pt-25 pb-25  text-center programs-div program-1">
+                                    <h4 class="program-heading"> Graduate </h4> 
+                                </div>
+                            </a>
+                        </div>
+                        <div class="PostGraduate col-lg-3 col-md-3 col-sm-6 col-xs-6 m-t-20">
+                            <a href="https://numl.edu.pk/lahore/campus/programs/PhD" class="color-white font-16">
+                                <div class="pt-25 pb-25  text-center programs-div program-2 " >
+                                    <h4 class="program-heading"> Post Graduate </h4>
+                                </div>
+                            </a>
+                        </div>                    
+                        <div class="Functional col-lg-3 col-md-3 col-sm-6 col-xs-6 m-t-20">
+                            <a href="https://numl.edu.pk/lahore/campus/programs/functional" class="color-white font-16">
+                                <div class="pt-25 pb-25   text-center programs-div program-3">
+                                    <h4 class="program-heading"> Functional</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="events" class="events-section">
+        <div class="container-fluid">
+            <div class="row">
+                <ul class="nav nav-pills text-center new-list-tabs" role="tablist">
+                    <li class="active event-tab-button" role="presentation">
+                        <a data-toggle="pill" class="text-decoration-none text-white" href="#home" role="tab">Announcements</a>
+                    </li>
+                    <li role="presentation" class="event-tab-button">
+                        <a data-toggle="pill"  class="text-decoration-none text-white" href="#menu1"  role="tab" >Events</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content row" align="center">
+                <div id="home" class="tab-pane fade in active col-offset-1 col-10">
+                    <h3 class="text-white oblique-bold m-b-60 text-center">Announcements</h3>
+                    
+                    <div class="col-12 m-t-40" >
+                        <a class="readMoreBtn veventbutton p-t-20 p-b-20 m-t-10" href="https://numl.edu.pk/lahore/campus/announcements">
+                            More Announcements<i class="fa fa-chevron-right m-l-10"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="menu1" class="tab-pane fade col-offset-1 col-10">
+                    <h3 class="text-white oblique-bold m-b-60 text-center" >
+                        Events
+                    </h3>
+                    
+                    <div class="col-12 m-t-40">
+                        <a class="readMoreBtn veventbutton p-t-20 p-b-20 p-r-20 p-l-20" href="https://numl.edu.pk/lahore/campus/events">
+                            More Events <i class="fa fa-chevron-right m-l-10"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-success">
+        <div class="container final-success p-t-50 p-b-30 p-l-0 p-r-0 w-full"  >
+            <div class="row clearfix  m-t-50 m-b-30">
+                                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                                                    <div class="item active">
+                                        <div class="m-auto max-300">
+                                            <img 
+                                                src="https://www.numl.edu.pk/stories/1735839885457873262_1014115707173290_657745831789590488_n.jpg" 
+                                                alt="Story Image" 
+                                                class="img-responsive center-block w-300 h-300"
+                                            >
+                                            <h3 class="text-warning m-t-15 color-c19100">
+                                                Muhammad Farzeen
+                                            </h3>
+                                            <p class="color-c19100">02 Jan, 2025</p>
+                                            <p class="text-justify text-white">
+                                                Student from the Department of Computer Science Muhammad Farzeen has secured the 5th position out of 32 participants in the eSports World Cup 2024 Final held in Saudi Arabia.
+
+Moreover, his team, &amp;ldquo;Falcon&amp;rdquo; achieved first place overall in...
+                                            </p>
+                                        </div>
+                                    </div>
+                                                            </div>
+                                
+                            <a class="left carousel-control data-slide" href="#myCarousel" role="button" data-slide="prev" ><i class="fa-solid fa-arrow-left"></i></a>
+                            <a class="right carousel-control data-slide" href="#myCarousel" role="button" data-slide="next" ><i class="fa-solid fa-arrow-right"></i></a>
+                            
+                            <div class="col-12" align="center">
+                                <a href="https://numl.edu.pk/lahore/campus/luminaries"
+                                    class="m-t-100 view-more-stories-btn default-dir-bg"
+                                    >More Luminaries <i class="m-l-10 fa fa-arrow-right color_yellow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div id="campusGallries" class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="row clearfix">
+                                                                                    <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735833658471312442_1095594159025444_2126213333206000818_n.jpg"
+                                        data-fancybox="gallery_0"
+                                        data-caption="Ripah RC3 Programming Competition Winner&nbsp;">
+                                            <img src="https://numl.edu.pk/gallery/1735833658471312442_1095594159025444_2126213333206000818_n.jpg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                            <a href="https://numl.edu.pk/gallery/1735833657471589043_1095594235692103_3132649400422511993_n.jpg"
+                                        data-fancybox="gallery_0"
+                                        data-caption="Ripah RC3 Programming Competition Winner&nbsp;">
+                                        </a>
+                                                                            <a href="https://numl.edu.pk/gallery/1735833657471754885_1095594049025455_9042765044170288622_n.jpg"
+                                        data-fancybox="gallery_0"
+                                        data-caption="Ripah RC3 Programming Competition Winner&nbsp;">
+                                        </a>
+                                                                    </div>
+                                                            <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735829184470499775_1095588722359321_503332031550309486_n (1).jpg"
+                                        data-fancybox="gallery_1"
+                                        data-caption="The UMT Surge event was a &quot;programming competition&quot; held by the Computer Science Society at UMT main campus.
+Department of Computer Science (ACM Chapter Society) NUML Lahore presented two teams consisting of:
+Team 1:
+1. Waleed Ahmed
+2. Sana Arshad
+3. Muhammad Aswad
+Team 2:
+1. Muhammad Abdullah Niazi
+2. Abdul Wahab
+
+Both teams participated in the Surge Web Hackathon category. In this category, a total of 15 teams from various universities such as FAST, PUCIT, and UMT participated out of which NUML Lahore&rsquo;s Team 1 scored 1st position and Team 2 scored 3rd position.">
+                                            <img src="https://numl.edu.pk/gallery/1735829184470499775_1095588722359321_503332031550309486_n (1).jpg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                    </div>
+                                                            <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735833503471177947_1094205319164328_7225719389445046685_n (1).jpg"
+                                        data-fancybox="gallery_2"
+                                        data-caption="On-Campus Recruitment Drive">
+                                            <img src="https://numl.edu.pk/gallery/1735833503471177947_1094205319164328_7225719389445046685_n (1).jpg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                            <a href="https://numl.edu.pk/gallery/1735833503470578367_1094205439164316_3925728761635773651_n.jpg"
+                                        data-fancybox="gallery_2"
+                                        data-caption="On-Campus Recruitment Drive">
+                                        </a>
+                                                                    </div>
+                                                            <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735833125471228111_1093577422560451_282239562139596875_n.jpg"
+                                        data-fancybox="gallery_3"
+                                        data-caption="Industrial Visit management Science department">
+                                            <img src="https://numl.edu.pk/gallery/1735833125471228111_1093577422560451_282239562139596875_n.jpg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                    </div>
+                                                            <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735798602WhatsApp Image 2024-12-26 at 7.32.26 AM.jpeg"
+                                        data-fancybox="gallery_4"
+                                        data-caption="An eSports competition was held at the NASTP institution of information technology (NIIT). Multiple universities participated in the competition of eSports (Tekken 7 and Tekken 8), while Muhammad Farzeen from the Department of Computer Science at NUML Lahore Campus stood first in both games.">
+                                            <img src="https://numl.edu.pk/gallery/1735798602WhatsApp Image 2024-12-26 at 7.32.26 AM.jpeg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                            <a href="https://numl.edu.pk/gallery/1735798537WhatsApp Image 2024-12-26 at 7.32.26 AM (1).jpeg"
+                                        data-fancybox="gallery_4"
+                                        data-caption="An eSports competition was held at the NASTP institution of information technology (NIIT). Multiple universities participated in the competition of eSports (Tekken 7 and Tekken 8), while Muhammad Farzeen from the Department of Computer Science at NUML Lahore Campus stood first in both games.">
+                                        </a>
+                                                                    </div>
+                                                            <div class="m-b-40 col-lg-4 col-md-4 col-sm-6 col-xs-6">
+
+                                                                                                                <a href="https://numl.edu.pk/gallery/1735833061470130686_1086732233244970_5145780211723860239_n.jpg"
+                                        data-fancybox="gallery_5"
+                                        data-caption="Internship Viva....">
+                                            <img src="https://numl.edu.pk/gallery/1735833061470130686_1086732233244970_5145780211723860239_n.jpg"
+                                                alt="Gallery Image"
+                                                class="rotategal gallery-image">
+                                        </a>
+                                    
+                                                                    </div>
+                                                                        </div>
+                    
+                    <div class="col-12 m-t-25">
+                        <a href="https://numl.edu.pk/lahore/campus/gallery" 
+                        class="view-more-stories-btn default-dir-bg view-more-gallery ">
+                        View Gallery <i class="m-l-10 fa fa-arrow-right color_yellow"></i>
+                        </a>
+                    </div> 
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculty-section bg_color_white">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row clearfix">
+                <div class="col-offset-1 col-10">
+                    <h3 class="oblique-bold text-center m-b-60">Explore Our Faculties </h3>
+                    <div class="row" align="center" >
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/144" class="faculty-link text-white">
+                                Faculty of Management Sciences
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/145" class="faculty-link text-white">
+                                Faculty of Arts and Humanities
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/147" class="faculty-link text-white">
+                                Faculty of Languages
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/163" class="faculty-link text-white">
+                                Administration
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/174" class="faculty-link text-white">
+                                Faculty of Social Sciences
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 m-b-20">
+                            <a href="https://numl.edu.pk/lahore/campus/faculties/175" class="faculty-link text-white">
+                                Faculty of Engineering &amp; Computing
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                                            </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+            <section id="campus-tour-second">
+        <div class="container-fluid camp-tour-bg p-t-50 p-b-50">
+            <div class="row clearfix tour-div">
+                <div class="col-offset-1 col-10">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 tour-head" >
+                                                        <h2 class="campus-head">Campus</h2>
+                            <div class="p-l-40 m-l-20 tour-content" >
+                                <h2 class="p-l-100 tour-head-one">Tour</h2>
+                                <p class="text-justify">
+                                                                            <span id="less" class="text-center aaa">NUML  Lahore Campus<br></span>
+                                                                    </p>
+                            </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 tour-head">
+                                                                                                    <img src="https://numl.edu.pk/campus/3d9f80987ebe7a6.jpg" 
+                                    alt="Campus Tour" 
+                                    class="wide-60 img-responsive img-thumbnail center-block m-t-50" 
+                                    >
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="WhyNUMLSection">
+        <div class="container-fluid p-t-100 p-b-50">
+            <div class="row clearfix">
+                <h3 class="text-center oblique-bold">Why NUML</h3>
+                <div class="col-10 col-offset-1">
+                    <div class="row clearfix">
+                        <div class="text-center color-blue col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5 mb-5">
+                            <i class="fa-solid fa-user p-b-20 d-block clamp-font"></i>
+                            <div class="counter mt-10 d-inline" data-target="29000"></div> <span>+</span>
+                            <p>Enrolled Students</p>
+                        </div>
+                        <div class="text-center color-blue col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5 mb-5" >
+                            <i class="fa-solid fa-book-open p-b-20 d-block clamp-font"></i>
+                            <div class="counter mt-10 d-inline" data-target="250"></div><span>+</span>
+                            <p>Programs Offered</p>
+                        </div>
+                        <div class="text-center color-blue col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5 mb-5">
+                            <i class="fa-solid fa-award p-b-20 d-block clamp-font"></i>
+                            <div class="counter mt-10 d-inline"  data-target="2000"></div><span>+</span>
+                            <p>Scholarships</p>
+                        </div>
+                        <div class="text-center color-blue col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5 mb-5">
+                            <i class="fa-solid fa-user-graduate p-b-20 d-block clamp-font"></i>
+                            <div class="counter mt-10 d-inline" data-target="17000" ></div><span>+</span>
+                            <p>Alumni</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    </div>
+
+    <!-- ******FOOTER****** --> 
+    <style>
+  h5{margin-bottom:20px}
+  footer.footer{background:#092A4B;color:#fff;padding:10px 0}
+  footer .footer-divider{border-bottom:1px solid #c19100;margin-bottom:30px}
+  footer a{color:#fff;text-decoration:none}
+  footer a:hover{color:#c19100}
+  .footer .list-inline > li{display:inline-block;margin-right:10px}
+  .about-coloumne{line-height:2}
+</style>
+
+
+<footer class="footer">
+  <div class="container-fluid" style="background:#092A4B">
+    
+    <!-- Map -->
+    <div class="row footer-divider" style="padding-bottom: 10px;">
+      <div class="col-xs-12">
+        <div style="width:100%; overflow:hidden;">
+          <iframe 
+            src="https://maps.google.com/maps?q=NUML.lahore&output=embed" 
+            style="width:100%; height: 300px; border:0;" 
+            allowfullscreen 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 1 -->
+    <div class="row footer-divider" style="margin-bottom:0">
+
+      <!-- About NUML -->
+      <div class="col-xs-12 col-sm-12 col-md-4 text-center" style="margin-bottom:20px;">
+        <a href="https://numl.edu.pk/lahore">
+          <img src="https://numl.edu.pk/images/logo/logo.png" alt="NUML-logo" style="width:95px; margin-bottom:10px;">
+        </a>
+        <h5 style="color:#c19100;">National University of Modern Languages</h5>
+        <p><i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i> H-9 Islamabad, Pakistan</p>
+        <p><i class="fa fa-phone" style="color:#c19100; margin-right:5px;"></i> +92-51-9265100</p>
+        <p><i class="fa fa-envelope" style="color:#c19100; margin-right:5px;"></i> info@numl.edu.pk</p>
+
+        <!-- Social Links -->
+        <ul class="list-inline" style="margin-top:15px;">
+          <li><a href="https://www.facebook.com/NUMLOFFICIALPAGE/"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://x.com/numl_official"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCY_fvvBIFB_2-0-o5a6lAfg/featured"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/numl-official"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://www.instagram.com/numlofficial/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+
+      <!-- Regional Campuses -->
+      <div class="col-xs-12 col-sm-6 col-md-3" style="margin-bottom:20px;">
+        <h5 style="color:#c19100;">Other Campuses</h5>
+        <ul class="row list-unstyled">
+                                    <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/faisalabad" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Faisalabad
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/mirpurAJK" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Mirpur (Azad Kashmir)
+                  </a>
+                              </li>
+                                                                      <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/hyderabad" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Hyderabad
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/multan" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Multan
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/peshawar" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Peshawar
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/quetta" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Quetta
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="http://numlrwp.numl.edu.pk" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Rawalpindi
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/lahore" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Lahore
+                  </a>
+                              </li>
+                                                <li class="col-xs-6" style="margin-bottom:10px;">
+                                  <a href="https://numl.edu.pk/karachi" style="display:flex; align-items:center">
+                    <i class="fa fa-map-marker" style="color:#c19100; margin-right:5px;"></i>
+                    Karachi
+                  </a>
+                              </li>
+                              </ul>
+      </div>
+
+      <!-- About -->
+      <div class="col-xs-6 col-sm-3 col-md-2 " style="margin-bottom:20px;">
+        <h5 style="color:#c19100;">About</h5>
+        <ul class="list-unstyled about-coloumne">
+          <li><a href="https://numl.edu.pk/lahore/campus/vision-mission"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>About</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/admission"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Admissions</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/programs"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Programs</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/contacts"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Links -->
+      <div class="col-xs-6 col-sm-3 col-md-3" style="margin-bottom:20px;">
+        <h5 style="color:#c19100;">Links</h5>
+        <ul class="list-unstyled about-coloumne">
+          <li><a href="https://numl.edu.pk/lahore/campus/jobs"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Jobs</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/tenders"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Tenders</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/scholarships"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Scholarships</a></li>
+          <li><a href="https://numl.edu.pk/lahore/campus/gallery"><i class="fa fa-caret-right" style="color:#c19100; margin-right:5px;"></i>Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Lower Row -->
+    <div class="row" style="margin-top:8px; margin-bottom:0;">
+      <div class="col-xs-12">
+        <p style="text-align:center; margin:0;">
+          &copy; 2026 National University of Modern Languages, Lahore.
+          <a href="https://numl.edu.pk/main/privacypolicy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- *********** Popup Modal Section *********** -->
+        
+    
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/bootstrap-hover-dropdown.min.js"></script> 
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/pretty-photo/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
+    <script type="text/javascript" src="https://numl.edu.pk/templates/template10/campus/assets/js/main.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js"></script>
+
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#popUpModal').modal();
+            $('#gallery a').fancybox(); 
+        })
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        const galleryData = [{"id":540,"campus_id":37,"form_id":"1735833581","name":"Ripah RC3 Programming Competition Winner","description":"\u003Cp\u003E\u003Csup\u003ERipah RC3 Programming Competition Winner\u0026nbsp;\u003C\/sup\u003E\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 21:01:20","updated_at":"2025-02-10 08:14:40","activity_date":"2025-04-02","images":[{"id":11911,"form_id":"1735833581","path":"gallery\/1735833658471312442_1095594159025444_2126213333206000818_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 21:00:58","updated_at":"2025-01-02 21:00:58"},{"id":11910,"form_id":"1735833581","path":"gallery\/1735833657471589043_1095594235692103_3132649400422511993_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 21:00:57","updated_at":"2025-01-02 21:00:57"},{"id":11909,"form_id":"1735833581","path":"gallery\/1735833657471754885_1095594049025455_9042765044170288622_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 21:00:57","updated_at":"2025-01-02 21:00:57"}]},{"id":533,"campus_id":37,"form_id":"1735829095","name":"UMT Surge Programming Competition\u0022","description":"\u003Cp\u003EThe UMT Surge event was a \u0026quot;programming competition\u0026quot; held by the Computer Science Society at UMT main campus.\u003Cbr \/\u003E\r\nDepartment of Computer Science (ACM Chapter Society) NUML Lahore presented two teams consisting of:\u003Cbr \/\u003E\r\nTeam 1:\u003Cbr \/\u003E\r\n1. Waleed Ahmed\u003Cbr \/\u003E\r\n2. Sana Arshad\u003Cbr \/\u003E\r\n3. Muhammad Aswad\u003Cbr \/\u003E\r\nTeam 2:\u003Cbr \/\u003E\r\n1. Muhammad Abdullah Niazi\u003Cbr \/\u003E\r\n2. Abdul Wahab\u003Cbr \/\u003E\r\n\u003Cbr \/\u003E\r\nBoth teams participated in the Surge Web Hackathon category. In this category, a total of 15 teams from various universities such as FAST, PUCIT, and UMT participated out of which NUML Lahore\u0026rsquo;s Team 1 scored 1st position and Team 2 scored 3rd position.\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 19:47:00","updated_at":"2025-02-10 08:15:15","activity_date":"2025-04-01","images":[{"id":11894,"form_id":"1735829095","path":"gallery\/1735829184470499775_1095588722359321_503332031550309486_n (1).jpg","type":1,"no_image":1,"created_at":"2025-01-02 19:46:24","updated_at":"2025-01-02 19:46:24"}]},{"id":539,"campus_id":37,"form_id":"1735833482","name":"On-Campus Recruitment Drive","description":"\u003Cp\u003EOn-Campus Recruitment Drive\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 20:58:55","updated_at":"2025-01-02 20:58:55","activity_date":"2024-12-24","images":[{"id":11906,"form_id":"1735833482","path":"gallery\/1735833503471177947_1094205319164328_7225719389445046685_n (1).jpg","type":1,"no_image":1,"created_at":"2025-01-02 20:58:23","updated_at":"2025-01-02 20:58:23"},{"id":11905,"form_id":"1735833482","path":"gallery\/1735833503470578367_1094205439164316_3925728761635773651_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 20:58:23","updated_at":"2025-01-02 20:58:23"}]},{"id":536,"campus_id":37,"form_id":"1735833079","name":"Industrial visit","description":"\u003Cp\u003EIndustrial Visit management Science department\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 20:52:12","updated_at":"2025-01-02 20:52:12","activity_date":"2024-12-23","images":[{"id":11897,"form_id":"1735833079","path":"gallery\/1735833125471228111_1093577422560451_282239562139596875_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 20:52:05","updated_at":"2025-01-02 20:52:05"}]},{"id":532,"campus_id":37,"form_id":"1735798309","name":"eSports competition at NASTP","description":"\u003Cp\u003EAn eSports competition was held at the NASTP institution of information technology (NIIT). Multiple universities participated in the competition of eSports (Tekken 7 and Tekken 8), while Muhammad Farzeen from the Department of Computer Science at NUML Lahore Campus stood first in both games.\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 11:13:40","updated_at":"2025-01-02 11:17:14","activity_date":"2024-12-20","images":[{"id":11886,"form_id":"1735798309","path":"gallery\/1735798602WhatsApp Image 2024-12-26 at 7.32.26 AM.jpeg","type":1,"no_image":1,"created_at":"2025-01-02 11:16:42","updated_at":"2025-01-02 11:16:42"},{"id":11885,"form_id":"1735798309","path":"gallery\/1735798537WhatsApp Image 2024-12-26 at 7.32.26 AM (1).jpeg","type":1,"no_image":1,"created_at":"2025-01-02 11:15:37","updated_at":"2025-01-02 11:15:37"}]},{"id":535,"campus_id":37,"form_id":"1735832929","name":"Internship Viva\u0027s","description":"\u003Cp\u003EInternship Viva....\u003C\/p\u003E","priority":1,"added_by":160,"status":1,"created_at":"2025-01-02 20:51:15","updated_at":"2025-01-02 20:51:15","activity_date":"2024-12-13","images":[{"id":11896,"form_id":"1735832929","path":"gallery\/1735833061470130686_1086732233244970_5145780211723860239_n.jpg","type":1,"no_image":1,"created_at":"2025-01-02 20:51:01","updated_at":"2025-01-02 20:51:01"}]}];
+        $('#promo-slider').flexslider({ 
+            controlNav: false, 
+        });
+
+ 
+    </script>
+
+
+    <script src="https://numl.edu.pk/templates/template10/campus/assets/js/custom-scripts.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5H49XT72F"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-D5H49XT72F');
+    </script>
+</body>
+</html>

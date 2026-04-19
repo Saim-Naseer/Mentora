@@ -1,0 +1,16 @@
+Content-Length: 170577
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Expires: Fri, 27 Mar 2026 00:38:02 GMT
+Vary: *
+Server: SecureServer
+X-Sharepointhealthscore: 0
+Sprequestguid: 41ee03a2-b2fd-204e-f6ce-dc9abc0b4c5e
+Request-Id: 41ee03a2-b2fd-204e-f6ce-dc9abc0b4c5e
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self' teams.microsoft.com *.teams.microsoft.com *.skype.com *.teams.microsoft.us local.teams.office.com *.powerapps.com *.yammer.com *.officeapps.live.com *.office.com *.stream.azure-test.net *.microsoftstream.com *.dynamics.com *.microsoft.com onedrive.live.com *.onedrive.live.com;
+Sprequestduration: 756
+Spiislatency: 0
+X-Content-Type-Options: nosniff
+X-Ms-Invokeapp: 1; RequireReadOnly
+Date: Fri, 27 Mar 2026 00:35:02 GMT

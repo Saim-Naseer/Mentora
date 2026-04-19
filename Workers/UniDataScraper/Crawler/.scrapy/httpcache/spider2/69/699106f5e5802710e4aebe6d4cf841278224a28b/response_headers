@@ -1,0 +1,25 @@
+Content-Length: 39520
+Server: daiquiri/5
+Content-Type: text/html
+Cache-Control: public, max-age=900
+Content-Encoding: gzip
+Content-Security-Policy: upgrade-insecure-requests; default-src 'none'; img-src 'self' https://*.apple.com https://*.mzstatic.com data:; font-src 'self' https://*.apple.com; style-src 'self' https://*.apple.com 'unsafe-inline'; script-src 'self' https://*.apple.com 'sha256-MS6/3FCg4WjP9gwgaBGwLpRCY6fZBgwmhVCdrPrNf3E=' 'sha256-tQjf8gvb2ROOMapIxFvFAYBeUJ0v1HCbOcSmDNXGtDo=' 'sha256-p7PoC97FO+Lu90RNjGWxhbm13yALSR4xzV8vaDhaQBo=' 'sha256-+5XkZFazzJo8n0iOP4ti/cLCMUudTf//Mzkb7xNPXIc='; connect-src 'self' https://*.apple.com https://*.mzstatic.com; media-src 'self' https://*.apple.com blob:; child-src 'self' https://*.apple.com; frame-src 'self' https://*.apple.com itms-appss: macappstore:; worker-src blob:; frame-ancestors 'none'; block-all-mixed-content; report-uri /api/csp-report
+Etag: "1gGel6fE7OXXyl8JLXHtC8VWEQSM5yKJho6Eet0uHVc="
+Link: <https://is1-ssl.mzstatic.com>; rel=preconnect
+Vary: accept-encoding
+X-Apple-Jingle-Correlation-Key: AHLK6BHO5M462EUBUTWF4BJOBE
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Original-Content-Length: 366487
+X-Responding-Instance: amp-web-app-store-server:amp-web-app-store-server-main-cbdcf5bdb-dtjfw:4200:2610.8.0-external
+X-Xss-Protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Daiquiri-Instance: daiquiri:10001:daiquiri-cluster-88c9bcc86-kqvfx:7987:26RELEASE40:daiquiri-amp-kubernetes-shared-cluster-ak8s-prod-sg2-amp-web-app-store-prod
+X-Daiquiri-Instance: daiquiri:10001:daiquiri-all-shared-ext-9b598bdb-8xdjt:7987:26RELEASE40:daiquiri-amp-kubernetes-shared-ext-ak8s-prod-sg2-amp-daiquiri-ingress-prod
+X-Daiquiri-Debug-Worker-Pid: 289
+X-Daiquiri-Debug-Worker-Pid: 252
+Date: Tue, 24 Mar 2026 13:01:30 GMT
+X-Cache: TCP_MISS from a23-193-164-175.deploy.akamaitechnologies.com (AkamaiGHost/22.4.4-e0e8e110f8cd22f17826d6ac7409b8da) (-)
+X-Cache-Remote: TCP_MISS from a23-195-254-194.deploy.akamaitechnologies.com (AkamaiGHost/22.4.4-e0e8e110f8cd22f17826d6ac7409b8da) (-)
+Set-Cookie: geo=PK; domain=.apple.com
+Alt-Svc: h3=":443"; ma=93600

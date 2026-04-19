@@ -1,0 +1,10 @@
+Server: nginx
+Date: Sun, 19 Apr 2026 00:00:21 GMT
+Content-Type: text/plain; charset=utf-8
+X-Powered-By: PHP/8.3.11
+Link: <https://iqra.edu.pk/wp-json/>; rel="https://api.w.org/"
+Alt-Svc: h3=":443"
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Encoding: gzip

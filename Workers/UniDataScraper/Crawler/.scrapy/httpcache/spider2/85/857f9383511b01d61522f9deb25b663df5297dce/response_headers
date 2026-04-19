@@ -1,0 +1,11 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+Set-Cookie: ASP.NET_SessionId=qqzepid0e144z3lk15dcvcxw; path=/; HttpOnly
+X-Aspnetmvc-Version: 4.0
+X-Aspnet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+X-Powered-By-Plesk: PleskWin
+Date: Wed, 25 Mar 2026 07:47:24 GMT
